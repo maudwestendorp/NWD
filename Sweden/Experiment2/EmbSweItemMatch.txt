@@ -1,0 +1,205 @@
+type	UniqueNumber	Word.order	Realization1
+Read	101		Jag sätter mig ofta längst bak i bussen.
+Read	103		Jag sminkar mig aldrig på vardagar.
+Read	105		Jag rakar mig aldrig på morgonen.
+Read	107		Jag kör ofta bil till jobbet.
+Read	109		Jag kommer aldrig för sent till jobbet.
+Read	111		Jag lyssnar alltid på radio i bilen.
+Read	201		Jag bekymrar mig aldrig över småsaker!
+Read	203		Jag lägger mig ofta innan midnatt!
+Read	205		Jag uppför mig alltid bra i skolan!
+Read	207		Jag får ofta alla rätt på proven!
+Read	209		Jag cyklar alltid till jobbet!
+Read	211		Jag kommer aldrig för sent till skolan! 
+Read	301		Sätter Peter ofta på TV:n efter middagen?
+Read	303		Skruvar Kalle alltid upp volymen på stereon?
+Read	305		Städar Peter aldrig upp efter sig?
+Read	307		Tar Erik alltid bussen till jobbet?
+Read	309		Kommer Lisa ofta för sent till skolan?
+Read	311		Går Lena aldrig ut på lördagskvällar?
+Read	401		Vem kom på festen igår?
+Read	403		Vilka elever kom i tid till lektionen?
+Read	405		Vem vann tävlingen igår?
+Read	407		Vilka band spelade på festivalen?
+Read	409		Hur många elever går på skolan?
+Read	411		Vem köpte bilen?
+Read	501		Vad köpte Lena i affären?
+Read	503		När kom Lena hem igår?
+Read	505		Hur många fiskar fick Johan igår? 
+Read	507		Vilken film såg eleverna igår?
+Read	509		Vad var det för fågel som flög förbi?
+Read	511		Vart ska Erik på semester?
+Read	601		Jag har glömt mina nycklar hemma.
+Read	603		Paul har varit sjuk hela veckan.
+Read	605		Utflykten i morgon är inställd.
+Read	607		Tyskland är större än Frankrike.
+Read	609		Månen är gjord av ost.
+Read	611		Två plus två är fem.
+Produce	101	AV	Kalle sa att hon ofta sätter sig längst bak i bussen.
+Produce	103	AV	Lena sa att hon aldrig sminkar sig på vardagar.
+Produce	105	AV	Erik sa att han aldrig rakar sig på morgonen.
+Produce	107	AV	Erik sa att han ofta kör bil till jobbet.
+Produce	109	AV	Peter sa att han aldrig kommer för sent till jobbet.
+Produce	111	AV	Erik sa att han alltid lyssnar på radio i bilen.
+Produce	201	AV	Erik är stolt över att han aldrig bekymrar sig över småsaker.
+Produce	203	AV	Johan är stolt över att han ofta lägger sig innan midnatt.
+Produce	205	AV	Kalle är stolt över att han alltid uppför sig bra i skolan.
+Produce	207	AV	Johan är stolt över att han ofta får alla rätt på proven.
+Produce	209	AV	Erik är stolt över att han alltid cyklar till jobbet.
+Produce	211	AV	Johan är stolt över att han alrig kommer för sent till skolan.
+Produce	301	AV	Kalle frågade om Peter ofta sätter på TV:n efter middagen
+Produce	303	AV	Peter frågade om Kalle alltid skruvar upp volymen på stereon.
+Produce	305	AV	Erik frågade om Peter aldrig städar upp efter sig.
+Produce	307	AV	Peter undrar om Erik alltid tar bussen till jobbet.
+Produce	309	AV	Kalle undrar om Lisa ofta kommer för sent till skolan.
+Produce	311	AV	Peter undrar om Lena aldrig går ut på lördagskvällar.
+Produce	101	VA	Kalle sa att hon sätter sig ofta längst bak i bussen.
+Produce	103	VA	Lena sa att hon sminkar sig aldrig på vardagar.
+Produce	105	VA	Erik sa att han rakar sig aldrig på morgonen.
+Produce	107	VA	Erik sa att han kör ofta bil till jobbet.
+Produce	109	VA	Peter sa att han kommer aldrig för sent till jobbet.
+Produce	111	VA	Erik sa att han lyssnar alltid på radio i bilen.
+Produce	201	VA	Erik är stolt över att han bekymrar sig aldrig över småsaker.
+Produce	203	VA	Johan är stolt över att han lägger sig ofta innan midnatt.
+Produce	205	VA	Kalle är stolt över att han uppför sig alltid bra i skolan.
+Produce	207	VA	Johan är stolt över att han får ofta alla rätt på proven.
+Produce	209	VA	Erik är stolt över att han cyklar alltid till jobbet.
+Produce	211	VA	Johan är stolt över att han kommer aldrig för sent till skolan.
+Produce	301	VA	Kalle frågade om Peter sätter ofta på TV:n efter middagen
+Produce	303	VA	Peter frågade om Kalle skruvar alltid upp volymen på stereon.
+Produce	305	VA	Erik frågade om Peter städar aldrig upp efter sig.
+Produce	307	VA	Peter undrar om Erik tar alltid bussen till jobbet.
+Produce	309	VA	Kalle undrar om Lisa kommer ofta för sent till skolan.
+Produce	311	VA	Peter undrar om Lena går aldrig ut på lördagskvällar.
+Produce	401	som	Erik ville veta vem som kom på festen igår.
+Produce	403	som	Johan ville veta vilka elever som kom i tid till lektionen.
+Produce	405	som	Kalle ville veta vem som vann tävlingen igår.
+Produce	407	som	Peter frågade vilka band som spelade på festivalen.
+Produce	409	som	Erik frågade hur många elever som går på skolan.
+Produce	411	som	Peter frågade vem som köpte bilen.
+Produce	501	SV	Erik ville veta vad Lena köpte i affären.
+Produce	503	SV	Peter ville veta när Lena kom hem igår.
+Produce	505	SV	Erik undrade hur många fiskar Johan fick igår.
+Produce	507	SV	Peter ville veta vilken film eleverna såg igår.
+Produce	509	SV	Erik undrade vad det var för fågel som flög förbi.
+Produce	511	SV	Peter ville veta vart Erik ska på semester.
+Produce	601	fill	Erik är säker på att han har glömt sina nycklar hemma.
+Produce	603	fill	Peter är säker på att Paul har varit sjuk hela veckan.
+Produce	605	fill	Kalle är säker på att utflykten i morgon är inställd.
+Produce	607	fill	Johan tror att Tyskland är större än Frankrike.
+Produce	609	fill	Kalle tror att månen är gjord av ost.
+Produce	611	fill	Johan tror att två plus två är fem.
+Produce	401	nsom	Erik ville veta vem kom på festen igår.
+Produce	403	nsom	Johan ville veta vilka elever kom i tid till lektionen.
+Produce	405	nsom	Kalle ville veta vem vann tävlingen igår.
+Produce	407	nsom	Peter frågade vilka band spelade på festivalen.
+Produce	409	nsom	Erik frågade hur många elever går på skolan.
+Produce	411	nsom	Peter frågade vem köpte bilen.
+Produce	501	VS	Erik ville veta vad köpte Lena i affären.
+Produce	503	VS	Peter ville veta när kom Lena hem igår.
+Produce	505	VS	Erik undrade hur många fiskar fick Johan igår.
+Produce	507	VS	Peter ville veta vilken film såg eleverna igår.
+Produce	509	VS	Erik undrade vad var det för fågel som flög förbi.
+Produce	511	VS	Peter ville veta vart ska Erik på semester.
+Read	102		Jag sätter mig ofta längst bak i bussen.
+Read	104		Jag sminkar mig aldrig på vardagar.
+Read	106		Jag rakar mig aldrig på morgonen.
+Read	108		Jag kör ofta bil till jobbet.
+Read	110		Jag kommer aldrig för sent till jobbet.
+Read	112		Jag lyssnar alltid på radio i bilen.
+Read	202		Jag bekymrar mig aldrig över småsaker!
+Read	204		Jag lägger mig ofta innan midnatt!
+Read	206		Jag uppför mig alltid bra i skolan!
+Read	208		Jag får ofta alla rätt på proven!
+Read	210		Jag cyklar alltid till jobbet!
+Read	212		Jag kommer aldrig för sent till skolan! 
+Read	302		Sätter Maria ofta på TV:n efter middagen?
+Read	304		Skruvar Lena alltid upp volymen på stereon?
+Read	306		Städar Karin aldrig upp efter sig?
+Read	308		Tar Lena alltid bussen till jobbet?
+Read	310		Kommer Kalle ofta för sent till skolan?
+Read	312		Går Peter aldrig ut på lördagskvällar?
+Read	402		Vem kom på festen igår?
+Read	404		Vilka elever kom i tid till lektionen?
+Read	406		Vem vann tävlingen igår?
+Read	408		Vilka band spelade på festivalen?
+Read	410		Hur många elever går på skolan?
+Read	412		Vem köpte bilen?
+Read	502		Vad köpte Erik i affären?
+Read	504		När kom Peter hem igår?
+Read	506		Hur många fiskar fick Johan igår? 
+Read	508		Vilken film såg eleverna igår?
+Read	510		Vad var det för fågel som flög förbi?
+Read	512		Vart ska Johan på semester?
+Read	602		Jag har glömt mina nycklar hemma.
+Read	604		Lena har varit sjuk hela veckan.
+Read	606		Utflykten i morgon är inställd.
+Read	608		Jorden är platt.
+Read	610		Oslo är Sveriges huvudstad.
+Read	612		Två plus två är fem.
+Produce	102	AV	Lisa sa att hon ofta sätter sig längst bak i bussen.
+Produce	104	AV	Karin sa att hon aldrig sminkar sig på vardagar.
+Produce	106	AV	Peter sa att han aldrig rakar sig på morgonen.
+Produce	108	AV	Lena sa att hon ofta kör bil till jobbet.
+Produce	110	AV	Karin sa att hon aldrig kommer för sent till jobbet.
+Produce	112	AV	Lena sa att hon alltid lyssnar på radio i bilen.
+Produce	202	AV	Lena är stolt över att hon aldrig bekymrar sig över småsaker.
+Produce	204	AV	Maria är stolt över att hon ofta lägger sig innan midnatt.
+Produce	206	AV	Lisa är stolt över att hon alltid uppför sig bra i skolan.
+Produce	208	AV	Maria är stolt över att hon ofta får alla rätt på proven.
+Produce	210	AV	Lena är stolt över att hon alltid cyklar till jobbet.
+Produce	212	AV	Maria är stolt över att hon alrig kommer för sent till skolan.
+Produce	302	AV	Lisa frågade om Peter ofta sätter på TV:n efter middagen
+Produce	304	AV	Karin frågade om Kalle alltid skruvar upp volymen på stereon.
+Produce	306	AV	Lena frågade om Peter aldrig städar upp efter sig.
+Produce	308	AV	Karin undrar om Erik alltid tar bussen till jobbet.
+Produce	310	AV	Lisa undrar om Lisa ofta kommer för sent till skolan.
+Produce	312	AV	Karin undrar om Lena aldrig går ut på lördagskvällar.
+Produce	102	VA	Lisa sa att hon sätter sig ofta längst bak i bussen.
+Produce	104	VA	Karin sa att hon sminkar sig aldrig på vardagar.
+Produce	106	VA	Peter sa att han rakar sig aldrig på morgonen.
+Produce	108	VA	Lena sa att hon kör ofta bil till jobbet.
+Produce	110	VA	Karin sa att hon kommer aldrig för sent till jobbet.
+Produce	112	VA	Lena sa att hon lyssnar alltid på radio i bilen.
+Produce	202	VA	Lena är stolt över att hon bekymrar sig aldrig över småsaker.
+Produce	204	VA	Maria är stolt över att hon lägger sig ofta innan midnatt.
+Produce	206	VA	Lisa är stolt över att hon uppför sig alltid bra i skolan.
+Produce	208	VA	Maria är stolt över att hon får ofta alla rätt på proven.
+Produce	210	VA	Lena är stolt över att hon cyklar alltid till jobbet.
+Produce	212	VA	Maria är stolt över att hon kommer aldrig för sent till skolan.
+Produce	302	VA	Lisa frågade om Peter sätter ofta på TV:n efter middagen
+Produce	304	VA	Karin frågade om Kalle skruvar alltid upp volymen på stereon.
+Produce	306	VA	Lena frågade om Peter städar aldrig upp efter sig.
+Produce	308	VA	Karin undrar om Erik tar alltid bussen till jobbet.
+Produce	310	VA	Lisa undrar om Lisa kommer ofta för sent till skolan.
+Produce	312	VA	Karin undrar om Lena går aldrig ut på lördagskvällar.
+Produce	402	som	Lena ville veta vem som kom på festen igår.
+Produce	404	som	Maria ville veta vilka elever som kom i tid till lektionen.
+Produce	406	som	Lisa ville veta vem som vann tävlingen igår.
+Produce	408	som	Karin frågade vilka band som spelade på festivalen.
+Produce	410	som	Lena frågade hur många elever som går på skolan.
+Produce	412	som	Karin frågade vem som köpte bilen.
+Produce	502	SV	Lena undrade vad Erik köpte i affären.
+Produce	504	SV	Karin frågade när Peter kom hem igår.
+Produce	506	SV	Lena undrade hur många fiskar Johan fick igår.
+Produce	508	SV	Karin frågade vilken film eleverna såg igår.
+Produce	510	SV	Lena undrade vad det var för fågel som flög förbi.
+Produce	512	SV	Karin frågade vart Johan ska på semester.
+Produce	602	fill	Lena är säker på att hon har glömt sina nycklar hemma.
+Produce	604	fill	Karin är säker på att Lena har varit sjuk hela veckan.
+Produce	606	fill	Lisa är säker på att utflykten i morgon är inställd.
+Produce	608	fill	Maria tror att jorden är platt.
+Produce	610	fill	Lisa tror att Oslo är Sveriges huvudstad.
+Produce	612	fill	Maria tror att två plus två är fem.
+Produce	402	nsom	Lena ville veta vem kom på festen igår.
+Produce	404	nsom	Maria ville veta vilka elever kom i tid till lektionen.
+Produce	406	nsom	Lisa ville veta vem vann tävlingen igår.
+Produce	408	nsom	Karin frågade vilka band spelade på festivalen.
+Produce	410	nsom	Lena frågade hur många elever går på skolan.
+Produce	412	nsom	Karin frågade vem köpte bilen.
+Produce	502	VS	Lena ville veta vad köpte Erik i affären.
+Produce	504	VS	Karin ville veta när kom Peter hem igår.
+Produce	506	VS	Lena undrade hur många fiskar fick Johan igår.
+Produce	508	VS	Karin frågade vilken film såg eleverna igår.
+Produce	510	VS	Lena undrade vad var det för fågel som flög förbi.
+Produce	512	VS	Karin frågade vart ska Johan på semester.

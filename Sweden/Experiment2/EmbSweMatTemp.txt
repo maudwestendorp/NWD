@@ -1,0 +1,73 @@
+number	item	subitem	name	Main1	Emb1	cond11	cond12	adv1			
+101	1	a	Kalle:	Jag sätter mig ofta längst bak i bussen.	Kalle sa att...	Bridge	Reflexive	ofta			
+102	1	b	Lisa:	Jag sätter mig ofta längst bak i bussen.	Lisa sa att...	Bridge	Reflexive	ofta			
+103	2	a	Lena:	Jag sminkar mig aldrig på vardagar.	Lena sa att...	Bridge	Reflexive	aldrig			
+104	2	b	Karin:	Jag sminkar mig aldrig på vardagar.	Karin sa att...	Bridge	Reflexive	aldrig			
+105	3	a	Erik:	Jag rakar mig aldrig på morgonen.	Erik sa att...	Bridge	Reflexive	alltid			
+106	3	b	Peter:	Jag rakar mig aldrig på morgonen.	Peter sa att...	Bridge	Reflexive	alltid			
+107	4	a	Erik:	Jag kör ofta bil till jobbet.	Erik sa att...	Bridge	NonReflexive	ofta			
+108	4	b	Lena:	Jag kör ofta bil till jobbet.	Lena sa att...	Bridge	NonReflexive	ofta			
+109	5	a	Peter:	Jag kommer aldrig för sent till jobbet.	Peter sa att...	Bridge	NonReflexive	aldrig			
+110	5	b	Karin:	Jag kommer aldrig för sent till jobbet.	Karin sa att...	Bridge	NonReflexive	aldrig			
+111	6	a	Erik:	Jag lyssnar alltid på radio i bilen.	Erik sa att...	Bridge	NonReflexive	alltid			
+112	6	b	Lena:	Jag lyssnar alltid på radio i bilen.	Lena sa att...	Bridge	NonReflexive	alltid			
+201	7	a	Erik:	Jag bekymrar mig aldrig över småsaker!	Erik är stolt över att...	Non-Bridge	Reflexive	aldrig			
+202	7	b	Lena:	Jag bekymrar mig aldrig över småsaker!	Lena är stolt över att...	Non-Bridge	Reflexive	aldrig			
+203	8	a	Johan:	Jag lägger mig ofta innan midnatt!	Johan är stolt över att...	Non-Bridge	Reflexive	ofta			
+204	8	b	Maria:	Jag lägger mig ofta innan midnatt!	Maria är stolt över att...	Non-Bridge	Reflexive	ofta			
+205	9	a	Kalle:	Jag uppför mig alltid bra i skolan!	Kalle är stolt över att...	Non-Bridge	Reflexive	alltid			
+206	9	b	Lisa:	Jag uppför mig alltid bra i skolan!	Lisa är stolt över att...	Non-Bridge	Reflexive	alltid			
+207	10	a	Johan:	Jag får ofta alla rätt på proven!	Johan är stolt över att...	Non-Bridge	NonReflexive	ofta			
+208	10	b	Maria:	Jag får ofta alla rätt på proven!	Maria är stolt över att...	Non-Bridge	NonReflexive	ofta			
+209	11	a	Erik:	Jag cyklar alltid till jobbet!	Erik är stolt över att...	Non-Bridge	NonReflexive	alltid			
+210	11	b	Lena:	Jag cyklar alltid till jobbet!	Lena är stolt över att...	Non-Bridge	NonReflexive	alltid			
+211	12	a	Johan:	Jag kommer aldrig för sent till skolan! 	Johan är stolt över att...	Non-Bridge	NonReflexive	aldrig			
+212	12	b	Maria:	Jag kommer aldrig för sent till skolan! 	Maria är stolt över att...	Non-Bridge	NonReflexive	aldrig			
+301	13	a	Kalle:	Sätter Peter ofta på TV:n efter middagen?	Kalle frågade om...	VtoI	Reflexive	alltid			
+302	13	b	Lisa:	Sätter Maria ofta på TV:n efter middagen?	Lisa frågade om...	VtoI	Reflexive	alltid			
+303	14	a	Peter:	Skruvar Kalle alltid upp volymen på stereon?	Peter frågade om...	VtoI	Reflexive	ofta			
+304	14	b	Karin:	Skruvar Lena alltid upp volymen på stereon?	Karin frågade om...	VtoI	Reflexive	ofta			
+305	15	a	Erik:	Städar Peter aldrig upp efter sig?	Erik frågade om...	VtoI	Reflexive	aldrig			
+306	15	b	Lena:	Städar Karin aldrig upp efter sig?	Lena frågade om...	VtoI	Reflexive	aldrig			
+307	16	a	Peter:	Tar Erik alltid bussen till jobbet?	Peter undrar om...	VtoI	NonReflexive	alltid			
+308	16	b	Karin:	Tar Lena alltid bussen till jobbet?	Karin undrar om...	VtoI	NonReflexive	alltid			
+309	17	a	Kalle:	Kommer Lisa ofta för sent till skolan?	Kalle undrar om...	VtoI	NonReflexive	ofta			
+310	17	b	Lisa:	Kommer Kalle ofta för sent till skolan?	Lisa undrar om...	VtoI	NonReflexive	ofta			
+311	18	a	Peter:	Går Lena aldrig ut på lördagskvällar?	Peter undrar om...	VtoI	NonReflexive	aldrig			
+312	18	b	Karin:	Går Peter aldrig ut på lördagskvällar?	Karin undrar om...	VtoI	NonReflexive	aldrig			
+401	19	b	Erik:	Vem kom på festen igår?	Erik ville veta...	EmbSubQ	NonReflexive	none			
+402	19	b	Lena:	Vem kom på festen igår?	Lena ville veta...	EmbSubQ	NonReflexive	none			
+403	20	b	Johan:	Vilka elever kom i tid till lektionen?	Johan ville veta...	EmbSubQ	NonReflexive	none			
+404	20	b	Maria:	Vilka elever kom i tid till lektionen?	Maria ville veta...	EmbSubQ	NonReflexive	none			
+405	21	b	Kalle:	Vem vann tävlingen igår?	Kalle ville veta...	EmbSubQ	NonReflexive	none			
+406	21	b	Lisa:	Vem vann tävlingen igår?	Lisa ville veta...	EmbSubQ	NonReflexive	none			
+407	22	b	Peter:	Vilka band spelade på festivalen?	Peter frågade...	EmbSubQ	NonReflexive	none			
+408	22	b	Karin:	Vilka band spelade på festivalen?	Karin frågade...	EmbSubQ	NonReflexive	none			
+409	23	b	Erik:	Hur många elever går på skolan?	Erik frågade...	EmbSubQ	NonReflexive	none			
+410	23	b	Lena:	Hur många elever går på skolan?	Lena frågade...	EmbSubQ	NonReflexive	none			
+411	24	b	Peter:	Vem köpte bilen?	Peter frågade...	EmbSubQ	NonReflexive	none			
+412	24	b	Karin:	Vem köpte bilen?	Karin frågade...	EmbSubQ	NonReflexive	none			
+501	25	b	Erik:	Vad köpte Lena i affären?	Erik ville veta...	EmbObQ	NonReflexive	none			
+502	25	b	Lena:	Vad köpte Erik i affären?	Lena undrade...	EmbObQ	NonReflexive	none			
+503	26	b	Peter:	När kom Lena hem igår?	Peter ville veta...	EmbObQ	NonReflexive	none			
+504	26	b	Karin:	När kom Peter hem igår?	Karin frågade...	EmbObQ	NonReflexive	none			
+505	27	b	Erik:	Hur många fiskar fick Johan igår? 	Erik undrade...	EmbObQ	NonReflexive	none			
+506	27	b	Lena:	Hur många fiskar fick Johan igår? 	Lena undrade...	EmbObQ	NonReflexive	none			
+507	28	b	Peter:	Vilken film såg eleverna igår?	Peter ville veta...	EmbObQ	NonReflexive	none			
+508	28	b	Karin:	Vilken film såg eleverna igår?	Karin frågade...	EmbObQ	NonReflexive	none			
+509	29	b	Erik:	Vad var det för fågel som flög förbi?	Erik undrade...	EmbObQ	NonReflexive	none			
+510	29	b	Lena:	Vad var det för fågel som flög förbi?	Lena undrade...	EmbObQ	NonReflexive	none			
+511	30	b	Peter:	Vart ska Erik på semester?	Peter ville veta...	EmbObQ	NonReflexive	none			
+512	30	b	Karin:	Vart ska Johan på semester?	Karin frågade...	EmbObQ	NonReflexive	none			
+601	31	b	Erik:	Jag har glömt mina nycklar hemma.	Erik är säker på att....	FillerDecl	NonReflexive	none			
+602	31	b	Lena:	Jag har glömt mina nycklar hemma.	Lena är säker på att...	FillerDecl	NonReflexive	none			
+603	32	b	Peter:	Paul har varit sjuk hela veckan.	Peter är säker på att...	FillerDecl	NonReflexive	none			
+604	32	b	Karin:	Lena har varit sjuk hela veckan.	Karin är säker på att...	FillerDecl	NonReflexive	none			
+605	33	b	Kalle:	Utflykten i morgon är inställd.	Kalle är säker på att...	FillerDecl	NonReflexive	none			
+606	33	b	Lisa:	Utflykten i morgon är inställd.	Lisa är säker på att...	FillerDecl	NonReflexive	none			
+607	34	b	Johan:	Tyskland är större än Frankrike.	Johan tror att...	FillerDecl	NonReflexive	none			
+608	34	b	Maria:	Jorden är platt.	Maria tror att...	FillerDecl	NonReflexive	none			
+609	35	b	Kalle:	Månen är gjord av ost.	Kalle tror att...	FillerDecl	NonReflexive	none			
+610	35	b	Lisa:	Oslo är Sveriges huvudstad.	Lisa tror att...	FillerDecl	NonReflexive	none			
+611	36	b	Johan:	Två plus två är fem.	Johan tror att...	FillerDecl	NonReflexive	none			
+612	36	b	Maria:	Två plus två är fem.	Maria tror att...	FillerDecl	NonReflexive	none			

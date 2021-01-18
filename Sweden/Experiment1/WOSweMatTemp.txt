@@ -1,0 +1,93 @@
+read1	invert1	cond1	nr1	arg1
+Läraren ställde sig på bordet igår.	Igår....	refl	101	NP
+Han ställde sig på bordet igår.	Igår....	refl	102	PRO
+Skådespelaren vände sig plötsligt mot publiken.	Plötsligt…	refl	103	NP
+Hon vände sig plötsligt mot publiken.	Plötsligt…	refl	104	PRO
+Bagaren tvättade sig direkt efter jobbet igår.	Igår...	refl	105	NP
+Han tvättade sig direkt efter jobbet igår.	Igår...	refl	106	PRO
+Polisen satte sig i den andra bilen efter mötet.	Efter mötet…	refl	107	NP
+Hon satte sig i den andra bilen efter mötet.	Efter mötet…	refl	108	PRO
+Advokaten rakade sig efter jobbet varje dag.	Varje dag…	refl	109	NP
+Han rakade sig efter jobbet varje dag.	Varje dag…	refl	110	PRO
+Läraren gav mig en ny bok igår.	Igår...	los	111	NP
+Bagaren gav mig färskt bröd varje dag.	Varje dag…	los	112	NP
+Advokaten erbjöd mig ett nytt jobb förra veckan.	Förra veckan…	los	113	NP
+Skådespelaren skickade mig långa brev varje dag.	Varje dag…	los	114	NP
+Polisen visade mig en bild av gärningsmannen efter mötet.	Efter mötet…	los	115	NP
+Läraren tog inte bussen till jobbet igår.	Igår...	SS	116	NP
+Hon tog inte bussen till jobbet igår.	Igår...	SS	117	PRO
+Polisen väntade inte på sin kollega igår.	Igår...	SS	118	NP
+Hon väntade inte på sin kollega igår.	Igår…	SS	119	PRO
+Bagaren kom inte för sent i måndags.	I måndags…	SS	120	NP
+Han kom inte för sent i måndags.	I måndags…	SS	121	PRO
+Studenten åkte inte hem till sina föräldrar i fjol.	I fjol…	SS	122	NP
+Hon åkte inte hem till sina föräldrar i fjol.	I fjol…	SS	123	PRO
+Advokaten hittade inte nycklarna till kontoret igår.	Igår...	SS	124	NP
+Han hittade inte nycklarna till kontoret igår.	Igår…	SS	125	PRO
+Den gamla bagaren drack upp den sista ölen igår.	Igår...	Part	126	NP
+Han drack upp den sista ölen igår.	Igår...	Part	127	PRO
+Den bästa löparen gav upp under sista varvet förra året.	Förra året…	Part	128	NP
+Hon gav upp under sista varvet förra året.	Förra året…	Part	129	PRO
+Den unga polisen bröt ihop under förhöret igår.	Igår...	Part	130	NP
+Han bröt ihop under förhöret igår.	Igår...	Part	131	PRO
+Den unga skådespelaren svimmade av under föreställningen igår.	Igår..	Part	132	NP
+Tre tavlor ramlade ner i den stora salen igår.	Igår...	Part	133	NP
+Han svimmade av under föreställningen igår.	Igår...	Part	134	PRO
+Två hus brann ner i Oslo igår.	Igår...	Part	135	NP
+Den gamla bagaren tog inte bussen till jobbet igår.	Igår...	SS	136	NP
+Bagaren kommer att dricka upp den sista ölen.	Igår drack...	Part	201	NP
+Han kommer att dricka upp den sista ölen.	Igår drack...	Part	202	PRO
+Löparen kommer att ge upp under sista varvet.	I fjol gav…	Part	203	NP
+Han kommer att ge upp under sista varvet.	I fjol gav…	Part	204	PRO
+Polisen kommer att bryta ihop under förhöret.	Igår bröt…	Part	205	NP
+Han kommer att bryta ihop under förhöret.	I fjol bröt…	Part	206	PRO
+Den unga skådespelaren kommer att svimma av under föreställningen.	Igår svimmade…	Part	207	NP
+Han kommer att svimma av under föreställningen.	Igår svimmade…	Part	208	PRO
+Läraren kommer att låsa upp dörren till klassrummet.	Igår låste...	Part	209	NP
+Hon kommer att låsa upp dörren till klassrummet.	Igår låste...	Part	210	PRO
+Hon kommer inte att hjälpa mig med läxorna. 	Igår hjälpte...	OS	211	PRO
+Han kommer inte att erbjuda mig jobbet på firman. 	I fjol erbjöd...	OS	212	PRO
+Han kommer inte att visa mig några klipp från filmen.	Igår visade..	OS	213	PRO
+Han kommer inte att ge mig färskt bröd.	Igår gav...	OS	214	PRO
+Han kommer inte att skicka mig en inbjudan. 	I fjol skickade…	OS	215	PRO
+Polisen kommer inte att raka sig med rakhyvel.	Igår rakade…	SSrefl	216	NP
+Studenten kommer inte att känna sig trött efter skolan.	Igår kände…	SSrefl	217	NP
+Skådespelaren kommer inte att vända sig mot publiken. 	Igår vände…	SSrefl	218	NP
+Advokaten kommer inte att sätta sig bredvid läraren på mötet. 	Igår satte…	SSrefl	219	NP
+Löparen kommer inte att tvätta sig efter loppet. 	Igår tvättade...	SSRefl	220	NP
+Studenten blev utkastad från puben av vakterna.	Vakterna kastade...	PartPP	301	NP
+Studenten blev utkastad av vakterna igår.	Vakterna kastade...	Part	302	NP
+Han blev utkastad från puben av vakterna.	Vakterna kastade...	PartPP	303	Pro
+Han blev utkastad av vakterna igår.	Vakterna kastade...	Part	304	Pro
+Vittnet blev insläppt i salen av vakterna.	Vakterna släppte...	PartPP	305	NP
+Vittnet blev insläppt av vakterna igår.	Vakterna släppte...	Part	306	NP
+Han blev insläppt i salen av vakterna.	Vakterna släppte...	PartPP	307	Pro
+Han blev insläppt av vakterna igår.	Vakterna släppte...	Part	308	Pro
+Tavlan togs ner från väggen av städerskan.	Städerskan tog...	PartPP	309	NP
+Tavlan togs ner av städerskan igår.	Städerskan tog...	Part	310	NP
+Den togs ner från väggen av städerskan.	Städerskan tog...	PartPP	311	Pro
+Den togs ner av städerskan igår.	Städerskan tog...	Part	312	Pro
+Planschen sattes upp på dörren av läraren.	Läraren satte...	PartPP	313	NP
+Planschen sattes upp av läraren igår.	Läraren satte...	Part	314	NP
+Den sattes upp på väggen av läraren.	Läraren satte...	PartPP	315	Pro
+Den sattes upp av läraren igår.	Läraren satte...	Part	316	Pro
+Eleven blev utskälld av rektorn igår.	Rektorn skällde...	Met	317	NP
+Hon blev utskälld av rektorn igår.	Rektorn skällde...	Met	318	Pro
+Fotbollsspelaren blev uppraggad av en fotomodell igår.	En fotomodell raggade...	Met	319	NP
+Han blev uppraggad av en fotomodell igår.	En fotomodell raggade...	Met	320	Pro
+Sjukhuset köptes upp av ett privat företag förra året.	Ett privat företag köpte..	Met	321	NP
+Det blev uppköpt av ett privat företag förra året.	Ett privat företag köpte..	Met	322	Pro
+Huset byggdes om efter ett par år av de nya ägarna.	De nya ägarna byggde...	Prep	323	NP
+Det byggdes om efter ett par år av de nya ägarna.	De nya ägarna byggde...	Prep	324	Pro
+Bordet dukades av efter middagen av värdparet.	Värdparet dukade...	Ground	325	NP
+Rånarna blev inte arresterade av polisen igår.	Polisen arresterade...	Neg	326	NP
+De blev inte arresterade av polisen igår.	Polisen arresterade...	Neg	327	Pro
+Kalle blev inte förhörd av den unga polisen.	Den unga polisen förhörde...	Neg	328	NP
+Han blev inte förhörd av den unga polisen.	Den unga polisen förhörde...	Neg	329	Pro
+Kvinnan utsågs inte till ordförande av kommittéen.	Kommittéen utsåg....	Neg	330	NP
+Hon utsågs inte till ordförande av kommittéen.	Kommittéen utsåg....	Neg	331	Pro
+Han blev inte försvarad av kollegorna.	Kollegorna försvarade...	Neg	332	Pro
+Han träffades inte av kulan.	Kulan träffade...	Neg	333	Pro
+Kritikern imponerades inte av den nya föreställningen.	Den nya föreställningen imponerade...	Neg	334	NP
+Han imponerades inte av den nya föreställningen.	Den nya föreställningen imponerade...	Neg	335	NP
+Dörren låstes inte av vaktmästaren igår.	Vaktmästaren låste...	Neg	336	NP

@@ -1,0 +1,317 @@
+type	UniqueNumb	Word.order	Realization1
+Read	113	SO	Förra veckan erbjöd advokaten mig ett nytt jobb.
+Read	112	SO	Varje dag gav bagaren mig färkt bröd
+Read	111	SO	Igår gav läraren mig en ny bok
+Read	115	SO	Efter mötet visade polisen mig en bild av gärningsmannen
+Read	114	SO	Varje dag skickade skådespelaren mig långa brev
+Read	128	SP	Förra året gav den bästa löparen upp under sista varvet.
+Read	126	SP	Igår drack bagaren upp den sista ölen
+Read	130	SP	Igår bröt den unga polisen ihop under förhöret
+Read	132	SP	Igår svimmade den unga skådespelaren av under föreställningen
+Read	131	SP	Igår bröt han ihop under förhöret
+Read	127	SP	Igår drack han upp den sista ölen
+Read	134	SP	Igår svimmade han av under föreställningen
+Read	129	SP	Förra året gav hon upp under sista varvet
+Read	133	SP	Igår ramlade tre tavlor ner i den stora salen
+Read	135	SP	Igår brann två hus ner i Oslo
+Read	109	SR	Varje dag rakade advokaten sig efter jobbet
+Read	105	SR	Igår tvättade bagaren sig direkt efter jobbet
+Read	110	SR	Varje dag rakade han sig efter jobbet
+Read	102	SR	Igår ställde han sig på bordet
+Read	106	SR	Igår tvättade han sig direkt efter jobbet
+Read	108	SR	Efter mötet satte hon sig i den andra bilen
+Read	104	SR	Plötsligt vände hon sig mot publiken
+Read	101	SR	Igår ställde läraren sig på bordet
+Read	107	SR	Efter mötet satte polisen sig i den andra bilen
+Read	103	SR	Plötsligt vände skådespelaren sig mot publiken
+Read	124	SN	Igår hittade advokaten inte nycklarna till kontoret
+Read	120	SN	I måndags kom bagaren inte för sent till jobbet
+Read	136	SN	Igår tog den gamla bagaren inte bussen till jobbet
+Read	125	SN	Igår hittade han inte nycklarna till kontoret
+Read	121	SN	I måndags kom han inte för sent
+Read	117	SN	Igår tog hon inte bussen till jobbet
+Read	119	SN	Igår väntade hon inte på sin kollega
+Read	123	SN	I fjol åkte hon inte hem till sina föräldrar
+Read	116	SN	Igår tog läraren inte bussen till jobbet
+Read	118	SN	Igår väntade polisen inte på sin kollega
+Read	122	SN	I fjol åkte studenten inte hem till sina föräldrar
+Read	113	OS	Förra veckan erbjöd mig advokaten ett nytt jobb.
+Read	112	OS	Varje dag gav mig bagaren färskt bröd
+Read	111	OS	Igår gav mig läraren en ny bok
+Read	115	OS	Efter mötet visade mig polisen en bild av gärningsmannen
+Read	114	OS	Varje dag skickade mig skådespelaren långa brev
+Read	128	PS	Förra året gav den upp bästa löparen under sista varvet.
+Read	126	PS	Igår drack upp bagaren den sista ölen
+Read	130	PS	Igår bröt ihop den unga polisen under förhöret
+Read	132	PS	Igår svimmade av den unga skådespelaren under föreställningen
+Read	131	PS	Igår bröt ihp han under förhöret
+Read	127	PS	Igår drack upp han den sista ölen
+Read	134	PS	Igår svimmade av han under föreställningen
+Read	129	PS	Förra året gav hon upp under sista varvet
+Read	133	PS	Igår ramlade ner tre tavlor i den stora salen
+Read	135	PS	Igår brann ner två hus i Oslo
+Read	109	RS	Varje dag rakade sig advokaten efter jobbet
+Read	105	RS	Igår tvättade sig bagaren direkt efter jobbet
+Read	110	RS	Varje dag rakade sig han efter jobbet
+Read	102	RS	Igår ställde sig han på bordet
+Read	106	RS	Igår tvättade sig han direkt efter jobbet
+Read	108	RS	Efter mötet satte sig hon i den andra bilen
+Read	104	RS	Plötsligt vände sig hon mot publiken
+Read	101	RS	Igår ställde sig läraren på bordet
+Read	107	RS	Efter mötet satte sig polisen i den andra bilen
+Read	103	RS	Plötsligt vände sig skådespelaren mot publiken
+Read	124	NS	Igår hittade inte advokaten nycklarna till kontoret
+Read	120	NS	I måndags kom inte bagaren för sent till jobbet
+Read	136	NS	Igår tog inte den gamla bagaren bussen till jobbet
+Read	125	NS	Igår hittade inte han nycklarna till kontoret
+Read	121	NS	I måndags kom inte han för sent
+Read	117	NS	Igår tog inte hon bussen till jobbet
+Read	119	NS	Igår väntade inte hon på sin kollega
+Read	123	NS	I fjol åkte inte hon hem till sina föräldrar
+Read	116	NS	Igår tog inte läraren bussen till jobbet
+Read	118	NS	Igår väntade inte polisen på sin kollega
+Read	122	NS	I fjol åkte inte studenten hem till sina föräldrar
+Produce	113		Advokaten erbjöd mig ett nytt jobb förra veckan.
+Produce	112		Bagaren gav mig färskt bröd varje dag.
+Produce	111		Läraren gav mig en ny bok igår.
+Produce	115		Polisen visade mig en bild av gärningsmannen efter mötet.
+Produce	114		Skådespelaren skickade mig långa brev varje dag.
+Produce	128		Den bästa löparen gav upp under sista varvet förra året.
+Produce	126		Den gamla bagaren drack upp den sista ölen igår.
+Produce	130		Den unga polisen bröt ihop under förhöret igår.
+Produce	132		Den unga skådespelaren svimmade av under föreställningen igår.
+Produce	131		Han bröt ihop under förhöret igår.
+Produce	127		Han drack upp den sista ölen igår.
+Produce	134		Han svimmade av under föreställningen igår.
+Produce	129		Hon gav upp under sista varvet förra året.
+Produce	133		Tre tavlor ramlade ner i den stora salen igår.
+Produce	135		Två hus brann ner i Oslo igår.
+Produce	109		Advokaten rakade sig efter jobbet varje dag.
+Produce	105		Bagaren tvättade sig direkt efter jobbet igår.
+Produce	110		Han rakade sig efter jobbet varje dag.
+Produce	102		Han ställde sig på bordet igår.
+Produce	106		Han tvättade sig direkt efter jobbet igår.
+Produce	108		Hon satte sig i den andra bilen efter mötet.
+Produce	104		Hon vände sig plötsligt mot publiken.
+Produce	101		Läraren ställde sig på bordet igår.
+Produce	107		Polisen satte sig i den andra bilen efter mötet.
+Produce	103		Skådespelaren vände sig plötsligt mot publiken.
+Produce	124		Advokaten hittade inte nycklarna till kontoret igår.
+Produce	120		Bagaren kom inte för sent i måndags.
+Produce	136		Den gamla bagaren tog inte bussen till jobbet igår.
+Produce	125		Han hittade inte nycklarna till kontoret igår.
+Produce	121		Han kom inte för sent i måndags.
+Produce	117		Hon tog inte bussen till jobbet igår.
+Produce	119		Hon väntade inte på sin kollega igår.
+Produce	123		Hon åkte inte hem till sina föräldrar i fjol.
+Produce	116		Läraren tog inte bussen till jobbet igår.
+Produce	118		Polisen väntade inte på sin kollega igår.
+Produce	122		Studenten åkte inte hem till sina föräldrar i fjol.
+Produce	201	SP	I går drack bagaren upp den sista ölen
+Produce	202	SP	I går drack han upp den sista ölen
+Produce	203	SP	I fjol gav löparen upp under sista varvet
+Produce	204	SP	I fjol gav han upp under sista varvet
+Produce	205	SP	Igår bröt polisen ihop under förhöret
+Produce	206	SP	I fjol bröt han ihop under förhöret
+Produce	207	SP	Igår svimmade den unga skådespelaren av under föreställningen
+Produce	208	SP	Igår svimmade han av under föeställningen
+Produce	209	SP	Igår låste läraren upp dörren till klassrummet
+Produce	210	SP	Igår låste hon upp dörren till klassrummet
+Produce	211	SON	I går hjälpte hon mig inte med läxorna
+Produce	212	SON	I fjol erbjöd han mig inte jobbet på firman
+Produce	213	SON	Igår visade han mig inte några klipp från filmen
+Produce	214	SON	I går gav han mig inte färskt bröd
+Produce	215	SON	I fjol skickade han mig inte en inbjudan
+Produce	216	SRN	Igår rakade polisen sig inte med rakhyvel
+Produce	217	SRN	Igår kände studenten sig inte trött efter skolan
+Produce	218	SRN	Igår vände skådespelaren sig inte mot publiken
+Produce	219	SRN	Igår satte advokaten sig inte bredvid läraren på mötet
+Produce	220	SRN	Igår tvättade löparen sig inte efter loppet
+Produce	201	PS	I går drack upp bagaren den sista ölen
+Produce	202	PS	I går drack upp han den sista ölen
+Produce	203	PS	I fjol gav upp löparen under sista varvet
+Produce	204	PS	I fjol gav upp han under sista varvet
+Produce	205	PS	Igår bröt ihop polisen under förhöret
+Produce	206	PS	I fjol bröt ihop han under förhöret
+Produce	207	PS	Igår svimmade av den unga skådespelaren under föreställningen
+Produce	208	PS	Igår svimmade av han under föeställningen
+Produce	209	PS	Igår låste upp läraren dörren till klassrummet
+Produce	210	PS	Igår låste hon upp dörren till klassrummet
+Produce	211	OSN	I går hjälpte mig hon inte med läxorna
+Produce	212	OSN	I fjol erbjöd mig han inte jobbet på firman
+Produce	213	OSN	Igår visade mig han inte några klipp från filmen
+Produce	214	OSN	I går gav mig han inte färskt bröd
+Produce	215	OSN	I fjol skickade mig han inte en inbjudan
+Produce	216	RSN	Igår rakade sig polisen inte med rakhyvel
+Produce	217	RSN	Igår kände sig studenten inte trött efter skolan
+Produce	218	RSN	Igår vände sig skådespelaren inte mot publiken
+Produce	219	RSN	Igår satte sig advokaten inte bredvid läraren på mötet
+Produce	220	RSN	Igår tvättade sig löparen inte efter loppet
+Produce	211	NSO	I går hjälpte inte hon mig med läxorna
+Produce	212	NSO	I fjol erbjöd inte han mig jobbet på firman
+Produce	213	NSO	Igår visade inte han mig några klipp från filmen
+Produce	214	NSO	I går gav inte han mig färskt bröd
+Produce	215	NSO	I fjol skickade inte han mig en inbjudan
+Produce	216	NSR	Igår rakade inte polisen sig med rakhyvel
+Produce	217	NSR	Igår kände inte studenten sig trött efter skolan
+Produce	218	NSR	Igår vände inte skådespelaren sig mot publiken
+Produce	219	NSR	Igår satte inte advokaten sig bredvid läraren på mötet
+Produce	220	NSR	Igår tvättade inte löparen sig efter loppet
+Produce	211	ONS	I går hjälpte mig inte hon med läxorna
+Produce	212	ONS	I fjol erbjöd mig inte han jobbet på firman
+Produce	213	ONS	Igår visade mig inte han några klipp från filmen
+Produce	214	ONS	I går gav mig inte han färskt bröd
+Produce	215	ONS	I fjol skickade mig inte han en inbjudan
+Produce	216	RNS	Igår rakade sig inte polisen med rakhyvel
+Produce	217	RNS	Igår kände sig inte studenten trött efter skolan
+Produce	218	RNS	Igår vände sig inte skådespelaren mot publiken
+Produce	219	RNS	Igår satte sig inte advokaten bredvid läraren på mötet
+Produce	220	RNS	Igår tvättade sig inte löparen efter loppet
+Produce	211	SNO	I går hjälpte hon inte mig med läxorna
+Produce	212	SNO	I fjol erbjöd han inte mig jobbet på firman
+Produce	213	SNO	Igår visade han inte mig några klipp från filmen
+Produce	214	SNO	I går gav han inte mig färskt bröd
+Produce	215	SNO	I fjol skickade han inte mig en inbjudan
+Produce	216	SNR	Igår rakade polisen inte sig med rakhyvel
+Produce	217	SNR	Igår kände studenten inte sig trött efter skolan
+Produce	218	SNR	Igår vände skådespelaren inte sig mot publiken
+Produce	219	SNR	Igår satte advokaten inte sig bredvid läraren på mötet
+Produce	220	SNR	Igår tvättade löparen inte sig efter loppet
+Produce	211	NOS	I går hjälpte inte mig hon med läxorna
+Produce	212	NOS	I fjol erbjöd inte mig han jobbet på firman
+Produce	213	NOS	Igår visade inte mig han några klipp från filmen
+Produce	214	NOS	I går gav inte mig han färskt bröd
+Produce	215	NOS	I fjol skickade inte mig han en inbjudan
+Produce	216	NRS	Igår rakade inte sig polisen med rakhyvel
+Produce	217	NRS	Igår kände inte sig studenten trött efter skolan
+Produce	218	NRS	Igår vände inte sig skådespelaren mot publiken
+Produce	219	NRS	Igår satte inte sig advokaten bredvid läraren på mötet
+Produce	220	NRS	Igår tvättade inte sig löparen efter loppet
+Read	201		Bagaren kommer att dricka upp den sista ölen.
+Read	202		Han kommer att dricka upp den sista ölen.
+Read	203		Löparen kommer att ge upp under sista varvet.
+Read	204		Han kommer att ge upp under sista varvet.
+Read	205		Polisen kommer att bryta ihop under förhöret.
+Read	206		Han kommer att bryta ihop under förhöret.
+Read	207		Den unga skådespelaren kommer att svimma av under föreställningen.
+Read	208		Han kommer att svimma av under föreställningen.
+Read	209		Läraren kommer att låsa upp dörren till klassrummet.
+Read	210		Hon kommer att låsa upp dörren till klassrummet.
+Read	211		Hon kommer inte att hjälpa mig med läxorna. 
+Read	212		Han kommer inte att erbjuda mig jobbet på firman. 
+Read	213		Han kommer inte att visa mig några klipp från filmen.
+Read	214		Han kommer inte att ge mig färskt bröd.
+Read	215		Han kommer inte att skicka mig en inbjudan. 
+Read	216		Polisen kommer inte att raka sig med rakhyvel.
+Read	217		Studenten kommer inte att känna sig trött efter skolan.
+Read	218		Skådespelaren kommer inte att vända sig mot publiken. 
+Read	219		Advokaten kommer inte att sätta sig bredvid läraren på mötet. 
+Read	220		Löparen kommer inte att tvätta sig efter loppet. 
+Produce	301	PO	Vakterna kastade ut studenten från puben
+Produce	302	PO	Vakterna kastade ut studenten igår
+Produce	303	PO	Vakterna kastade ut honom från puben
+Produce	304	PO	Vakterna kastade ut honom igår
+Produce	305	PO	Vakterna släppte in vittnet i salen
+Produce	306	PO	Vakterna släppte in vittnet igår
+Produce	307	PO	Vakterna släppte in honom i salen
+Produce	308	PO	Vakterna släppte in honom igår
+Produce	309	PO	Städerskan tog ner tavlan från väggen
+Produce	310	PO	Städerskan tog ner tavlan igår
+Produce	311	PO	Städerskan tog ner den från väggen
+Produce	312	PO	Städerskan tog ner den igår
+Produce	313	PO	Läraren satte upp planschen på dörren
+Produce	314	PO	Läraren satte upp planschen igår
+Produce	315	PO	Läraren satte upp den på dörren
+Produce	316	PO	Läraren satte upp den igår
+Produce	317	PO	Rektorn skällde ut eleven igår
+Produce	318	PO	Rektorn skällde ut henne igår
+Produce	319	PO	En fotomodell raggade upp fotbollspelaren igår
+Produce	320	PO	En fotomodell raggade upp honom igår
+Produce	321	PO	Ett privat företag köpte upp sjukhuset förra året
+Produce	322	PO	Ett privat företag köpte upp det förra året
+Produce	323	PO	De nya ägarna byggde om huset efter ett par år
+Produce	324	PO	De nya ägarna byggde om det efter ett par år
+Produce	325	PO	Värdparet dukade av bordet efter middagen
+Produce	326	NO	Polisen arresterade inte rånarna igår
+Produce	327	NO	Polisen arresterade inte dom igår
+Produce	328	NO	Den unga polisen förhörde inte Kalle
+Produce	329	NO	Den unga polisen förhörde förhörde inte honom
+Produce	330	NO	Kommittéen utsåg inte kvinnan till ordförande
+Produce	331	NO	Kommittéen utsåg inte henne till ordförande
+Produce	332	NO	Kollegorna försvarade inte honom
+Produce	333	NO	Kulan träffade inte honom
+Produce	334	NO	Den nya föreställningen imponerade inte kritikern
+Produce	335	NO	Den nya föreställningen imponerade inte honom
+Produce	336	NO	Vaktmästaren låste inte dörren igår
+Produce	301	OP	Vakterna kastade studenten ut från puben
+Produce	302	OP	Vakterna kastade studenten ut igår
+Produce	303	OP	Vakterna kastade honom ut från puben
+Produce	304	OP	Vakterna kastade honom ut igår
+Produce	305	OP	Vakterna släppte vittnet in i salen
+Produce	306	OP	Vakterna släppte vittnet in igår
+Produce	307	OP	Vakterna släppte honom in i salen
+Produce	308	OP	Vakterna släppte honom in igår
+Produce	309	OP	Städerskan tog tavlan ner från väggen
+Produce	310	OP	Städerskan tog tavlan ner igår
+Produce	311	OP	Städerskan tog den ner från väggen
+Produce	312	OP	Städerskan tog den ner igår
+Produce	313	OP	Läraren satte planschen upp på dörren
+Produce	314	OP	Läraren satte planschen upp igår
+Produce	315	OP	Läraren satte den upp på dörren
+Produce	316	OP	Läraren satte den upp igår
+Produce	317	OP	Rektorn skällde eleven ut igår
+Produce	318	OP	Rektorn skällde henne ut igår
+Produce	319	OP	En fotomodell raggade fotbollspelaren upp igår
+Produce	320	OP	En fotomodell raggade honom upp igår
+Produce	321	OP	Ett privat företag köpte sjukhuset upp förra året
+Produce	322	OP	Ett privat företag köpte det upp förra året
+Produce	323	OP	De nya ägarna byggde huset om efter ett par år
+Produce	324	OP	De nya ägarna byggde det om efter ett par år
+Produce	325	OP	Värdparet dukade bordet av efter middagen
+Produce	326	ON	Polisen arresterade rånarna inte igår
+Produce	327	ON	Polisen arresterade dom inte igår
+Produce	328	ON	Den unga polisen förhörde Kalle inte
+Produce	329	ON	Den unga polisen förhörde förhörde honom inte
+Produce	330	ON	Kommittéen utsåg kvinnan inte till ordförande
+Produce	331	ON	Kommittéen utsåg henne inte till ordförande
+Produce	332	ON	Kollegorna försvarade honom inte
+Produce	333	ON	Kulan träffade honom inte
+Produce	334	ON	Den nya föreställningen imponerade kritikern inte
+Produce	335	ON	Den nya föreställningen imponerade honom inte
+Produce	336	ON	Vaktmästaren låste dörren inte igår
+Read	301		Studenten blev utkastad från puben av vakterna.
+Read	302		Studenten blev utkastad av vakterna i går.
+Read	303		Han blev utkastad från puben av vakterna.
+Read	304		Han blev utkastad  av vakterna i går.
+Read	305		Vittnet blev insläppt i salen av vakterna.
+Read	306		Vittnet blev insläppt av vakterna i går.
+Read	307		Han blev insläppt i salen av vakterna.
+Read	308		Han blev insläppt av vakterna igår.
+Read	309		Tavlan togs ner från väggen av städerskan.
+Read	310		Tavlan togs ner av städerskan i går.
+Read	311		Den togs ner från väggen av städerskan.
+Read	312		Den togs ner av städerskan i går.
+Read	313		Planschen sattes upp på dörren av läraren.
+Read	314		Planschen sattes upp av läraren igår.
+Read	315		Den sattes upp på väggen av läraren.
+Read	316		Den sattes upp av läraren igår.
+Read	317		Eleven blev utskälld av rektorn igår.
+Read	318		Hon blev utskälld av rektorn igår.
+Read	319		Fotbollsspelaren blev uppraggad av en fotomodell igår.
+Read	320		Han blev uppraggad av en fotomodell igår.
+Read	321		Sjukhuset köptes upp av ett privat företag förra året.
+Read	322		Det blev uppköpt av ett privat företag förra året.
+Read	323		Huset byggdes om efter ett par år av de nya ägarna.
+Read	324		Det byggdes om efter ett par år av de nya ägarna.
+Read	325		Bordet dukades av efter middagen av värdparet.
+Read	326		Rånarna blev inte arresterade av polisen igår.
+Read	327		De blev inte arresterade av polisen igår.
+Read	328		Kalle blev inte förhörd av den unga polisen.
+Read	329		Han blev inte förhörd av den unga polisen.
+Read	330		Kvinnan utsågs inte till ordförande av kommittéen 
+Read	331		Hon utsågs inte till ordförande av kommittéen 
+Read	332		Han blev inte försvarad av kollegorna.
+Read	333		Han träffades inte av kulan.
+Read	334		Kritikern imponerades inte av den nya föreställningen.
+Read	335		Han imponerades inte av den nya föreställningen.
+Read	336		Dörren låstes inte av vaktmästaren igår.
