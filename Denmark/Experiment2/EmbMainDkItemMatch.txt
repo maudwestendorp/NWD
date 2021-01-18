@@ -1,0 +1,225 @@
+type	UniqueNumber	Word.order	Realization1
+Read	101		Jeg sætter mig ofte bagerst i bussen.
+Read	102		Jeg sætter mig ofte bagerst i bussen.
+Read	103		Jeg sminker mig aldrig på hverdage.
+Read	104		Jeg sminker mig aldrig på hverdage.
+Read	105		Jeg barberer mig altid om morgenen.
+Read	106		Jeg barberer mig altid om morgenen.
+Read	107		Jeg kører ofte bil til arbejde.
+Read	108		Jeg kører ofte bil til arbejde.
+Read	109		Jeg kommer aldrig for sent på arbejde.
+Read	110		Jeg kommer aldrig for sent på arbejde.
+Read	111		Jeg lytter altid til radioen i bilen.
+Read	112		Jeg lytter altid til radioen i bilen.
+Read	203		Jeg lægger mig ofte til at sove inden midnat.
+Read	204		Jeg lægger mig ofte til at sove inden midnat.
+Read	205		Jeg opfører mig altid ordentligt i skolen.
+Read	212		Jeg kommer aldrig for sent i skole.
+Read	302		Sætter Oscar sig altid forrest i klassen?
+Read	307		Cykler Mads altid til arbejde?
+Read	311		Går Anna aldrig ud om lørdagen?
+Read	312		Går Anna aldrig ud om lørdagen?
+Read	403		Hvor mange elever kom til forelæsningen?
+Read	404		Hvor mange elever kom til forelæsningen?
+Read	407		Hvilke bands spillede på festivalen i weekenden?
+Read	408		Hvilke bands spillede på festivalen i weekenden?
+Read	409		Hvor mange elever er der på den skole?
+Read	410		Hvor mange elever er der på den skole?
+Read	505		Hvor mange fisk fik Elias?
+Read	506		Hvor mange fisk fik Elias?
+Read	507		Hvilke film så Mads i går?
+Read	508		Hvilke film så Mads i går?
+Read	509		Hvilken slags fugl var det?
+Read	510		Hvilken slags fugl var det?
+Read	601		Jeg har glemt mine nøgler derhjemme.
+Read	602		Jeg har glemt mine nøgler derhjemme.
+Read	603		Mads har været syg hele ugen.
+Read	605		Turen i morgen er aflyst.
+Read	607		Tyskland er større end Frankrig.
+Read	608		Tyskland er større end Frankrig.
+Read	610		Månen er lavet af ost.
+Read	612		Det har været mange turister på Bornholm i sommer.
+Read	651		Mads sagde, at han havde glemt sine nøgler derhjemme.
+Read	652		Anna sagde, at hun havde glemt sine nøgler derhjemme.
+Read	653		Oscar hævder, at Mads har været syg hele ugen.
+Read	654		Oscar hævder, at Anna har været syg hele ugen.
+Read	655		Mads hævder, at turen i morgen er aflyst.
+Read	656		Oscar hævder, at månen er lavet af ost.
+Read	657		Oscar hævder, at Tyskland er større end Frankrig.
+Read	659		Mads hævder, at turen i morgen er aflyst.
+Read	701		Jonas spurgte, hvem der lavede maden.
+Read	702		Ellen spurgte, hvem der lavede maden.
+Read	703		Anna spurgte, hvad der blev sagt til mødet.
+Read	704		Mads spurgte, hvad der blev sagt til mødet.
+Read	711		Jonas spurgte, hvor mange hold der deltog i turneringen.
+Read	712		Eirik spurgte, hvor mange hold der deltog i turneringen.
+Read	713		Ellen spurgte, hvilke bøger der var spændende.
+Read	714		Anna spurgte, hvilke bøger der var spændende.
+Read	715		Jonas spurgte, hvad hun arbejdede på.
+Read	751		Jonas spurgte, hvornår Elias flyttede til Oslo.
+Read	752		Ellen spurgte, hvad han arbejdede på.
+Read	753		Ellen spurgte, hvem Anna går i klasse med.
+Read	754		Anna spurgte, hvem Ellen går i klasse med.
+Read	755		Ellen spurgte, hvordan han gjorde det. 
+Read	756		Oscar spurgte, hvornår Mads flyttede til Oslo.
+Read	758		Ellen spurgte, hvordan han gjorde det. 
+Read	801		Ellen hævder, at et glas vin om dagen mere end halverer risikoen for hjerteanfald.
+Read	802		Mads siger, at en øl om dagen mere end fordobler risikoen for hjerteanfald.
+Read	803		Ellen sagde, at hun simpelthen elsker chokolade.
+Read	804		Mads sagde, at han simpelthen elsker marcipan.
+Read	805		Mads sagde, at Danmark heldigvis knuste Norge i finalen.
+Read	806		Mads sagde, at Danmark bogstaveligt talt knuste Norge i finalen.
+Read	807		Ellen sagde, at hun næsten græd af glæde der Danmark scorede.
+Read	808		Mads sagde, at han næsten hylede af glæde efter kampen.
+Read	811		Mads hævder, at et glas vin om dagen unægtelig halverer risikoen for hjerteanfald.
+Read	812		Ellen siger, at en øl om dagen desværre fordobler risikoen for hjerteanfald.
+Read	813		Ellen sagde, at hun normalt hader spegesild. 
+Read	814		Mads sagde, at han normalt hader lakrids.
+Read	815		Ellen sagde, at FC København bogstaveligt talt ødelagde Randers i udekampen.
+Read	816		Ellen sagde, at Brøndby desværre ødelagde Randers i hjemmekampen.
+Read	817		Mads sagde, at han næsten havde alt rigtig til prøven.
+Read	818		Ellen sagde, at hun næsten havde alt rigtig til prøven.
+Produce	101	VA	Mads siger, at han sætter sig ofte bagerst i bussen.
+Produce	101	AV	Mads siger, at han ofte sætter sig bagerst i bussen.
+Produce	102	VA	Anna siger, at hun sætter sig ofte bagerst i bussen.
+Produce	102	AV	Anna siger, at hun ofte sætter sig bagerst i bussen.
+Produce	103	VA	Anna siger, at hun sminker sig aldrig på hverdage.
+Produce	103	AV	Anna siger, at hun aldrig sminker sig på hverdage.
+Produce	104	VA	Ellen siger, at hun sminker sig aldrig på hverdage.
+Produce	104	AV	Ellen siger, at hun aldrig sminker sig på hverdage.
+Produce	105	VA	Mads siger, at han barberer sig altid om morgenen.
+Produce	105	AV	Mads siger, at han altid barberer sig om morgenen.
+Produce	106	VA	Oscar siger, at han barberer sig altid om morgenen.
+Produce	106	AV	Oscar siger, at han altid barberer sig om morgenen.
+Produce	107	VA	Mads siger, at han kører ofte bil til arbejde.
+Produce	107	AV	Mads siger, at han ofte kører bil til arbejde.
+Produce	108	VA	Anna siger, at hun kører ofte bil til arbejde.
+Produce	108	AV	Anna siger, at hun ofte kører bil til arbejde.
+Produce	109	VA	Oscar siger, at han kommer aldrig for sent på arbejde.
+Produce	109	AV	Oscar siger, at han aldrig kommer for sent på arbejde.
+Produce	110	VA	Ellen siger, at hun kommer aldrig for sent på arbejde.
+Produce	110	AV	Ellen siger, at hun aldrig kommer for sent på arbejde.
+Produce	111	VA	Mads siger, at han lytter altid til radioen i bilen.
+Produce	111	AV	Mads siger, at han altid lytter til radioen i bilen.
+Produce	112	VA	Anna siger, at hun lytter altid til radioen i bilen.
+Produce	112	AV	Anna siger, at hun altid lytter til radioen i bilen.
+Produce	203	VA	Oscar er stolt af, at han lægger sig ofte til at sove inden midnat.
+Produce	203	AV	Oscar er stolt af, at han ofte lægger sig til at sove inden midnat.
+Produce	204	VA	Ellen er stolt af, at hun lægger sig ofte til at sove inden midnat.
+Produce	204	AV	Ellen er stolt af, at hun ofte lægger sig til at sove inden midnat.
+Produce	205	VA	Mads er stolt af, at han opfører sig altid ordentligt i skolen.
+Produce	205	AV	Mads er stolt af, at han altid opfører sig ordentligt i skolen.
+Produce	212	VA	Ellen er stolt af, at hun kommer aldrig for sent i skolen.
+Produce	212	AV	Ellen er stolt af, at hun aldrig kommer for sent i skolen.
+Produce	302	VA	Anna spurgte, om Oscar sætter sig altid forrest i klassen.
+Produce	302	AV	Anna spurgte, om Oscar altid sætter sig forrest i klassen.
+Produce	307	VA	Oscar spurgte, om Mads cykler altid til arbejde.
+Produce	307	AV	Oscar spurgte, om Mads altid cykler til arbejde.
+Produce	311	VA	Oscar spurgte, om Anna går aldrig ud om lørdagen.
+Produce	311	AV	Oscar spurgte, om Anna aldrig går ud om lørdagen.
+Produce	312	VA	Ellen spurgte, om Anna går aldrig ud om lørdagen.
+Produce	312	AV	Ellen spurgte, om Anna aldrig går ud om lørdagen.
+Produce	403	non	Oscar ville vide hvor mange elever kom til forelæsningen.
+Produce	403	som	Oscar ville vide hvor mange elever der kom til forelæsningen.
+Produce	404	non	Ellen ville vide hvor mange elever kom til forelæsningen.
+Produce	404	som	Ellen ville vide hvor mange elever der kom til forelæsningen.
+Produce	407	non	Oscar spurgte, hvilke bands spillede på festivalen i weekenden.
+Produce	407	som	Oscar spurgte, hvilke bands der spillede på festivalen i weekenden.
+Produce	408	non	Ellen spurgte, hvilke bands spillede på festivalen i weekenden.
+Produce	408	som	Ellen spurgte, hvilke bands der spillede på festivalen i weekenden.
+Produce	409	VS	Mads spurgte, hvor mange elever er der på den skole.
+Produce	409	SV	Mads spurgte, hvor mange elever der er på den skole.
+Produce	410	VS	Anna spurgte, hvor mange elever er der på den skole.
+Produce	410	SV	Anna spurgte, hvor mange elever der er på den skole.
+Produce	505	VS	Mads spurgte, hvor mange fisk fik Elias.
+Produce	505	SV	Mads spurgte, hvor mange fisk Elias fik.
+Produce	506	VS	Mads spurgte, hvor mange fisk fik Elias.
+Produce	506	SV	Mads spurgte, hvor mange fisk Elias fik.
+Produce	507	VS	Oscar spurgte, hvilke film så Mads i går.
+Produce	507	SV	Oscar spurgte, hvilke film Mads så i går.
+Produce	508	VS	Ellen spurgte, hvilke film så Mads i går.
+Produce	508	SV	Ellen spurgte, hvilke film Mads så i går.
+Produce	509	VS	Mads spurgte, hvilken slags fugl var det.
+Produce	509	SV	Mads spurgte, hvilken slags fugl det var.
+Produce	510	VS	Anna spurgte, hvilken slags fugl var det.
+Produce	510	SV	Anna spurgte, hvilken slags fugl det var.
+Produce	601	fill	Mads er sikker på, at han har glemt sine nøgler derhjemme.
+Produce	602	fill	Anna er sikker på, at hun har glemt sine nøgler derhjemme.
+Produce	603	fill	Oscar er sikker på, at Mads har været syg hele ugen.
+Produce	605	fill	Mads er sikker på, at turen i morgen er aflyst.
+Produce	607	fill	Oscar tror, at Tyskland er større end Frankrig.
+Produce	608	fill	Ellen tror, at Tyskland er større end Frankrig.
+Produce	610	fill	Anna tror, at månen er lavet af ost.
+Produce	612	fill	Ellen tror, at det har været mange turister på Bornholm i sommer.
+Produce	651	fill	Jeg har glemt mine nøgler derhjemme.
+Produce	652	fill	Jeg har glemt mine nøgler derhjemme.
+Produce	653	fill	Mads har været syg hele ugen.
+Produce	654	fill	Anna har været syg hele ugen.
+Produce	655	fill	Turen i morgen er aflyst.
+Produce	656	fill	Månen er lavet af ost.
+Produce	657	fill	Tyskland er større end Frankrig.
+Produce	659	fill	Turen i morgen er aflyst.
+Produce	701	som	Hvem der lavede maden?
+Produce	701	non	Hvem lavede maden?
+Produce	702	som	Hvem der lavede maden?
+Produce	702	non	Hvem lavede maden?
+Produce	703	non	Hvad blev sagt til mødet?
+Produce	703	som	Hvad der blev sagt til mødet?
+Produce	704	non	Hvad blev sagt til mødet?
+Produce	704	som	Hvad der blev sagt til mødet?
+Produce	711	non	Hvor mange hold deltager i turneringen?
+Produce	711	som	Hvor mange hold der deltager i turneringen?
+Produce	712	non	Hvor mange hold deltager i turneringen?
+Produce	712	som	Hvor mange hold der deltager i turneringen?
+Produce	713	som	Hvilke bøger der var spændende?
+Produce	713	non	Hvilke bøger var spændende?
+Produce	714	som	Hvilke bøger der var spændende?
+Produce	714	non	Hvilke bøger var spændende?
+Produce	715	VS	Hvad arbejdede hun på?
+Produce	715	SV	Hvad hun arbejdede på?
+Produce	751	SV	Hvornår Elias flyttede til Oslo?
+Produce	751	VS	Hvornår flyttede Elias til Oslo?
+Produce	752	VS	Hvad arbejdede han på?
+Produce	752	SV	Hvad han arbejdede på?
+Produce	753	SV	Hvem Anna går i klasse med?
+Produce	753	VS	Hvem går Anna i klasse med?
+Produce	754	SV	Hvem Ellen går i klasse med?
+Produce	754	VS	Hvem går Ellen i klasse med?
+Produce	755	VS	Hvordan gjorde han det?
+Produce	755	SV	Hvordan han gjorde det?
+Produce	756	VS	Hvornår flyttede Mads til Oslo?
+Produce	756	SV	Hvornår Mads flyttede til Oslo?
+Produce	758	VS	Hvordan gjorde han det?
+Produce	758	SV	Hvordan han gjorde det?
+Produce	801	VA	Et glas vin om dagen halverer mere end risikoen for hjerteanfald.
+Produce	801	AV	Et glas vin om dagen mere end halverer risikoen for hjerteanfald.
+Produce	802	VA	En øl om dagen fordobler mere end risikoen for hjerteanfald.
+Produce	802	AV	En øl om dagen mere end fordobler risikoen for hjerteanfald.
+Produce	803	VA	Jeg elsker simpelthen chokolade.
+Produce	803	AV	Jeg simpelthen elsker chokolade.
+Produce	804	AV	Jeg simpelthen elsker marcipan.
+Produce	804	VA	Jeg elsker simpelthen marcipan.
+Produce	805	AV	Danmark heldigvis knuste Norge i finalen.
+Produce	805	VA	Danmark knuste heldigvis Norge i finalen.
+Produce	806	AV	Danmark bogstaveligt talt knuste Norge i finalen.
+Produce	806	VA	Danmark knuste bogstaveligt talt Norge i finalen.
+Produce	807	VA	Jeg græd næsten af glæde der Danmark scorede.
+Produce	807	AV	Jeg næsten græd af glæde der Danmark scorede.
+Produce	808	AV	Jeg næsten hylede af glæde efter kampen.
+Produce	808	VA	Jeg hylede næsten af glæde efter kampen.
+Produce	811	VA	Et glas vin om dagen halverer unægtelig risikoen for hjerteanfald.
+Produce	811	AV	Et glas vin om dagen unægtelig halverer risikoen for hjerteanfald.
+Produce	812	AV	En øl om dagen desværre fordobler risikoen for hjerteanfald.
+Produce	812	VA	En øl om dagen fordobler desværre risikoen for hjerteanfald.
+Produce	813	VA	Jeg hader normalt spegesild. 
+Produce	813	AV	Jeg normalt hader spegesild. 
+Produce	814	AV	Jeg normalt hader lakrids.
+Produce	814	VA	Jeg hader normalt lakrids.
+Produce	815	AV	FC København bogstaveligt talt ødelagde Randers i udekampen.
+Produce	815	VA	FC København ødelagde bogstaveligt talt Randers i udekampen.
+Produce	816	AV	Brøndby desværre ødelagde Randers i hjemmekampen.
+Produce	816	VA	Brøndby ødelagde desværre Randers i hjemmekampen.
+Produce	817	VA	Jeg havde næsten alt rigtig til prøven.
+Produce	817	AV	Jeg næsten havde alt rigtig til prøven.
+Produce	818	AV	Jeg næsten havde alt rigtig til prøven.
+Produce	818	VA	Jeg havde næsten alt rigtig til prøven.

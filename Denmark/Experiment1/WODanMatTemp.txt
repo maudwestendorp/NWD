@@ -1,0 +1,93 @@
+itemnr1	read1	invert1	cond1	nr1	arg1
+101	Læreren skyndte sig hjem fra arbejde i går.	I går…	refl	1	NP
+102	Han skyndte sig hjem fra arbejde i går.	I går…	refl	1	PRO
+103	Skuespilleren vendte sig pludselig mod publikum.	Pludselig...	refl	2	NP
+104	Hun vendte sig pludselig mod publikum.	Pludselig...	refl	2	PRO
+105	Bageren vaskede sig lige efter arbejde i går.	I går...	refl	3	NP
+106	Han vaskede sig lige efter arbejde i går.	I går...	refl	3	PRO
+107	Politimanden satte sig i den anden bil efter mødet.	Efter mødet...	refl	4	NP
+108	Hun satte sig i den anden bil efter mødet.	Efter mødet...	refl	4	PRO
+109	Advokaten barberede sig før arbejde hver dag.	Hver dag...	refl	5	NP
+110	Han barberede sig før arbejde hver dag.	Hver dag...	refl	5	PRO
+111	Læreren gav mig en ny bog i går.	I går...	los	6	NP
+112	Bageren gav mig frisk brød hver dag.	Hver dag...	los	7	NP
+113	Advokaten tilbød mig en ny stilling i sidste uge.	I sidste uge...	los	8	NP
+114	Skuespilleren sendte mig lange breve hver dag.	Hver dag...	los	9	NP
+115	Politimanden viste mig et billede af bilen efter mødet.	Efter mødet...	los	10	NP
+116	Læreren tog ikke bussen til arbejde i går.	I går...	SS	11	NP
+117	Hun tog ikke bussen til arbejde i går.	I går...	SS	11	PRO
+118	Politimanden ventede ikke på sin kollega i går.	I går...	SS	12	NP
+201	Skuespilleren kommer til at gå ud i byen hver aften.	Sidste år gik ...	Part-Sub	16	NP
+202	Han kommer til at gå ud i byen hver aften.	Sidste år gik ...	Part-Sub	16	PRO
+203	Løberen kommer til at give op på sidste runde.	Sidste år gav ...	Part-Sub	17	NP
+204	Han kommer til at give op på sidste runde.	Sidste år gav ...	Part-Sub	17	PRO
+205	Politimanden kommer til at bryde sammen under høringen.	I går brød ...	Part-Sub	18	NP
+206	Han kommer til at bryde sammen under høringen.	I går brød ...	Part-Sub	18	PRO
+207	Skuespilleren kommer til at stille op for sine kolleger.	I går stillede ...	Part-Sub	19	NP
+208	Han kommer til at stille op for sine kolleger.	I går stillede ...	Part-Sub	19	PRO
+209	Den nye studerende kommer til at rydde op i køkkenet.	I går ryddede ...	Part-Sub	20	NP
+210	Han kommer til at rydde op i køkkenet.	I går ryddede ...	Part-Sub	20	PRO
+301	Studenten blev smidt ud af pubben af vagterne.	Vagterne smed...	Obj-PartPP	1	NP
+302	Hun blev smidt ud af pubben af vagterne.	Vagterne smed...	Obj-PartPP	1	PRO
+303	Studenten blev smidt ud af vagterne i går.	Vagterne smed...	Obj-Part	1	NP
+304	Hun blev smidt ud af vagterne i går.	Vagterne smed...	Obj-Part	1	PRO
+305	Vidnet blev vist ud af lokalet af sikkerhedsvagterne.	Sikkerhedsvagterne viste…	Obj-PartPP	2	NP
+306	Hun blev vist ud af lokalet af sikkerhedsvagterne.	Sikkerhedsvagterne viste…	Obj-PartPP	2	PRO
+307	Vidnet blev vist ud af sikkerhedsvagterne.	Sikkerhedsvagterne viste…	Obj-Part	2	NP
+308	Hun blev vist ud af sikkerhedsvagterne.	Sikkerhedsvagterne viste…	Obj-Part	2	PRO
+309	Maleriet blev taget ned fra væggen af stuepigen.	Stuepigen tog...	Obj-PartPP	3	NP
+310	Det blev taget ned fra væggen af stuepigen.	Stuepigen tog...	Obj-PartPP	3	PRO
+311	Maleriet blev taget ned af stuepigen i går.	Stuepigen tog...	Obj-Part	3	NP
+312	Det blev taget ned af stuepigen i går.	Stuepigen tog...	Obj-Part	3	PRO
+313	Plakaten blev hængt op på døren af læreren.	Læreren hængte...	Obj-PartPP	4	NP
+314	Den blev hængt op på døren af læreren.	Læreren hængte...	Obj-PartPP	4	PRO
+315	Plakaten blev hængt op af læreren i går.	Læreren hængte...	Obj-Part	4	NP
+316	Den blev hængt op af læreren i går.	Læreren hængte...	Obj-Part	4	PRO
+317	Siden blev fyldt ud af eleverne i går.	Eleverne fyldte…	Obj-PartMet	5	NP
+318	Den blev fyldt ud af eleverne i går.	Eleverne fyldte…	Obj-PartMet	5	PRO
+119	Han ventede ikke på sin kollega i går.	I går...	SS	12	PRO
+120	Bageren kom ikke for sent hver dag i sidste uge.	I sidste uge...	SS	13	NP
+121	Han kom ikke for sent hver dag i sidste uge.	I sidste uge...	SS	13	PRO
+122	Studerende tog ikke hjem til forældrene sidste år.	Sidste år...	SS	14	NP
+123	Hun tog ikke hjem til forældrene sidste år.	Sidste år...	SS	14	PRO
+124	Advokaten fandt ikke nøglerne til kontoret i går.	I går...	SS	15	NP
+125	Han fandt ikke nøglerne til kontoret i går.	I går...	SS	15	PRO
+126	Den nye studerende ryddede op i køkkenet i går.	I går...	Part	16	NP
+127	Han ryddede op i køkkenet i går.	I går...	Part	16	PRO
+128	Den bedste løber gav op på sidste runde i går.	I går...	Part	17	NP
+129	Han gav op på sidste runde i går.	I går...	Part	17	PRO
+130	Den unge politimand brød sammen under afhøringen i går.	I går...	Part	18	NP
+131	Han brød sammen under afhøringen i går.	I går...	Part	18	NP
+132	Den unge skuespiller stillede op for sin kollega i går.	I går...	Part	19	NP
+133	Han stillede op for sin kollega i går.	I går...	Part	19	PRO
+134	Den nye studerende gik ud i byen i går.	I går...	Part	20	NP
+135	Tre malerier faldt ned i den store sal i går.	I går...	Part	21	NP
+136	To huse brændte ned i Oslo i går.	I går...	Part	26	NP
+211	Hun kommer ikke til at hjælpe mig med lektierne.	I går hjalp ...	OS	21	PRO
+212	Han kommer ikke til at tilbyde mig et nyt job.	Sidste år tilbød ...	OS	22	PRO
+213	Han kommer ikke til at vise mig nogle klip fra filmen.	I går viste ...	OS	23	PRO
+214	Han kommer ikke til at give mig frisk brød.	I går gav ...	OS	24	PRO
+215	Han kommer ikke til at sende mig en invitation.	Sidste år sendte ...	OS	25	PRO
+216	Politikeren kommer ikke til at barbere sig med en barbermaskine.	I går barberet ...	SSrefl	26	NP
+217	Eleven kommer ikke til at føle sig træt efter skole.	I går følte ...	SSrefl	27	NP
+218	Skuespilleren kommer ikke til at vende sig mod publikum.	I går vendte ...	SSrefl	28	NP
+219	Advokaten kommer ikke til at sætte sig ved siden af læreren.	I går satte ...	SSrefl	29	NP
+220	Løberen kommer ikke til at vaske sig efter løbet.	I går vaskede ...	SSRefl	30	NP
+319	Spørgsmålet blev taget op af regeringen sidste år.	Regeringen tog…	Obj-PartMet	6	NP
+320	Det blev taget op af regeringen sidste år.	Regeringen tog…	Obj-PartMet	6	PRO
+321	Hospitalet blev købt op af en privat virksomhed sidste år.	En privat virksomhed købte...	Obj-PartMet	7	NP
+322	Det blev købt op af en privat virksomhed sidste år.	En privat virksomhed købte...	Obj-PartMet	7	PRO
+323	Benzindækslet blev øjeblikkelig skruet af af chaufføren.	Chaufføren skruede...	Obj-PartPrep	8	NP
+324	Det blev øjeblikkelig skruet af af chaufføren.	Chaufføren skruede...	Obj-PartPrep	8	PRO
+325	Bordet blev ryddet af efter maden af værterne.	Værterne ryddede…	Obj-PartGround	9	NP
+326	Røverne blev ikke arresteret af politiet i går.	Politiet arresterede...	OS	10	NP
+327	De blev ikke arrestert af politiet i går.	Politiet arresterede...	OS	10	PRO
+328	Han blev ikke afhørt af den unge politimand.	Den unge politimand afhørte...	OS	11	PRO
+329	Jon blev ikke afhørt af den unge politimand. 	Den unge politimand afhørte...	OS	11	NP
+330	Hun blev ikke udpeget som leder af den nye direktør.	Den nye direktør udpegede...	OS	12	PRO
+331	Kvinden blev ikke udpeget som leder af den nye direktør.	Den nye direktør udpegede...	OS	12	NP
+332	Han blev ikke forsvaret af kollegerne under mødet.	Kollegerne forsvarede...	OS	13	PRO
+333	Hun blev ikke ramt af bolden.	Bolden ramte...	OS	14	PRO
+334	Kritikeren blev ikke imponeret over den nye forestilling.	Den nye forestilling imponerte...	OS	15	NP
+335	Han blev ikke overbevist af det nye argument.	Det nye argument overbeviste...	OS	15	PRO
+336	Han blev ikke kritiseret af journalisten for udsagnet.	Journalisten kritiserede...	OS	16	PRO

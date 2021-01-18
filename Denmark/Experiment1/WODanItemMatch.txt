@@ -1,0 +1,317 @@
+type	UniqueNumber	Word.order	Realization1
+Read	101		Læreren skyndte sig hjem fra arbejde i går.
+Read	102		Han skyndte sig hjem fra arbejde i går.
+Read	103		Skuespilleren vendte sig pludselig mod publikum.
+Read	104		Hun vendte sig pludselig mod publikum.
+Read	105		Bageren vaskede sig lige efter arbejde i går.
+Read	106		Han vaskede sig lige efter arbejde i går.
+Read	107		Politimanden satte sig i den anden bil efter mødet.
+Read	108		Hun satte sig i den anden bil efter mødet.
+Read	109		Advokaten barberede sig før arbejde hver dag.
+Read	110		Han barberede sig før arbejde hver dag.
+Read	111		Læreren gav mig en ny bog i går.
+Read	112		Bageren gav mig frisk brød hver dag.
+Read	113		Advokaten tilbød mig en ny stilling i sidste uge.
+Read	114		Skuespilleren sendte mig lange breve hver dag.
+Read	115		Politimanden viste mig et billede af bilen efter mødet.
+Read	116		Læreren tog ikke bussen til arbejde i går.
+Read	117		Hun tog ikke bussen til arbejde i går.
+Read	118		Politimanden ventede ikke på sin kollega i går.
+Read	119		Han ventede ikke på sin kollega i går.
+Read	120		Bageren kom ikke for sent hver dag i sidste uge.
+Read	121		Han kom ikke for sent hver dag i sidste uge.
+Read	122		Studerende tog ikke hjem til forældrene sidste år.
+Read	123		Hun tog ikke hjem til forældrene sidste år.
+Read	124		Advokaten fandt ikke nøglerne til kontoret i går.
+Read	125		Han fandt ikke nøglerne til kontoret i går.
+Read	126		Den nye studerende ryddede op i køkkenet i går.
+Read	127		Han ryddede op i køkkenet i går.
+Read	128		Den bedste løber gav op på sidste runde i går.
+Read	129		Han gav op på sidste runde i går.
+Read	130		Den unge politimand brød sammen under afhøringen i går.
+Read	131		Han brød sammen under afhøringen i går.
+Read	132		Den unge skuespiller stillede op for sin kollega i går.
+Read	133		Han stillede op for sin kollega i går.
+Read	134		Den nye studerende gik ud i byen i går.
+Read	135		Tre malerier faldt ned i den store sal i går.
+Read	136		To huse brændte ned i Oslo i går.
+Produce	101	SR	I går skyndte læreren sig hjem fra arbejde.
+Produce	102	SR	I går skyndte han sig hjem fra arbejde.
+Produce	103	SR	Pludselig vendte skuespilleren sig mod publikum.
+Produce	104	SR	Pludselig vendte hun sig mod publikum.
+Produce	105	SR	I går vaskede bageren sig lige efter arbejde.
+Produce	106	SR	I går vaskede han sig lige efter arbejde.
+Produce	107	SR	Efter mødet satte politimanden sig i den anden bil.
+Produce	108	SR	Efter mødet satte hun sig i den anden bil.
+Produce	109	SR	Hver dag barberede advokaten sig før arbejde.
+Produce	110	SR	Hver dag barberede han sig før arbejde.
+Produce	111	SO	I går gav læreren mig en ny bog.
+Produce	112	SO	Hver dag gav bageren mig frisk brød.
+Produce	113	SO	I sidste uge tilbød advokaten mig en ny stilling.
+Produce	114	SO	Hver dag sendte skuespilleren mig lange breve.
+Produce	115	SO	Efter mødet viste politimanden mig et billede af bilen.
+Produce	116	SN	I går tog læreren ikke bussen til arbejde.
+Produce	117	SN	I går tog hun ikke bussen til arbejde.
+Produce	118	SN	I går ventede politimanden ikke på sin kollega.
+Produce	119	SN	I går ventede han ikke på sin kollega.
+Produce	120	SN	I sidste uge kom bageren ikke for sent hver dag.
+Produce	121	SN	I sidste uge kom han ikke for sent hver dag.
+Produce	122	SN	Sidste år tog studerende ikke hjem til forældrene.
+Produce	123	SN	Sidste år tog hun ikke hjem til forældrene.
+Produce	124	SN	I går fandt advokaten ikke nøglerne til kontoret.
+Produce	125	SN	I går fandt han ikke nøglerne til kontoret.
+Produce	126	SP	I går ryddede den nye studerende op i køkkenet.
+Produce	127	SP	I går ryddede han op i køkkenet.
+Produce	128	SP	I går gav den bedste løber op på sidste runde.
+Produce	129	SP	I går gav han op på sidste runde.
+Produce	130	SP	I går brød den unge politimand sammen under afhøringen.
+Produce	131	SP	I går brød han sammen under afhøringen.
+Produce	132	SP	I går stillede den unge skuespiller op for sin kollega.
+Produce	133	SP	I går stillede han op for sin kollega.
+Produce	134	SP	I går gik den nye studerende ud i byen.
+Produce	135	SP	I går faldt tre malerier ned i den store sal.
+Produce	136	SP	I går brændte to huse ned i Oslo.
+Produce	101	RS	I går skyndte sig læreren hjem fra arbejde.
+Produce	102	RS	I går skyndte sig han hjem fra arbejde.
+Produce	103	RS	Pludselig vendte sig skuespilleren mod publikum.
+Produce	104	RS	Pludselig vendte sig hun mod publikum.
+Produce	105	RS	I går vaskede sig bageren lige efter arbejde.
+Produce	106	RS	I går vaskede sig han lige efter arbejde.
+Produce	107	RS	Efter mødet satte sig politimanden i den anden bil.
+Produce	108	RS	Efter mødet satte sig hun i den anden bil.
+Produce	109	RS	Hver dag barberede sig advokaten før arbejde.
+Produce	110	RS	Hver dag barberede sig han før arbejde.
+Produce	111	OS	I går gav mig læreren en ny bog.
+Produce	112	OS	Hver dag gav mig bageren frisk brød.
+Produce	113	OS	I sidste uge tilbød mig advokaten en ny stilling.
+Produce	114	OS	Hver dag sendte mig skuespilleren lange breve.
+Produce	115	OS	Efter mødet viste mig politimanden et billede af bilen.
+Produce	116	NS	I går tog ikke læreren bussen til arbejde.
+Produce	117	NS	I går tog ikke hun bussen til arbejde.
+Produce	118	NS	I går ventede ikke politimanden på sin kollega.
+Produce	119	NS	I går ventede ikke han på sin kollega.
+Produce	120	NS	I sidste uge kom ikke bageren for sent hver dag.
+Produce	121	NS	I sidste uge kom ikke han for sent hver dag.
+Produce	122	NS	Sidste år tog ikke studerende hjem til forældrene.
+Produce	123	NS	Sidste år tog ikke hun hjem til forældrene.
+Produce	124	NS	I går fandt ikke advokaten nøglerne til kontoret.
+Produce	125	NS	I går fandt ikke han nøglerne til kontoret.
+Produce	126	PS	I går ryddede op den nye studerende i køkkenet.
+Produce	127	PS	I går ryddede op han i køkkenet.
+Produce	128	PS	I går gav op den bedste løber på sidste runde.
+Produce	129	PS	I går gav op han på sidste runde.
+Produce	130	PS	I går brød sammen den unge politimand under afhøringen.
+Produce	131	PS	I går brød sammen han under afhøringen.
+Produce	132	PS	I går stillede op den unge skuespiller for sin kollega.
+Produce	133	PS	I går stillede op han for sin kollega.
+Produce	134	PS	I går gik ud den nye studerende i byen.
+Produce	135	PS	I går faldt ned tre malerier i den store sal.
+Produce	136	PS	I går brændte ned to huse i Oslo.
+Read	201		Skuespilleren kommer til at gå ud i byen hver aften.
+Read	202		Han kommer til at gå ud i byen hver aften.
+Read	203		Løberen kommer til at give op på sidste runde.
+Read	204		Han kommer til at give op på sidste runde.
+Read	205		Politimanden kommer til at bryde sammen under høringen.
+Read	206		Han kommer til at bryde sammen under høringen.
+Read	207		Skuespilleren kommer til at stille op for sine kolleger.
+Read	208		Han kommer til at stille op for sine kolleger.
+Read	209		Den nye studerende kommer til at rydde op i køkkenet.
+Read	210		Han kommer til at rydde op i køkkenet.
+Read	211		Hun kommer ikke til at hjælpe mig med lektierne.
+Read	212		Han kommer ikke til at tilbyde mig et nyt job.
+Read	213		Han kommer ikke til at vise mig nogle klip fra filmen.
+Read	214		Han kommer ikke til at give mig frisk brød.
+Read	215		Han kommer ikke til at sende mig en invitation.
+Read	216		Politikeren kommer ikke til at barbere sig med en barbermaskine.
+Read	217		Eleven kommer ikke til at føle sig træt efter skole.
+Read	218		Skuespilleren kommer ikke til at vende sig mod publikum.
+Read	219		Advokaten kommer ikke til at sætte sig ved siden af læreren.
+Read	220		Løberen kommer ikke til at vaske sig efter løbet.
+Produce	201	PS	Sidste år gik ud skuespilleren i byen hver aften.
+Produce	201	SP	Sidste år gik skuespilleren ud i byen hver aften.
+Produce	202	PS	Sidste år gik ud han i byen hver aften.
+Produce	202	SP	Sidste år gik han ud i byen hver aften.
+Produce	203	PS	Sidste år gav løberen op på sidste runde.
+Produce	203	SP	Sidste år gav løberen op på sidste runde.
+Produce	204	PS	Sidste år gav han op på sidste runde.
+Produce	204	SP	Sidste år gav han op på sidste runde.
+Produce	205	PS	I går brød politimanden sammen under høringen.
+Produce	205	SP	I går brød politimanden sammen under høringen.
+Produce	206	PS	I går brød han sammen under høringen.
+Produce	206	SP	I går brød han sammen under høringen.
+Produce	207	PS	I går stillede skuespilleren op for sine kolleger.
+Produce	207	SP	I går stillede skuespilleren op for sine kolleger.
+Produce	208	PS	I går stillede han op for sine kolleger.
+Produce	208	SP	I går stillede han op for sine kolleger.
+Produce	209	PS	I går ryddede den nye studerende op i køkkenet.
+Produce	209	SP	I går ryddede den nye studerende op i køkkenet.
+Produce	210	PS	I går ryddede han op i køkkenet.
+Produce	210	SP	I går ryddede han op i køkkenet.
+Produce	211	NOS	I går hjalp ikke mig hun med lektierne.
+Produce	211	NSO	I går hjalp ikke hun mig med lektierne.
+Produce	211	SNO	I går hjalp hun ikke mig med lektierne.
+Produce	211	SON	I går hjalp hun mig ikke med lektierne.
+Produce	211	OSN	I går hjalp mig hun ikke med lektierne.
+Produce	211	ONS	I går hjalp mig ikke hun med lektierne.
+Produce	212	NOS	Sidste år tilbød ikke mig han et nyt job.
+Produce	212	NSO	Sidste år tilbød ikke han mig et nyt job.
+Produce	212	SNO	Sidste år tilbød han ikke mig et nyt job.
+Produce	212	SON	Sidste år tilbød han mig ikke et nyt job.
+Produce	212	OSN	Sidste år tilbød mig han ikke et nyt job.
+Produce	212	ONS	Sidste år tilbød mig ikke han et nyt job.
+Produce	213	NOS	I går viste ikke han nogle klip mig fra filmen.
+Produce	213	NSO	I går viste ikke han mig nogle klip fra filmen.
+Produce	213	SNO	I går viste han ikke mig nogle klip fra filmen.
+Produce	213	SON	I går viste han mig ikke nogle klip fra filmen.
+Produce	213	OSN	I går viste mig han ikke nogle klip fra filmen.
+Produce	213	ONS	I går viste mig ikke han nogle klip fra filmen.
+Produce	214	NOS	I går gav ikke mig han frisk brød.
+Produce	214	NSO	I går gav ikke han mig frisk brød.
+Produce	214	SNO	I går gav han ikke mig frisk brød.
+Produce	214	SON	I går gav han mig ikke frisk brød.
+Produce	214	OSN	I går gav mig han ikke frisk brød.
+Produce	214	ONS	I går gav mig ikke han frisk brød.
+Produce	215	NOS	Sidste år sendte ikke mig han en invitation.
+Produce	215	NSO	Sidste år sendte ikke han mig en invitation.
+Produce	215	SNO	Sidste år sendte han ikke mig en invitation.
+Produce	215	SON	Sidste år sendte han mig ikke en invitation.
+Produce	215	OSN	Sidste år sendte mig han ikke en invitation.
+Produce	215	ONS	Sidste år sendte mig ikke han en invitation.
+Produce	216	NRS	I går barberet ikke sig politikeren med en barbermaskine.
+Produce	216	NSR	I går barberet ikke politikeren sig med en barbermaskine.
+Produce	216	SNR	I går barberet politikeren ikke sig med en barbermaskine.
+Produce	216	SRN	I går barberet politikeren sig ikke med en barbermaskine.
+Produce	216	RSN	I går barberet sig politikeren ikke med en barbermaskine.
+Produce	216	RNS	I går barberet sig ikke politikeren med en barbermaskine.
+Produce	217	NRS	I går følte ikke sig eleven træt efter skole.
+Produce	217	NSR	I går følte ikke eleven sig træt efter skole.
+Produce	217	SNR	I går følte eleven ikke sig træt efter skole.
+Produce	217	SRN	I går følte eleven sig ikke træt efter skole.
+Produce	217	RSN	I går følte sig eleven ikke træt efter skole.
+Produce	217	RNS	I går følte sig ikke eleven træt efter skole.
+Produce	218	NRS	I går vendte ikke sig skuespilleren mod publikum.
+Produce	218	NSR	I går vendte ikke skuespilleren sig mod publikum.
+Produce	218	SNR	I går vendte skuespilleren ikke sig mod publikum.
+Produce	218	SRN	I går vendte skuespilleren sig ikke mod publikum.
+Produce	218	RSN	I går vendte sig skuespilleren ikke mod publikum.
+Produce	218	RNS	I går vendte sig ikke skuespilleren mod publikum.
+Produce	219	NRS	I går satte ikke sig advokaten ved siden af læreren.
+Produce	219	NSR	I går satte ikke advokaten sig ved siden af læreren.
+Produce	219	SNR	I går satte advokaten ikke sig ved siden af læreren.
+Produce	219	SRN	I går satte advokaten sig ikke ved siden af læreren.
+Produce	219	RSN	I går satte sig advokaten ikke ved siden af læreren.
+Produce	219	RNS	I går satte sig ikke advokaten ved siden af læreren.
+Produce	220	NRS	I går vaskede ikke sig løberen efter løbet.
+Produce	220	NSR	I går vaskede ikke løberen sig efter løbet.
+Produce	220	SNR	I går vaskede løberen ikke sig efter løbet.
+Produce	220	SRN	I går vaskede løberen sig ikke efter løbet.
+Produce	220	RSN	I går vaskede sig løberen ikke efter løbet.
+Produce	220	RNS	I går vaskede sig ikke løberen efter løbet.
+Read	301		Studenten blev smidt ud af pubben af vagterne.
+Read	302		Hun blev smidt ud af pubben af vagterne.
+Read	303		Studenten blev smidt ud af vagterne i går.
+Read	304		Hun blev smidt ud af vagterne i går.
+Read	305		Vidnet blev vist ud af lokalet af sikkerhedsvagterne.
+Read	306		Hun blev vist ud af lokalet af sikkerhedsvagterne.
+Read	307		Vidnet blev vist ud af sikkerhedsvagterne.
+Read	308		Hun blev vist ud af sikkerhedsvagterne.
+Read	309		Maleriet blev taget ned fra væggen af stuepigen.
+Read	310		Det blev taget ned fra væggen af stuepigen.
+Read	311		Maleriet blev taget ned af stuepigen i går.
+Read	312		Det blev taget ned af stuepigen i går.
+Read	313		Plakaten blev hængt op på døren af læreren.
+Read	314		Den blev hængt op på døren af læreren.
+Read	315		Plakaten blev hængt op af læreren i går.
+Read	316		Den blev hængt op af læreren i går.
+Read	317		Siden blev fyldt ud af eleverne i går.
+Read	318		Den blev fyldt ud af eleverne i går.
+Read	319		Spørgsmålet blev taget op af regeringen sidste år.
+Read	320		Det blev taget op af regeringen sidste år.
+Read	321		Hospitalet blev købt op af en privat virksomhed sidste år.
+Read	322		Det blev købt op af en privat virksomhed sidste år.
+Read	323		Benzindækslet blev øjeblikkelig skruet af af chaufføren.
+Read	324		Det blev øjeblikkelig skruet af af chaufføren.
+Read	325		Bordet blev ryddet af efter maden af værterne.
+Read	326		Røverne blev ikke arresteret af politiet i går.
+Read	327		De blev ikke arrestert af politiet i går.
+Read	328		Han blev ikke afhørt af den unge politimand.
+Read	329		Jon blev ikke afhørt af den unge politimand. 
+Read	330		Hun blev ikke udpeget som leder af den nye direktør.
+Read	331		Kvinden blev ikke udpeget som leder af den nye direktør.
+Read	332		Han blev ikke forsvaret af kollegerne under mødet.
+Read	333		Hun blev ikke ramt af bolden.
+Read	334		Kritikeren blev ikke imponeret over den nye forestilling.
+Read	335		Han blev ikke overbevist af det nye argument.
+Read	336		Han blev ikke kritiseret af journalisten for udsagnet.
+Produce	301	OP	Vagterne smed studenten ud af pubben.
+Produce	302	OP	Vagterne smed hende ud af pubben.
+Produce	303	OP	Vagterne smed studenten ud i går.
+Produce	304	OP	Vagterne smed hende ud i går.
+Produce	305	OP	Sikkerhedsvagterne viste vidnet ud af lokalet.
+Produce	306	OP	Sikkerhedsvagterne viste hende ud af lokalet.
+Produce	307	OP	Sikkerhedsvagterne viste vidnet ud.
+Produce	308	OP	Sikkerhedsvagterne viste hende ud.
+Produce	309	OP	Stuepigen tog maleriet ned fra væggen.
+Produce	310	OP	Stuepigen tog det ned fra væggen.
+Produce	311	OP	Stuepigen tog maleriet ned i går.
+Produce	312	OP	Stuepigen tog det ned i går.
+Produce	313	OP	Læreren hængte plakaten op på døren.
+Produce	314	OP	Læreren hængte den op på døren.
+Produce	315	OP	Læreren hængte plakaten op i går.
+Produce	316	OP	Læreren hængte den op i går.
+Produce	317	OP	Eleverne fyldte siden ud i går.
+Produce	318	OP	Eleverne fyldte den ud i går.
+Produce	319	OP	Regeringen tog spørgsmålet op sidste år.
+Produce	320	OP	Regeringen tog det op sidste år.
+Produce	321	OP	En privat virksomhed købte hospitalet op sidste år.
+Produce	322	OP	En privat virksomhed købte det op sidste år.
+Produce	323	OP	Chaufføren skruede benzindækslet øjeblikkelig af.
+Produce	324	OP	Chaufføren skruede det øjeblikkelig af.
+Produce	325	OP	Værterne ryddede bordet af efter maden.
+Produce	326	ON	Politiet arresterede røverne ikke i går.
+Produce	327	ON	Politiet arresterede dem ikke i går.
+Produce	328	ON	Den unge politimand afhørte ham ikke.
+Produce	329	ON	Den unge politimand afhørte Jon ikke.
+Produce	330	ON	Den nye direktør udpegede hende ikke som leder.
+Produce	331	ON	Den nye direktør udpegede kvinden ikke som leder.
+Produce	332	ON	Kollegerne forsvarede ham ikke under mødet.
+Produce	333	ON	Bolden ramte hende ikke.
+Produce	334	ON	Den nye forestilling imponerte kritikeren ikke.
+Produce	335	ON	Det nye argument overbeviste ham ikke.
+Produce	336	ON	Journalisten kritiserede ham ikke for udsagnet.
+Produce	301	PO	Vagterne smed ud studenten af pubben.
+Produce	302	PO	Vagterne smed ud hende af pubben.
+Produce	303	PO	Vagterne smed ud studenten i går.
+Produce	304	PO	Vagterne smed ud hende i går.
+Produce	305	PO	Sikkerhedsvagterne viste ud vidnet af lokalet.
+Produce	306	PO	Sikkerhedsvagterne viste ud hende af lokalet.
+Produce	307	PO	Sikkerhedsvagterne viste ud vidnet.
+Produce	308	PO	Sikkerhedsvagterne viste ud hende.
+Produce	309	PO	Stuepigen tog ned maleriet fra væggen.
+Produce	310	PO	Stuepigen tog ned det fra væggen.
+Produce	311	PO	Stuepigen tog ned maleriet i går.
+Produce	312	PO	Stuepigen tog ned det i går.
+Produce	313	PO	Læreren hængte op plakaten på døren.
+Produce	314	PO	Læreren hængte op den på døren.
+Produce	315	PO	Læreren hængte op plakaten i går.
+Produce	316	PO	Læreren hængte op den i går.
+Produce	317	PO	Eleverne fyldte ud siden i går.
+Produce	318	PO	Eleverne fyldte ud den i går.
+Produce	319	PO	Regeringen tog op spørgsmålet sidste år.
+Produce	320	PO	Regeringen tog op det sidste år.
+Produce	321	PO	En privat virksomhed købte op hospitalet sidste år.
+Produce	322	PO	En privat virksomhed købte op det sidste år.
+Produce	323	PO	Chaufføren skruede af benzindækslet øjeblikkelig.
+Produce	324	PO	Chaufføren skruede af det øjeblikkelig.
+Produce	325	PO	Værterne ryddede af bordet efter maden.
+Produce	326	NO	Politiet arresterede ikke røverne i går.
+Produce	327	NO	Politiet arresterede ikke dem i går.
+Produce	328	NO	Den unge politimand afhørte ikke ham.
+Produce	329	NO	Den unge politimand afhørte ikke Jon.
+Produce	330	NO	Den nye direktør udpegede ikke hende som leder.
+Produce	331	NO	Den nye direktør udpegede ikke kvinden som leder.
+Produce	332	NO	Kollegerne forsvarede ikke ham under mødet.
+Produce	333	NO	Bolden ramte ikke hende.
+Produce	334	NO	Den nye forestilling imponerte ikke kritikeren.
+Produce	335	NO	Det nye argument overbeviste ikke ham.
+Produce	336	NO	Journalisten kritiserede ikke ham for udsagnet.

@@ -1,0 +1,81 @@
+UniqueNumb	item	subitem	name	Main1	Emb1	cond11	cond12	adv1
+101	a	1	Mads	Jeg sætter mig ofte bagerst i bussen.	Mads siger, at...	Bridge	Reflexive	ofte
+103	a	2	Anna	Jeg sminker mig aldrig på hverdage.	Anna siger, at...	Bridge	Reflexive	aldrig
+105	a	3	Mads	Jeg barberer mig altid om morgenen.	Mads siger, at...	Bridge	Reflexive	altid
+107	a	4	Mads	Jeg kører ofte bil til arbejde.	Mads siger, at...	Bridge	NonReflexive	ofte
+109	a	5	Oscar	Jeg kommer aldrig for sent på arbejde.	Oscar siger, at...	Bridge	NonReflexive	aldrig
+111	a	6	Mads	Jeg lytter altid til radioen i bilen.	Mads siger, at...	Bridge	NonReflexive	altid
+203	a	8	Oscar	Jeg lægger mig ofte til at sove inden midnat.	Oscar er stolt af, at...	Non-Bridge	Reflexive	ofte
+205	a	9	Mads	Jeg opfører mig altid ordentligt i skolen.	Mads er stolt af, at...	Non-Bridge	Reflexive	altid
+307	a	16	Oscar	Cykler Mads altid til arbejde?	Oscar spurgte, om...	VtoI	NonReflexive	altid
+311	a	18	Oscar	Går Anna aldrig ud om lørdagen?	Oscar spurgte, om...	VtoI	NonReflexive	aldrig
+102	1	b	Anna	Jeg sætter mig ofte bagerst i bussen.	Anna siger, at...	Bridge	Reflexive	ofte
+104	2	b	Ellen	Jeg sminker mig aldrig på hverdage.	Ellen siger, at...	Bridge	Reflexive	aldrig
+106	3	b	Oscar	Jeg barberer mig altid om morgenen.	Oscar siger, at...	Bridge	Reflexive	altid
+108	4	b	Anna	Jeg kører ofte bil til arbejde.	Anna siger, at...	Bridge	NonReflexive	ofte
+110	5	b	Ellen	Jeg kommer aldrig for sent på arbejde.	Ellen siger, at...	Bridge	NonReflexive	aldrig
+112	6	b	Anna	Jeg lytter altid til radioen i bilen.	Anna siger, at...	Bridge	NonReflexive	altid
+204	8	b	Ellen	Jeg lægger mig ofte til at sove inden midnat.	Ellen er stolt af, at...	Non-Bridge	Reflexive	ofte
+212	12	b	Ellen	Jeg kommer aldrig for sent i skole.	Ellen er stolt af, at...	Non-Bridge	NonReflexive	aldrig
+302	13	b	Anna	Sætter Oscar sig altid forrest i klassen?	Anna spurgte, om...	VtoI	Reflexive	altid
+312	18	b	Ellen	Går Anna aldrig ud om lørdagen?	Ellen spurgte, om...	VtoI	NonReflexive	aldrig
+403	a	20	Oscar	Hvor mange elever kom til forelæsningen?	Oscar ville vide ...	EmbSubQ	NonReflexive	none
+407	a	22	Oscar	Hvilke bands spillede på festivalen i weekenden?	Oscar spurgte, ...	EmbSubQ	NonReflexive	none
+409	a	23	Mads	Hvor mange elever er der på den skole?	Mads spurgte, ...	EmbSubQ	NonReflexive	none
+505	a	27	Mads	Hvor mange fisk fik Elias?	Mads spurgte, ...	EmbObQ	NonReflexive	none
+507	a	28	Oscar	Hvilke film så Mads i går?	Oscar spurgte, ...	EmbObQ	NonReflexive	none
+509	a	29	Mads	Hvilken slags fugl var det?	Mads spurgte, ...	EmbObQ	NonReflexive	none
+601	a	31	Mads	Jeg har glemt mine nøgler derhjemme.	Mads er sikker på, at...	FillerDecl	NonReflexive	none
+603	a	32	Oscar	Mads har været syg hele ugen.	Oscar er sikker på, at...	FillerDecl	NonReflexive	none
+605	a	33	Mads	Turen i morgen er aflyst.	Mads er sikker på, at ...	FillerDecl	NonReflexive	none
+607	a	34	Oscar	Tyskland er større end Frankrig.	Oscar tror, at...	FillerDecl	NonReflexive	none
+404	20	b	Ellen	Hvor mange elever kom til forelæsningen?	Ellen ville vide ...	EmbSubQ	NonReflexive	none
+408	22	b	Ellen	Hvilke bands spillede på festivalen i weekenden?	Ellen spurgte, ...	EmbSubQ	NonReflexive	none
+410	23	b	Anna	Hvor mange elever er der på den skole?	Anna spurgte, ...	EmbSubQ	NonReflexive	none
+506	27	b	Anna	Hvor mange fisk fik Elias?	Mads spurgte, ...	EmbObQ	NonReflexive	none
+508	28	b	Ellen	Hvilke film så Mads i går?	Ellen spurgte, ...	EmbObQ	NonReflexive	none
+510	29	b	Anna	Hvilken slags fugl var det?	Anna spurgte, ...	EmbObQ	NonReflexive	none
+602	31	b	Anna	Jeg har glemt mine nøgler derhjemme.	Anna er sikker på, at...	FillerDecl	NonReflexive	none
+608	34	b	Ellen	Tyskland er større end Frankrig.	Ellen tror, at...	FillerDecl	NonReflexive	none
+610	35	b	Anna	Månen er lavet af ost.	Anna tror, at...	FillerDecl	NonReflexive	none
+612	36	b	Ellen	Det har været mange turister på Bornholm i sommer.	Ellen tror, at...	FillerDecl	NonReflexive	none
+801	50	a	Ellen:	Ellen hævder, at et glas vin om dagen mere end halverer risikoen for hjerteanfald.	...	V3	none	mer enn
+811	51	a	Mads:	Mads hævder, at et glas vin om dagen unægtelig halverer risikoen for hjerteanfald.	...	V2	none	unektelig
+803	52	a	Ellen:	Ellen sagde, at hun simpelthen elsker chokolade.	...	V3	none	simpelthen
+813	53	a	Ellen:	Ellen sagde, at hun normalt hader spegesild. 	...	V2	none	vanligvis
+805	53	a	Mads:	Mads sagde, at Danmark heldigvis knuste Norge i finalen.	...	V2	none	heldigvis
+815	54	a	Ellen:	Ellen sagde, at FC København bogstaveligt talt ødelagde Randers i udekampen.	...	V3	none	bokstavelig talt
+807	55	a	Ellen:	Ellen sagde, at hun næsten græd af glæde der Danmark scorede.	...	V3	none	nesten
+817	56	a	Mads:	Mads sagde, at han næsten havde alt rigtig til prøven.	...	V2	none	nesten
+651	31	c	Mads:	Mads sagde, at han havde glemt sine nøgler derhjemme.	...	FillerDecl	NonReflexive	none
+653	32	c	Oscar:	Oscar hævder, at Mads har været syg hele ugen.	...	FillerDecl	NonReflexive	none
+802	50	b	Mads:	Mads siger, at en øl om dagen mere end fordobler risikoen for hjerteanfald.	...	V3	none	mer enn
+812	51	b	Ellen:	Ellen siger, at en øl om dagen desværre fordobler risikoen for hjerteanfald.	...	V2	none	dessverre
+804	52	b	Mads:	Mads sagde, at han simpelthen elsker marcipan.	...	V3	none	simpelthen
+814	53	b	Mads:	Mads sagde, at han normalt hader lakrids.	...	V2	none	vanligvis
+806	53	b	Mads:	Mads sagde, at Danmark bogstaveligt talt knuste Norge i finalen.	...	V3	none	bokstavelig talt
+816	54	b	Ellen:	Ellen sagde, at Brøndby desværre ødelagde Randers i hjemmekampen.	...	V2	none	dessverre
+808	55	b	Mads:	Mads sagde, at han næsten hylede af glæde efter kampen.	...	V3	none	nesten
+818	56	b	Ellen:	Ellen sagde, at hun næsten havde alt rigtig til prøven.	...	V2	none	nesten
+652	31	c	Anna:	Anna sagde, at hun havde glemt sine nøgler derhjemme.	...	FillerDecl	NonReflexive	none
+654	32	c	Oscar:	Oscar hævder, at Anna har været syg hele ugen.	...	FillerDecl	NonReflexive	none
+701	40	a	Jonas:	Jonas spurgte, hvem der lavede maden.	...	SubQshort	1	none
+703	41	a	Anna:	Anna spurgte, hvad der blev sagt til mødet.	...	SubQshort	1	none
+711	42	a	Jonas:	Jonas spurgte, hvor mange hold der deltog i turneringen.	...	SubQlong	1	none
+713	43	a	Ellen:	Ellen spurgte, hvilke bøger der var spændende.	...	SubQlong	1	none
+715	44	a	Jonas:	Jonas spurgte, hvad hun arbejdede på.	...	ObjQshort	1	none
+657	89	c	Oscar:	Oscar hævder, at Tyskland er større end Frankrig.	...	FillerDecl	NonReflexive	none
+753	45	a	Ellen:	Ellen spurgte, hvem Anna går i klasse med.	...	ObjQshort	1	none
+751	46	a	Jonas:	Jonas spurgte, hvornår Elias flyttede til Oslo.	...	ObjQlong	1	none
+755	47	a	Ellen:	Ellen spurgte, hvordan han gjorde det. 	...	ObjQlong	1	none
+659	88	c	Mads:	Mads hævder, at turen i morgen er aflyst.	...	FillerDecl	NonReflexive	none
+702	40	b	Ellen:	Ellen spurgte, hvem der lavede maden.	...	SubQshort	2	none
+704	41	b	Mads:	Mads spurgte, hvad der blev sagt til mødet.	...	SubQshort	2	none
+712	42	b	Eirik:	Eirik spurgte, hvor mange hold der deltog i turneringen.	...	SubQlong	2	none
+714	43	b	Anna:	Anna spurgte, hvilke bøger der var spændende.	...	SubQlong	2	none
+655	88	c	Mads:	Mads hævder, at turen i morgen er aflyst.	...	FillerDecl	NonReflexive	none
+656	88	c	Mads:	Oscar hævder, at månen er lavet af ost.	...	FillerDecl	NonReflexive	none
+752	44	b	Ellen:	Ellen spurgte, hvad han arbejdede på.	...	ObjQshort	2	none
+754	45	b	Anna:	Anna spurgte, hvem Ellen går i klasse med.	...	ObjQshort	2	none
+756	46	b	Oscar:	Oscar spurgte, hvornår Mads flyttede til Oslo.	...	ObjQlong	2	none
+758	47	a	Ellen:	Ellen spurgte, hvordan han gjorde det. 	...	ObjQlong	1	none
