@@ -1,0 +1,73 @@
+number	item	subitem	name	Main1	Emb1	cond11	cond12	adv1			
+101	1	a	Pål	Jeg setter meg ofte lengst bak i bussen.	Pål sier at...	Bridge	Reflexive	ofte			
+102	1	b	Anne	Jeg setter meg ofte lengst bak i bussen.	Anne sier at...	Bridge	Reflexive	ofte			
+103	2	a	Anne	Jeg sminker meg aldri på hverdager.	Anne sier at...	Bridge	Reflexive	aldri			
+104	2	b	Marit	Jeg sminker meg aldri på hverdager.	Marit sier at...	Bridge	Reflexive	aldri			
+105	3	a	Pål	Jeg barberer meg alltid om morgenen.	Pål sier at...	Bridge	Reflexive	alltid			
+106	3	b	Ole	Jeg barberer meg alltid om morgenen.	Ole sier at...	Bridge	Reflexive	alltid			
+107	4	a	Pål	Jeg kjører ofte bil til jobb.	Pål sier at...	Bridge	NonReflexive	ofte			
+108	4	b	Anne	Jeg kjører ofte bil til jobb.	Anne sier at...	Bridge	NonReflexive	ofte			
+109	5	a	Ole	Jeg kommer aldri for sent på jobb.	Ole sier at...	Bridge	NonReflexive	aldri			
+110	5	b	Marit	Jeg kommer aldri for sent på jobb.	Marit sier at...	Bridge	NonReflexive	aldri			
+111	6	a	Pål	Jeg hører alltid på radio i bilen.	Pål sier at...	Bridge	NonReflexive	alltid			
+112	6	b	Anne	Jeg hører alltid på radio i bilen.	Anne sier at...	Bridge	NonReflexive	alltid			
+201	7	a	Pål	Jeg bekymrer meg aldri for småting.	Pål er stolt av at...	Non-Bridge	Reflexive	aldri			
+202	7	b	Anne	Jeg bekymrer meg aldri for småting.	Anne er stolt av at...	Non-Bridge	Reflexive	aldri			
+203	8	a	Ole	Jeg legger meg ofte innen midnatt.	Ole er stolt av at...	Non-Bridge	Reflexive	ofte			
+204	8	b	Marit	Jeg legger meg ofte innen midnatt.	Marit er stolt av at...	Non-Bridge	Reflexive	ofte			
+205	9	a	Pål	Jeg oppfører meg alltid bra på skolen.	Pål er stolt av at...	Non-Bridge	Reflexive	alltid			
+206	9	b	Anne	Jeg oppfører meg alltid bra på skolen.	Anne er stolt av at...	Non-Bridge	Reflexive	alltid			
+207	10	a	Ole	Jeg får ofte alt rett på prøver.	Ole er stolt av at...	Non-Bridge	NonReflexive	ofte			
+208	10	b	Marit	Jeg får ofte alt rett på prøver.	Marit er stolt av at...	Non-Bridge	NonReflexive	ofte			
+209	11	a	Pål	Jeg sykler alltid til jobb.	Pål er stolt av at...	Non-Bridge	NonReflexive	alltid			
+210	11	b	Anne	Jeg sykler alltid til jobb.	Anne er stolt av at...	Non-Bridge	NonReflexive	alltid			
+211	12	a	Ole	Jeg kommer aldri for seint på skolen.	Ole er stolt av at...	Non-Bridge	NonReflexive	aldri			
+212	12	b	Marit	Jeg kommer aldri for seint på skolen.	Marit er stolt av at...	Non-Bridge	NonReflexive	aldri			
+301	13	a	Pål	Setter Ole seg alltid fremst i klasserommet?	Pål spurte om...	VtoI	Reflexive	alltid			
+302	13	b	Anne	Setter Ole seg alltid fremst i klasserommet?	Anne spurte om...	VtoI	Reflexive	alltid			
+303	14	a	Ole	Føler Pål seg ofte alene på skolen?	Ole spurte om...	VtoI	Reflexive	ofte			
+304	14	b	Marit	Føler Pål seg ofte alene på skolen?	Marit spurte om...	VtoI	Reflexive	ofte			
+305	15	a	Pål	Barberer Ole seg aldri om morgenen?	Pål spurte om...	VtoI	Reflexive	aldri			
+306	15	b	Anne	Barberer Ole seg aldri om morgenen?	Anne spurte om...	VtoI	Reflexive	aldri			
+307	16	a	Ole	Sykler Pål alltid til jobb?	Ole spurte om...	VtoI	NonReflexive	alltid			
+308	16	b	Marit	Sykler Pål alltid til jobb?	Marit spurte om...	VtoI	NonReflexive	alltid			
+309	17	a	Pål	Kommer Marit ofte for sent på skolen?	Pål spurte om...	VtoI	NonReflexive	ofte			
+310	17	b	Anne	Kommer Marit ofte for sent på skolen?	Anne spurte om...	VtoI	NonReflexive	ofte			
+311	18	a	Ole	Drar Anne aldri ut på lørdager?	Ole spurte om...	VtoI	NonReflexive	aldri			
+312	18	b	Marit	Drar Anne aldri ut på lørdager?	Marit spurte om...	VtoI	NonReflexive	aldri			
+401	19	a	Pål	Hvem var på festen i går kveld?	Pål ville vite...	EmbSubQ	NonReflexive	none			
+402	19	b	Anne	Hvem var på festen i går kveld?	Anne ville vite...	EmbSubQ	NonReflexive	none			
+403	20	a	Ole	Hvor mange elever kom i tide til forelesningen?	Ole ville vite...	EmbSubQ	NonReflexive	none			
+404	20	b	Marit	Hvor mange elever kom i tide til forelesningen?	Marit ville vite...	EmbSubQ	NonReflexive	none			
+405	21	a	Pål	Hvem vant kampen i går?	Pål ville vite...	EmbSubQ	NonReflexive	none			
+406	21	b	Anne	Hvem vant kampen i går?	Anne ville vite...	EmbSubQ	NonReflexive	none			
+407	22	a	Ole	Hva slags band spilte på festivalen i helgen?	Ole spurte...	EmbSubQ	NonReflexive	none			
+408	22	b	Marit	Hva slags band spilte på festivalen i helgen?	Marit spurte...	EmbSubQ	NonReflexive	none			
+409	23	a	Pål	Hvor mange elever er det på denne skolen?	Pål spurte...	EmbSubQ	NonReflexive	none			
+410	23	b	Anne	Hvor mange elever er det på denne skolen?	Anne spurte...	EmbSubQ	NonReflexive	none			
+411	24	a	Ole	Hvem har gjort det?	Ole spurte...	EmbSubQ	NonReflexive	none			
+412	24	b	Marit	Hvem har gjort det?	Marit spurte...	EmbSubQ	NonReflexive	none			
+501	25	a	Pål	Hva kjøpte Marit i butikken?	Pål spurte...	EmbObQ	NonReflexive	none			
+502	25	b	Anne	Hva kjøpte Marit i butikken?	Anne spurte...	EmbObQ	NonReflexive	none			
+503	26	a	Ole	Når kom Anne hjem i går?	Ole spurte...	EmbObQ	NonReflexive	none			
+504	26	b	Marit	Når kom Anne hjem i går?	Marit spurte...	EmbObQ	NonReflexive	none			
+505	27	a	Pål	Hvor mange fisker fikk Einar?	Pål spurte...	EmbObQ	NonReflexive	none			
+506	27	b	Anne	Hvor mange fisker fikk Einar?	Pål spurte...	EmbObQ	NonReflexive	none			
+507	28	a	Ole	Hvilke filmer så Pål i går?	Ole spurte...	EmbObQ	NonReflexive	none			
+508	28	b	Marit	Hvilke filmer så Pål i går?	Marit spurte...	EmbObQ	NonReflexive	none			
+509	29	a	Pål	Hva slags fugl var det?	Pål spurte...	EmbObQ	NonReflexive	none			
+510	29	b	Anne	Hva slags fugl var det?	Anne spurte...	EmbObQ	NonReflexive	none			
+511	30	a	Ole	Hvor skal Anne på ferie?	Ole spurte...	EmbObQ	NonReflexive	none			
+512	30	b	Marit	Hvor skal Anne på ferie?	Marit spurte...	EmbObQ	NonReflexive	none			
+601	31	a	Pål	Jeg har glemt nøklene mine hjemme.	Pål er sikker på at...	FillerDecl	NonReflexive	none			
+602	31	b	Anne	Jeg har glemt nøklene mine hjemme.	Anne er sikker på at...	FillerDecl	NonReflexive	none			
+603	32	a	Ole	Pål har vært syk hele uken.	Ole er sikker på at...	FillerDecl	NonReflexive	none			
+604	32	b	Marit	Pål har vært syk hele uken.	Marit er sikker på at...	FillerDecl	NonReflexive	none			
+605	33	a	Pål	Turen i morgen er avlyst.	Pål er sikker på at ...	FillerDecl	NonReflexive	none			
+606	33	b	Anne	Turen i morgen er avlyst.	Anne er sikker på at...	FillerDecl	NonReflexive	none			
+607	34	a	Ole	Tyskland er større enn Frankrike.	Ole tror at...	FillerDecl	NonReflexive	none			
+608	34	b	Marit	Tyskland er større enn Frankrike.	Marit tror at...	FillerDecl	NonReflexive	none			
+609	35	a	Pål	Månen er laget av ost.	Pål tror at...	FillerDecl	NonReflexive	none			
+610	35	b	Anne	Månen er laget av ost.	Anne tror at...	FillerDecl	NonReflexive	none			
+611	36	a	Ole	Det har vært mange turister i Lofoten i sommer.	Ole tror at...	FillerDecl	NonReflexive	none			
+612	36	b	Marit	Det har vært mange turister i Lofoten i sommer.	Marit tror at...	FillerDecl	NonReflexive	none			

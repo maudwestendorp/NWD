@@ -1,0 +1,69 @@
+number	name	read	Emb1	cond11	cond12	adv1
+102	Anne	Jeg setter meg ofte fremst på forelesningen.	Anne sier at...	Bridge	Reflexive	ofte
+104	Marit	Jeg kjeder meg bestandig i mattetimen.	Marit sier at...	Bridge	Reflexive	alltid
+108	Anne	Jeg kjører ikke bil til jobb.	Anne sier at...	Bridge	NonReflexive	ikke
+110	Marit	Jeg går aldri på ski til skolen.	Marit sier at...	Bridge	NonReflexive	aldri
+112	Anne	Jeg går alltid på kino på fredager.	Anne sier at...	Bridge	NonReflexive	alltid
+204	Marit	Jeg legger meg ofte innen midnatt.	Marit er stolt av at...	Non-Bridge	Reflexive	ofte
+212	Marit	Jeg kommer aldri for sent på skolen.	Marit er stolt av at...	Non-Bridge	NonReflexive	aldri
+302	Anne	Snør det ofte i Tromsø?	Anne spurte om...	VtoI	Reflexive	ofte
+312	Marit	Ventet Anne på en venninne etter norsktimen?	Marit spurte om...	FillQ	NonReflexive	none
+101	Pål	Jeg setter meg ofte lengst bak i bussen.	Pål sier at...	Bridge	Reflexive	ofte
+103	Anne	Jeg sminker meg ikke på hverdager.	Anne sier at...	Bridge	Reflexive	ikke
+107	Pål	Jeg kjører ofte bil til jobb.	Pål sier at...	Bridge	NonReflexive	ofte
+109	Ole	Jeg kommer aldri for sent på jobb.	Ole sier at...	Bridge	NonReflexive	aldri
+111	Pål	Jeg drikker bestandig en flaske vann til maten.	Pål sier at...	Bridge	NonReflexive	alltid
+502	Anne	Hva kjøpte Marit i butikken?	Anne spurte...	EmbObQ	NonReflexive	none
+205	Pål	Jeg oppfører meg alltid bra på skolen.	Pål er stolt av at...	Non-Bridge	Reflexive	alltid
+307	Ole	Sendte Anne en melding til venninnen sin i går?	Ole spurte om...	FillQ	NonReflexive	none
+311	Ole	Går Marit bestandig i kirken på søndager?	Ole spurte om...	VtoI	NonReflexive	alltid
+801	Pål:	Pål sa at skolen heldigvis halverte sykefraværet i fjor.	...	V3	none	mer enn
+803	Marit:	Marit sa at hun rett og slett elsker sjokolade.	...	V3	none	simpelthen
+813	Marit:	Marit sa at hun vanligvis hater lutefisk. 	...	V2	none	vanligvis
+805	Pål:	Pål sa at Norge heldigvis gruset Danmark i finalen.	...	V2	none	heldigvis
+815	Marit:	Marit sa at TIL bokstavelig talt knuste Rosenborg i bortekampen.	...	V3	none	bokstavelig talt
+807	Marit:	Marit sa at hun nesten gråt av glede da TIL scoret.	...	V3	none	nesten
+817	Pål:	Pål sa at han nesten fikk alt rett på matteprøven.	...	V2	none	nesten
+651	Pål:	Pål sa at han hadde glemt nøklene sine hjemme.	...	FillerDecl	NonReflexive	none
+802	Pål:	Pål sa at skolen mer enn halverte sykefraværet i fjor.	...	V3	none	mer enn
+804	Pål:	Pål sa at han rett og slett elsker marsipan.	...	V3	none	simpelthen
+814	Pål:	Pål sa at han vanligvis hater kjøttkaker.	...	V2	none	vanligvis
+806	Pål:	Pål sa at Norge bokstavelig talt gruset Danmark i finalen.	...	V3	none	bokstavelig talt
+816	Marit:	Marit sa at Rosenborg dessverre knuste TIL i hjemmekampen.	...	V2	none	dessverre
+808	Pål:	Pål sa at han nesten hylte av glede etter kampen.	...	V3	none	nesten
+818	Marit:	Marit sa at hun nesten fikk alt rett på kjemiprøven.	...	V2	none	nesten
+651	Pål:	Pål sa at han hadde glemt klokken sin hjemme.	...	FillerDecl	NonReflexive	none
+404	Marit	Hvor mange kunder kjøpte en ny skjorte?	Marit ville vite...	EmbSubQ	NonReflexive	none
+408	Marit	Når kjøpte Pål leiligheten sin?	Marit spurte...	EmbObQ	NonReflexive	none
+506	Anne	Hvem kom på festen i går?	Anne spurte...	EmbSubQ	NonReflexive	none
+508	Marit	Hvilken hund likte Pål best?	Marit ville vite...	EmbObQ	NonReflexive	none
+510	Anne	Hva slags fugl var det?	Anne spurte...	EmbObQ	NonReflexive	none
+602	Anne	Jeg har glemt nøklene mine hjemme.	Anne er sikker på at...	FillerDecl	NonReflexive	none
+608	Marit	Jeg liker fiskekaker bedre enn kjøttkaker.	Marit sa at...	FillerDecl	NonReflexive	none
+610	Anne	Jeg har glemt vesken min på bussen.	Anne er sikker på at...	FillerDecl	NonReflexive	none
+612	Marit	Jeg kjøpte en ny klokke i går. 	Marit sa at...	FillerDecl	NonReflexive	none
+403	Ole	Hvor mye snø kom det i går?	Ole ville vite...	EmbObQ	NonReflexive	none
+407	Ole	Hva slags band spilte på festivalen i helgen?	Ole spurte...	EmbSubQ	NonReflexive	none
+505	Pål	Når åpnet den nye spillbutikken i Tromsø?	Pål ville vite...	EmbObQ	NonReflexive	none
+507	Ole	Hvor mange kunder kjøpte en ny kjole?	Ole spurte...	EmbSubQ	NonReflexive	none
+509	Pål	Hvordan var treningen i går?	Pål spurte...	EmbObQ	NonReflexive	none
+601	Pål	Jeg fant vottene mine under sengen.	Pål sa at...	FillerDecl	NonReflexive	none
+603	Ole	Jeg ble bitt i hånden av en katt.	Ole sa at...	FillerDecl	NonReflexive	none
+605	Pål	Jeg skjøt ballen rett i mål.	Pål sa at ...	FillerDecl	NonReflexive	none
+607	Ole	En rotte er større enn en mus.	Ole er sikker på at...	FillerDecl	NonReflexive	none
+701	Jonas:	Jonas spurte om hvem som laget maten.	...	SubQshort	1	none
+703	Anne:	Anne spurte om hva som ble sagt i møtet.	...	SubQshort	1	none
+711	Jonas:	Jonas spurte om hvor mange lag som deltok i turneringen.	...	SubQlong	1	none
+713	Marit:	Marit spurte om hvilke bøker som var spennende.	...	SubQlong	1	none
+801	Jonas:	Jonas spurte om hva hun jobbet med.	...	ObjQshort	1	none
+803	Marit:	Marit spurte om hvem Anne er sammen med.	...	ObjQshort	1	none
+811	Jonas:	Jonas spurte om når Eirik flyttet til Oslo.	...	ObjQlong	1	none
+813	Marit:	Marit spurte om hvordan han gjorde det. 	...	ObjQlong	1	none
+702	Marit:	Marit spurte om hvem som laget maten.	...	SubQshort	2	none
+704	Pål:	Pål spurte om hva som ble sagt i møtet.	...	SubQshort	2	none
+712	Eirik:	Eirik spurte om hvor mange lag som deltok i turneringen.	...	SubQlong	2	none
+714	Anne:	Anne spurte om hvilke bøker som var spennende.	...	SubQlong	2	none
+655	Marit:	Marit spurte om hvordan han gjorde det. 	...	ObjQlong	1	none
+813	Marit:	Marit spurte om hva han jobbet med.	...	ObjQshort	2	none
+802	Anne:	Anne spurte om hvem Marit er sammen med.	...	ObjQshort	2	none
+804	Eirik:	Eirik spurte om når Pål flyttet til Tromsø.	...	ObjQlong	2	none

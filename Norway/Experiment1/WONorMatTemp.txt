@@ -1,0 +1,93 @@
+read1	invert1	cond1	nr1	arg1
+Læreren skyndte seg hjem fra jobb i går. 	I går....	refl	101	NP
+Han skyndte seg hjem fra jobb i går. 	I går....	refl	102	PRO
+Skuespilleren snudde seg plutselig mot publikum.	Plutselig...	refl	103	NP
+Hun snudde seg plutselig mot publikum.	Plutselig...	refl	104	PRO
+Bakeren vasket seg rett etter jobb i går.	I går...	refl	105	NP
+Han vasket seg rett etter jobb i går.	I går...	refl	106	PRO
+Politimannen satte seg i den andre bilen etter møtet.	Etter møtet...	refl	107	NP
+Hun satte seg i den andre bilen etter møtet.	Etter møtet...	refl	108	PRO
+Advokaten barberte seg før jobb hver dag.	Hver dag...	refl	109	NP
+Han barberte seg før jobb hver dag.	Hver dag...	refl	110	PRO
+Læreren ga meg en ny bok i går.	I går...	los	111	NP
+Bakeren ga meg ferskt brød hver dag.	Hver dag...	los	112	NP
+Advokaten tilbød meg en ny stilling i forrige uke.	I forrige uke...	los	113	NP
+Skuespilleren sendte meg lange brev hver dag.	Hver dag...	los	114	NP
+Politimannen viste meg et bilde av bilen etter møtet.	Etter møtet...	los	115	NP
+Læreren tok ikke bussen til jobb i går.	I går...	SS	116	NP
+Hun tok ikke bussen til jobb i går.	I går...	SS	117	PRO
+Politimannen ventet ikke på kollegaen sin i går.	I går...	SS	118	NP
+Han ventet ikke på kollegaen sin i går.	I går...	SS	119	PRO
+Bakeren kom ikke for sent hver dag i forrige uke.	I forrige uke...	SS	120	NP
+Han kom ikke for sent hver dag i forrige uke.	I forrige uke...	SS	121	PRO
+Studenten dro ikke hjem til foreldrene i fjor.	I fjor...	SS	122	NP
+Hun dro ikke hjem til foreldrene i fjor.	I fjor...	SS	123	PRO
+Advokaten fant ikke nøklene til kontoret i går.	I går...	SS	124	NP
+Han fant ikke nøklene til kontoret i går.	I går...	SS	125	PRO
+Den nye studenten ryddet opp på kjøkkenet i går.	I går...	Part	126	NP
+Han ryddet opp på kjøkkenet i går.	I går...	Part	127	PRO
+Den beste løperen ga opp under siste runde i fjor.	I fjor...	Part	128	NP
+Han ga opp under siste runde i fjor.	I fjor...	Part	129	PRO
+Den unge politimannen brøt sammen under avhøret i går.	I går...	Part	130	NP
+Han brøt sammen under avhøret i går.	I går...	Part	131	NP
+Den unge skuespilleren stilte opp for kollegaen sin i går.	I går...	Part	132	NP
+Han stilte opp for kollegaen sin i går.	I går...	Part	133	PRO
+Den nye studenten gikk ut på byen i går.	I går...	Part	134	NP
+Tre malerier datt ned i den store salen i går.	I går...	Part	135	NP
+To hus brant ned i Oslo i går.	I går...	Part	136	NP
+Studenten kommer til å gå ut på byen hver kveld.	I fjor gikk...	Part	201	NP
+Han kommer til å gå ut på byen hver kveld.	I fjor gikk...	Part	202	PRO
+Løperen kommer til å gi opp under siste runde.	I fjor ga...	Part	203	NP
+Han kommer til å gi opp under siste runde.	I fjor ga...	Part	204	PRO
+Politimannen kommer til å bryte  sammen under avhøret.	I går brøt...	Part	205	NP
+Han kommer til å bryte sammen under avhøret.	I går brøt...	Part	206	PRO
+Skuespilleren kommer til å stille opp for kollegaene sine.	I går stilte…	Part	207	NP
+Han kommer til å stille opp for kollegaene sine.	I går stilte…	Part	208	PRO
+Den nye studenten kommer til å rydde opp på kjøkkenet.	I går ryddet...	Part	209	NP
+Han kommer til å rydde opp på kjøkkenet.	I går ryddet...	Part	210	PRO
+Hun kommer ikke til å hjelpe meg med leksene.	I går hjalp...	OS	211	PRO
+Han kommer ikke til å tilby meg en ny jobb.	I fjor tilbød...	OS	212	PRO
+Han kommer ikke til å vise meg noen klipp fra filmen.	I går viste...	OS	213	PRO
+Han kommer ikke til å gi meg ferskt brød.	I går ga...	OS	214	PRO
+Han kommer ikke til å sende meg en invitasjon.	I fjor sendte...	OS	215	PRO
+Politimannen kommer ikke til å barbere seg med barberhøvel.	I går barberte...	SSrefl	216	NP
+Studenten kommer ikke til å føle seg trøtt etter skolen.	I går følte...	SSrefl	217	NP
+Skuespilleren kommer ikke til å snu seg mot publikum.	I går snudde...	SSrefl	218	NP
+Advokaten kommer ikke til å sette seg ved siden av læreren.	I går satte...	SSrefl	219	NP
+Løperen kommer ikke til å vaske seg etter løpet.	I går vasket...	SSRefl	220	NP
+Studenten ble kastet ut av puben av vaktene.	Vaktene kastet...	PartPP	301	NP
+Han ble kastet ut av puben av vaktene.	Vaktene kastet...	PartPP	302	PRO
+Studenten ble kastet ut av vaktene i går.	Vaktene kastet...	Part	303	NP
+Han ble kastet ut av vaktene i går.	Vaktene kastet...	Part	304	PRO
+Vitnet ble sluppet inn i salen av vaktene.	Vaktene slapp...	PartPP	305	NP
+Han ble sluppet inn i salen av vaktene.	Vaktene slapp...	PartPP	306	PRO
+Vitnet ble sluppet inn av vaktene i går.	Vaktene slapp...	Part	307	NP
+Han ble sluppet inn av vaktene i går.	Vaktene slapp…	Part	308	PRO
+Maleriet ble tatt ned fra veggen av stuepiken.	Stuepiken tok...	PartPP	309	NP
+Den ble tatt ned fra veggen av stuepiken.	Stuepiken tok...	PartPP	310	PRO
+Maleriet ble tatt ned av stuepiken i går.	Stuepiken tok...	Part	311	NP
+Den ble tatt ned av stuepiken i går.	Stuepiken tok...	Part	312	PRO
+Plakaten ble hengt opp på døren av læreren.	Læreren hengte...	PartPP	313	NP
+Den ble hengt opp på veggen av læreren.	Læreren hengte...	PartPP	314	PRO
+Plakaten ble hengt opp av læreren i går.	Læreren hengte...	Part	315	NP
+Den ble hengt opp av læreren i går.	Læreren hengte...	Part	316	PRO
+Eleven ble skjelt ut av rektoren i går.	Rektoren skjelte...	Met	317	NP
+Hun ble skjelt ut av rektoren i går.	Rektoren skjelte...	Met	318	PRO
+Fotballspilleren ble sjekket opp av den unge fotomodellen i går.	Den unge fotomodellen sjekket...	Met	319	NP
+Han ble sjekket opp av den unge fotomodellen i går.	Den unge fotomodellen sjekket...	Met	320	PRO
+Sykehuset ble kjøpt opp av et privat selskap i fjor.	Et privat selskap kjøpte...	Met	321	NP
+Det ble kjøpt opp av et privat selskap i fjor.	Et privat selskap kjøpte...	Met	322	PRO
+Huset ble bygget om etter et par år av de nye eierne.	De nye eierne bygget...	Prep	323	NP
+Det ble bygget om etter et par år av de nye eierne.	De nye eierne bygget...	Prep	324	PRO
+Bordet ble ryddet av etter middagen av vertene.	Vertene ryddet…	Ground	325	NP
+Ranerne ble ikke arrestert av politiet i går.	Politiet arresterte...	Neg	326	NP
+De ble ikke arrestert av politiet i går.	Politiet arresterte...	Neg	327	PRO
+Han ble ikke avhørt av den unge politimannen.	Den unge politimannen avhørte...	Neg	328	Pro
+Kalle ble ikke avhørt av den unge politimannen.	Den unge politimannen avhørte...	Neg	329	NP
+Hun ble ikke utnevnt til leder av den nye direktøren.	Den nye direktøren...	Neg	330	PRO
+Kvinnen ble ikke utnevnt til leder av den nye direktøren.	Den nye direktøren...	Neg	331	NP
+Han ble ikke forsvart av kollegaene under møtet.	Kollegene forsvarte...	Neg	332	PRO
+Han ble ikke truffet av kulen.	Kulen traff...	Neg	333	PRO
+Kritikeren ble ikke imponert av den nye forestillingen.	Den nye forestillingen imponerte...	Neg	334	NP
+Han ble ikke imponert av den nye forestillingen.	Den nye forestillingen imponerte...	Neg	335	NP
+Han ble ikke kritisert av journalisten for uttalelsen.	Journalisten kritiserte...	Neg	336	NP

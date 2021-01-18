@@ -1,0 +1,203 @@
+type	UniqueNumb	Word.order	Realization1
+Read	101		Jeg setter meg ofte lengst bak i bussen.
+Read	103		Jeg sminker meg aldri på hverdager.
+Read	105		Jeg barberer meg alltid om morgenen.
+Read	107		Jeg kjører ofte bil til jobb.
+Read	109		Jeg kommer aldri for sent på jobb.
+Read	111		Jeg hører alltid på radio i bilen.
+Read	201		Jeg bekymrer meg aldri for småting.
+Read	203		Jeg legger meg ofte innen midnatt.
+Read	205		Jeg oppfører meg alltid bra på skolen.
+Read	207		Jeg får ofte alt rett på prøver.
+Read	209		Jeg sykler alltid til jobb.
+Read	211		Jeg kommer aldri for seint på skolen.
+Read	301		Setter Ole seg alltid fremst i klasserommet?
+Read	303		Føler Pål seg ofte alene på skolen?
+Read	305		Barberer Ole seg aldri om morgenen?
+Read	307		Sykler Pål alltid til jobb?
+Read	309		Kommer Marit ofte for sent på skolen?
+Read	311		Drar Anne aldri ut på lørdager?
+Read	401		Hvem var på festen i går kveld?
+Read	403		Hvor mange elever kom i tide til forelesningen?
+Read	405		Hvem vant kampen i går?
+Read	407		Hva slags band spilte på festivalen i helgen?
+Read	409		Hvor mange elever er det på denne skolen?
+Read	411		Hvem har gjort det?
+Read	501		Hva kjøpte Marit i butikken?
+Read	503		Når kom Anne hjem i går?
+Read	505		Hvor mange fisker fikk Einar?
+Read	507		Hvilke filmer så Pål i går?
+Read	509		Hva slags fugl var det?
+Read	511		Hvor skal Anne på ferie?
+Read	601		Jeg har glemt nøklene mine hjemme.
+Read	603		Pål har vært syk hele uken.
+Read	605		Turen i morgen er avlyst.
+Read	607		Tyskland er større enn Frankrike.
+Read	609		Månen er laget av ost.
+Read	611		Det har vært mange turister i Lofoten i sommer.
+Produce	101	AV	Pål sier at han ofte setter seg lengst bak i bussen.
+Produce	103	AV	Anne sier at hun aldri sminker seg på hverdager.
+Produce	105	AV	Pål sier at han alltid barberer seg om morgenen.
+Produce	107	AV	Pål sier at han ofte kjører bil til jobb.
+Produce	109	AV	Ole sier at han aldri kommer for sent på jobb.
+Produce	111	AV	Pål sier at han alltid hører på radio i bilen.
+Produce	201	AV	Pål er stolt av at han aldri bekymrer seg for småting.
+Produce	203	AV	Ole er stolt av at han ofte legger seg innen midnatt.
+Produce	205	AV	Pål er stolt av at han alltid oppfører seg bra på skolen.
+Produce	207	AV	Ole er stolt av at han ofte får alt rett på prøver.
+Produce	209	AV	Pål er stolt av at han alltid sykler til jobb.
+Produce	211	AV	Ole er stolt av at han aldir kommer for seint på skolen.
+Produce	301	AV	Pål spurte om Ole alltid setter seg fremst i klasserommet.
+Produce	303	AV	Ole spurte om Pål ofte føler seg alene på skolen.
+Produce	305	AV	Pål spurte om Ole aldri barberer seg om morgenen.
+Produce	307	AV	Ole spurte om Pål alltid sykler til jobb.
+Produce	309	AV	Pål spurte om Marit ofte kommer for sent på skolen.
+Produce	311	AV	Ole spurte om Anne aldri drar ut på lørdager.
+Produce	101	VA	Pål sier at han setter seg ofte lengst bak i bussen.
+Produce	103	VA	Anne sier at hun sminker seg aldri på hverdager.
+Produce	105	VA	Pål sier at han barberer seg lltid om morgenen.
+Produce	107	VA	Pål sier at han kjører ofte bil til jobb.
+Produce	109	VA	Ole sier at han kommer aldri for sent på jobb.
+Produce	111	VA	Pål sier at han hører alltid på radio i bilen.
+Produce	201	VA	Pål er stolt av at han bekymrer seg aldri for småting.
+Produce	203	VA	Ole er stolt av at han legger seg ofte innen midnatt.
+Produce	205	VA	Pål er stolt av at han oppfører seg alltid bra på skolen.
+Produce	207	VA	Ole er stolt av at han får ofte alt rett på prøver.
+Produce	209	VA	Pål er stolt av at han sykler alltid til jobb.
+Produce	211	VA	Ole er stolt av at han kommer aldri for seint på skolen.
+Produce	301	VA	Pål spurte om Ole setter seg alltid fremst i klasserommet.
+Produce	303	VA	Ole spurte om Pål føler seg ofte alene på skolen.
+Produce	305	VA	Pål spurte om Ole barberer seg aldri om morgenen.
+Produce	307	VA	Ole spurte om Pål sykler alltid til jobb.
+Produce	309	VA	Pål spurte om Marit kommer ofte for sent på skolen.
+Produce	311	VA	Ole spurte om Anne drar aldri ut på lørdager.
+Produce	401	som	Pål ville vite hvem som var på festen i går kveld.
+Produce	403	som	Ole ville vite hvor mange elever som kom i tide til forelesningen.
+Produce	405	som	Pål ville vite hvem som vant kampen i går.
+Produce	407	som	Ole spurte hva slags band som spilte på festivalen i helgen.
+Produce	409	som	Ole spurte hvem som har gjort det.
+Produce	501	SV	Pål spurte hva Marit kjøpte i butikken.
+Produce	503	SV	Ole spurte når Anne kom hjem i går.
+Produce	505	SV	Pål spurte hvor mange fisker Einar fikk.
+Produce	507	SV	Ole spurte hvilke filmer Pål så i går.
+Produce	509	SV	Pål spurte hva slags fugl det var.
+Produce	511	SV	Ole spurte hvor Anne skulle på ferie.
+Produce	601		Pål er sikker på at han har glemt nøklene sine hjemme.
+Produce	603		Ole er sikker på at Pål har vært syk hele uken.
+Produce	605		Pål er sikker på at turen i morgen er avlyst.
+Produce	607		Ole tror at Tyskland er større enn Frankrike.
+Produce	609		Pål tror at månen er laget av ost.
+Produce	611		Ole tror at det har vært mange turister i Lofoten i sommer.
+Produce	401	non	Pål ville vite hvem var på festen i går kveld.
+Produce	403	non	Ole ville vite hvor mange elever kom i tide til forelesningen.
+Produce	405	non	Pål ville vite hvem vant kampen i går.
+Produce	407	non	Ole spurte hva slags band spilte på festivalen i helgen.
+Produce	409	non	Pål spurte hvor mange elever det er på denne skolen.
+Produce	411	non	Ole spurte hvem som har gjort det.
+Produce	501	VS	Pål spurte hva kjøpte Marit i butikken.
+Produce	503	VS	Ole spurte når kom Anne hjem i går.
+Produce	505	VS	Pål spurte hvor mange fisker fikk Einar.
+Produce	507	VS	Ole spurte hvilke filmer så Pål i går.
+Produce	509	VS	Pål spurte hva slags fugl var det.
+Produce	511	VS	Ole spurte hvor skal Anne på ferie.
+Read	102		Jeg setter meg ofte lengst bak i bussen.
+Read	104		Jeg sminker meg aldri på hverdager.
+Read	106		Jeg barberer meg alltid om morgenen.
+Read	108		Jeg kjører ofte bil til jobb.
+Read	110		Jeg kommer aldri for sent på jobb.
+Read	112		Jeg hører alltid på radio i bilen.
+Read	202		Jeg bekymrer meg aldri for småting.
+Read	204		Jeg legger meg ofte innen midnatt.
+Read	206		Jeg oppfører meg alltid bra på skolen.
+Read	208		Jeg får ofte alt rett på prøver.
+Read	210		Jeg sykler alltid til jobb.
+Read	212		Jeg kommer aldri for seint på skolen.
+Read	302		Setter Ole seg alltid fremst i klasserommet?
+Read	304		Føler Pål seg ofte alene på skolen?
+Read	306		Barberer Ole seg aldri om morgenen?
+Read	308		Sykler Pål alltid til jobb?
+Read	310		Kommer Marit ofte for sent på skolen?
+Read	312		Drar Anne aldri ut på lørdager?
+Read	402		Hvem var på festen i går kveld?
+Read	404		Hvor mange elever kom i tide til forelesningen?
+Read	406		Hvem vant kampen i går?
+Read	408		Hva slags band spilte på festivalen i helgen?
+Read	410		Hvor mange elever er det på denne skolen?
+Read	412		Hvem har gjort det?
+Read	502		Hva kjøpte Marit i butikken?
+Read	504		Når kom Anne hjem i går?
+Read	506		Hvor mange fisker fikk Einar?
+Read	508		Hvilke filmer så Pål i går?
+Read	510		Hva slags fugl var det?
+Read	512		Hvor skal Anne på ferie?
+Read	602		Jeg har glemt nøklene mine hjemme.
+Read	604		Pål har vært syk hele uken.
+Read	606		Turen i morgen er avlyst.
+Read	608		Tyskland er større enn Frankrike.
+Read	610		Månen er laget av ost.
+Read	612		Det har vært mange turister i Lofoten i sommer.
+Produce	102	AV	Anne sier at hun ofte setter seg lengst bak i bussen.
+Produce	104	AV	Marit sier at hun aldri sminker seg på hverdager.
+Produce	106	AV	Ole sier at han alltid barberer seg om morgenen.
+Produce	108	AV	Anne sier at hun ofte kjører bil til jobb.
+Produce	110	AV	Marit sier at hun aldri kommer for sent på jobb.
+Produce	112	AV	Anne sier at hun alltid hører på radio i bilen.
+Produce	202	AV	Anne er stolt av at hun aldri bekymrer seg for småting.
+Produce	204	AV	Marit er stolt av at hun ofte legger seg innen midnatt.
+Produce	206	AV	Anne er stolt av at hun alltid oppfører seg bra på skolen.
+Produce	208	AV	Marit er stolt av at hun ofte får alt rett på prøver.
+Produce	210	AV	Anne er stolt av at hun alltid sykler til jobb.
+Produce	212	AV	Marit er stolt av at hun aldir kommer for seint på skolen.
+Produce	302	AV	Anne spurte om Ole alltid setter seg fremst i klasserommet.
+Produce	304	AV	Marit spurte om Pål ofte føler seg alene på skolen.
+Produce	306	AV	Anne spurte om Ole aldri barberer seg om morgenen.
+Produce	308	AV	Marit spurte om Pål alltid sykler til jobb.
+Produce	310	AV	Anne spurte om Marit ofte kommer for sent på skolen.
+Produce	312	AV	Marit spurte om Anne aldri drar ut på lørdager.
+Produce	102	VA	Anne sier at hun setter seg ofte lengst bak i bussen.
+Produce	104	VA	Marit sier at hun sminker seg aldri på hverdager.
+Produce	106	VA	Ole sier at han barberer seg alltid om morgenen.
+Produce	108	VA	Anne sier at hun kjører ofte bil til jobb.
+Produce	110	VA	Marit sier at hun kommer aldri for sent på jobb.
+Produce	112	VA	Anne sier at hun hører alltid på radio i bilen.
+Produce	202	VA	Anne er stolt av at hun bekymrer seg aldri for småting.
+Produce	204	VA	Marit er stolt av at hun legger seg ofte innen midnatt.
+Produce	206	VA	Anne er stolt av at hun oppfører seg alltid bra på skolen.
+Produce	208	VA	Marit er stolt av at hun får ofte alt rett på prøver.
+Produce	210	VA	Anne er stolt av at hun sykler alltid til jobb.
+Produce	212	VA	Marit er stolt av at hun kommer aldri for seint på skolen.
+Produce	302	VA	Anne spurte om Ole setter seg alltid fremst i klasserommet.
+Produce	304	VA	Marit spurte om Pål føler seg ofte alene på skolen.
+Produce	306	VA	Anne spurte om Ole barberer seg aldri om morgenen.
+Produce	308	VA	Marit spurte om Pål sykler alltid til jobb.
+Produce	310	VA	Anne spurte om Marit kommer ofte for sent på skolen.
+Produce	312	VA	Marit spurte om Anne drar aldri ut på lørdager.
+Produce	402	som	Anne ville vite hvem som var på festen i går kveld.
+Produce	404	som	Marit ville vite hvor mange elever som kom i tide til forelesningen.
+Produce	406	som	Anne ville vite hvem som vant kampen i går.
+Produce	408	som	Marit spurte hva slags band som spilte på festivalen i helgen.
+Produce	412	som	Marit spurte hvem som har gjort det.
+Produce	502	SV	Anne spurte hva Marit kjøpte i butikken.
+Produce	504	SV	Marit spurte når Anne kom hjem i går.
+Produce	506	SV	Pål spurte hvor mange fisker Einar fikk.
+Produce	508	SV	Marit spurte hvilke filmer Pål så i går.
+Produce	510	SV	Anne spurte hva slags fugl det var.
+Produce	512	SV	Marit spurte hvor Anne skulle på ferie.
+Produce	602	fill	Anne er sikker på at hun har glemt nøklene sine hjemme.
+Produce	604	fill	Marit er sikker på at Pål har vært syk hele uken.
+Produce	606	fill	Anne er sikker på at turen i morgen er avlyst.
+Produce	608	fill	Marit tror at Tyskland er større enn Frankrike.
+Produce	610	fill	Anne tror at månen er laget av ost.
+Produce	612	fill	Marit tror at det har vært mange turister i Lofoten i sommer.
+Produce	402	non	Anne ville vite hvem var på festen i går kveld.
+Produce	404	non	Marit ville vite hvor mange elever kom i tide til forelesningen.
+Produce	406	non	Anne ville vite hvem vant kampen i går.
+Produce	408	non	Marit spurte hva slags band spilte på festivalen i helgen.
+Produce	410	non	Anne spurte hvor mange elever det er på denne skolen.
+Produce	412	non	Marit spurte hvem har gjort det.
+Produce	502	VS	Anne spurte hva kjøpte Marit i butikken.
+Produce	504	VS	Marit spurte når kom Anne hjem i går.
+Produce	506	VS	Pål spurte hvor mange fisker fikk Einar.
+Produce	508	VS	Marit spurte hvilke filmer så Pål i går.
+Produce	510	VS	Anne spurte hva slags fugl var det.
+Produce	512	VS	Marit spurte hvor skal Anne på ferie.

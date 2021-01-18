@@ -1,0 +1,225 @@
+type	UniqueNumb	Word.order	Realization1
+Read	101		Jeg setter meg ofte lengst bak i bussen.
+Read	102		Jeg setter meg ofte lengst bak i bussen.
+Read	103		Jeg sminker meg aldri på hverdager.
+Read	104		Jeg sminker meg aldri på hverdager.
+Read	105		Jeg barberer meg alltid om morgenen.
+Read	106		Jeg barberer meg alltid om morgenen.
+Read	107		Jeg kjører ofte bil til jobb.
+Read	108		Jeg kjører ofte bil til jobb.
+Read	109		Jeg kommer aldri for sent på jobb.
+Read	110		Jeg kommer aldri for sent på jobb.
+Read	111		Jeg hører alltid på radio i bilen.
+Read	112		Jeg hører alltid på radio i bilen.
+Read	203		Jeg legger meg ofte innen midnatt.
+Read	204		Jeg legger meg ofte innen midnatt.
+Read	205		Jeg oppfører meg alltid bra på skolen.
+Read	212		Jeg kommer aldri for seint på skolen.
+Read	302		Setter Ole seg alltid fremst i klasserommet?
+Read	307		Sykler Pål alltid til jobb?
+Read	311		Drar Anne aldri ut på lørdager?
+Read	312		Drar Anne aldri ut på lørdager?
+Read	403		Hvor mange elever kom i tide til forelesningen?
+Read	404		Hvor mange elever kom i tide til forelesningen?
+Read	407		Hva slags band spilte på festivalen i helgen?
+Read	408		Hva slags band spilte på festivalen i helgen?
+Read	409		Hvor mange elever er det på denne skolen?
+Read	410		Hvor mange elever er det på denne skolen?
+Read	505		Hvor mange fisker fikk Einar?
+Read	506		Hvor mange fisker fikk Einar?
+Read	507		Hvilke filmer så Pål i går?
+Read	508		Hvilke filmer så Pål i går?
+Read	509		Hva slags fugl var det?
+Read	510		Hva slags fugl var det?
+Read	601		Jeg har glemt nøklene mine hjemme.
+Read	602		Jeg har glemt nøklene mine hjemme.
+Read	603		Pål har vært syk hele uken.
+Read	605		Turen i morgen er avlyst.
+Read	607		Tyskland er større enn Frankrike.
+Read	608		Tyskland er større enn Frankrike.
+Read	610		Månen er laget av ost.
+Read	612		Det har vært mange turister i Lofoten i sommer.
+Produce	101	AV	Pål sier at han ofte setter seg lengst bak i bussen.
+Produce	101	VA	Pål sier at han setter seg ofte lengst bak i bussen.
+Produce	102	AV	Anne sier at hun ofte setter seg lengst bak i bussen.
+Produce	102	VA	Anne sier at hun setter seg ofte lengst bak i bussen.
+Produce	103	AV	Anne sier at hun aldri sminker seg på hverdager.
+Produce	103	VA	Anne sier at hun sminker seg aldri på hverdager.
+Produce	104	AV	Marit sier at hun aldri sminker seg på hverdager.
+Produce	104	VA	Marit sier at hun sminker seg aldri på hverdager.
+Produce	105	AV	Pål sier at han alltid barberer seg om morgenen.
+Produce	105	VA	Pål sier at han barberer seg alltid om morgenen.
+Produce	106	AV	Ole sier at han alltid barberer seg om morgenen.
+Produce	106	VA	Ole sier at han barberer seg alltid om morgenen.
+Produce	107	VA	Pål sier at han kjører ofte bil til jobb.
+Produce	107	AV	Pål sier at han ofte kjører bil til jobb.
+Produce	108	VA	Anne sier at hun kjører ofte bil til jobb.
+Produce	108	AV	Anne sier at hun ofte kjører bil til jobb.
+Produce	109	AV	Ole sier at han aldri kommer for sent på jobb.
+Produce	109	VA	Ole sier at han kommer aldri for sent på jobb.
+Produce	110	AV	Marit sier at hun aldri kommer for sent på jobb.
+Produce	110	VA	Marit sier at hun kommer aldri for sent på jobb.
+Produce	111	AV	Pål sier at han alltid hører på radio i bilen.
+Produce	111	VA	Pål sier at han hører alltid på radio i bilen.
+Produce	112	AV	Anne sier at hun alltid hører på radio i bilen.
+Produce	112	VA	Anne sier at hun hører alltid på radio i bilen.
+Produce	203	VA	Ole er stolt av at han legger seg ofte innen midnatt.
+Produce	203	AV	Ole er stolt av at han ofte legger seg innen midnatt.
+Produce	204	VA	Marit er stolt av at hun legger seg ofte innen midnatt.
+Produce	204	AV	Marit er stolt av at hun ofte legger seg innen midnatt.
+Produce	205	AV	Pål er stolt av at han alltid oppfører seg bra på skolen.
+Produce	205	VA	Pål er stolt av at han oppfører seg alltid bra på skolen.
+Produce	212	AV	Marit er stolt av at hun aldri kommer for seint på skolen.
+Produce	212	VA	Marit er stolt av at hun kommer aldri for seint på skolen.
+Produce	302	AV	Anne spurte om Ole alltid setter seg fremst i klasserommet.
+Produce	302	VA	Anne spurte om Ole setter seg alltid fremst i klasserommet.
+Produce	307	AV	Ole spurte om Pål alltid sykler til jobb.
+Produce	307	VA	Ole spurte om Pål sykler alltid til jobb.
+Produce	311	AV	Ole spurte om Anne aldri drar ut på lørdager.
+Produce	311	VA	Ole spurte om Anne drar aldri ut på lørdager.
+Produce	312	AV	Marit spurte om Anne aldri drar ut på lørdager.
+Produce	312	VA	Marit spurte om Anne drar aldri ut på lørdager.
+Produce	403	non	Ole ville vite hvor mange elever kom i tide til forelesningen.
+Produce	403	som	Ole ville vite hvor mange elever som kom i tide til forelesningen.
+Produce	404	non	Marit ville vite hvor mange elever kom i tide til forelesningen.
+Produce	404	som	Marit ville vite hvor mange elever som kom i tide til forelesningen.
+Produce	407	som	Ole spurte hva slags band som spilte på festivalen i helgen.
+Produce	407	non	Ole spurte hva slags band spilte på festivalen i helgen.
+Produce	408	som	Marit spurte hva slags band som spilte på festivalen i helgen.
+Produce	408	non	Marit spurte hva slags band spilte på festivalen i helgen.
+Produce	409	SV	Pål spurte hvor mange elever det er på denne skolen.
+Produce	409	VS	Pål spurte hvor mange elever er det på denne skolen.
+Produce	410	SV	Anne spurte hvor mange elever det er på denne skolen.
+Produce	410	VS	Anne spurte hvor mange elever er det på denne skolen.
+Produce	505	SV	Pål spurte hvor mange fisker Einar fikk.
+Produce	505	VS	Pål spurte hvor mange fisker fikk Einar.
+Produce	506	SV	Pål spurte hvor mange fisker Einar fikk.
+Produce	506	VS	Pål spurte hvor mange fisker fikk Einar.
+Produce	507	SV	Ole spurte hvilke filmer Pål så i går.
+Produce	507	VS	Ole spurte hvilke filmer så Pål i går.
+Produce	508	SV	Marit spurte hvilke filmer Pål så i går.
+Produce	508	VS	Marit spurte hvilke filmer så Pål i går.
+Produce	509	SV	Pål spurte hva slags fugl det var.
+Produce	509	VS	Pål spurte hva slags fugl var det.
+Produce	510	SV	Anne spurte hva slags fugl det var.
+Produce	510	VS	Anne spurte hva slags fugl var det.
+Produce	601	fill	Pål er sikker på at han har glemt nøklene sine hjemme.
+Produce	602	fill	Anne er sikker på at hun har glemt nøklene sine hjemme.
+Produce	603	fill	Ole er sikker på at Pål har vært syk hele uken.
+Produce	605	fill	Pål er sikker på at turen i morgen er avlyst.
+Produce	607	fill	Ole tror at Tyskland er større enn Frankrike.
+Produce	608	fill	Marit tror at Tyskland er større enn Frankrike.
+Produce	610	fill	Anne tror at månen er laget av ost.
+Produce	612	fill	Marit tror at det har vært mange turister i Lofoten i sommer.
+Read	650		Pål sa at han hadde glømt nøklene sine hjemme.
+Read	651		Pål sa at han hadde glømt nøklene sine hjemme.
+Read	652		Ole hevder at månen er laget av ost.
+Read	653		Ole hevder at Pål har vært syk hele uken.
+Read	654		Ole hevder at Pål har vært syk hele uken.
+Read	655		Pål hevder at turen i morgen er avlyst.
+Read	657		Ole hevder at Tyskland er større enn Frankrike.
+Read	659		Pål hevder at turen i morgen er avlyst.
+Read	701		Jonas spurte om hvem som lagde maten.
+Read	702		Marit spurte om hvem som lagde maten.
+Read	703		Anne spurte om hva som ble sagt i møtet.
+Read	704		Pål spurte om hva som ble sagt i møtet.
+Read	711		Jonas spurte om hvor mange lag som deltok i turneringen.
+Read	712		Eirik spurte om hvor mange lag som deltok i turneringen.
+Read	713		Marit spurte om hvilke bøker som var bra.
+Read	714		Anne spurte om hvilke bøker som var bra.
+Read	751		Jonas spurte om hva hun jobbet med.
+Read	753		Marit spurte om hvem Anne er sammen med.
+Read	761		Jonas spurte om når Eirik flyttet til Oslo.
+Read	763		Marit spurte om hvordan han gjorde det.
+Read	801		Marit hevder at et glass vin per dag mer enn halverer risikoen for hjerteinfarkt.
+Read	802		Pål sier at en øl om dagen mer enn dobler risikoen for hjerneslag.
+Read	803		Marit sa at hun simpelthen elsker sjokolade.
+Read	804		Pål sa at han simpelthen elsker marsipan.
+Read	805		Pål sa at Norge heldigvis grusa Danmark i finalen.
+Read	806		Pål sa at Norge bokstavelig talt grusa Danmark i finalen.
+Read	807		Marit sa at hun nesten gråt av glede når TIL scoret.
+Read	808		Pål sa at han nesten hylte av glede etter kampen.
+Read	811		Pål hevder at et glass vin per dag unektelig halverer risikoen for hjerteinfarkt.
+Read	812		Marit sier at en øl om dagen dessverre dobler risikoen for hjerneslag.
+Read	813		Marit sa at hun vanligvis hater lutefisk.
+Read	814		Pål sa at han vanligvis hater lakris.
+Read	815		Marit sa at TIL bokstavelig talt knuste Rosenborg i bortekampen.
+Read	816		Marit sa at Rosenborg dessverre knuste TIL i hjemmekampen.
+Read	817		Pål sa at han nesten fikk alt rett på matteprøven.
+Read	818		Marit sa at hun nesten fikk alt rett på matteprøven.
+Read	852		Marit spurte om hva han jobbet med.
+Read	854		Anne spurte om hvem Marit er sammen med.
+Read	862		Eirik spurte om når Pål flyttet til Oslo.
+Read	863		Marit spurte om hvordan han gjorde det.
+Produce	650	fill	Jeg har glømt nøklene mine hjemme.
+Produce	651	fill	Jeg har glømt nøklene mine hjemme.
+Produce	652	fill	månen er laget av ost.
+Produce	653	fill	Pål har vært syk hele uken.
+Produce	654	fill	Pål har vært syk hele uken.
+Produce	655	fill	Turen i morgen er avlyst.
+Produce	657	fill	Tyskland er større enn Frankrike.
+Produce	659	fill	Turen i morgen er avlyst.
+Produce	701	som	Hvem som lagde maten?
+Produce	701	non	Hvem lagde maten?
+Produce	702	som	Hvem som lagde maten?
+Produce	702	non	Hvem lagde maten?
+Produce	703	som	Hva som ble sagt i møtet?
+Produce	703	non	Hva ble sagt i møtet?
+Produce	704	som	Hva som ble sagt i møtet?
+Produce	704	non	Hva ble sagt i møtet?
+Produce	711	som	Hvor mange lag som deltok i turneringen?
+Produce	711	non	Hvor mange lag deltok i turneringen?
+Produce	712	som	Hvor mange lag som deltok i turneringen?
+Produce	712	non	Hvor mange lag deltok i turneringen?
+Produce	713	som	Hvilke bøker som var bra?
+Produce	713	non	Hvilke bøker var bra?
+Produce	714	som	Hvilke bøker som var bra?
+Produce	714	non	Hvilke bøker var bra?
+Produce	751	SV	Hva hun jobbet med?
+Produce	751	VS	Hva jobbet hun med?
+Produce	753	SV	Hvem Anne er sammen med?
+Produce	753	VS	Hvem er Anne sammen med?
+Produce	761	SV	Når Eirik flyttet til Oslo?
+Produce	761	VS	Når flyttet Eirik til Oslo?
+Produce	763	SV	Hvordan han gjorde det?
+Produce	763	VS	Hvordan gjorde han det?
+Produce	801	AV	Et glass vin per dag mer enn halverer risikoen for hjerteinfarkt.
+Produce	801	VA	Et glass vin per dag halverer mer enn risikoen for hjerteinfarkt.
+Produce	802	AV	En øl om dagen mer enn dobler risikoen for hjerneslag.
+Produce	802	VA	En øl om dagen dobler mer enn risikoen for hjerneslag.
+Produce	803	AV	Jeg simpelthen elsker sjokolade.
+Produce	803	VA	Jeg elsker simpelthen sjokolade.
+Produce	804	AV	Jeg simpelthen elsker marsipan.
+Produce	804	VA	Jeg elsker simpelthen marsipan.
+Produce	805	AV	Norge heldigvis grusa Danmark i finalen.
+Produce	805	VA	Norge grusa heldigvis Danmark i finalen.
+Produce	806	AV	Norge bokstavelig talt grusa Danmark i finalen.
+Produce	806	VA	Norge grusa bokstavelig talt Danmark i finalen.
+Produce	807	AV	Jeg nesten gråt av glede når TIL scoret.
+Produce	807	VA	Jeg gråt nesten av glede når TIL scoret.
+Produce	808	AV	Jeg nesten hylte av glede etter kampen.
+Produce	808	VA	Jeg hylte nesten av glede etter kampen.
+Produce	811	AV	Et glass vin per dag unektelig halverer risikoen for hjerteinfarkt.
+Produce	811	VA	Et glass vin per dag halverer unektelig risikoen for hjerteinfarkt.
+Produce	812	AV	En øl om dagen dessverre dobler risikoen for hjerneslag.
+Produce	812	VA	En øl om dagen dobler dessverre risikoen for hjerneslag.
+Produce	813	AV	Jeg vanligvis hater lutefisk.
+Produce	813	VA	Jeg hater vanligvis lutefisk.
+Produce	814	AV	Jeg vanligvis hater lakris.
+Produce	814	VA	Jeg hater vanligvis lakris.
+Produce	815	AV	TIL bokstavelig talt knuste Rosenborg i bortekampen.
+Produce	815	VA	TIL knuste bokstavelig talt Rosenborg i bortekampen.
+Produce	816	AV	Rosenborg dessverre knuste TIL i hjemmekampen.
+Produce	816	VA	Rosenborg knuste dessverre TIL i hjemmekampen.
+Produce	817	AV	Jeg nesten fikk alt rett på matteprøven.
+Produce	817	VA	Jeg fikk nesten alt rett på matteprøven.
+Produce	818	AV	Jeg nesten fikk alt rett på matteprøven.
+Produce	818	VA	Jeg fikk nesten alt rett på matteprøven.
+Produce	852	SV	Hva han jobbet med?
+Produce	852	VS	Hva jobbet han med?
+Produce	854	SV	Hvem Marit er sammen med?
+Produce	854	VS	Hvem er Marit sammen med?
+Produce	862	SV	Når Pål flyttet til Oslo?
+Produce	862	VS	Når flyttet Pål til Oslo?
+Produce	863	SV	Hvordan han gjorde det?
+Produce	863	VS	Hvordan gjorde han det?
