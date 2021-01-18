@@ -1,0 +1,87 @@
+UniqueNumb	read1	invert1	cond1	cond2	Notation
+103	Leikarinn sneri sér skyndilega í átt að áhorfendum.	Skyndilega...	Refl-Los	NP	SR
+104	Hann sneri sér skyndilega í átt að áhorfendum.	Skyndilega...	Refl-Los	PRO	SR
+105	Bakarinn þvoði sér strax eftir vinnu í gær. 	Í gær...	Refl-Los	NP	SR
+106	Hann þvoði sér strax eftir vinnu í gær. 	Í gær...	Refl-Los	PRO	SR
+107	Lögreglumaðurinn lagði sig í sófanum eftir fundinn.	Eftir fundinn...	Refl-Los	NP	SR
+108	Hún lagði sig í sófanum eftir fundinn.	Eftir fundinn...	Refl-Los	PRO	SR
+109	Lögfræðinguirnn rakaði sig fyrir vinnu á hverjum degi.	Á hverjum degi...	Refl-Los	NP	SR
+110	Hann rakaði sig fyrir vinnu á hverjum degi.	Á hverjum degi...	Refl-Los	PRO	SR
+111	Kennarinn gaf mér nýja bók í gær.	Í gær...	Los	NP	SO
+112	Bakarinn gaf mér nýtt brauð á hverjum degi.	Á hverjum degi...	Los	NP	SO
+113	Lögfræðingurinn bauð mér nýja vinnu í síðustu viku.	Í síðustu viku...	Los	NP	SO
+114	Leikarinn sendi mér löng bréf hvern dag.	Hvern dag...	Los	NP	SO
+116	Kennarinn tók ekki strætisvagninn til vinnu í gær.	Í gær...	SS	NP	SN
+117	Hann tók ekki strætisvagninn til vinnu í gær.	Í gær...	SS	PRO	SN
+120	Bakarinn kom ekki of seint á hverjum degi í síðustu viku.	Í síðustu viku...	SS	NP	SN
+121	Hann kom ekki of seint á hverjum degi í síðustu viku.	Í síðustu viku...	SS	PRO	SN
+122	Nemandinn fór ekki heim til foreldra sinna í fyrra.	Í fyrra...	SS	NP	SN
+123	Hann fór ekki heim til foreldra sinna í fyrra.	Í fyrra...	SS	PRO	SN
+124	Lögfræðingurinn fann ekki lyklana að skrifstofunni í gær.	Í gær...	SS	NP	SN
+125	Hann fann ekki lyklana að skrifstofunni í gær.	Í gær...	SS	PRO	SN
+126	Nýi nemandinn tók til í eldhúsinu í gær.	Í gær...	Part-Sub	NP	SP
+127	Hann tók til í eldhúsinu í gær.	Í gær...	Part-Sub	PRO	SP
+128	Besti hlauparinn gafst upp í síðustu umferðinni í fyrra.	Í fyrra...	Part-Sub	NP	SP
+129	Hann gafst upp í síðustu umferðinni í fyrra.	Í fyrra...	Part-Sub	PRO	SP
+133	Hann tróð upp fyrir vinnufélaga sína í gær.	Í gær...	Part-Sub	PRO	SP
+134	Nýi nemandinn fór út á lífið í gær.	Í gær...	Part-Sub	NP	SP
+135	Þrjú málverk duttu niður í stóra salnum í gær.	Í gær...	Part-Sub	NP	SP
+136	Tvö hús fuðruðu upp í Osló í gær.	Í gær...	Part-Sub	NP	SP
+171	Kennarinn þurrkaði af borðinu eftir kvöldmatinn.	Eftir kvöldmatinn...	Part-Sub	NP	SP
+172	Bakarinn tók af borðinu eftir morgunmatinn.	Eftir morgunmatinn...	Part-Sub	NP	SP
+201	Nemandinn mun fara út á lífið hvert kvöld.	Í fyrra fór...	Part-Sub	NP	SP
+202	Hann mun fara út á lífið hvert kvöld.	Í fyrra fór...	Part-Sub	PRO	SP
+203	Hlauparinn mun gefast upp í síðustu umferðinni.	Í fyrra gafst...	Part-Sub	NP	SP
+204	Hann mun gefast upp í síðustu umferðinni.	Í fyrra gafst...	Part-Sub	PRO	SP
+205	Lögreglumaðurinn mun brotna niður við yfirheyrsluna.	Í gær brotnaði...	Part-Sub	NP	SP
+206	Hann mun brotna niður við yfirheyrsluna.	Í gær brotnaði...	Part-Sub	PRO	SP
+207	Leikarinn mun troða upp fyrir vinnufélaga sína.	Í gær tróð...	Part-Sub	NP	SP
+208	Hann mun troða upp fyrir vinnufélaga sína.	Í gær tróð...	Part-Sub	PRO	SP
+209	Nýi nemandinn fer að taka til í eldhúsinu.	Í gær tók...	Part-Sub	NP	SP
+210	Hann fer að taka til í eldhúsinu.	Í gær tók...	Part-Sub	PRO	SP
+211	Hún mun ekki hjálpa mér með heimavinnuna.	Í gær hjálpaði...	OS	PRO	SON
+212	Hann fer ekki að bjóða mér nýja vinnu.	Í fyrra bauð...	OS	PRO	SON
+213	Hann fer ekki að sýna mér nein atriði úr myndinni.	Í gær sýndi...	OS	PRO	SON
+214	Hann mun ekki gefa mér nýtt brauð.	Í gær gaf...	OS	PRO	SON
+216	Lögreglumaðurinn fer ekki að raka sig með rakvél.	Í gær rakaði...	SSrefl	NP	SRN
+217	Leikmaðurinn mun ekki finna sig í leiknum.	Í gær fann...	SSrefl	NP	SRN
+218	Leikarinn fer ekki að snúa sér í  átt að áhorfendum.	Í gær sneri...	SSrefl	NP	SRN
+220	Hlauparinn mun ekki þvo sér eftir hlaupið.	Í gær þvoði...	SSRefl	NP	SRN
+271	Hún mun ekki hjálpa nemandanum með heimavinnuna.	Í gær hjálpaði...	OS	NP	SON
+272	Nemandinn mun ekki kaupa bókina.	Í gær keypti...	OS	NP	SON
+301	Nemandanum var kastað út af barnum af dyravörðunum.	Dyraverðirnir köstuðu...	Obj-PartPP	NP	PO
+302	Honum var kastað út af barnum af dyravörðunum.	Dyraverðirnir köstuðu...	Obj-PartPP	PRO	PO
+303	Nemandanum var kastað út af dyravörðunum í gær.	Dyraverðirnir köstuðu...	Obj-Part	NP	PO
+304	Honum var kastað út af dyravörðunum í gær.	Dyraverðirnir köstuðu...	Obj-Part	PRO	PO
+305	Vitninu var hleypt inn í salinn af dyravörðunum.	Dyraverðirnir hleyptu...	Obj-PartPP	NP	PO
+306	Honum var hleypt inn í salinn af dyravörðunum.	Dyraverðirnir hleyptu...	Obj-PartPP	PRO	PO
+307	Vitninu var hleypt inn af dyravörðunum í gær.	Dyraverðirnir hleyptu...	Obj-Part	NP	PO
+308	Honum var hleypt inn af dyravörðunum í gær.	Dyraverðirnir hleyptu...	Obj-Part	PRO	PO
+309	Málverkið var tekið niður af veggnum af ræstingakonunni.	Ræstingakonan tók...	Obj-PartPP	NP	PO
+310	Það var tekið niður af veggnum af ræstingakonunni.	Ræstingakonan tók...	Obj-PartPP	PRO	PO
+311	Málverkið var tekið niður af ræstingakonunni.	Ræstingakonan tók...	Obj-Part	NP	PO
+312	Það var tekið niður af ræstingakonunni í gær.	Ræstingakonan tók...	Obj-Part	PRO	PO
+313	Plakatið var hengt upp á dyrnar af kennaranum.	Kennarinn hengdi...	Obj-PartPP	NP	PO
+314	Það var hengt upp á dyrnar af kennaranum.	Kennarinn hengdi...	Obj-PartPP	PRO	PO
+315	Plakatið var hengt upp af kennaranum í gær.	Kennarinn hengdi...	Obj-Part	NP	PO
+316	Það var hengt upp af kennaranum í gær.	Kennarinn hengdi...	Obj-Part	PRO	PO
+317	Blaðið var fyllt út af nemandanum í gær.	Nemandinn fyllti...	Obj-PartMet	NP	PO
+318	Það var fyllt út af nemandanum í gær.	Nemandinn fyllti...	Obj-PartMet	PRO	PO
+319	Lagið var tekið upp af upptökumanninum.	Upptökumaðurinn tók...	Obj-PartMet	NP	PO
+320	Það var tekið upp af upptökumanninum.	Upptökumaðurinn tók...	Obj-PartMet	PRO	PO
+321	Meðferðarheimilið var lagt niður af ríkinu.	Ríkið lagði...	Obj-PartMet	NP	PO
+325	Lokið var skrúfað á af ræstingakonunni.	Ræstingakonan skrúfaði...	Part-Prep	NP	PO
+326	Ræningjarnir voru ekki handteknir af lögreglunni í gær.	Lögreglan handtók...	OS	NP	ON
+327	Þeir voru ekki handteknir af lögreglunni í gær.	Lögreglan handtók...	OS	PRO	ON
+328	Hann var ekki yfirheyrður af unga lögreglumanninum.	Ungi lögreglumaðurinn yfirheyrði...	OS	PRO	ON
+329	Kalli var ekki yfirheyrður af unga lögreglumanninum.	Ungi lögreglumaðurinn yfirheyrði...	OS	NP	ON
+330	Hún var ekki skipuð yfirmaður af nýja forstjóranum.	Nýi forstjórinn...	OS	PRO	ON
+331	Konan var ekki skipuð yfirmaður af nýja forstjóranum.	Nýi forstjórinn...	OS	NP	ON
+332	Hann var ekki gagnrýndur af vinnufélögunum á fundinum.	Vinnufélagarnir gagnrýndu...	OS	PRO	ON
+333	Hann var ekki sleginn af ræningjunum.	Ræningjarnir slógu...	OS	PRO	ON
+334	Gagnrýnandinn var ekki heillaður af nýju sýningunni.	Nýja sýningin heillaði...	OS	NP	ON
+335	Hann var ekki heillaður af nýju sýningunni.	Nýja sýningin heillaði...	OS	PRO	ON
+336	Hann var ekki gagnrýndur af blaðamanninum fyrir ræðuna.	Blaðamaðurinn gagnrýndi...	OS	PRO	ON
+370	Konan var aldrei kastað út af barnum af dyravörðunum.	Dyraverðirnir köstuðu...	OA	NP	OAP
+371	Ræningjarnir voru líklega yfirheyrðir af unga lögreglumanninum.	Ungi lögreglumaðurinn yfirheyrði...	OA	NP	OA
+372	Leyndarmálið var grafið upp af unga blaðamanninum.	Ungi blaðamaðurinn gróf...	Obj-Part	NP	OP
