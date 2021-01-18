@@ -1,0 +1,93 @@
+UniqueNumb	read	read2	cond1	numb	cond2
+101	Lærarin skunda_i sær heim úr arbei_inum í gjár.	Í gjár…	Refl-Los	1	NP
+102	Hann skunda_i sær heim úr arbei_inum í gjár.	Í gjár…	Refl-Los	1	PRO
+103	Sjónleikarin vendi sær knappliga í móti ásko_arunum.	Knappliga…	Refl-Los	2	NP
+104	Hann vendi sær knappliga í móti ásko_arunum.	Knappliga…	Refl-Los	2	PRO
+105	Bakarin vaska_i sær beint aftan á arbei_stí_ í gjár.	Í gjár…	Refl-Los	3	NP
+106	Hann vaska_i sær beint aftan á arbei_stí_ í gjár.	Í gjár…	Refl-Los	3	PRO
+107	Løgregluma_urin setti seg í hin bilin aftan á fundin.	 Aftan á fundin…	Refl-Los	4	NP
+108	Hon setti seg í hin bilin aftan á fundin.	 Aftan á fundin…	Refl-Los	4	PRO
+109	Venjarin rakar sær aftan á arbei_stí_ hvønn dag.	 Hvønn dag…	Refl-Los	5	NP
+110	Hann rakar sær aftan á arbei_stí_ hvønn dag.	 Hvønn dag…	Refl-Los	5	PRO
+111	Lærarin gav mær eina n_ggja bók í gjár.	Í gjár…	Los	6	NP
+112	Bakarin gav mær n_tt brey_ hvønn dag. 	Hvønn dag…	Los	7	NP
+113	Juristurin bjó_a_i mær eitt n_tt starv í sí_stu viku.	Í sí_stu viku…	Los	8	NP
+114	Sjónleikarin sendi mær long brøv hvønn dag.	Hvønn dag…	Los	9	NP
+115	Politisturin vísti mær eina mynd av bilinum aftan á fundin.	Aftan á fundin…	Los	10	NP
+116	Lærarin tók ikki bussin til arbei_is í gjár.	Í gjár…	SS	11	NP
+117	Hon tók ikki bussin til arbei_is í gjár.	Í gjár…	SS	11	PRO
+118	Politisturin bí_a_i ikki eftir starvsfelaga sínum í gjár.	Í gjár…	SS	12	NP
+119	Hann bí_a_i ikki eftir starvsfelaga sínum í gjár.	Í gjár…	SS	13	PRO
+120	Bakarin kom ikki ov seint hvønn dag í sí_stu viku.	Í sí_stu viku…	SS	13	NP
+121	Hann kom ikki ov seint hvønn dag í sí_stu viku.	Í sí_stu viku…	SS	14	PRO
+122	Næmingurin fór ikki heim til foreldrini í fjør.	Í fjør…	SS	14	NP
+123	Hon fór ikki heim til foreldrini í fjør.	Í fjør…	SS	15	PRO
+124	Juristurin fann ikki lykilin til skrivstovuna í gjár.	Í gjár…	SS	15	NP
+125	Hann fann ikki lykilin til skrivstovuna í gjár.	Í gjár…	SS	16	PRO
+126	Næmingurin rudda_i upp í køkinum í gjár	Í gjár…	Part-Sub	16	PRO
+127	Hann rudda_i upp í køkinum í gjár	Í gjár…	Part-Sub	17	NP
+128	Tann besti rennarin gav upp í sí_stu rundu í fjør.	Í fjør…	Part-Sub	17	PRO
+129	Hann gav upp í sí_stu rundu í fjør.	Í fjør…	Part-Sub	20	NP
+130	Umlei_ túsund berlinbúgvar komu saman á torginum í gjár.	Í gjár…	Part-Sub	20	PRO
+131	Teir komu saman á torginum í gjár.	Í gjár…	Part-Sub	21	NP
+132	Ta_ n_ggja tí_arriti_ kom út tvær fer_ir í fjør.	Í gjár…	Part-Sub	21	NP
+133	Ta_ kom út tvær fer_ir í fjør.	Í fjør…	Part-Sub	21	PRO
+134	Tríggir málningar duttu ni_ur í stóra salinum í gjár.	Í gjár…	Part-Sub	22	NP
+135	Teir komu saman á torginum í gjár.	I går...	Part-Sub	23	NP
+136	Tvey fólk brunnu inni í Oslo í gjár.	Í gjár…	Part-Sub	24	NP
+201	Stúdenturin plagar at fara út úr húsinum hvønn dag	Í fjør fór...	Part	16	NP
+202	Hann plagar at fara út úr húsinum hvønn dag	Í fjør fór...	Part	16	PRO
+203	Politikkarin fer at stilla upp til hetta val.	Í fjør stilla_i…	Part	17	NP
+204	Hann fer at stilla upp til hetta val.	Í fjør stilla_i…	Part	17	PRO
+205	Systrarnar fara at bresta saman í finaluni. 	Í gjár brustu…	Part	18	NP
+206	Tær fara at bresta saman í finaluni. 	Í gjár brustu…	Part	18	PRO
+207	Tí_arriti_ fer at koma út tvær fer_ir um heysti_.	Í fjør kom…	Part	19	NP
+208	Ta_ fer at koma út tvær fer_ir um heysti_.	Í fjør kom…	Part	19	PRO
+209	Næmingurin fer at rudda upp í køkinum.	Í gjár rudda_i…	Part	20	NP
+210	Hann fer at rudda upp í køkinum.	Í gjár rudda_i…	Part	20	PRO
+211	Hon fer ikki at hjálpa mær vi_ skúlatingunum.	Í gjár hjálpti…	OS	21	PRO
+212	Hann fer ikki at bjó_a mær eitt n_tt starv.	Í fjør bjó_a_i…	OS	22	PRO
+213	Hann fer ikki at vísa mær nøkur brot úr filminum.	Í gjár vísti…	OS	23	PRO
+214	Han fer ikki at geva mær n_tt brey_.	Í gjár gav…	OS	24	PRO
+215	Hann fer ikki at senda mær nakra innbjó_ing.	Í fjør sendi…	OS	25	PRO
+216	Politisturin fer ikki at raka sær vi_ rakimaskinuni.	Í gjár raka_i…	SSrefl	26	NP
+217	Næmingurin fer ikki at kenna seg troyttan aftan á skúlan.	Í gjár kendi…	SSrefl	27	NP
+218	Sjónleikarin fer ikki at venda sær í móti ásko_arunum.	Í gjár vendi…	SSrefl	28	NP
+219	Venjarin fer ikki at seta seg vi_ sí_una av læraranum.	Í gjár setti…	SSrefl	29	NP
+220	Rennarin fer ikki at vaska sær aftan á renningina.	Í gjár vaska_i…	SSRefl	30	NP
+301	Næmingurin var_ blaka_ur út av barrini av duravør_unum.	Duravør_irnir blaka_u...	Obj-PartPP	1	NP
+302	Hann var_ blaka_ur út av duravør_unum í gjár.	Duravør_irnir blaka_u...	Obj-PartPP	1	NP
+303	Studenturin var_ blaka_ur út av barrini av duravør_unum.	Duravør_irnir blaka_u...	Obj-Part	1	Pro
+304	Hann var_ blaka_ur út av duravør_unum í gjár.	Duravør_irnir blaka_u...	Obj-Part	1	Pro
+305	Vitni_ var_ leitt inn í salin av duravør_unum.	Duravør_irnir leiddu...	Obj-PartPP	2	NP
+306	Hann var_ leiddur inn av duravør_unum í gjár.	Duravør_irnir leiddu...	Obj-PartPP	2	NP
+307	Vitni_ var_ leitt inn í salin av duravør_unum.	Duravør_irnir leiddu...	Obj-Part	2	Pro
+308	Hann var_ leiddur inn av duravør_unum í gjár.	Duravør_irnir leiddu...	Obj-Part	2	Pro
+309	Málningurin var_ tikin ni_ur av vegginum av gentuni.	Gentan tók...	Obj-PartPP	3	NP
+310	Hann var_ tikinn ni_ur av gentuni í gjár.	Gentan tók...	Obj-PartPP	3	NP
+311	Málningurin var_ tikin ni_ur av vegginum av gentuni.	Gentan tók...	Obj-Part	3	Pro
+312	Hann var_ tikin ni_ur av gentuni í gjár.	Gentan tók...	Obj-Part	3	Pro
+313	Plakatin var_ hongd upp á hur_ina av læraranum.	Lærarin hongdi...	Obj-PartPP	4	NP
+314	Hon var_ hongd upp av læraranum í gjár.	Lærarin hongdi...	Obj-PartPP	4	NP
+315	Plakatin var_ hongd upp á hur_ina av læraranum.	Lærarin hongdi...	Obj-Part	4	Pro
+316	Hon var_ hongd upp av læraranum í gjár.	Lærarin hongdi...	Obj-Part	4	Pro
+317	Næmingurin var_ skelda_ur út af rektaranum í gjár.	Rektarin skelda_i...	Obj-PartMet	5	NP
+318	Hon var_ skelda_ út af rektaranum í gjár.	Rektarin skelda_i...	Obj-PartMet	5	Pro
+319	Føroyingar vór_u avsmurdir av Portugal í gjár.	Portugal smurdi...	Obj-PartMet	6	NP
+320	Teir vór_u avsmurdir av Portugal í gjár.	Portugal smurdi...	Obj-PartMet	6	Pro
+321	Skúlin var_ latin upp av borgarstjóranum í fjør.	Borgarstjórin læt…	Obj-PartMet	7	NP
+322	Hann var_ latin upp av borgarstjóranum í fjør.	Borgarstjórin læt…	Obj-PartMet	7	Pro
+323	Húsi_ var_ bygt um aftan á nøkur ár av n_ggju eigarunum.	N_ggju eigararnir bygdu...	Obj-PartPrep	8	NP
+324	Ta_ var_ bygt um aftan á nøkur ár av n_ggju eigarunum.	N_ggju eigararnir bygdu...	Obj-PartPrep	8	Pro
+325	Starvsfólki_ var_ loyst av um summari_ av lesandi.	Lesandi loystu…	Obj-PartGround	9	NP
+326	Tjóvarnir vór_u ikki handtiknir av løgregluni í gjár.	Løgreglan handtók...	OS	10	NP
+327	Teir vór_u ikki handtiknir av løgregluni í gjár.	Løgreglan handtók...	OS	10	Pro
+328	Hann var_ ikki avhoyrdur av unga politistinum. 	Ungi politisturin avhoyrdi…	OS	11	NP
+329	Hjalmar var_ ikki avhoyrdur av unga politistinum.	Ungi politisturin avhoyrdi…	OS	11	Pro
+330	Kvinnan var_ ikki vald til lei_ara av n_ggja stjóranum.	N_ggi stjórin valdi…	OS	12	NP
+331	Hon var_ ikki vald til lei_ara av n_ggja stjóranum.	N_ggi stjórin valdi…	OS	12	Pro
+332	Hann var_ ikki kritisera_ur av starvsfeløgunum.	Starvsfelagarnir kritisera_u…	OS	13	Pro
+333	Hann var_ ikki raktur av kúluni.	Kúlan rakti…	OS	14	Pro
+334	Ummælarin var_ ikki hugtikin av tí n_ggju fløguni.	Hendan n_ggja fløgan hugtók...	OS	15	NP
+335	Hann var_ ikki hugtikin av tí n_ggju fløguni.	Hendan n_ggja fløgan hugtók...	OS	15	NP
+336	Hur_in var_ ikki læst av húsavør_inum í gjár.	Húsavør_urin læsti…	OS	16	NP

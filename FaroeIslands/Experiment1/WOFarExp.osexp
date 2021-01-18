@@ -1,0 +1,1387 @@
+---
+API: 2
+OpenSesame: 3.1.4
+Platform: posix
+---
+set width 1024
+set uniform_coordinates yes
+set title example_experiment
+set synth_backend legacy
+set subject_parity even
+set subject_nr 0
+set start experiment
+set sound_sample_size -16
+set sound_freq 48000
+set sound_channels 2
+set sound_buf_size 1024
+set sampler_backend legacy
+set round_decimals 2
+set mouse_backend psycho
+set keyboard_backend psycho
+set height 768
+set fullscreen no
+set form_clicks no
+set foreground white
+set font_underline no
+set font_size 18
+set font_italic no
+set font_family sans
+set font_bold no
+set experiment_path "/Users/blu001/Box Sync/Ida/WordOrderTest"
+set disable_garbage_collection yes
+set description "Default description"
+set coordinates relative
+set compensation 0
+set color_backend psycho
+set clock_backend psycho
+set canvas_backend psycho
+set bidi no
+set background black
+
+define sketchpad TAKK_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=red font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Takk!" x=0 y=-100 z_index=0
+
+define notepad description
+	__note__
+	This is an example experiment that demonstrates how the
+	mousetrap_response plug-in can be used for implementing
+	mouse-tracking in OpenSesame (without relying on forms
+	for displaying the instructions or the start button).
+	
+	The study is based on experiment 1 from
+	Dale, R., Kehoe, C., & Spivey, M. J. (2007).
+	Graded motor responses in the time course of
+	categorizing atypical exemplars.
+	Memory & Cognition, 35(1), 15-28.
+	
+	Please note that the material is different from the original
+	study and that the task procedure has been simplified.
+	__end__
+	set description "A simple notepad to document your experiment. This plug-in does nothing."
+
+define sequence experiment
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run description always
+	run testrunde always
+	run testrunde_1 always
+	run redo1 always
+	run stimuli always
+	run takk always
+	run testrunde2 always
+	run redo2 always
+	run stimuli_1 always
+	run takk_2 always
+	run testrunde2_1 always
+	run redo2_1 always
+	run stimuli_1_1 always
+	run TAKK_1 always
+
+define sketchpad invert1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-400 y=0 z_index=0
+
+define sketchpad invert1_1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-480 y=0 z_index=0
+
+define sketchpad invert1_1_1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-480 y=0 z_index=0
+
+define sketchpad invert1_2
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-400 y=0 z_index=0
+
+define sketchpad invert1_2_1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-480 y=0 z_index=0
+
+define sketchpad invert1_2_1_1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-480 y=0 z_index=0
+
+define sketchpad invert2
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-400 y=0 z_index=0
+
+define sketchpad invert2_1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-480 y=0 z_index=0
+
+define sketchpad invert2_1_1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-480 y=0 z_index=0
+
+define sketchpad invert2_2
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-400 y=0 z_index=0
+
+define sketchpad invert2_2_1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-480 y=0 z_index=0
+
+define sketchpad invert2_2_1_1
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-480 y=0 z_index=0
+
+define logger new_logger
+	set description "Logs experimental data"
+	set auto_log yes
+
+define logger new_logger_1
+	set description "Logs experimental data"
+	set auto_log yes
+
+define logger new_logger_1_1
+	set description "Logs experimental data"
+	set auto_log yes
+
+define synth new_synth
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_1_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3_1_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_3
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_3_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define sketchpad produce1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-400 y=0 z_index=0
+
+define sketchpad produce1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-480 y=0 z_index=0
+
+define sketchpad produce1_1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-480 y=0 z_index=0
+
+define sketchpad produce1_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-400 y=0 z_index=0
+
+define sketchpad produce1_2_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-480 y=0 z_index=0
+
+define sketchpad produce1_2_1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-480 y=0 z_index=0
+
+define sketchpad produce2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-400 y=0 z_index=0
+
+define sketchpad produce2_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-480 y=0 z_index=0
+
+define sketchpad produce2_1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-480 y=0 z_index=0
+
+define sketchpad produce2_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-400 y=0 z_index=0
+
+define sketchpad produce2_2_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-480 y=0 z_index=0
+
+define sketchpad produce2_2_1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-480 y=0 z_index=0
+
+define sketchpad readloud1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+
+define sketchpad readloud1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+
+define sketchpad readloud1_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+
+define sketchpad readloud1_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+
+define sketchpad readloud1_2_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+
+define sketchpad readloud1_2_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+
+define sketchpad readloud2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+
+define sketchpad readloud2_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+
+define sketchpad readloud2_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+
+define sketchpad readloud2_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+
+define sketchpad readloud2_2_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+
+define sketchpad readloud2_2_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+
+define sketchpad redo1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Redo?" x=0 y=0 z_index=0
+
+define sketchpad redo2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Redo?" x=0 y=0 z_index=0
+
+define sketchpad redo2_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Redo?" x=0 y=0 z_index=0
+
+define loop stimuli
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 18
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Lærarin skundaði sær heim úr arbeiðinum í gjár."
+	setcycle 0 invert1 "Í gjár…"
+	setcycle 0 cond1 refl
+	setcycle 0 nr1 1
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Hann bíðaði ikki eftir starvsfelaga sínum í gjár."
+	setcycle 0 invert2 "Í gjár…"
+	setcycle 0 cond2 SS
+	setcycle 0 nr2 13
+	setcycle 0 arg2 PRO
+	setcycle 1 read1 "Hann skundaði sær heim úr arbeiðinum í gjár."
+	setcycle 1 invert1 "Í gjár…"
+	setcycle 1 cond1 refl
+	setcycle 1 nr1 1
+	setcycle 1 arg1 PRO
+	setcycle 1 read2 "Bakarin kom ikki ov seint hvønn dag í síðstu viku."
+	setcycle 1 invert2 "Í síðstu viku…"
+	setcycle 1 cond2 SS
+	setcycle 1 nr2 13
+	setcycle 1 arg2 NP
+	setcycle 2 read1 "Sjónleikarin vendi sær knappliga í móti áskoðarunum."
+	setcycle 2 invert1 "Knappliga…"
+	setcycle 2 cond1 refl
+	setcycle 2 nr1 2
+	setcycle 2 arg1 NP
+	setcycle 2 read2 "Hann kom ikki ov seint hvønn dag í síðstu viku."
+	setcycle 2 invert2 "Í síðstu viku…"
+	setcycle 2 cond2 SS
+	setcycle 2 nr2 14
+	setcycle 2 arg2 PRO
+	setcycle 3 read1 "Hann vendi sær knappliga í móti áskoðarunum."
+	setcycle 3 invert1 "Knappliga…"
+	setcycle 3 cond1 refl
+	setcycle 3 nr1 2
+	setcycle 3 arg1 PRO
+	setcycle 3 read2 "Næmingurin fór ikki heim til foreldrini í fjør."
+	setcycle 3 invert2 "Í fjør…"
+	setcycle 3 cond2 SS
+	setcycle 3 nr2 14
+	setcycle 3 arg2 NP
+	setcycle 4 read1 "Bakarin vaskaði sær beint aftan á arbeiðstíð í gjár."
+	setcycle 4 invert1 "Í gjár…"
+	setcycle 4 cond1 refl
+	setcycle 4 nr1 3
+	setcycle 4 arg1 NP
+	setcycle 4 read2 "Hon fór ikki heim til foreldrini í fjør."
+	setcycle 4 invert2 "Í fjør…"
+	setcycle 4 cond2 SS
+	setcycle 4 nr2 15
+	setcycle 4 arg2 PRO
+	setcycle 5 read1 "Hann vaskaði sær beint aftan á arbeiðstíð í gjár."
+	setcycle 5 invert1 "Í gjár…"
+	setcycle 5 cond1 refl
+	setcycle 5 nr1 3
+	setcycle 5 arg1 PRO
+	setcycle 5 read2 "Juristurin fann ikki lykilin til skrivstovuna í gjár."
+	setcycle 5 invert2 "Í gjár…"
+	setcycle 5 cond2 SS
+	setcycle 5 nr2 15
+	setcycle 5 arg2 NP
+	setcycle 6 read1 "Løgreglumaðurin setti seg í hin bilin aftan á fundin."
+	setcycle 6 invert1 " Aftan á fundin…"
+	setcycle 6 cond1 refl
+	setcycle 6 nr1 4
+	setcycle 6 arg1 NP
+	setcycle 6 read2 "Hann fann ikki lykilin til skrivstovuna í gjár."
+	setcycle 6 invert2 "Í gjár…"
+	setcycle 6 cond2 SS
+	setcycle 6 nr2 16
+	setcycle 6 arg2 PRO
+	setcycle 7 read1 "Hon setti seg í hin bilin aftan á fundin."
+	setcycle 7 invert1 " Aftan á fundin…"
+	setcycle 7 cond1 refl
+	setcycle 7 nr1 4
+	setcycle 7 arg1 PRO
+	setcycle 7 read2 "Næmingurin ruddaði upp í køkinum í gjár"
+	setcycle 7 invert2 "Í gjár…"
+	setcycle 7 cond2 Part
+	setcycle 7 nr2 16
+	setcycle 7 arg2 PRO
+	setcycle 8 read1 "Venjarin rakar sær aftan á arbeiðstíð hvønn dag."
+	setcycle 8 invert1 " Hvønn dag…"
+	setcycle 8 cond1 refl
+	setcycle 8 nr1 5
+	setcycle 8 arg1 NP
+	setcycle 8 read2 "Hann ruddaði upp í køkinum í gjár"
+	setcycle 8 invert2 "Í gjár…"
+	setcycle 8 cond2 Part
+	setcycle 8 nr2 17
+	setcycle 8 arg2 NP
+	setcycle 9 read1 "Hann rakar sær aftan á arbeiðstíð hvønn dag."
+	setcycle 9 invert1 " Hvønn dag…"
+	setcycle 9 cond1 refl
+	setcycle 9 nr1 5
+	setcycle 9 arg1 PRO
+	setcycle 9 read2 "Tann besti rennarin gav upp í síðstu rundu í fjør."
+	setcycle 9 invert2 "Í fjør…"
+	setcycle 9 cond2 Part
+	setcycle 9 nr2 17
+	setcycle 9 arg2 PRO
+	setcycle 10 read1 "Lærarin gav mær eina nýggja bók í gjár."
+	setcycle 10 invert1 "Í gjár…"
+	setcycle 10 cond1 los
+	setcycle 10 nr1 6
+	setcycle 10 arg1 NP
+	setcycle 10 read2 "Hann gav upp í síðstu rundu í fjør."
+	setcycle 10 invert2 "Í fjør…"
+	setcycle 10 cond2 Part
+	setcycle 10 nr2 20
+	setcycle 10 arg2 NP
+	setcycle 11 read1 "Bakarin gav mær nýtt breyð hvønn dag. "
+	setcycle 11 invert1 "Hvønn dag…"
+	setcycle 11 cond1 los
+	setcycle 11 nr1 7
+	setcycle 11 arg1 NP
+	setcycle 11 read2 "Umleið túsund berlinbúgvar komu saman á torginum í gjár."
+	setcycle 11 invert2 "Í gjár…"
+	setcycle 11 cond2 Part
+	setcycle 11 nr2 20
+	setcycle 11 arg2 PRO
+	setcycle 12 read1 "Juristurin bjóðaði mær eitt nýtt starv í síðstu viku."
+	setcycle 12 invert1 "Í síðstu viku…"
+	setcycle 12 cond1 los
+	setcycle 12 nr1 8
+	setcycle 12 arg1 NP
+	setcycle 12 read2 "Teir komu saman á torginum í gjár."
+	setcycle 12 invert2 "Í gjár…"
+	setcycle 12 cond2 Part
+	setcycle 12 nr2 21
+	setcycle 12 arg2 NP
+	setcycle 13 read1 "Sjónleikarin sendi mær long brøv hvønn dag."
+	setcycle 13 invert1 "Hvønn dag…"
+	setcycle 13 cond1 los
+	setcycle 13 nr1 9
+	setcycle 13 arg1 NP
+	setcycle 13 read2 "Tað nýggja tíðarritið kom út tvær ferðir í fjør."
+	setcycle 13 invert2 "I fjør…"
+	setcycle 13 cond2 Part
+	setcycle 13 nr2 21
+	setcycle 13 arg2 NP
+	setcycle 14 read1 "Politisturin vísti mær eina mynd av bilinum aftan á fundin."
+	setcycle 14 invert1 "Aftan á fundin…"
+	setcycle 14 cond1 los
+	setcycle 14 nr1 10
+	setcycle 14 arg1 NP
+	setcycle 14 read2 "Tað kom út tvær ferðir í fjør."
+	setcycle 14 invert2 "Í fjør…"
+	setcycle 14 cond2 Part
+	setcycle 14 nr2 21
+	setcycle 14 arg2 PRO
+	setcycle 15 read1 "Lærarin tók ikki bussin til arbeiðis í gjár."
+	setcycle 15 invert1 "Í gjár…"
+	setcycle 15 cond1 SS
+	setcycle 15 nr1 11
+	setcycle 15 arg1 NP
+	setcycle 15 read2 "Tríggir málningar duttu niður í stóra salinum í gjár."
+	setcycle 15 invert2 "Í gjár…"
+	setcycle 15 cond2 Part
+	setcycle 15 nr2 22
+	setcycle 15 arg2 NP
+	setcycle 16 read1 "Hon tók ikki bussin til arbeiðis í gjár."
+	setcycle 16 invert1 "Í gjár…"
+	setcycle 16 cond1 SS
+	setcycle 16 nr1 11
+	setcycle 16 arg1 PRO
+	setcycle 16 read2 "Teir komu saman á torginum í gjár."
+	setcycle 16 invert2 "Í gjár…"
+	setcycle 16 cond2 Part
+	setcycle 16 nr2 23
+	setcycle 16 arg2 NP
+	setcycle 17 read1 "Politisturin bíðaði ikki eftir starvsfelaga sínum í gjár."
+	setcycle 17 invert1 "Í gjár…"
+	setcycle 17 cond1 SS
+	setcycle 17 nr1 12
+	setcycle 17 arg1 NP
+	setcycle 17 read2 "Tvey fólk brunnu inni í Oslo í gjár."
+	setcycle 17 invert2 "Í gjár…"
+	setcycle 17 cond2 Part
+	setcycle 17 nr2 24
+	setcycle 17 arg2 NP
+	run trial
+
+define loop stimuli_1
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 10
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Stúdenturin plagar at fara út úr húsinum hvønn dag"
+	setcycle 0 invert1 "Í fjør fór..."
+	setcycle 0 cond1 Part
+	setcycle 0 nr1 16
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Hon fer ikki at hjálpa mær við skúlatingunum."
+	setcycle 0 invert2 "Í gjár hjálpti…"
+	setcycle 0 cond2 OS
+	setcycle 0 nr2 21
+	setcycle 0 arg2 PRO
+	setcycle 1 read1 "Hann plagar at fara út úr húsinum hvønn dag"
+	setcycle 1 invert1 "Í fjør fór..."
+	setcycle 1 cond1 Part
+	setcycle 1 nr1 16
+	setcycle 1 arg1 PRO
+	setcycle 1 read2 "Hann fer ikki at bjóða mær eitt nýtt starv."
+	setcycle 1 invert2 "Í fjør bjóðaði…"
+	setcycle 1 cond2 OS
+	setcycle 1 nr2 22
+	setcycle 1 arg2 PRO
+	setcycle 2 read1 "Politikkarin fer at stilla upp til hetta val."
+	setcycle 2 invert1 "Í fjør stillaði…"
+	setcycle 2 cond1 Part
+	setcycle 2 nr1 17
+	setcycle 2 arg1 NP
+	setcycle 2 read2 "Hann fer ikki at vísa mær nøkur brot úr filminum."
+	setcycle 2 invert2 "Í gjár vísti…"
+	setcycle 2 cond2 OS
+	setcycle 2 nr2 23
+	setcycle 2 arg2 PRO
+	setcycle 3 read1 "Hann fer at stilla upp til hetta val."
+	setcycle 3 invert1 "Í fjør stillaði…"
+	setcycle 3 cond1 Part
+	setcycle 3 nr1 17
+	setcycle 3 arg1 PRO
+	setcycle 3 read2 "Han fer ikki at geva mær nýtt breyð."
+	setcycle 3 invert2 "Í gjár gav…"
+	setcycle 3 cond2 OS
+	setcycle 3 nr2 24
+	setcycle 3 arg2 PRO
+	setcycle 4 read1 "Systrarnar fara at bresta saman í finaluni. "
+	setcycle 4 invert1 "Í gjár brustu…"
+	setcycle 4 cond1 Part
+	setcycle 4 nr1 18
+	setcycle 4 arg1 NP
+	setcycle 4 read2 "Hann fer ikki at senda mær nakra innbjóðing."
+	setcycle 4 invert2 "Í fjør sendi…"
+	setcycle 4 cond2 OS
+	setcycle 4 nr2 25
+	setcycle 4 arg2 PRO
+	setcycle 5 read1 "Tær fara at bresta saman í finaluni. "
+	setcycle 5 invert1 "Í gjár brustu…"
+	setcycle 5 cond1 Part
+	setcycle 5 nr1 18
+	setcycle 5 arg1 PRO
+	setcycle 5 read2 "Politisturin fer ikki at raka sær við rakimaskinuni."
+	setcycle 5 invert2 "Í gjár rakaði…"
+	setcycle 5 cond2 SSrefl
+	setcycle 5 nr2 26
+	setcycle 5 arg2 NP
+	setcycle 6 read1 "Tíðarritið fer at koma út tvær ferðir um heystið."
+	setcycle 6 invert1 "Í fjør kom…"
+	setcycle 6 cond1 Part
+	setcycle 6 nr1 19
+	setcycle 6 arg1 NP
+	setcycle 6 read2 "Næmingurin fer ikki at kenna seg troyttan aftan á skúlan."
+	setcycle 6 invert2 "Í gjár kendi…"
+	setcycle 6 cond2 SSrefl
+	setcycle 6 nr2 27
+	setcycle 6 arg2 NP
+	setcycle 7 read1 "Tað fer at koma út tvær ferðir um heystið."
+	setcycle 7 invert1 "Í fjør kom…"
+	setcycle 7 cond1 Part
+	setcycle 7 nr1 19
+	setcycle 7 arg1 PRO
+	setcycle 7 read2 "Sjónleikarin fer ikki at venda sær í móti áskoðarunum."
+	setcycle 7 invert2 "Í gjár vendi…"
+	setcycle 7 cond2 SSrefl
+	setcycle 7 nr2 28
+	setcycle 7 arg2 NP
+	setcycle 8 read1 "Næmingurin fer at rudda upp í køkinum."
+	setcycle 8 invert1 "Í gjár ruddaði…"
+	setcycle 8 cond1 Part
+	setcycle 8 nr1 20
+	setcycle 8 arg1 NP
+	setcycle 8 read2 "Venjarin fer ikki at seta seg við síðuna av læraranum."
+	setcycle 8 invert2 "Í gjár setti…"
+	setcycle 8 cond2 SSrefl
+	setcycle 8 nr2 29
+	setcycle 8 arg2 NP
+	setcycle 9 read1 "Hann fer at rudda upp í køkinum."
+	setcycle 9 invert1 "Í gjár ruddaði…"
+	setcycle 9 cond1 Part
+	setcycle 9 nr1 20
+	setcycle 9 arg1 PRO
+	setcycle 9 read2 "Rennarin fer ikki at vaska sær aftan á renningina."
+	setcycle 9 invert2 "Í gjár vaskaði…"
+	setcycle 9 cond2 SSRefl
+	setcycle 9 nr2 30
+	setcycle 9 arg2 NP
+	run trial_1
+
+define loop stimuli_1_1
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 18
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Næmingurin varð blakaður út av barrini av duravørðunum."
+	setcycle 0 invert1 "Duravørðirnir blakaðu..."
+	setcycle 0 cond1 ""
+	setcycle 0 nr1 1
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Føroyingar vórðu avsmurdir av Portugal í gjár."
+	setcycle 0 invert2 "Portugal smurdi..."
+	setcycle 0 cond2 Met
+	setcycle 0 nr2 6
+	setcycle 0 new_column_1 NP
+	setcycle 1 read1 "Hann varð blakaður út av duravørðunum í gjár."
+	setcycle 1 invert1 "Duravørðirnir blakaðu..."
+	setcycle 1 cond1 ""
+	setcycle 1 nr1 1
+	setcycle 1 arg1 NP
+	setcycle 1 read2 "Teir vórðu avsmurdir av Portugal í gjár."
+	setcycle 1 invert2 "Portugal smurdi..."
+	setcycle 1 cond2 Met
+	setcycle 1 nr2 6
+	setcycle 1 new_column_1 Pro
+	setcycle 2 read1 "Studenturin varð blakaður út av barrini av duravørðunum."
+	setcycle 2 invert1 "Duravørðirnir blakaðu..."
+	setcycle 2 cond1 ""
+	setcycle 2 nr1 1
+	setcycle 2 arg1 Pro
+	setcycle 2 read2 "Skúlin varð latin upp av borgarstjóranum í fjør."
+	setcycle 2 invert2 "Borgarstjórin læt…"
+	setcycle 2 cond2 Met
+	setcycle 2 nr2 7
+	setcycle 2 new_column_1 NP
+	setcycle 3 read1 "Hann varð blakaður út av duravørðunum í gjár."
+	setcycle 3 invert1 "Duravørðirnir blakaðu..."
+	setcycle 3 cond1 ""
+	setcycle 3 nr1 1
+	setcycle 3 arg1 Pro
+	setcycle 3 read2 "Hann varð latin upp av borgarstjóranum í fjør."
+	setcycle 3 invert2 "Borgarstjórin læt…"
+	setcycle 3 cond2 Met
+	setcycle 3 nr2 7
+	setcycle 3 new_column_1 Pro
+	setcycle 4 read1 "Vitnið varð leitt inn í salin av duravørðunum."
+	setcycle 4 invert1 "Duravørðirnir leiddu..."
+	setcycle 4 cond1 ""
+	setcycle 4 nr1 2
+	setcycle 4 arg1 NP
+	setcycle 4 read2 "Húsið varð bygt um aftan á nøkur ár av nýggju eigarunum."
+	setcycle 4 invert2 "Nýggju eigararnir bygdu..."
+	setcycle 4 cond2 Prep
+	setcycle 4 nr2 8
+	setcycle 4 new_column_1 NP
+	setcycle 5 read1 "Hann varð leiddur inn av duravørðunum í gjár."
+	setcycle 5 invert1 "Duravørðirnir leiddu..."
+	setcycle 5 cond1 ""
+	setcycle 5 nr1 2
+	setcycle 5 arg1 NP
+	setcycle 5 read2 "Tað varð bygt um aftan á nøkur ár av nýggju eigarunum."
+	setcycle 5 invert2 "Nýggju eigararnir bygdu..."
+	setcycle 5 cond2 Prep
+	setcycle 5 nr2 8
+	setcycle 5 new_column_1 Pro
+	setcycle 6 read1 "Vitnið varð leitt inn í salin av duravørðunum."
+	setcycle 6 invert1 "Duravørðirnir leiddu..."
+	setcycle 6 cond1 ""
+	setcycle 6 nr1 2
+	setcycle 6 arg1 Pro
+	setcycle 6 read2 "Starvsfólkið varð loyst av um summarið av lesandi."
+	setcycle 6 invert2 "Lesandi loystu…"
+	setcycle 6 cond2 Ground
+	setcycle 6 nr2 9
+	setcycle 6 new_column_1 NP
+	setcycle 7 read1 "Hann varð leiddur inn av duravørðunum í gjár."
+	setcycle 7 invert1 "Duravørðirnir leiddu..."
+	setcycle 7 cond1 ""
+	setcycle 7 nr1 2
+	setcycle 7 arg1 Pro
+	setcycle 7 read2 "Tjóvarnir vórðu ikki handtiknir av løgregluni í gjár."
+	setcycle 7 invert2 "Løgreglan handtók..."
+	setcycle 7 cond2 Neg
+	setcycle 7 nr2 10
+	setcycle 7 new_column_1 NP
+	setcycle 8 read1 "Málningurin varð tikin niður av vegginum av gentuni."
+	setcycle 8 invert1 "Gentan tók..."
+	setcycle 8 cond1 ""
+	setcycle 8 nr1 3
+	setcycle 8 arg1 NP
+	setcycle 8 read2 "Teir vórðu ikki handtiknir av løgregluni í gjár."
+	setcycle 8 invert2 "Løgreglan handtók..."
+	setcycle 8 cond2 Neg
+	setcycle 8 nr2 10
+	setcycle 8 new_column_1 Pro
+	setcycle 9 read1 "Hann varð tikinn niður av gentuni í gjár."
+	setcycle 9 invert1 "Gentan tók..."
+	setcycle 9 cond1 ""
+	setcycle 9 nr1 3
+	setcycle 9 arg1 NP
+	setcycle 9 read2 "Hann varð ikki avhoyrdur av unga politistinum. "
+	setcycle 9 invert2 "Ungi politisturin avhoyrdi…"
+	setcycle 9 cond2 Neg
+	setcycle 9 nr2 11
+	setcycle 9 new_column_1 NP
+	setcycle 10 read1 "Málningurin varð tikin niður av vegginum av gentuni."
+	setcycle 10 invert1 "Gentan tók..."
+	setcycle 10 cond1 ""
+	setcycle 10 nr1 3
+	setcycle 10 arg1 Pro
+	setcycle 10 read2 "Hjalmar varð ikki avhoyrdur av unga politistinum."
+	setcycle 10 invert2 "Ungi politisturin avhoyrdi…"
+	setcycle 10 cond2 Neg
+	setcycle 10 nr2 11
+	setcycle 10 new_column_1 Pro
+	setcycle 11 read1 "Hann varð tikin niður av gentuni í gjár."
+	setcycle 11 invert1 "Gentan tók..."
+	setcycle 11 cond1 ""
+	setcycle 11 nr1 3
+	setcycle 11 arg1 Pro
+	setcycle 11 read2 "Kvinnan varð ikki vald til leiðara av nýggja stjóranum."
+	setcycle 11 invert2 "Nýggi stjórin valdi…"
+	setcycle 11 cond2 Neg
+	setcycle 11 nr2 12
+	setcycle 11 new_column_1 NP
+	setcycle 12 read1 "Plakatin varð hongd upp á hurðina av læraranum."
+	setcycle 12 invert1 "Lærarin hongdi..."
+	setcycle 12 cond1 ""
+	setcycle 12 nr1 4
+	setcycle 12 arg1 NP
+	setcycle 12 read2 "Hon varð ikki vald til leiðara av nýggja stjóranum."
+	setcycle 12 invert2 "Nýggi stjórin valdi…"
+	setcycle 12 cond2 Neg
+	setcycle 12 nr2 12
+	setcycle 12 new_column_1 Pro
+	setcycle 13 read1 "Hon varð hongd upp av læraranum í gjár."
+	setcycle 13 invert1 "Lærarin hongdi..."
+	setcycle 13 cond1 ""
+	setcycle 13 nr1 4
+	setcycle 13 arg1 NP
+	setcycle 13 read2 "Hann varð ikki kritiseraður av starvsfeløgunum."
+	setcycle 13 invert2 "Starvsfelagarnir kritiseraðu…"
+	setcycle 13 cond2 Neg
+	setcycle 13 nr2 13
+	setcycle 13 new_column_1 Pro
+	setcycle 14 read1 "Plakatin varð hongd upp á hurðina av læraranum."
+	setcycle 14 invert1 "Lærarin hongdi..."
+	setcycle 14 cond1 ""
+	setcycle 14 nr1 4
+	setcycle 14 arg1 Pro
+	setcycle 14 read2 "Hann varð ikki raktur av kúluni."
+	setcycle 14 invert2 "Kúlan rakti…"
+	setcycle 14 cond2 Neg
+	setcycle 14 nr2 14
+	setcycle 14 new_column_1 Pro
+	setcycle 15 read1 "Hon varð hongd upp av læraranum í gjár."
+	setcycle 15 invert1 "Lærarin hongdi..."
+	setcycle 15 cond1 ""
+	setcycle 15 nr1 4
+	setcycle 15 arg1 Pro
+	setcycle 15 read2 "Ummælarin varð ikki hugtikin av tí nýggju fløguni."
+	setcycle 15 invert2 "Hendan nýggja fløgan hugtók..."
+	setcycle 15 cond2 Neg
+	setcycle 15 nr2 15
+	setcycle 15 new_column_1 NP
+	setcycle 16 read1 "Næmingurin varð skeldaður út af rektaranum í gjár."
+	setcycle 16 invert1 "Rektarin skeldaði..."
+	setcycle 16 cond1 ""
+	setcycle 16 nr1 5
+	setcycle 16 arg1 NP
+	setcycle 16 read2 "Hann varð ikki hugtikin av tí nýggju fløguni."
+	setcycle 16 invert2 "Hendan nýggja fløgan hugtók..."
+	setcycle 16 cond2 Neg
+	setcycle 16 nr2 15
+	setcycle 16 new_column_1 NP
+	setcycle 17 read1 "Hon varð skeldað út af rektaranum í gjár."
+	setcycle 17 invert1 "Rektarin skeldaði..."
+	setcycle 17 cond1 Met
+	setcycle 17 nr1 5
+	setcycle 17 arg1 Pro
+	setcycle 17 read2 "Hurðin varð ikki læst av húsavørðinum í gjár."
+	setcycle 17 invert2 "Húsavørðurin læsti…"
+	setcycle 17 cond2 Neg
+	setcycle 17 nr2 16
+	setcycle 17 new_column_1 NP
+	run trial_1_1
+
+define sketchpad takk
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=red font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Neste runde" x=0 y=-100 z_index=0
+	draw textline center=1 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="Ordstilling og tempus" x=0 y=0 z_index=0
+
+define sketchpad takk_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=red font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Siste runde" x=0 y=-100 z_index=0
+	draw textline center=1 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="Passiv til aktiv" x=0 y=0 z_index=0
+
+define sketchpad testrunde
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text=Testrunde x=0 y=0 z_index=0
+
+define loop testrunde2
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 1
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Bakarin fer at geva mær nýtt breyð."
+	setcycle 0 invert1 "Í gjár gav…"
+	setcycle 0 cond1 test
+	setcycle 0 nr1 test
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Hon fer at hjálpa mær við skúlatingunum."
+	setcycle 0 invert2 "Í gjár hjálpti…"
+	setcycle 0 cond2 test
+	setcycle 0 nr2 test
+	setcycle 0 arg2 PRO
+	run trial_2_1
+
+define loop testrunde2_1
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 1
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Hjalmar varð avhoyrdur av løgreglumanninum. "
+	setcycle 0 invert1 "Løgreglumaðurin avhoyrdi…"
+	setcycle 0 cond1 test
+	setcycle 0 nr1 test
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Næmingurin varð skeldaður út af rektaranum í gjár."
+	setcycle 0 invert2 "Rektarin skeldaði..."
+	setcycle 0 cond2 test
+	setcycle 0 nr2 test
+	setcycle 0 arg2 PRO
+	run trial_2_1_1
+
+define loop testrunde_1
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 1
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Bakarin drakk seinastu ølina í gjár."
+	setcycle 0 invert1 "Í gjár..."
+	setcycle 0 cond1 test
+	setcycle 0 nr1 test
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Hon tók bussin til arbeiðis í gjár."
+	setcycle 0 invert2 "Í gjár..."
+	setcycle 0 cond2 test
+	setcycle 0 nr2 test
+	setcycle 0 arg2 test
+	run trial_2
+
+define sequence trial
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo always
+	run new_synth always
+	run readloud1 always
+	run invert1 always
+	run new_synth_2 always
+	run produce1 always
+	run wo_resp1 always
+	run wo2 always
+	run new_synth_1 always
+	run readloud2 always
+	run invert2 always
+	run new_synth_2 always
+	run produce2 always
+	run wo_resp2 always
+
+define sequence trial_1
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_1 always
+	run new_synth_3 always
+	run readloud1_1 always
+	run invert1_1 always
+	run new_synth_2_1 always
+	run produce1_1 always
+	run wo_resp1_1 always
+	run wo2_1 always
+	run new_synth_1_1 always
+	run readloud2_1 always
+	run invert2_1 always
+	run new_synth_2_1 always
+	run produce2_1 always
+	run wo_resp2_1 always
+
+define sequence trial_1_1
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_1_1 always
+	run new_synth_3_1 always
+	run readloud1_1_1 always
+	run invert1_1_1 always
+	run new_synth_2_1_1 always
+	run produce1_1_1 always
+	run wo_resp1_1_1 always
+	run wo2_1_1 always
+	run new_synth_1_1_1 always
+	run readloud2_1_1 always
+	run invert2_1_1 always
+	run new_synth_2_1_1 always
+	run produce2_1_1 always
+	run wo_resp2_1_1 always
+
+define sequence trial_2
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2 always
+	run new_synth_4 always
+	run readloud1_2 always
+	run invert1_2 always
+	run new_synth_2_3 always
+	run produce1_2 always
+	run wo_resp1_2 always
+	run wo2_2 always
+	run new_synth_1_2 always
+	run readloud2_2 always
+	run invert2_2 always
+	run new_synth_2_3 always
+	run produce2_2 always
+	run wo_resp2_2 always
+
+define sequence trial_2_1
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2_1 always
+	run new_synth_4_1 always
+	run readloud1_2_1 always
+	run invert1_2_1 always
+	run new_synth_2_3_1 always
+	run produce1_2_1 always
+	run wo_resp1_2_1 always
+	run wo2_2_1 always
+	run new_synth_1_2_1 always
+	run readloud2_2_1 always
+	run invert2_2_1 always
+	run new_synth_2_3_1 always
+	run produce2_2_1 always
+	run wo_resp2_2_1 always
+
+define sequence trial_2_1_1
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2_1_1 always
+	run new_synth_4_1_1 always
+	run readloud1_2_1_1 always
+	run invert1_2_1_1 always
+	run new_synth_2_3_1_1 always
+	run produce1_2_1_1 always
+	run wo_resp1_2_1_1 always
+	run wo2_2_1_1 always
+	run new_synth_1_2_1_1 always
+	run readloud2_2_1_1 always
+	run invert2_2_1_1 always
+	run new_synth_2_3_1_1 always
+	run produce2_2_1_1 always
+	run wo_resp2_2_1_1 always
+
+define sketchpad wo
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+
+define sketchpad wo2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+
+define sketchpad wo2_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+
+define sketchpad wo2_1_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+
+define sketchpad wo2_2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+
+define sketchpad wo2_2_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+
+define sketchpad wo2_2_1_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-480 y=-80 z_index=0
+
+define sketchpad wo_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+
+define sketchpad wo_1_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+
+define sketchpad wo_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+
+define sketchpad wo_2_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+
+define sketchpad wo_2_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-480 y=-80 z_index=0
+
+define keyboard_response wo_resp1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_1_1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2_1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2_1_1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_1_1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2_1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2_1_1
+	set timeout infinite
+	set flush yes
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+

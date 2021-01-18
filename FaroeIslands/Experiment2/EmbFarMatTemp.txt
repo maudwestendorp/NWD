@@ -1,0 +1,73 @@
+number	item	subitem	name	Main1	Emb1	cond11	cond12	adv1
+101	a	1	Páll	Eg seti meg ofta aftast í bussinum.	Páll segði at...	Bridge	Reflexive	ofta
+103	a	2	Ása	Eg smyrji mær ongantíð um gerandisdagarnar.	Ása segði at...	Bridge	Reflexive	aldrig
+105	a	3	Páll	Eg raki mær altíð um morgunin.	Páll segði at...	Bridge	Reflexive	alltid
+107	a	4	Páll	Eg koyri ofta bil til arbeiðis.	Páll segði at...	Bridge	NonReflexive	ofta
+109	a	5	Óli	Eg komi aldri ov seint til arbeiðis.	Óli segði at...	Bridge	NonReflexive	aldrig
+111	a	6	Páll	Eg lurti altíð eftir útvarpinum í bilinum.	Páll segði at...	Bridge	NonReflexive	alltid
+201	a	7	Páll	Eg bekymri meg aldri um smáting.	Páll er stoltur av at...	Non-Bridge	Reflexive	aldrig
+203	a	8	Óli	Eg leggi meg ofta at sova áðrenn midnátt.	Óli er stoltur av at...	Non-Bridge	Reflexive	ofta
+205	a	9	Páll	Eg uppføri meg altíð væl í skúlanum.	Páll er stoltur av at...	Non-Bridge	Reflexive	alltid
+207	a	10	Óli	Eg fái ofta alt rætt í einari roynd!	Óli er stoltur av at...	Non-Bridge	NonReflexive	ofta
+209	a	11	Páll	Eg súkkli altíð til arbeiðis!	Páll er stoltur av at...	Non-Bridge	NonReflexive	alltid
+211	a	12	Óli	Eg komi aldri ov seint í skúla.	Óli er stoltur av at...	Non-Bridge	NonReflexive	aldrig
+301	a	13	Páll	Setur Óli seg altíð fremst í skúlastovuni? 	Páll spurdi um...	VtoI	Reflexive	alltid
+303	a	14	Óli	Følir Páll seg ofta einsamallan í skúlanum?	Óli spurdi um...	VtoI	Reflexive	ofta
+305	a	15	Páll	Rakar Óli sær ongantíð um morgunin?	Páll spurdi um...	VtoI	Reflexive	aldrig
+307	a	16	Óli	Súkklar Páll altíð til arbeiðis?	Óli spurdi um...	VtoI	NonReflexive	alltid
+309	a	17	Páll	Kemur Ása ofta ov seint í skúla?	Páll spurdi um...	VtoI	NonReflexive	ofta
+311	a	18	Óli	Fer Ása ongantíð í býin leygarkvøld?	Óli spurdi um...	VtoI	NonReflexive	aldrig
+401	a	19	Páll	Hvør var í ballinum í gjárkvøldi?	Páll vildi vita...	EmbSubQ	NonReflexive	none
+403	a	20	Óli	Hvørjir næmingar komu rættstundis til tíman?	Óli vildi vita...	EmbSubQ	NonReflexive	none
+405	a	21	Páll	Hvør vann kappingina í gjár?	Páll vildi vita...	EmbSubQ	NonReflexive	none
+407	a	22	Óli	Hvørjir sangarar sungu á konsertini?	Óli spurdi...	EmbSubQ	NonReflexive	none
+409	a	23	Páll	Hvussu nógvir næmingar eru á skúlanum?	Páll spurdi...	EmbSubQ	NonReflexive	none
+411	a	24	Óli	Hvør hevur gjørt tað?	Óli spurdi...	EmbSubQ	NonReflexive	none
+501	a	25	Páll	Hvat keypti Ása í handlinum?	Páll spurdi...	EmbObQ	NonReflexive	none
+503	a	26	Óli	Nær kom Ása til hús í gjár?	Óli spurdi...	EmbObQ	NonReflexive	none
+505	a	27	Páll	Hvussu nógvar fiskar fekk Einar?	Páll spurdi...	EmbObQ	NonReflexive	none
+507	a	28	Óli	Hvørjar filmar sá Páll í gjár?	Óli spurdi...	EmbObQ	NonReflexive	none
+509	a	29	Páll	Hvat slag av fugli var hatta?	Páll spurdi...	EmbObQ	NonReflexive	none
+511	a	30	Óli	Hvagar fer Ása í feriu?	Óli spurdi...	EmbObQ	NonReflexive	none
+601	a	31	Páll	Eg havi gloymt lyklarnar við hús.	Páll er vísur í at...	FillerDecl	NonReflexive	none
+603	a	32	Óli	Páll hevur verið sjúkur alla vikuna. 	Óli er vísur í at...	FillerDecl	NonReflexive	none
+605	a	33	Páll	Útferðin í morgin verður av ongum.	Páll er vísur í at ...	FillerDecl	NonReflexive	none
+607	a	34	Óli	Týskland er størri enn Frankaríki.	Óli heldur at...	FillerDecl	NonReflexive	none
+609	a	35	Páll	Mánin er úr osti.	Páll heldur at...	FillerDecl	NonReflexive	none
+611	a	36	Óli	Nógv ferðafólk hava vitjað úti í Mykinesi í summar.	Óli heldur at...	FillerDecl	NonReflexive	none
+102	1	b	Ása	Eg seti meg ofta aftast í bussinum.	Ása segði at...	Bridge	Reflexive	ofta
+104	2	b	Katrin	Eg smyrji mær ongantíð um gerandisdagarnar.	Katrin segði at...	Bridge	Reflexive	aldrig
+106	3	b	Óli	Eg raki mær altíð um morgunin.	Óli segði at...	Bridge	Reflexive	alltid
+108	4	b	Ása	Eg koyri ofta bil til arbeiðis.	Ása segði at...	Bridge	NonReflexive	ofta
+110	5	b	Katrin	Eg komi aldri ov seint til arbeiðis.	Katrin segði at...	Bridge	NonReflexive	aldrig
+112	6	b	Ása	Eg lurti altíð eftir útvarpinum í bilinum.	Ása segði at...	Bridge	NonReflexive	alltid
+202	7	b	Ása	Eg bekymri meg aldri um smáting.	Ása er stolt av at...	Non-Bridge	Reflexive	aldrig
+204	8	b	Katrin	Eg leggi meg ofta at sova áðrenn midnátt.	Katrin er stolt av at...	Non-Bridge	Reflexive	ofta
+206	9	b	Ása	Eg uppføri meg altíð væl í skúlanum.	Ása er stolt av at...	Non-Bridge	Reflexive	alltid
+208	10	b	Katrin	Eg fái ofta alt rætt í einari roynd!	Katrin er stolt av at...	Non-Bridge	NonReflexive	ofta
+210	11	b	Ása	Eg súkkli altíð til arbeiðis!	Ása er stolt av at...	Non-Bridge	NonReflexive	alltid
+212	12	b	Katrin	Eg komi aldri ov seint í skúla.	Katrin er stolt av at...	Non-Bridge	NonReflexive	aldrig
+302	13	b	Ása	Setur Katrin seg altíð fremst í skúlastovuni? 	Ása spurdi um...	VtoI	Reflexive	alltid
+304	14	b	Katrin	Følir Ása seg ofta einsamallan í skúlanum?	Katrin spurdi um...	VtoI	Reflexive	ofta
+306	15	b	Ása	Rakar Páll sær ongantíð um morgunin?	Ása spurdi um...	VtoI	Reflexive	aldrig
+308	16	b	Katrin	Súkklar Ása altíð til arbeiðis?	Katrin spurdi um...	VtoI	NonReflexive	alltid
+310	17	b	Ása	Kemur Katrin ofta ov seint í skúla?	Ása spurdi um...	VtoI	NonReflexive	ofta
+312	18	b	Katrin	Fer Óli ongantíð í býin leygarkvøld?	Katrin spurdi um...	VtoI	NonReflexive	aldrig
+402	19	b	Ása	Hvør var í ballinum í gjárkvøldi?	Ása vildi vita...	EmbSubQ	NonReflexive	none
+404	20	b	Katrin	Hvørjir næmingar komu rættstundis til tíman?	Katrin vildi vita...	EmbSubQ	NonReflexive	none
+406	21	b	Ása	Hvør vann kappingina í gjár?	Ása vildi vita...	EmbSubQ	NonReflexive	none
+408	22	b	Katrin	Hvørjir sangarar sungu á konsertini?	Katrin spurdi...	EmbSubQ	NonReflexive	none
+410	23	b	Ása	Hvussu nógvir næmingar eru á skúlanum?	Ása spurdi...	EmbSubQ	NonReflexive	none
+412	24	b	Katrin	Hvør hevur gjørt tað?	Katrin spurdi...	EmbSubQ	NonReflexive	none
+502	25	b	Ása	Hvat keypti Páll í handlinum?	Ása spurdi...	EmbObQ	NonReflexive	none
+504	26	b	Katrin	Nær kom Óli til hús í gjár?	Katrin spurdi...	EmbObQ	NonReflexive	none
+506	27	b	Ása	Hvussu nógvar fiskar fekk Einar?	Páll vildi vita...	EmbObQ	NonReflexive	none
+508	28	b	Katrin	Hvørjar filmar sá Óli í gjár?	Katrin spurdi...	EmbObQ	NonReflexive	none
+510	29	b	Ása	Hvat slag av fugli var hatta?	Ása spurdi...	EmbObQ	NonReflexive	none
+512	30	b	Katrin	Hvagar fer Ása í feriu?	Katrin spurdi...	EmbObQ	NonReflexive	none
+602	31	b	Ása	Eg havi gloymt lyklarnar við hús.	Ása er vís í at...	FillerDecl	NonReflexive	none
+604	32	b	Katrin	Páll hevur verið sjúkur alla vikuna. 	Katrin er vís í at...	FillerDecl	NonReflexive	none
+606	33	b	Ása	Útferðin í morgin verður av ongum.	Ása er vís í at...	FillerDecl	NonReflexive	none
+608	34	b	Katrin	Jørðin er fløt.	Katrin heldur at...	FillerDecl	NonReflexive	none
+610	35	b	Ása	Oslo er høvuðsstaðurin í Svøríki.	Ása heldur at...	FillerDecl	NonReflexive	none
+612	36	b	Katrin	Oljan er runnin burtur.	Katrin heldur at...	FillerDecl	NonReflexive	none

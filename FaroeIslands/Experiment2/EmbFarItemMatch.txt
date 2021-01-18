@@ -1,0 +1,205 @@
+type	UniqueNumber	Word.order	Realization1
+Read	101		Eg seti meg ofta aftast í bussinum.
+Read	103		Eg smyrji mær ongantí_ um gerandisdagarnar.
+Read	105		Eg raki mær altí_ um morgunin.
+Read	107		Eg koyri ofta bil til arbei_is.
+Read	109		Eg komi aldri ov seint til arbei_is.
+Read	111		Eg lurti altí_ eftir útvarpinum í bilinum.
+Read	201		Eg bekymri meg aldri um smáting.
+Read	203		Eg leggi meg ofta at sova á_renn midnátt.
+Read	205		Eg uppføri meg altí_ væl í skúlanum.
+Read	207		Eg fái ofta alt rætt í einari roynd!
+Read	209		Eg súkkli altí_ til arbei_is!
+Read	211		Eg komi aldri ov seint í skúla.
+Read	301		Setur Óli seg altí_ fremst í skúlastovuni? 
+Read	303		Følir Páll seg ofta einsamallan í skúlanum?
+Read	305		Rakar Óli sær ongantí_ um morgunin?
+Read	307		Súkklar Páll altí_ til arbei_is?
+Read	309		Kemur Ása ofta ov seint í skúla?
+Read	311		Fer Ása ongantí_ í b_in leygarkvøld?
+Read	401		Hvør var í ballinum í gjárkvøldi?
+Read	403		Hvørjir næmingar komu rættstundis til tíman?
+Read	405		Hvør vann kappingina í gjár?
+Read	407		Hvørjir sangarar sungu á konsertini?
+Read	409		Hvussu nógvir næmingar eru á skúlanum?
+Read	411		Hvør hevur gjørt ta_?
+Read	501		Hvat keypti Ása í handlinum?
+Read	503		Nær kom Ása til hús í gjár?
+Read	505		Hvussu nógvar fiskar fekk Einar?
+Read	507		Hvørjar filmar sá Páll í gjár?
+Read	509		Hvat slag av fugli var hatta?
+Read	511		Hvagar fer Ása í feriu?
+Read	601		Eg havi gloymt lyklarnar vi_ hús.
+Read	603		Páll hevur veri_ sjúkur alla vikuna. 
+Read	605		Útfer_in í morgin ver_ur av ongum.
+Read	607		T_skland er størri enn Frankaríki.
+Read	609		Mánin er úr osti.
+Read	611		Nógv fer_afólk hava vitja_ úti í Mykinesi í summar.
+Produce	101	VA	Páll seg_i at han seti seg ofta aftast í bussinum.
+Produce	103	VA	Ása seg_i at hon smyrji sær ongantí_ um gerandisdagarnar.
+Produce	105	VA	Páll seg_i at han raki sær altí_ um morgunin.
+Produce	107	VA	Páll seg_i at han koyri ofta bil til arbei_is.
+Produce	109	VA	Óli seg_i at han komi aldri ov seint til arbei_is.
+Produce	111	VA	Páll seg_i at han lurti altí_ eftir útvarpinum í bilinum.
+Produce	201	VA	Páll er stolt av at han bekymri seg aldri um smáting.
+Produce	203	VA	Óli er stolt av at han leggi seg ofta at sova á_renn midnátt.
+Produce	205	VA	Páll er stolt av at han uppføri seg altí_ væl í skúlanum.
+Produce	207	VA	Óli er stolt av at han fái ofta alt rætt í einari roynd.
+Produce	209	VA	Páll er stolt av at han súkkli altí_ til arbei_is.
+Produce	211	VA	Óli er stolt av at han komi aldri ov seint í skúla.
+Produce	101	AV	Páll seg_i at han ofta seti seg aftast í bussinum.
+Produce	103	AV	Ása seg_i at hon ongantí_ smyrji sær um gerandisdagarnar.
+Produce	105	AV	Páll seg_i at han altí_ raki sær um morgunin.
+Produce	107	AV	Páll seg_i at han ofta koyri bil til arbei_is.
+Produce	109	AV	Óli seg_i at han aldri komi ov seint til arbei_is.
+Produce	111	AV	Páll seg_i at han altí_ lurti eftir útvarpinum í bilinum.
+Produce	201	AV	Páll er stolt av at han aldri bekymri seg um smáting.
+Produce	203	AV	Óli er stolt av at han ofta leggi seg at sova á_renn midnátt.
+Produce	205	AV	Páll er stolt av at han altí_ uppføri seg væl í skúlanum.
+Produce	207	AV	Óli er stolt av at han ofta fái alt rætt í einari roynd.
+Produce	209	AV	Páll er stolt av at han altí_ súkkli til arbei_is.
+Produce	211	AV	Óli er stolt av at han aldri komi ov seint í skúla.
+Produce	302	VA	Páll spurdi um Óli setur seg altí_ fremst í skúlastovuni.
+Produce	304	VA	Óli spurdi um Páll følir seg ofta einsamallan í skúlanum.
+Produce	306	VA	Páll spurdi um Óli rakar sær ongantí_ um morgunin.
+Produce	308	VA	Óli spurdi um Páll súkklar altí_ til arbei_is.
+Produce	310	VA	Páll spurdi um Ása kemur ofta ov seint í skúla.
+Produce	312	VA	Óli spurdi um Ása fer ongantí_ í b_in leygarkvøld.
+Produce	302	AV	Páll spurdi um Óli setur seg altí_ fremst í skúlastovuni.
+Produce	304	AV	Óli spurdi um Páll følir seg ofta einsamallan í skúlanum.
+Produce	306	AV	Páll spurdi um Óli rakar sær ongantí_ um morgunin.
+Produce	308	AV	Óli spurdi um Páll súkklar altí_ til arbei_is.
+Produce	310	AV	Páll spurdi um Ása kemur ofta ov seint í skúla.
+Produce	312	AV	Óli spurdi um Ása fer ongantí_ í b_in leygarkvøld.
+Produce	402	non	Páll vildi vita hvør var í ballinum í gjárkvøldi.
+Produce	404	non	Óli vildi vita hvørjir næmingar komu rættstundis til tíman.
+Produce	406	non	Páll vildi vita hvør vann kappingina í gjár.
+Produce	408	non	Óli spurdi hvørjir sangarar sungu á konsertini.
+Produce	410	non	Páll spurdi hvussu nógvir næmingar eru á skúlanum.
+Produce	412	non	Óli spurdi hvør í_ hevur gjørt ta_.
+Produce	402	som	Páll vildi vita hvør í_ var í ballinum í gjárkvøldi.
+Produce	404	som	Óli vildi vita hvørjir næmingar í_ komu rættstundis til tíman.
+Produce	406	som	Páll vildi vita hvør í_ vann kappingina í gjár.
+Produce	408	som	Óli spurdi hvørjir sangarar í_ sungu á konsertini.
+Produce	410	som	Páll spurdi hvussu nógvir næmingar í_ eru á skúlanum.
+Produce	412	som	Óli spurdi hvør í_ hevur gjørt ta_.
+Produce	502	VS	Páll spurdi hvat keypti Ása í handlinum.
+Produce	504	VS	Óli spurdi nær kom Ása til hús í gjár.
+Produce	506	VS	Páll spurdi hvussu nógvar fiskar fekk Einar.
+Produce	508	VS	Óli spurdi hvørjar filmar sá Páll í gjár.
+Produce	510	VS	Páll spurdi hvat slag av fugli var hatta.
+Produce	512	VS	Óli spurdi hvagar fer Ása í feriu.
+Produce	502	SV	Páll spurdi hvat Ása keypti í handlinum.
+Produce	504	SV	Óli spurdi nær Óli kom til hús í gjár.
+Produce	506	SV	Páll vildi vita hvussu nógvar fiskar Einar fekk.
+Produce	508	SV	Óli spurdi hvørjar filmar Páll sá í gjár.
+Produce	510	SV	Páll spurdi hvat slag av fugli hatta var.
+Produce	512	SV	Óli spurdi hvagar Ása fer í feriu.
+Produce	602	fill	Páll er vís í at hon havi gloymt lyklarnar vi_ hús.
+Produce	604	fill	Óli er vís í at Páll hevur veri_ sjúkur alla vikuna. 
+Produce	606	fill	Páll er vís í at útfer_in í morgin ver_ur av ongum.
+Produce	608	fill	Óli heldur at T_skland er størri enn Frankaríki.
+Produce	610	fill	Páll heldur at mánin er úr osti.
+Produce	612	fill	Óli heldur at nógv fer_afólk hava vitja_ úti í Mykinesi í summar.
+Read	102		Eg seti meg ofta aftast í bussinum.
+Read	104		Eg smyrji mær ongantí_ um gerandisdagarnar.
+Read	106		Eg raki mær altí_ um morgunin.
+Read	108		Eg koyri ofta bil til arbei_is.
+Read	110		Eg komi aldri ov seint til arbei_is.
+Read	112		Eg lurti altí_ eftir útvarpinum í bilinum.
+Read	202		Eg bekymri meg aldri um smáting.
+Read	204		Eg leggi meg ofta at sova á_renn midnátt.
+Read	206		Eg uppføri meg altí_ væl í skúlanum.
+Read	208		Eg fái ofta alt rætt í einari roynd!
+Read	210		Eg súkkli altí_ til arbei_is!
+Read	212		Eg komi aldri ov seint í skúla.
+Read	302		Setur Katrin seg altí_ fremst í skúlastovuni? 
+Read	304		Følir Ása seg ofta einsamallan í skúlanum?
+Read	306		Rakar Páll sær ongantí_ um morgunin?
+Read	308		Súkklar Ása altí_ til arbei_is?
+Read	310		Kemur Katrin ofta ov seint í skúla?
+Read	312		Fer Óli ongantí_ í b_in leygarkvøld?
+Read	402		Hvør var í ballinum í gjárkvøldi?
+Read	404		Hvørjir næmingar komu rættstundis til tíman?
+Read	406		Hvør vann kappingina í gjár?
+Read	408		Hvørjir sangarar sungu á konsertini?
+Read	410		Hvussu nógvir næmingar eru á skúlanum?
+Read	412		Hvør hevur gjørt ta_?
+Read	502		Hvat keypti Páll í handlinum?
+Read	504		Nær kom Óli til hús í gjár?
+Read	506		Hvussu nógvar fiskar fekk Einar?
+Read	508		Hvørjar filmar sá Óli í gjár?
+Read	510		Hvat slag av fugli var hatta?
+Read	512		Hvagar fer Ása í feriu?
+Read	602		Eg havi gloymt lyklarnar vi_ hús.
+Read	604		Páll hevur veri_ sjúkur alla vikuna. 
+Read	606		Útfer_in í morgin ver_ur av ongum.
+Read	608		Jør_in er fløt.
+Read	610		Oslo er høvu_ssta_urin í Svøríki.
+Read	612		Oljan er runnin burtur.
+Produce	102	VA	Ása seg_i at hon seti seg ofta aftast í bussinum.
+Produce	104	VA	Katrin seg_i at hon smyrji sær ongantí_ um gerandisdagarnar.
+Produce	106	VA	Óli seg_i at han raki sær altí_ um morgunin.
+Produce	108	VA	Ása seg_i at hon koyri ofta bil til arbei_is.
+Produce	110	VA	Katrin seg_i at hon komi aldri ov seint til arbei_is.
+Produce	112	VA	Ása seg_i at hon lurti altí_ eftir útvarpinum í bilinum.
+Produce	202	VA	Ása er stolt av at hon bekymri seg aldri um smáting.
+Produce	204	VA	Katrin er stolt av at hon leggi seg ofta at sova á_renn midnátt.
+Produce	206	VA	Ása er stolt av at hon uppføri seg altí_ væl í skúlanum.
+Produce	208	VA	Katrin er stolt av at hon fái ofta alt rætt í einari roynd.
+Produce	210	VA	Ása er stolt av at hon súkkli altí_ til arbei_is.
+Produce	212	VA	Katrin er stolt av at hon komi aldri ov seint í skúla.
+Produce	102	AV	Ása seg_i at hon ofta seti seg aftast í bussinum.
+Produce	104	AV	Katrin seg_i at hon ongantí_ smyrji sær um gerandisdagarnar.
+Produce	106	AV	Óli seg_i at han altí_ raki sær um morgunin.
+Produce	108	AV	Ása seg_i at hon ofta koyri bil til arbei_is.
+Produce	110	AV	Katrin seg_i at hon aldri komi ov seint til arbei_is.
+Produce	112	AV	Ása seg_i at hon altí_ lurti eftir útvarpinum í bilinum.
+Produce	202	AV	Ása er stolt av at hon aldri bekymri seg um smáting.
+Produce	204	AV	Katrin er stolt av at hon ofta leggi seg at sova á_renn midnátt.
+Produce	206	AV	Ása er stolt av at hon altí_ uppføri seg væl í skúlanum.
+Produce	208	AV	Katrin er stolt av at hon ofta fái alt rætt í einari roynd.
+Produce	210	AV	Ása er stolt av at hon altí_ súkkli til arbei_is.
+Produce	212	AV	Katrin er stolt av at hon aldri komi ov seint í skúla.
+Produce	302	VA	Ása spurdi um Katrin setur seg altí_ fremst í skúlastovuni.
+Produce	304	VA	Katrin spurdi um Ása følir seg ofta einsamallan í skúlanum.
+Produce	306	VA	Ása spurdi um Páll rakar sær ongantí_ um morgunin.
+Produce	308	VA	Katrin spurdi um Ása súkklar altí_ til arbei_is.
+Produce	310	VA	Ása spurdi um Katrin kemur ofta ov seint í skúla.
+Produce	312	VA	Katrin spurdi um Óli fer ongantí_ í b_in leygarkvøld.
+Produce	302	AV	Ása spurdi um Katrin setur seg altí_ fremst í skúlastovuni.
+Produce	304	AV	Katrin spurdi um Ása følir seg ofta einsamallan í skúlanum.
+Produce	306	AV	Ása spurdi um Páll rakar sær ongantí_ um morgunin.
+Produce	308	AV	Katrin spurdi um Ása súkklar altí_ til arbei_is.
+Produce	310	AV	Ása spurdi um Katrin kemur ofta ov seint í skúla.
+Produce	312	AV	Katrin spurdi um Óli fer ongantí_ í b_in leygarkvøld.
+Produce	402	non	Ása vildi vita hvør var í ballinum í gjárkvøldi.
+Produce	404	non	Katrin vildi vita hvørjir næmingar komu rættstundis til tíman.
+Produce	406	non	Ása vildi vita hvør vann kappingina í gjár.
+Produce	408	non	Katrin spurdi hvørjir sangarar sungu á konsertini.
+Produce	410	non	Ása spurdi hvussu nógvir næmingar eru á skúlanum.
+Produce	412	non	Katrin spurdi hvør í_ hevur gjørt ta_.
+Produce	402	som	Ása vildi vita hvør í_ var í ballinum í gjárkvøldi.
+Produce	404	som	Katrin vildi vita hvørjir næmingar í_ komu rættstundis til tíman.
+Produce	406	som	Ása vildi vita hvør í_ vann kappingina í gjár.
+Produce	408	som	Katrin spurdi hvørjir sangarar í_ sungu á konsertini.
+Produce	410	som	Ása spurdi hvussu nógvir næmingar í_ eru á skúlanum.
+Produce	412	som	Katrin spurdi hvør í_ hevur gjørt ta_.
+Produce	502	VS	Ása spurdi hvat keypti Páll í handlinum.
+Produce	504	VS	Katrin spurdi nær kom Óli til hús í gjár.
+Produce	506	VS	Páll vildi vita hvussu nógvar fiskar fekk Einar.
+Produce	508	VS	Katrin spurdi hvørjar filmar sá Óli í gjár.
+Produce	510	VS	Ása spurdi hvat slag av fugli var hatta.
+Produce	512	VS	Katrin spurdi hvagar fer Ása í feriu.
+Produce	502	SV	Ása spurdi hvat Páll keypti í handlinum.
+Produce	504	SV	Katrin spurdi nær Óli kom til hús í gjár.
+Produce	506	SV	Páll vildi vita hvussu nógvar fiskar Einar fekk.
+Produce	508	SV	Katrin spurdi hvørjar filmar Óli sá í gjár.
+Produce	510	SV	Ása spurdi hvat slag av fugli hatta var.
+Produce	512	SV	Katrin spurdi hvagar Ása fer í feriu.
+Produce	602	fill	Ása er vís í at hon havi gloymt lyklarnar vi_ hús.
+Produce	604	fill	Katrin er vís í at Páll hevur veri_ sjúkur alla vikuna. 
+Produce	606	fill	Ása er vís í at útfer_in í morgin ver_ur av ongum.
+Produce	608	fill	Katrin heldur at jør_in er fløt.
+Produce	610	fill	Ása heldur at Oslo er høvu_ssta_urin í Svøríki.
+Produce	612	fill	Katrin heldur at oljan er runnin burtur.
