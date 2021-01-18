@@ -1,0 +1,98 @@
+#################### Björn Lundquist & Maud Westendorp, May 2019 ########################
+###Script for converting OpenSesame result file with time stamps
+###Result: text file for ELAN to automatically segment audio file
+
+#R set working directory to dir with only results
+setwd(""")
+
+file_list <- list.files()
+ for (file in file_list){
+     data <-read.csv(file)
+
+#part1
+r1 <- data[c(1:18),c(6,4, 1)]
+colnames(r1) <- c("Begin", "End", "SentenceNumber")
+r1$Type <- "r"
+
+p1 <- data[c(1:18),c(7,10, 1)]
+colnames(p1) <- c("Begin", "End", "SentenceNumber")
+p1$Type <- "p"
+
+r2 <- data[c(1:18),c(9,5, 2)]
+colnames(r2) <- c("Begin", "End", "SentenceNumber")
+r2$Type <- "r"
+
+p2 <- data[c(1:18),c(8,3,2)]
+colnames(p2) <- c("Begin", "End", "SentenceNumber")
+p2$Type <- "p"
+
+set <- rbind(r1, p1, r2, p2)
+set$Begin <- set$Begin / 1000
+set$End <- set$End / 1000
+
+Sett1 <- set[order(set$Begin),]
+Sett1$SentenceNumber <- paste(Sett1$SentenceNumber, Sett1$Type, sep="")
+Sett1$Type <- NULL
+
+Sett1$SentenceNumber <- as.factor(Sett1$SentenceNumber)
+
+#part2
+r3 <- data[c(19:28),c(9,4, 1)]
+colnames(r3) <- c("Begin", "End", "SentenceNumber")
+r3$Type <- "r"
+
+p3 <- data[c(19:28),c(8,10, 1)]
+colnames(p3) <- c("Begin", "End", "SentenceNumber")
+p3$Type <- "p"
+
+r4 <- data[c(19:28),c(6,5, 2)]
+colnames(r4) <- c("Begin", "End", "SentenceNumber")
+r4$Type <- "r"
+
+p4 <- data[c(19:28),c(7,3,2)]
+colnames(p4) <- c("Begin", "End", "SentenceNumber")
+p4$Type <- "p"
+
+set <- rbind(r3, p3, r4, p4)
+set$Begin <- set$Begin / 1000
+set$End <- set$End / 1000
+
+Sett2 <- set[order(set$Begin),]
+Sett2$SentenceNumber <- paste(Sett2$SentenceNumber, Sett2$Type, sep="")
+Sett2$Type <- NULL
+
+Sett2$SentenceNumber <- as.factor(Sett2$SentenceNumber)
+
+#part3
+r5 <- data[c(29:46),c(9,4, 1)]
+colnames(r5) <- c("Begin", "End", "SentenceNumber")
+r5$Type <- "r"
+
+p5 <- data[c(29:46),c(7,10, 1)]
+colnames(p5) <- c("Begin", "End", "SentenceNumber")
+p5$Type <- "p"
+
+r6 <- data[c(29:46),c(6,5, 2)]
+colnames(r6) <- c("Begin", "End", "SentenceNumber")
+r6$Type <- "r"
+
+p6 <- data[c(29:46),c(8,3,2)]
+colnames(p6) <- c("Begin", "End", "SentenceNumber")
+p6$Type <- "p"
+
+set <- rbind(r5, p5, r6, p6)
+set$Begin <- set$Begin / 1000
+set$End <- set$End / 1000
+
+Sett3 <- set[order(set$Begin),]
+Sett3$SentenceNumber <- paste(Sett3$SentenceNumber, Sett3$Type, sep="")
+Sett3$Type <- NULL
+
+Sett3$SentenceNumber <- as.factor(Sett3$SentenceNumber)
+
+Sett <- rbind(Sett1, Sett2, Sett3)
+
+write.csv(Sett, file = paste0(file="", as.character(file)), row.names = FALSE)
+
+ rm(data)
+ }

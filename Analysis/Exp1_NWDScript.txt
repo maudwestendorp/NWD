@@ -1,0 +1,126 @@
+#################### Björn Lundquist & Maud Westendorp, May 2019 #### script for NWD ####################
+
+setwd(" ")
+
+### read in results, template, metadata ###
+file_list <- list.files()
+ for (file in file_list){
+   # if the merged dataset does exist, append to it
+   if (exists("dataset")){
+     temp_dataset <-read.delim(file, header=TRUE)
+		temp_dataset$Subject <- as.character(file)
+		colnames(temp_dataset)[4] <- "SentenceNumber"
+     dataset<-rbind(dataset, temp_dataset)
+     rm(temp_dataset)
+   }
+   # if the merged dataset doesn't exist, create it
+   if (!exists("dataset")){
+     dataset <- read.delim(file, header=TRUE)
+	dataset$Subject <- as.character(file)
+	colnames(dataset)[4] <- "SentenceNumber"
+   }
+ }
+
+data <- dataset
+
+#load other files to combine (metadata, experiment template, file with expected responses)
+meta <- read.delim("meta.txt", header=T)
+temp <- read.delim("MatTemp.txt", header=T)
+real <- read.delim("ItemMatch.txt", header=T)
+
+### organise results further ###
+library(stringr)
+data$SentenceNumber <- str_trim(data$SentenceNumber)
+data$SentenceNumber <- as.factor(data$SentenceNumber)
+
+data$Word.order <- str_trim(data$Word.order)
+data$Word.order <- as.factor(data$Word.order)
+
+data$type <- "Read"
+data[grep("^...p", as.character(data$SentenceNumber)), ] $type = "Produce"
+data[grep("^...P", as.character(data$SentenceNumber)), ] $type = "Produce"
+
+data$UniqueNumb <- data$SentenceNumber
+data$UniqueNumb = substr(data$UniqueNumb, 1, 3)
+#data$UniqueNumb <- as.numeric(data$UniqueNumb)
+
+data$Word.order <- toupper(data$Word.order)
+
+### merge results with template and clean up if necessary ###
+data <- merge(data, temp)
+
+data$Word.order <- toupper(data$Word.order)
+data <- droplevels(data)
+data$Word.order <- as.factor(data$Word.order)
+
+### merge results with file predicted realisations ###
+test <- merge(data, real, by.x=c("UniqueNumb", "Word.order"), by.y=c("UniqueNumb", "Word.order"), all.x=T)
+
+### check if OK, i.e. same number of lines! if so:
+data <- test
+
+### if no Produced.error: empty; if error, copy to Realization1 ###
+data$Produced.error[is.na(data$Produced.error)] <- ""
+xx <- droplevels(subset(data, Produced.error != ""))
+xxx <- droplevels(subset(data, Produced.error == ""))
+xx$Realization1 <- xx$Produced.error
+data <- rbind(xx, xxx)
+
+### get informant number from Subject and merge with metadata ###
+data$Informant = substr(data$Subject, 1, 4)
+xx <- merge(data, meta, by="Informant")
+
+### check if correct!
+data <- xx
+
+### clean up column names for database ###
+data$SentenceNumber <- NULL
+
+colnames(data)[colnames(data) == "cond2"] <- "Type_Element1"
+colnames(data)[colnames(data) == "Notation"] <- "Pair"
+colnames(data)[colnames(data) == "Comment.y"] <- "CommentMeta"
+colnames(data)[colnames(data) == "Comment.x"] <- "Comment"
+colnames(data)[colnames(data) == "NR"] <- "Order_in_Experiment"
+colnames(data)[colnames(data) == "Subject"] <- "ELAN_file"
+colnames(data)[colnames(data) == "read"] <- "read1"
+colnames(data)[colnames(data) == "read2"] <- "invert1"
+colnames(data)[colnames(data) == "Word.order"] <- "Produced_Word_Order"
+colnames(data)[colnames(data) == "cond1"] <- "Exact_category"
+data$Realization <- NULL
+colnames(data)[colnames(data) == "Realization1"] <- "Realization"
+data$type.y <- NULL
+colnames(data)[colnames(data) == "type.x"] <- "type"
+
+data$Produced.error <- as.character(data$Produced.error)
+data$Produced.error[data$Produced.error == ""] <- "No"
+data$Produced.error[data$Produced.error != "No"] <- "Yes"
+
+colnames(data)[colnames(data) == "Produced.error"] <- "Production_Error"
+
+##other cleaning of data for online database##
+data$Type_Element2 <- ""
+
+data$Type_Element2[data$Pair == "SN"] <- "Neg"
+data$Type_Element2[data$Pair == "SA"] <- "Adv"
+data$Type_Element2[data$Exact_category == "Los"] <- "1st_PRO"
+data$Type_Element2[data$Exact_category == "SSRefl"] <- "Refl_PRO"
+data$Type_Element2[data$Exact_category == "Refl-Los"] <- "Refl_PRO"
+data$Type_Element2[data$Exact_category == "Part-Sub"] <- "Particle"
+data$Type_Element2[data$Pair == "PO"] <- "Particle"
+
+data$Type_Element2[data$Exact_category == "OS" & data$Type_Element1 == "NP"] <- "NP"
+data$Type_Element2[data$Exact_category == "OS" & data$Type_Element1 == "PRO" & data$UniqueNumb < 300] <- "1st_PRO"
+data$Type_Element2[data$Exact_category == "OS" & data$Type_Element1 == "PRO" & data$UniqueNumb > 300] <- "3rd_PRO"
+
+data$Type_Element2[data$Exact_category == "OS" & data$arg1 == "PRO" & data$UniqueNumb > 300] <- "3rd_PRO"
+
+
+data$Type_Element1 <- as.character(data$Type_Element1)
+
+data$Type_Element1[data$cond1 == "OS"] <- "Neg"
+data$earlier.nr <- NULL
+data$SentenceNumber <- NULL
+data$Language <- "Norwegian"
+data$numb <- NULL
+data$Grown.up.in <- NULL
+data$Test <- NULL

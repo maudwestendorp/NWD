@@ -1,0 +1,142 @@
+#################### Björn Lundquist & Maud Westendorp, May 2019 #### script for NWD ####################
+
+setwd(" ")
+
+### read in results, template, metadata ###
+file_list <- list.files()
+ for (file in file_list){
+   # if the merged dataset does exist, append to it
+   if (exists("dataset")){
+     temp_dataset <-read.delim(file, header=TRUE)
+		temp_dataset$Subject <- as.character(file)
+		colnames(temp_dataset)[4] <- "SentenceNumber"
+     dataset<-rbind(dataset, temp_dataset)
+     rm(temp_dataset)
+   }
+   # if the merged dataset doesn't exist, create it
+   if (!exists("dataset")){
+     dataset <- read.delim(file, header=TRUE)
+	dataset$Subject <- as.character(file)
+	colnames(dataset)[4] <- "SentenceNumber"
+   }
+ }
+
+data <- dataset
+
+#load other files to combine (metadata, experiment template, file with expected responses)
+meta <- read.delim("meta.txt", header=T)
+temp <- read.delim("MatTemp.txt", header=T)
+real <- read.delim("ItemMatch.txt", header=T)
+
+### organise results further ###
+library(stringr)
+data$SentenceNumber <- str_trim(data$SentenceNumber)
+data$SentenceNumber <- as.factor(data$SentenceNumber)
+
+data$Word.order <- str_trim(data$Word.order)
+data$Word.order <- as.factor(data$Word.order)
+
+data$type <- "Read"
+data[grep("^...p", as.character(data$SentenceNumber)), ] $type = "Produce"
+data[grep("^...P", as.character(data$SentenceNumber)), ] $type = "Produce"
+
+data$UniqueNumb <- data$SentenceNumber
+data$UniqueNumb = substr(data$UniqueNumb, 1, 3)
+#data$UniqueNumb <- as.numeric(data$UniqueNumb)
+
+data$Word.order <- toupper(data$Word.order)
+
+### merge results with template and clean up if necessary ###
+data <- merge(data, temp)
+
+#data$cond2[data$cond2 == "Pro"] <- "PRO"
+#data$cond1[data$cond1 == "SSrefl"] <- "SSRefl"
+#data$Word.order[data$Word.order == "spo"] <- "sp"
+#data$Word.order[data$Word.order == "other "] <- "other"
+#data$Word.order[data$cond1 == "Los" & data$Word.order == "sr"] <- "so"
+#data$Word.order[data$cond1 == "Obj-PartPP" & data$Word.order == "sp"] <- "po"
+#data$Word.order[data$cond1 == "OS" & data$Word.order == "sn"] <- "sno"
+#data$Word.order[data$cond1 == "OS" & data$Word.order == "po"] <- "no"
+
+data$Word.order <- toupper(data$Word.order)
+data <- droplevels(data)
+data$Word.order <- as.factor(data$Word.order)
+
+### merge results with file predicted realisations ###
+test <- merge(data, real, by.x=c("UniqueNumb", "Word.order"), by.y=c("UniqueNumb", "Word.order"), all.x=T)
+
+### check if OK - same number of lines! if so:
+data <- test
+
+### if no Produced.error: empty; if error, copy to Realization1 ###
+data$Produced.error[is.na(data$Produced.error)] <- ""
+xx <- droplevels(subset(data, Produced.error != ""))
+xxx <- droplevels(subset(data, Produced.error == ""))
+xx$Realization1 <- xx$Produced.error
+data <- rbind(xx, xxx)
+
+#############
+### get informant number from Subject and merge with metadata ###
+data$Informant = substr(data$Subject, 1, 4)
+xx <- merge(data, meta, by="Informant")
+
+### check if correct!
+data <- xx
+
+### clean up column names for database ###
+data$SentenceNumber <- NULL
+
+colnames(data)[colnames(data) == "cond2"] <- "Type_Element1"
+colnames(data)[colnames(data) == "Notation"] <- "Pair"
+colnames(data)[colnames(data) == "Comment.y"] <- "CommentMeta"
+colnames(data)[colnames(data) == "Comment.x"] <- "Comment"
+colnames(data)[colnames(data) == "NR"] <- "Order_in_Experiment"
+colnames(data)[colnames(data) == "Subject"] <- "ELAN_file"
+colnames(data)[colnames(data) == "read"] <- "read1"
+colnames(data)[colnames(data) == "read2"] <- "invert1"
+colnames(data)[colnames(data) == "Word.order"] <- "Produced_Word_Order"
+colnames(data)[colnames(data) == "cond1"] <- "Exact_category"
+data$Realization <- NULL
+colnames(data)[colnames(data) == "Realization1"] <- "Realization"
+data$type.y <- NULL
+colnames(data)[colnames(data) == "type.x"] <- "type"
+
+data$Produced.error <- as.character(data$Produced.error)
+data$Produced.error[data$Produced.error == ""] <- "No"
+data$Produced.error[data$Produced.error != "No"] <- "Yes"
+
+colnames(data)[colnames(data) == "Produced.error"] <- "Production_Error"
+
+data$Dialect <- ""
+data$Pair <- ""
+ data$Pair[data$cond1 == "Bridge" | data$cond1 == "Non-Bridge" | data$cond1 == "VtoI"] <- "VA"
+ data$cond1 <- as.character(data$cond1)
+ data$cond1[data$cond1 == "Bridge"] <- "BridgeV"
+ data$cond1[data$cond1 == "Non-Bridge"] <- "Non-BridgeV"
+ data$cond1[data$cond1 == "VtoI"] <- "EmbQ"
+ data$Pair[data$cond1 == "EmbObQ"] <- "SV"
+
+ colnames(data)[colnames(data) == "cond2"] <- "Type_Element1"
+ colnames(data)[colnames(data) == "adv1"] <- "Type_Element2"
+ colnames(data)[colnames(data) == "cond1"] <- "Exact_category"
+ colnames(data)
+
+ data$item <- NULL
+ data$subitem <- NULL
+ colnames(data)[colnames(data) == "cond11"] <- "Exact_category"
+
+colnames(data)[colnames(data) == "Main1"] <- "read1"
+colnames(data)[colnames(data) == "Emb1"] <- "invert1"
+
+colnames(data)[colnames(data) == "NR"] <- "Order_in_Experiment"
+colnames(data)[colnames(data) == "Subject"] <- "ELAN_file"
+
+data$Realization <- NULL
+colnames(data)[colnames(data) == "Realization1"] <- "Realization"
+
+colnames(data)[colnames(data) == "Comment.y"] <- "CommentMeta"
+colnames(data)[colnames(data) == "Comment.x"] <- "Comment"
+
+data$Mother.tongue <- toupper(data$Mother.tongue)
+data$SentenceNumber <- NULL
+data$Language <- ""

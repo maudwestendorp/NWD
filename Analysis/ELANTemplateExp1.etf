@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2018-08-14T15:59:03+01:00" FORMAT="2.8" VERSION="2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds"/>
+    <TIME_ORDER/>
+    <TIER LINGUISTIC_TYPE_REF="Sentence number" TIER_ID="Participant - Sentence number"/>
+    <TIER LINGUISTIC_TYPE_REF="Word order" PARENT_REF="Participant - Sentence number" TIER_ID="Word order"/>
+    <TIER LINGUISTIC_TYPE_REF="Word order" PARENT_REF="Participant - Sentence number" TIER_ID="Realization"/>
+    <TIER LINGUISTIC_TYPE_REF="Word order" PARENT_REF="Participant - Sentence number" TIER_ID="Produced error"/>
+    <TIER LINGUISTIC_TYPE_REF="Word order" PARENT_REF="Participant - Sentence number" TIER_ID="Comment"/>
+    <TIER LINGUISTIC_TYPE_REF="Word order" PARENT_REF="Participant - Sentence number" TIER_ID="NR"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Sentence number" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Word order" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
