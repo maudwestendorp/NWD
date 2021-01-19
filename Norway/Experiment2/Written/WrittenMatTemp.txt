@@ -1,0 +1,69 @@
+UniqueNumb	item	subitem	name	Main1	Emb1	cond11	cond12	adv1
+102	1	b	Anne	Jeg setter meg ofte fremst på forelesningen.	Anne sier at...	BridgeV	Reflexive	ofte
+104	2	b	Marit	Jeg kjeder meg bestandig i mattetimen.	Marit sier at...	BridgeV	Reflexive	alltid
+108	4	b	Anne	Jeg kjører ikke bil til jobb.	Anne sier at...	BridgeV	NonReflexive	ikke
+110	5	b	Marit	Jeg går aldri på ski til skolen.	Marit sier at...	BridgeV	NonReflexive	aldri
+112	6	b	Anne	Jeg går alltid på kino på fredager.	Anne sier at...	BridgeV	NonReflexive	alltid
+204	8	b	Marit	Jeg legger meg ofte innen midnatt.	Marit er stolt av at...	Non-BridgeV	Reflexive	ofte
+212	12	b	Marit	Jeg kommer aldri for sent på skolen.	Marit er stolt av at...	Non-BridgeV	NonReflexive	aldri
+302	13	b	Anne	Snør det ofte i Tromsø?	Anne spurte om...	VtoI	Reflexive	ofte
+312	18	b	Marit	Ventet Anne på en venninne etter norsktimen?	Marit spurte om...	VtoI	NonReflexive	none
+101	1	a	Pål	Jeg setter meg ofte lengst bak i bussen.	Pål sier at...	BridgeV	Reflexive	ofte
+103	2	a	Anne	Jeg sminker meg ikke på hverdager.	Anne sier at...	BridgeV	Reflexive	ikke
+107	4	a	Pål	Jeg kjører ofte bil til jobb.	Pål sier at...	BridgeV	NonReflexive	ofte
+109	5	a	Ole	Jeg kommer aldri for sent på jobb.	Ole sier at...	BridgeV	NonReflexive	aldri
+111	6	a	Pål	Jeg drikker bestandig en flaske vann til maten.	Pål sier at...	BridgeV	NonReflexive	alltid
+502	25	b	Anne	Hva kjøpte Marit i butikken?	Anne spurte...	EmbObQ	NonReflexive	none
+205	9	a	Pål	Jeg oppfører meg alltid bra på skolen.	Pål er stolt av at...	Non-BridgeV	Reflexive	alltid
+307	16	a	Ole	Sendte Anne en melding til venninnen sin i går?	Ole spurte om...	VtoI	NonReflexive	none
+311	18	a	Ole	Går Marit bestandig i kirken på søndager?	Ole spurte om...	VtoI	NonReflexive	alltid
+404	20	b	Marit	Hvor mange kunder kjøpte en ny skjorte?	Marit ville vite...	EmbSubQ	NonReflexive	none
+408	22	b	Marit	Når kjøpte Pål leiligheten sin?	Marit spurte...	EmbObQ	NonReflexive	none
+506	27	b	Anne	Hvem kom på festen i går?	Anne spurte...	EmbSubQ	NonReflexive	none
+508	28	b	Marit	Hvilken hund likte Pål best?	Marit ville vite...	EmbObQ	NonReflexive	none
+510	29	b	Anne	Hva slags fugl var det?	Anne spurte...	EmbObQ	NonReflexive	none
+602	31	b	Anne	Jeg har glemt nøklene mine hjemme.	Anne er sikker på at...	FillerDecl	NonReflexive	none
+608	34	b	Marit	Jeg liker fiskekaker bedre enn kjøttkaker.	Marit sa at...	FillerDecl	NonReflexive	none
+610	35	b	Anne	Jeg har glemt vesken min på bussen.	Anne er sikker på at...	FillerDecl	NonReflexive	none
+612	36	b	Marit	Jeg kjøpte en ny klokke i går. 	Marit sa at...	FillerDecl	NonReflexive	none
+403	20	a	Ole	Hvor mye snø kom det i går?	Ole ville vite...	EmbObQ	NonReflexive	none
+407	22	a	Ole	Hva slags band spilte på festivalen i helgen?	Ole spurte...	EmbSubQ	NonReflexive	none
+505	27	a	Pål	Når åpnet den nye spillbutikken i Tromsø?	Pål ville vite...	EmbObQ	NonReflexive	none
+507	28	a	Ole	Hvor mange kunder kjøpte en ny kjole?	Ole spurte...	EmbSubQ	NonReflexive	none
+509	29	a	Pål	Hvordan var treningen i går?	Pål spurte...	EmbObQ	NonReflexive	none
+601	31	a	Pål	Jeg fant vottene mine under sengen.	Pål sa at...	FillerDecl	NonReflexive	none
+603	32	a	Ole	Jeg ble bitt i hånden av en katt.	Ole sa at...	FillerDecl	NonReflexive	none
+605	33	a	Pål	Jeg skjøt ballen rett i mål.	Pål sa at ...	FillerDecl	NonReflexive	none
+607	34	a	Ole	En rotte er større enn en mus.	Ole er sikker på at...	FillerDecl	NonReflexive	none
+801	50	a	Pål:	Pål sa at skolen heldigvis halverte sykefraværet i fjor.	...	V3adv		mer enn
+803	52	a	Marit:	Marit sa at hun rett og slett elsker sjokolade.	...	V3adv		simpelthen
+813	53	a	Marit:	Marit sa at hun vanligvis hater lutefisk. 	...	V2adv		vanligvis
+805	53	a	Pål:	Pål sa at Norge heldigvis gruset Danmark i finalen.	...	V2adv		heldigvis
+815	54	a	Marit:	Marit sa at TIL bokstavelig talt knuste Rosenborg i bortekampen.	...	V3adv		bokstavelig talt
+807	55	a	Marit:	Marit sa at hun nesten gråt av glede da TIL scoret.	...	V3adv		nesten
+817	56	a	Pål:	Pål sa at han nesten fikk alt rett på matteprøven.	...	V2adv		nesten
+651	31	c	Pål:	Pål sa at han hadde glemt nøklene sine hjemme.	...	FillerDecl	NonReflexive	none
+802	50	b	Pål:	Pål sa at skolen mer enn halverte sykefraværet i fjor.	...	V3adv		mer enn
+804	52	b	Pål:	Pål sa at han rett og slett elsker marsipan.	...	V3adv		simpelthen
+814	53	b	Pål:	Pål sa at han vanligvis hater kjøttkaker.	...	V2adv		vanligvis
+806	53	b	Pål:	Pål sa at Norge bokstavelig talt gruset Danmark i finalen.	...	V3adv		bokstavelig talt
+816	54	b	Marit:	Marit sa at Rosenborg dessverre knuste TIL i hjemmekampen.	...	V2adv		dessverre
+808	55	b	Pål:	Pål sa at han nesten hylte av glede etter kampen.	...	V3adv		nesten
+818	56	b	Marit:	Marit sa at hun nesten fikk alt rett på kjemiprøven.	...	V2adv		nesten
+652	31	c	Pål:	Pål sa at han hadde glemt klokken sin hjemme.	...	FillerDecl	NonReflexive	none
+701	40	a	Jonas:	Jonas spurte om hvem som laget maten.	...	SubQshort		none
+703	41	a	Anne:	Anne spurte om hva som ble sagt i møtet.	...	SubQshort		none
+711	42	a	Jonas:	Jonas spurte om hvor mange lag som deltok i turneringen.	...	SubQlong		none
+713	43	a	Marit:	Marit spurte om hvilke bøker som var spennende.	...	SubQlong		none
+751	44	a	Jonas:	Jonas spurte om hva hun jobbet med.	...	ObjQshort		none
+753	45	a	Marit:	Marit spurte om hvem Anne er sammen med.	...	ObjQshort		none
+811	46	a	Jonas:	Jonas spurte om når Eirik flyttet til Oslo.	...	ObjQlong		none
+763	47	a	Marit:	Marit spurte om hvordan han gjorde det. 	...	ObjQlong		none
+702	40	b	Marit:	Marit spurte om hvem som laget maten.	...	SubQshort		none
+704	41	b	Pål:	Pål spurte om hva som ble sagt i møtet.	...	SubQshort		none
+712	42	b	Eirik:	Eirik spurte om hvor mange lag som deltok i turneringen.	...	SubQlong		none
+714	43	b	Anne:	Anne spurte om hvilke bøker som var spennende.	...	SubQlong		none
+655	47	a	Marit:	Marit spurte om hvordan han gjorde det. 	...	ObjQlong		none
+754	44	b	Marit:	Marit spurte om hva han jobbet med.	...	ObjQshort		none
+762	45	b	Anne:	Anne spurte om hvem Marit er sammen med.	...	ObjQshort		none
+764	46	b	Eirik:	Eirik spurte om når Pål flyttet til Tromsø.	...	ObjQlong		none

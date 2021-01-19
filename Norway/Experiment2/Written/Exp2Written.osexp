@@ -27,7 +27,7 @@ set font_size 18
 set font_italic no
 set font_family sans
 set font_bold no
-set experiment_path "/Users/mwe036/Dropbox/EmbV2MaudSiri/TromsExp"
+set experiment_path "/Users/mwe036/Dropbox/EmbV2MaudSiri/KongsbakkenExp"
 set disable_garbage_collection yes
 set description "Default description"
 set coordinates relative
@@ -47,7 +47,7 @@ define loop Part2A
 	set offset no
 	set item trial
 	set description "Repeatedly runs another item"
-	set cycles 10
+	set cycles 8
 	set continuous no
 	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
 	set break_if_on_first yes
@@ -55,8 +55,8 @@ define loop Part2A
 	setcycle 0 number 801
 	setcycle 0 item 50
 	setcycle 0 subitem a
-	setcycle 0 name "Marit:"
-	setcycle 0 Main1 "Marit hevder at et glass vin per dag mer enn halverer risikoen for hjerteinfarkt."
+	setcycle 0 name "Pål:"
+	setcycle 0 Main1 "Pål sa at skolen heldigvis halverte sykefraværet i fjor."
 	setcycle 0 Emb1 "..."
 	setcycle 0 cond11 V3
 	setcycle 0 cond12 none
@@ -65,20 +65,20 @@ define loop Part2A
 	setcycle 0 item2 40
 	setcycle 0 subitem2 a
 	setcycle 0 name2 "Jonas:"
-	setcycle 0 Main2 "Jonas spurte om hvem som lagde maten."
+	setcycle 0 Main2 "Jonas spurte om hvem som laget maten."
 	setcycle 0 Emb2 "..."
 	setcycle 0 cond21 SubQshort
 	setcycle 0 cond22 1
 	setcycle 0 adv2 none
-	setcycle 1 number 811
-	setcycle 1 item 51
+	setcycle 1 number 803
+	setcycle 1 item 52
 	setcycle 1 subitem a
-	setcycle 1 name "Pål:"
-	setcycle 1 Main1 "Pål hevder at et glass vin per dag unektelig halverer risikoen for hjerteinfarkt."
+	setcycle 1 name "Marit:"
+	setcycle 1 Main1 "Marit sa at hun rett og slett elsker sjokolade."
 	setcycle 1 Emb1 "..."
-	setcycle 1 cond11 V2
+	setcycle 1 cond11 V3
 	setcycle 1 cond12 none
-	setcycle 1 adv1 unektelig
+	setcycle 1 adv1 simpelthen
 	setcycle 1 number2 703
 	setcycle 1 item2 41
 	setcycle 1 subitem2 a
@@ -88,15 +88,15 @@ define loop Part2A
 	setcycle 1 cond21 SubQshort
 	setcycle 1 cond22 1
 	setcycle 1 adv2 none
-	setcycle 2 number 803
-	setcycle 2 item 52
+	setcycle 2 number 813
+	setcycle 2 item 53
 	setcycle 2 subitem a
 	setcycle 2 name "Marit:"
-	setcycle 2 Main1 "Marit sa at hun simpelthen elsker sjokolade."
+	setcycle 2 Main1 "Marit sa at hun vanligvis hater lutefisk. "
 	setcycle 2 Emb1 "..."
-	setcycle 2 cond11 V3
+	setcycle 2 cond11 V2
 	setcycle 2 cond12 none
-	setcycle 2 adv1 simpelthen
+	setcycle 2 adv1 vanligvis
 	setcycle 2 number2 711
 	setcycle 2 item2 42
 	setcycle 2 subitem2 a
@@ -106,33 +106,33 @@ define loop Part2A
 	setcycle 2 cond21 SubQlong
 	setcycle 2 cond22 1
 	setcycle 2 adv2 none
-	setcycle 3 number 813
+	setcycle 3 number 805
 	setcycle 3 item 53
 	setcycle 3 subitem a
-	setcycle 3 name "Marit:"
-	setcycle 3 Main1 "Marit sa at hun vanligvis hater lutefisk. "
+	setcycle 3 name "Pål:"
+	setcycle 3 Main1 "Pål sa at Norge heldigvis gruset Danmark i finalen."
 	setcycle 3 Emb1 "..."
 	setcycle 3 cond11 V2
 	setcycle 3 cond12 none
-	setcycle 3 adv1 vanligvis
+	setcycle 3 adv1 heldigvis
 	setcycle 3 number2 713
 	setcycle 3 item2 43
 	setcycle 3 subitem2 a
 	setcycle 3 name2 "Marit:"
-	setcycle 3 Main2 "Marit spurte om hvilke bøker som var bra."
+	setcycle 3 Main2 "Marit spurte om hvilke bøker som var spennende."
 	setcycle 3 Emb2 "..."
 	setcycle 3 cond21 SubQlong
 	setcycle 3 cond22 1
 	setcycle 3 adv2 none
-	setcycle 4 number 805
-	setcycle 4 item 53
+	setcycle 4 number 815
+	setcycle 4 item 54
 	setcycle 4 subitem a
-	setcycle 4 name "Pål:"
-	setcycle 4 Main1 "Pål sa at Norge heldigvis grusa Danmark i finalen."
+	setcycle 4 name "Marit:"
+	setcycle 4 Main1 "Marit sa at TIL bokstavelig talt knuste Rosenborg i bortekampen."
 	setcycle 4 Emb1 "..."
-	setcycle 4 cond11 V2
+	setcycle 4 cond11 V3
 	setcycle 4 cond12 none
-	setcycle 4 adv1 heldigvis
+	setcycle 4 adv1 "bokstavelig talt"
 	setcycle 4 number2 801
 	setcycle 4 item2 44
 	setcycle 4 subitem2 a
@@ -142,96 +142,60 @@ define loop Part2A
 	setcycle 4 cond21 ObjQshort
 	setcycle 4 cond22 1
 	setcycle 4 adv2 none
-	setcycle 5 number 815
-	setcycle 5 item 54
+	setcycle 5 number 807
+	setcycle 5 item 55
 	setcycle 5 subitem a
 	setcycle 5 name "Marit:"
-	setcycle 5 Main1 "Marit sa at TIL bokstavelig talt knuste Rosenborg i bortekampen."
+	setcycle 5 Main1 "Marit sa at hun nesten gråt av glede da TIL scoret."
 	setcycle 5 Emb1 "..."
 	setcycle 5 cond11 V3
 	setcycle 5 cond12 none
-	setcycle 5 adv1 "bokstavelig talt"
-	setcycle 5 number2 657
-	setcycle 5 item2 89
-	setcycle 5 subitem2 c
-	setcycle 5 name2 "Ole:"
-	setcycle 5 Main2 "Ole hevder at Tyskland er større enn Frankrike."
+	setcycle 5 adv1 nesten
+	setcycle 5 number2 803
+	setcycle 5 item2 45
+	setcycle 5 subitem2 a
+	setcycle 5 name2 "Marit:"
+	setcycle 5 Main2 "Marit spurte om hvem Anne er sammen med."
 	setcycle 5 Emb2 "..."
-	setcycle 5 cond21 FillerDecl
-	setcycle 5 cond22 NonReflexive
+	setcycle 5 cond21 ObjQshort
+	setcycle 5 cond22 1
 	setcycle 5 adv2 none
-	setcycle 6 number 807
-	setcycle 6 item 55
+	setcycle 6 number 817
+	setcycle 6 item 56
 	setcycle 6 subitem a
-	setcycle 6 name "Marit:"
-	setcycle 6 Main1 "Marit sa at hun nesten gråt av glede når TIL scoret."
+	setcycle 6 name "Pål:"
+	setcycle 6 Main1 "Pål sa at han nesten fikk alt rett på matteprøven."
 	setcycle 6 Emb1 "..."
-	setcycle 6 cond11 V3
+	setcycle 6 cond11 V2
 	setcycle 6 cond12 none
 	setcycle 6 adv1 nesten
-	setcycle 6 number2 803
-	setcycle 6 item2 45
+	setcycle 6 number2 811
+	setcycle 6 item2 46
 	setcycle 6 subitem2 a
-	setcycle 6 name2 "Marit:"
-	setcycle 6 Main2 "Marit spurte om hvem Anne er sammen med."
+	setcycle 6 name2 "Jonas:"
+	setcycle 6 Main2 "Jonas spurte om når Eirik flyttet til Oslo."
 	setcycle 6 Emb2 "..."
-	setcycle 6 cond21 ObjQshort
+	setcycle 6 cond21 ObjQlong
 	setcycle 6 cond22 1
 	setcycle 6 adv2 none
-	setcycle 7 number 817
-	setcycle 7 item 56
-	setcycle 7 subitem a
+	setcycle 7 number 651
+	setcycle 7 item 31
+	setcycle 7 subitem c
 	setcycle 7 name "Pål:"
-	setcycle 7 Main1 "Pål sa at han nesten fikk alt rett på matteprøven."
+	setcycle 7 Main1 "Pål sa at han hadde glemt nøklene sine hjemme."
 	setcycle 7 Emb1 "..."
-	setcycle 7 cond11 V2
-	setcycle 7 cond12 none
-	setcycle 7 adv1 nesten
-	setcycle 7 number2 811
-	setcycle 7 item2 46
+	setcycle 7 cond11 FillerDecl
+	setcycle 7 cond12 NonReflexive
+	setcycle 7 adv1 none
+	setcycle 7 number2 813
+	setcycle 7 item2 47
 	setcycle 7 subitem2 a
-	setcycle 7 name2 "Jonas:"
-	setcycle 7 Main2 "Jonas spurte om når Eirik flyttet til Oslo."
+	setcycle 7 name2 "Marit:"
+	setcycle 7 Main2 "Marit spurte om hvordan han gjorde det. "
 	setcycle 7 Emb2 "..."
 	setcycle 7 cond21 ObjQlong
 	setcycle 7 cond22 1
 	setcycle 7 adv2 none
-	setcycle 8 number 651
-	setcycle 8 item 31
-	setcycle 8 subitem c
-	setcycle 8 name "Pål:"
-	setcycle 8 Main1 "Pål sa at han hadde glømt nøklene sine hjemme."
-	setcycle 8 Emb1 "..."
-	setcycle 8 cond11 FillerDecl
-	setcycle 8 cond12 NonReflexive
-	setcycle 8 adv1 none
-	setcycle 8 number2 813
-	setcycle 8 item2 47
-	setcycle 8 subitem2 a
-	setcycle 8 name2 "Marit:"
-	setcycle 8 Main2 "Marit spurte om hvordan han gjorde det. "
-	setcycle 8 Emb2 "..."
-	setcycle 8 cond21 ObjQlong
-	setcycle 8 cond22 1
-	setcycle 8 adv2 none
-	setcycle 9 number 653
-	setcycle 9 item 32
-	setcycle 9 subitem c
-	setcycle 9 name "Ole:"
-	setcycle 9 Main1 "Ole hevder at Pål har vært syk hele uken."
-	setcycle 9 Emb1 "..."
-	setcycle 9 cond11 FillerDecl
-	setcycle 9 cond12 NonReflexive
-	setcycle 9 adv1 none
-	setcycle 9 number2 655
-	setcycle 9 item2 88
-	setcycle 9 subitem2 c
-	setcycle 9 name2 "Pål:"
-	setcycle 9 Main2 "Pål hevder at turen i morgen er avlyst."
-	setcycle 9 Emb2 "..."
-	setcycle 9 cond21 FillerDecl
-	setcycle 9 cond22 NonReflexive
-	setcycle 9 adv2 none
 	run trial_2_2_1_1
 
 define loop Part2B
@@ -439,7 +403,7 @@ define loop Part2B_1
 	set offset no
 	set item trial
 	set description "Repeatedly runs another item"
-	set cycles 10
+	set cycles 8
 	set continuous no
 	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
 	set break_if_on_first yes
@@ -448,7 +412,7 @@ define loop Part2B_1
 	setcycle 0 item 50
 	setcycle 0 subitem b
 	setcycle 0 name "Pål:"
-	setcycle 0 Main1 "Pål sier at en øl om dagen mer enn dobler risikoen for hjerneslag."
+	setcycle 0 Main1 "Pål sa at skolen mer enn halverte sykefraværet i fjor."
 	setcycle 0 Emb1 "..."
 	setcycle 0 cond11 V3
 	setcycle 0 cond12 none
@@ -457,20 +421,19 @@ define loop Part2B_1
 	setcycle 0 item2 40
 	setcycle 0 subitem2 b
 	setcycle 0 name2 "Marit:"
-	setcycle 0 Main2 "Marit spurte om hvem som lagde maten."
+	setcycle 0 Main2 "Marit spurte om hvem som laget maten."
 	setcycle 0 Emb2 "..."
 	setcycle 0 cond21 SubQshort
 	setcycle 0 cond22 2
-	setcycle 0 adv2 none
-	setcycle 1 number 812
-	setcycle 1 item 51
+	setcycle 1 number 804
+	setcycle 1 item 52
 	setcycle 1 subitem b
-	setcycle 1 name "Marit:"
-	setcycle 1 Main1 "Marit sier at en øl om dagen dessverre dobler risikoen for hjerneslag."
+	setcycle 1 name "Pål:"
+	setcycle 1 Main1 "Pål sa at han rett og slett elsker marsipan."
 	setcycle 1 Emb1 "..."
-	setcycle 1 cond11 V2
+	setcycle 1 cond11 V3
 	setcycle 1 cond12 none
-	setcycle 1 adv1 dessverre
+	setcycle 1 adv1 simpelthen
 	setcycle 1 number2 704
 	setcycle 1 item2 41
 	setcycle 1 subitem2 b
@@ -479,16 +442,15 @@ define loop Part2B_1
 	setcycle 1 Emb2 "..."
 	setcycle 1 cond21 SubQshort
 	setcycle 1 cond22 2
-	setcycle 1 adv2 none
-	setcycle 2 number 804
-	setcycle 2 item 52
+	setcycle 2 number 814
+	setcycle 2 item 53
 	setcycle 2 subitem b
 	setcycle 2 name "Pål:"
-	setcycle 2 Main1 "Pål sa at han simpelthen elsker marsipan."
+	setcycle 2 Main1 "Pål sa at han vanligvis hater kjøttkaker."
 	setcycle 2 Emb1 "..."
-	setcycle 2 cond11 V3
+	setcycle 2 cond11 V2
 	setcycle 2 cond12 none
-	setcycle 2 adv1 simpelthen
+	setcycle 2 adv1 vanligvis
 	setcycle 2 number2 712
 	setcycle 2 item2 42
 	setcycle 2 subitem2 b
@@ -497,133 +459,91 @@ define loop Part2B_1
 	setcycle 2 Emb2 "..."
 	setcycle 2 cond21 SubQlong
 	setcycle 2 cond22 2
-	setcycle 2 adv2 none
-	setcycle 3 number 814
+	setcycle 3 number 806
 	setcycle 3 item 53
 	setcycle 3 subitem b
 	setcycle 3 name "Pål:"
-	setcycle 3 Main1 "Pål sa at han vanligvis hater lakris."
+	setcycle 3 Main1 "Pål sa at Norge bokstavelig talt gruset Danmark i finalen."
 	setcycle 3 Emb1 "..."
-	setcycle 3 cond11 V2
+	setcycle 3 cond11 V3
 	setcycle 3 cond12 none
-	setcycle 3 adv1 vanligvis
+	setcycle 3 adv1 "bokstavelig talt"
 	setcycle 3 number2 714
 	setcycle 3 item2 43
 	setcycle 3 subitem2 b
 	setcycle 3 name2 "Anne:"
-	setcycle 3 Main2 "Anne spurte om hvilke bøker som var bra."
+	setcycle 3 Main2 "Anne spurte om hvilke bøker som var spennende."
 	setcycle 3 Emb2 "..."
 	setcycle 3 cond21 SubQlong
 	setcycle 3 cond22 2
-	setcycle 3 adv2 none
-	setcycle 4 number 806
-	setcycle 4 item 53
+	setcycle 4 number 816
+	setcycle 4 item 54
 	setcycle 4 subitem b
-	setcycle 4 name "Pål:"
-	setcycle 4 Main1 "Pål sa at Norge bokstavelig talt grusa Danmark i finalen."
+	setcycle 4 name "Marit:"
+	setcycle 4 Main1 "Marit sa at Rosenborg dessverre knuste TIL i hjemmekampen."
 	setcycle 4 Emb1 "..."
-	setcycle 4 cond11 V3
+	setcycle 4 cond11 V2
 	setcycle 4 cond12 none
-	setcycle 4 adv1 "bokstavelig talt"
+	setcycle 4 adv1 dessverre
 	setcycle 4 number2 655
-	setcycle 4 item2 88
-	setcycle 4 subitem2 c
-	setcycle 4 name2 "Pål:"
-	setcycle 4 Main2 "Pål hevder at turen i morgen er avlyst."
+	setcycle 4 item2 47
+	setcycle 4 subitem2 a
+	setcycle 4 name2 "Marit:"
+	setcycle 4 Main2 "Marit spurte om hvordan han gjorde det. "
 	setcycle 4 Emb2 "..."
-	setcycle 4 cond21 FillerDecl
-	setcycle 4 cond22 NonReflexive
-	setcycle 4 adv2 none
-	setcycle 5 number 816
-	setcycle 5 item 54
+	setcycle 4 cond21 ObjQlong
+	setcycle 4 cond22 1
+	setcycle 5 number 808
+	setcycle 5 item 55
 	setcycle 5 subitem b
-	setcycle 5 name "Marit:"
-	setcycle 5 Main1 "Marit sa at Rosenborg dessverre knuste TIL i hjemmekampen."
+	setcycle 5 name "Pål:"
+	setcycle 5 Main1 "Pål sa at han nesten hylte av glede etter kampen."
 	setcycle 5 Emb1 "..."
-	setcycle 5 cond11 V2
+	setcycle 5 cond11 V3
 	setcycle 5 cond12 none
-	setcycle 5 adv1 dessverre
-	setcycle 5 number2 655
-	setcycle 5 item2 88
-	setcycle 5 subitem2 c
-	setcycle 5 name2 "Pål:"
-	setcycle 5 Main2 "Ole hevder at månen er laget av ost."
+	setcycle 5 adv1 nesten
+	setcycle 5 number2 813
+	setcycle 5 item2 44
+	setcycle 5 subitem2 b
+	setcycle 5 name2 "Marit:"
+	setcycle 5 Main2 "Marit spurte om hva han jobbet med."
 	setcycle 5 Emb2 "..."
-	setcycle 5 cond21 FillerDecl
-	setcycle 5 cond22 NonReflexive
-	setcycle 5 adv2 none
-	setcycle 6 number 808
-	setcycle 6 item 55
+	setcycle 5 cond21 ObjQshort
+	setcycle 5 cond22 2
+	setcycle 6 number 818
+	setcycle 6 item 56
 	setcycle 6 subitem b
-	setcycle 6 name "Pål:"
-	setcycle 6 Main1 "Pål sa at han nesten hylte av glede etter kampen."
+	setcycle 6 name "Marit:"
+	setcycle 6 Main1 "Marit sa at hun nesten fikk alt rett på kjemiprøven."
 	setcycle 6 Emb1 "..."
-	setcycle 6 cond11 V3
+	setcycle 6 cond11 V2
 	setcycle 6 cond12 none
 	setcycle 6 adv1 nesten
 	setcycle 6 number2 802
-	setcycle 6 item2 44
+	setcycle 6 item2 45
 	setcycle 6 subitem2 b
-	setcycle 6 name2 "Marit:"
-	setcycle 6 Main2 "Marit spurte om hva han jobbet med."
+	setcycle 6 name2 "Anne:"
+	setcycle 6 Main2 "Anne spurte om hvem Marit er sammen med."
 	setcycle 6 Emb2 "..."
 	setcycle 6 cond21 ObjQshort
 	setcycle 6 cond22 2
-	setcycle 6 adv2 none
-	setcycle 7 number 818
-	setcycle 7 item 56
-	setcycle 7 subitem b
-	setcycle 7 name "Marit:"
-	setcycle 7 Main1 "Marit sa at hun nesten fikk alt rett på matteprøven."
+	setcycle 7 number 651
+	setcycle 7 item 31
+	setcycle 7 subitem c
+	setcycle 7 name "Pål:"
+	setcycle 7 Main1 "Pål sa at han hadde glemt klokken sin hjemme."
 	setcycle 7 Emb1 "..."
-	setcycle 7 cond11 V2
-	setcycle 7 cond12 none
-	setcycle 7 adv1 nesten
+	setcycle 7 cond11 FillerDecl
+	setcycle 7 cond12 NonReflexive
+	setcycle 7 adv1 none
 	setcycle 7 number2 804
-	setcycle 7 item2 45
+	setcycle 7 item2 46
 	setcycle 7 subitem2 b
-	setcycle 7 name2 "Anne:"
-	setcycle 7 Main2 "Anne spurte om hvem Marit er sammen med."
+	setcycle 7 name2 "Eirik:"
+	setcycle 7 Main2 "Eirik spurte om når Pål flyttet til Tromsø."
 	setcycle 7 Emb2 "..."
-	setcycle 7 cond21 ObjQshort
+	setcycle 7 cond21 ObjQlong
 	setcycle 7 cond22 2
-	setcycle 7 adv2 none
-	setcycle 8 number 651
-	setcycle 8 item 31
-	setcycle 8 subitem c
-	setcycle 8 name "Pål:"
-	setcycle 8 Main1 "Pål sa at han hadde glømt nøklene sine hjemme."
-	setcycle 8 Emb1 "..."
-	setcycle 8 cond11 FillerDecl
-	setcycle 8 cond12 NonReflexive
-	setcycle 8 adv1 none
-	setcycle 8 number2 812
-	setcycle 8 item2 46
-	setcycle 8 subitem2 b
-	setcycle 8 name2 "Eirik:"
-	setcycle 8 Main2 "Eirik spurte om når Pål flyttet til Oslo."
-	setcycle 8 Emb2 "..."
-	setcycle 8 cond21 ObjQlong
-	setcycle 8 cond22 2
-	setcycle 8 adv2 none
-	setcycle 9 number 653
-	setcycle 9 item 32
-	setcycle 9 subitem c
-	setcycle 9 name "Ole:"
-	setcycle 9 Main1 "Ole hevder at Pål har vært syk hele uken."
-	setcycle 9 Emb1 "..."
-	setcycle 9 cond11 FillerDecl
-	setcycle 9 cond12 NonReflexive
-	setcycle 9 adv1 none
-	setcycle 9 number2 813
-	setcycle 9 item2 47
-	setcycle 9 subitem2 a
-	setcycle 9 name2 "Marit:"
-	setcycle 9 Main2 "Marit spurte om hvordan han gjorde det. "
-	setcycle 9 Emb2 "..."
-	setcycle 9 cond21 ObjQlong
-	setcycle 9 cond22 1
-	setcycle 9 adv2 none
 	run trial_2_2_1_1_2
 
 define loop PartA
@@ -635,7 +555,185 @@ define loop PartA
 	set offset no
 	set item trial
 	set description "Repeatedly runs another item"
-	set cycles 10
+	set cycles 9
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 number 102
+	setcycle 0 item 1
+	setcycle 0 subitem b
+	setcycle 0 name Anne
+	setcycle 0 Main1 "Jeg setter meg ofte fremst på forelesningen."
+	setcycle 0 Emb1 "Anne sier at..."
+	setcycle 0 cond11 Bridge
+	setcycle 0 cond12 Reflexive
+	setcycle 0 adv1 ofte
+	setcycle 0 number2 404
+	setcycle 0 item2 20
+	setcycle 0 subitem2 b
+	setcycle 0 name2 Marit
+	setcycle 0 Main2 "Hvor mange kunder kjøpte en ny skjorte?"
+	setcycle 0 Emb2 "Marit ville vite..."
+	setcycle 0 cond21 EmbSubQ
+	setcycle 0 cond22 NonReflexive
+	setcycle 0 adv2 none
+	setcycle 1 number 104
+	setcycle 1 item 2
+	setcycle 1 subitem b
+	setcycle 1 name Marit
+	setcycle 1 Main1 "Jeg kjeder meg bestandig i mattetimen."
+	setcycle 1 Emb1 "Marit sier at..."
+	setcycle 1 cond11 Bridge
+	setcycle 1 cond12 Reflexive
+	setcycle 1 adv1 alltid
+	setcycle 1 number2 408
+	setcycle 1 item2 22
+	setcycle 1 subitem2 b
+	setcycle 1 name2 Marit
+	setcycle 1 Main2 "Når kjøpte Pål leiligheten sin?"
+	setcycle 1 Emb2 "Marit spurte..."
+	setcycle 1 cond21 EmbObQ
+	setcycle 1 cond22 NonReflexive
+	setcycle 1 adv2 none
+	setcycle 2 number 108
+	setcycle 2 item 4
+	setcycle 2 subitem b
+	setcycle 2 name Anne
+	setcycle 2 Main1 "Jeg kjører ikke bil til jobb."
+	setcycle 2 Emb1 "Anne sier at..."
+	setcycle 2 cond11 Bridge
+	setcycle 2 cond12 NonReflexive
+	setcycle 2 adv1 ikke
+	setcycle 2 number2 506
+	setcycle 2 item2 27
+	setcycle 2 subitem2 b
+	setcycle 2 name2 Anne
+	setcycle 2 Main2 "Hvem kom på festen i går?"
+	setcycle 2 Emb2 "Anne spurte..."
+	setcycle 2 cond21 EmbSubQ
+	setcycle 2 cond22 NonReflexive
+	setcycle 2 adv2 none
+	setcycle 3 number 110
+	setcycle 3 item 5
+	setcycle 3 subitem b
+	setcycle 3 name Marit
+	setcycle 3 Main1 "Jeg går aldri på ski til skolen."
+	setcycle 3 Emb1 "Marit sier at..."
+	setcycle 3 cond11 Bridge
+	setcycle 3 cond12 NonReflexive
+	setcycle 3 adv1 aldri
+	setcycle 3 number2 508
+	setcycle 3 item2 28
+	setcycle 3 subitem2 b
+	setcycle 3 name2 Marit
+	setcycle 3 Main2 "Hvilken hund likte Pål best?"
+	setcycle 3 Emb2 "Marit ville vite..."
+	setcycle 3 cond21 EmbObQ
+	setcycle 3 cond22 NonReflexive
+	setcycle 3 adv2 none
+	setcycle 4 number 112
+	setcycle 4 item 6
+	setcycle 4 subitem b
+	setcycle 4 name Anne
+	setcycle 4 Main1 "Jeg går alltid på kino på fredager."
+	setcycle 4 Emb1 "Anne sier at..."
+	setcycle 4 cond11 Bridge
+	setcycle 4 cond12 NonReflexive
+	setcycle 4 adv1 alltid
+	setcycle 4 number2 510
+	setcycle 4 item2 29
+	setcycle 4 subitem2 b
+	setcycle 4 name2 Anne
+	setcycle 4 Main2 "Hva slags fugl var det?"
+	setcycle 4 Emb2 "Anne spurte..."
+	setcycle 4 cond21 EmbObQ
+	setcycle 4 cond22 NonReflexive
+	setcycle 4 adv2 none
+	setcycle 5 number 204
+	setcycle 5 item 8
+	setcycle 5 subitem b
+	setcycle 5 name Marit
+	setcycle 5 Main1 "Jeg legger meg ofte innen midnatt."
+	setcycle 5 Emb1 "Marit er stolt av at..."
+	setcycle 5 cond11 "Non-Bridge"
+	setcycle 5 cond12 Reflexive
+	setcycle 5 adv1 ofte
+	setcycle 5 number2 602
+	setcycle 5 item2 31
+	setcycle 5 subitem2 b
+	setcycle 5 name2 Anne
+	setcycle 5 Main2 "Jeg har glemt nøklene mine hjemme."
+	setcycle 5 Emb2 "Anne er sikker på at..."
+	setcycle 5 cond21 FillerDecl
+	setcycle 5 cond22 NonReflexive
+	setcycle 5 adv2 none
+	setcycle 6 number 212
+	setcycle 6 item 12
+	setcycle 6 subitem b
+	setcycle 6 name Marit
+	setcycle 6 Main1 "Jeg kommer aldri for sent på skolen."
+	setcycle 6 Emb1 "Marit er stolt av at..."
+	setcycle 6 cond11 "Non-Bridge"
+	setcycle 6 cond12 NonReflexive
+	setcycle 6 adv1 aldri
+	setcycle 6 number2 608
+	setcycle 6 item2 34
+	setcycle 6 subitem2 b
+	setcycle 6 name2 Marit
+	setcycle 6 Main2 "Jeg liker fiskekaker bedre enn kjøttkaker."
+	setcycle 6 Emb2 "Marit sa at..."
+	setcycle 6 cond21 FillerDecl
+	setcycle 6 cond22 NonReflexive
+	setcycle 6 adv2 none
+	setcycle 7 number 302
+	setcycle 7 item 13
+	setcycle 7 subitem b
+	setcycle 7 name Anne
+	setcycle 7 Main1 "Snør det ofte i Tromsø?"
+	setcycle 7 Emb1 "Anne spurte om..."
+	setcycle 7 cond11 VtoI
+	setcycle 7 cond12 Reflexive
+	setcycle 7 adv1 ofte
+	setcycle 7 number2 610
+	setcycle 7 item2 35
+	setcycle 7 subitem2 b
+	setcycle 7 name2 Anne
+	setcycle 7 Main2 "Jeg har glemt vesken min på bussen."
+	setcycle 7 Emb2 "Anne er sikker på at..."
+	setcycle 7 cond21 FillerDecl
+	setcycle 7 cond22 NonReflexive
+	setcycle 7 adv2 none
+	setcycle 8 number 312
+	setcycle 8 item 18
+	setcycle 8 subitem b
+	setcycle 8 name Marit
+	setcycle 8 Main1 "Ventet Anne på en venninne etter norsktimen?"
+	setcycle 8 Emb1 "Marit spurte om..."
+	setcycle 8 cond11 VtoI
+	setcycle 8 cond12 NonReflexive
+	setcycle 8 adv1 none
+	setcycle 8 number2 612
+	setcycle 8 item2 36
+	setcycle 8 subitem2 b
+	setcycle 8 name2 Marit
+	setcycle 8 Main2 "Jeg kjøpte en ny klokke i går. "
+	setcycle 8 Emb2 "Marit sa at..."
+	setcycle 8 cond21 FillerDecl
+	setcycle 8 cond22 NonReflexive
+	setcycle 8 adv2 none
+	run trial_2_2
+
+define loop PartB
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 9
 	set continuous no
 	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
 	set break_if_on_first yes
@@ -650,372 +748,158 @@ define loop PartA
 	setcycle 0 cond12 Reflexive
 	setcycle 0 adv1 ofte
 	setcycle 0 number2 403
-	setcycle 0 item2 a
-	setcycle 0 subitem2 20
+	setcycle 0 item2 20
+	setcycle 0 subitem2 a
 	setcycle 0 name2 Ole
-	setcycle 0 Main2 "Hvor mange elever kom i tide til forelesningen?"
+	setcycle 0 Main2 "Hvor mye snø kom det i går?"
 	setcycle 0 Emb2 "Ole ville vite..."
-	setcycle 0 cond21 EmbSubQ
+	setcycle 0 cond21 EmbObQ
 	setcycle 0 cond22 NonReflexive
 	setcycle 0 adv2 none
 	setcycle 1 number 103
 	setcycle 1 item a
 	setcycle 1 subitem 2
 	setcycle 1 name Anne
-	setcycle 1 Main1 "Jeg sminker meg aldri på hverdager."
+	setcycle 1 Main1 "Jeg sminker meg ikke på hverdager."
 	setcycle 1 Emb1 "Anne sier at..."
 	setcycle 1 cond11 Bridge
 	setcycle 1 cond12 Reflexive
-	setcycle 1 adv1 aldri
+	setcycle 1 adv1 ikke
 	setcycle 1 number2 407
-	setcycle 1 item2 a
-	setcycle 1 subitem2 22
+	setcycle 1 item2 22
+	setcycle 1 subitem2 a
 	setcycle 1 name2 Ole
 	setcycle 1 Main2 "Hva slags band spilte på festivalen i helgen?"
 	setcycle 1 Emb2 "Ole spurte..."
 	setcycle 1 cond21 EmbSubQ
 	setcycle 1 cond22 NonReflexive
 	setcycle 1 adv2 none
-	setcycle 2 number 105
+	setcycle 2 number 107
 	setcycle 2 item a
-	setcycle 2 subitem 3
+	setcycle 2 subitem 4
 	setcycle 2 name Pål
-	setcycle 2 Main1 "Jeg barberer meg alltid om morgenen."
+	setcycle 2 Main1 "Jeg kjører ofte bil til jobb."
 	setcycle 2 Emb1 "Pål sier at..."
 	setcycle 2 cond11 Bridge
-	setcycle 2 cond12 Reflexive
-	setcycle 2 adv1 alltid
-	setcycle 2 number2 409
-	setcycle 2 item2 a
-	setcycle 2 subitem2 23
+	setcycle 2 cond12 NonReflexive
+	setcycle 2 adv1 ofte
+	setcycle 2 number2 505
+	setcycle 2 item2 27
+	setcycle 2 subitem2 a
 	setcycle 2 name2 Pål
-	setcycle 2 Main2 "Hvor mange elever er det på denne skolen?"
-	setcycle 2 Emb2 "Pål spurte..."
-	setcycle 2 cond21 EmbSubQ
+	setcycle 2 Main2 "Når åpnet den nye spillbutikken i Tromsø?"
+	setcycle 2 Emb2 "Pål ville vite..."
+	setcycle 2 cond21 EmbObQ
 	setcycle 2 cond22 NonReflexive
 	setcycle 2 adv2 none
-	setcycle 3 number 107
+	setcycle 3 number 109
 	setcycle 3 item a
-	setcycle 3 subitem 4
-	setcycle 3 name Pål
-	setcycle 3 Main1 "Jeg kjører ofte bil til jobb."
-	setcycle 3 Emb1 "Pål sier at..."
+	setcycle 3 subitem 5
+	setcycle 3 name Ole
+	setcycle 3 Main1 "Jeg kommer aldri for sent på jobb."
+	setcycle 3 Emb1 "Ole sier at..."
 	setcycle 3 cond11 Bridge
 	setcycle 3 cond12 NonReflexive
-	setcycle 3 adv1 ofte
-	setcycle 3 number2 505
-	setcycle 3 item2 a
-	setcycle 3 subitem2 27
-	setcycle 3 name2 Pål
-	setcycle 3 Main2 "Hvor mange fisker fikk Einar?"
-	setcycle 3 Emb2 "Pål spurte..."
-	setcycle 3 cond21 EmbObQ
+	setcycle 3 adv1 aldri
+	setcycle 3 number2 507
+	setcycle 3 item2 28
+	setcycle 3 subitem2 a
+	setcycle 3 name2 Ole
+	setcycle 3 Main2 "Hvor mange kunder kjøpte en ny kjole?"
+	setcycle 3 Emb2 "Ole spurte..."
+	setcycle 3 cond21 EmbSubQ
 	setcycle 3 cond22 NonReflexive
 	setcycle 3 adv2 none
-	setcycle 4 number 109
+	setcycle 4 number 111
 	setcycle 4 item a
-	setcycle 4 subitem 5
-	setcycle 4 name Ole
-	setcycle 4 Main1 "Jeg kommer aldri for sent på jobb."
-	setcycle 4 Emb1 "Ole sier at..."
+	setcycle 4 subitem 6
+	setcycle 4 name Pål
+	setcycle 4 Main1 "Jeg drikker bestandig en flaske vann til maten."
+	setcycle 4 Emb1 "Pål sier at..."
 	setcycle 4 cond11 Bridge
 	setcycle 4 cond12 NonReflexive
-	setcycle 4 adv1 aldri
-	setcycle 4 number2 507
-	setcycle 4 item2 a
-	setcycle 4 subitem2 28
-	setcycle 4 name2 Ole
-	setcycle 4 Main2 "Hvilke filmer så Pål i går?"
-	setcycle 4 Emb2 "Ole spurte..."
+	setcycle 4 adv1 alltid
+	setcycle 4 number2 509
+	setcycle 4 item2 29
+	setcycle 4 subitem2 a
+	setcycle 4 name2 Pål
+	setcycle 4 Main2 "Hvordan var treningen i går?"
+	setcycle 4 Emb2 "Pål spurte..."
 	setcycle 4 cond21 EmbObQ
 	setcycle 4 cond22 NonReflexive
 	setcycle 4 adv2 none
-	setcycle 5 number 111
-	setcycle 5 item a
-	setcycle 5 subitem 6
-	setcycle 5 name Pål
-	setcycle 5 Main1 "Jeg hører alltid på radio i bilen."
-	setcycle 5 Emb1 "Pål sier at..."
-	setcycle 5 cond11 Bridge
+	setcycle 5 number 502
+	setcycle 5 item b
+	setcycle 5 subitem 25
+	setcycle 5 name Anne
+	setcycle 5 Main1 "Hva kjøpte Marit i butikken?"
+	setcycle 5 Emb1 "Anne spurte..."
+	setcycle 5 cond11 EmbObQ
 	setcycle 5 cond12 NonReflexive
-	setcycle 5 adv1 alltid
-	setcycle 5 number2 509
-	setcycle 5 item2 a
-	setcycle 5 subitem2 29
+	setcycle 5 adv1 none
+	setcycle 5 number2 601
+	setcycle 5 item2 31
+	setcycle 5 subitem2 a
 	setcycle 5 name2 Pål
-	setcycle 5 Main2 "Hva slags fugl var det?"
-	setcycle 5 Emb2 "Pål spurte..."
-	setcycle 5 cond21 EmbObQ
+	setcycle 5 Main2 "Jeg fant vottene mine under sengen."
+	setcycle 5 Emb2 "Pål sa at..."
+	setcycle 5 cond21 FillerDecl
 	setcycle 5 cond22 NonReflexive
 	setcycle 5 adv2 none
-	setcycle 6 number 203
+	setcycle 6 number 205
 	setcycle 6 item a
-	setcycle 6 subitem 8
-	setcycle 6 name Ole
-	setcycle 6 Main1 "Jeg legger meg ofte innen midnatt."
-	setcycle 6 Emb1 "Ole er stolt av at..."
+	setcycle 6 subitem 9
+	setcycle 6 name Pål
+	setcycle 6 Main1 "Jeg oppfører meg alltid bra på skolen."
+	setcycle 6 Emb1 "Pål er stolt av at..."
 	setcycle 6 cond11 "Non-Bridge"
 	setcycle 6 cond12 Reflexive
-	setcycle 6 adv1 ofte
-	setcycle 6 number2 601
-	setcycle 6 item2 a
-	setcycle 6 subitem2 31
-	setcycle 6 name2 Pål
-	setcycle 6 Main2 "Jeg har glemt nøklene mine hjemme."
-	setcycle 6 Emb2 "Pål er sikker på at..."
+	setcycle 6 adv1 alltid
+	setcycle 6 number2 603
+	setcycle 6 item2 32
+	setcycle 6 subitem2 a
+	setcycle 6 name2 Ole
+	setcycle 6 Main2 "Jeg ble bitt i hånden av en katt."
+	setcycle 6 Emb2 "Ole sa at..."
 	setcycle 6 cond21 FillerDecl
 	setcycle 6 cond22 NonReflexive
 	setcycle 6 adv2 none
-	setcycle 7 number 205
+	setcycle 7 number 307
 	setcycle 7 item a
-	setcycle 7 subitem 9
-	setcycle 7 name Pål
-	setcycle 7 Main1 "Jeg oppfører meg alltid bra på skolen."
-	setcycle 7 Emb1 "Pål er stolt av at..."
-	setcycle 7 cond11 "Non-Bridge"
-	setcycle 7 cond12 Reflexive
-	setcycle 7 adv1 alltid
-	setcycle 7 number2 603
-	setcycle 7 item2 a
-	setcycle 7 subitem2 32
-	setcycle 7 name2 Ole
-	setcycle 7 Main2 "Pål har vært syk hele uken."
-	setcycle 7 Emb2 "Ole er sikker på at..."
+	setcycle 7 subitem 16
+	setcycle 7 name Ole
+	setcycle 7 Main1 "Sendte Anne en melding til venninnen sin i går?"
+	setcycle 7 Emb1 "Ole spurte om..."
+	setcycle 7 cond11 VtoI
+	setcycle 7 cond12 NonReflexive
+	setcycle 7 adv1 none
+	setcycle 7 number2 605
+	setcycle 7 item2 33
+	setcycle 7 subitem2 a
+	setcycle 7 name2 Pål
+	setcycle 7 Main2 "Jeg skjøt ballen rett i mål."
+	setcycle 7 Emb2 "Pål sa at ..."
 	setcycle 7 cond21 FillerDecl
 	setcycle 7 cond22 NonReflexive
 	setcycle 7 adv2 none
-	setcycle 8 number 307
+	setcycle 8 number 311
 	setcycle 8 item a
-	setcycle 8 subitem 16
+	setcycle 8 subitem 18
 	setcycle 8 name Ole
-	setcycle 8 Main1 "Sykler Pål alltid til jobb?"
+	setcycle 8 Main1 "Går Marit bestandig i kirken på søndager?"
 	setcycle 8 Emb1 "Ole spurte om..."
 	setcycle 8 cond11 VtoI
 	setcycle 8 cond12 NonReflexive
 	setcycle 8 adv1 alltid
-	setcycle 8 number2 605
-	setcycle 8 item2 a
-	setcycle 8 subitem2 33
-	setcycle 8 name2 Pål
-	setcycle 8 Main2 "Turen i morgen er avlyst."
-	setcycle 8 Emb2 "Pål er sikker på at ..."
+	setcycle 8 number2 607
+	setcycle 8 item2 34
+	setcycle 8 subitem2 a
+	setcycle 8 name2 Ole
+	setcycle 8 Main2 "En rotte er større enn en mus."
+	setcycle 8 Emb2 "Ole er sikker på at..."
 	setcycle 8 cond21 FillerDecl
 	setcycle 8 cond22 NonReflexive
 	setcycle 8 adv2 none
-	setcycle 9 number 311
-	setcycle 9 item a
-	setcycle 9 subitem 18
-	setcycle 9 name Ole
-	setcycle 9 Main1 "Drar Anne aldri ut på lørdager?"
-	setcycle 9 Emb1 "Ole spurte om..."
-	setcycle 9 cond11 VtoI
-	setcycle 9 cond12 NonReflexive
-	setcycle 9 adv1 aldri
-	setcycle 9 number2 607
-	setcycle 9 item2 a
-	setcycle 9 subitem2 34
-	setcycle 9 name2 Ole
-	setcycle 9 Main2 "Tyskland er større enn Frankrike."
-	setcycle 9 Emb2 "Ole tror at..."
-	setcycle 9 cond21 FillerDecl
-	setcycle 9 cond22 NonReflexive
-	setcycle 9 adv2 none
-	run trial_2_2
-
-define loop PartB
-	set source_file ""
-	set source table
-	set skip 0
-	set repeat 1
-	set order random
-	set offset no
-	set item trial
-	set description "Repeatedly runs another item"
-	set cycles 10
-	set continuous no
-	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
-	set break_if_on_first yes
-	set break_if never
-	setcycle 0 number 102
-	setcycle 0 item 1
-	setcycle 0 subitem b
-	setcycle 0 name Anne
-	setcycle 0 Main1 "Jeg setter meg ofte lengst bak i bussen."
-	setcycle 0 Emb1 "Anne sier at..."
-	setcycle 0 cond11 Bridge
-	setcycle 0 cond12 Reflexive
-	setcycle 0 adv1 ofte
-	setcycle 0 number2 404
-	setcycle 0 item2 20
-	setcycle 0 subitem2 b
-	setcycle 0 name2 Marit
-	setcycle 0 Main2 "Hvor mange elever kom i tide til forelesningen?"
-	setcycle 0 Emb2 "Marit ville vite..."
-	setcycle 0 cond21 EmbSubQ
-	setcycle 0 cond22 NonReflexive
-	setcycle 0 adv2 none
-	setcycle 1 number 104
-	setcycle 1 item 2
-	setcycle 1 subitem b
-	setcycle 1 name Marit
-	setcycle 1 Main1 "Jeg sminker meg aldri på hverdager."
-	setcycle 1 Emb1 "Marit sier at..."
-	setcycle 1 cond11 Bridge
-	setcycle 1 cond12 Reflexive
-	setcycle 1 adv1 aldri
-	setcycle 1 number2 408
-	setcycle 1 item2 22
-	setcycle 1 subitem2 b
-	setcycle 1 name2 Marit
-	setcycle 1 Main2 "Hva slags band spilte på festivalen i helgen?"
-	setcycle 1 Emb2 "Marit spurte..."
-	setcycle 1 cond21 EmbSubQ
-	setcycle 1 cond22 NonReflexive
-	setcycle 1 adv2 none
-	setcycle 2 number 106
-	setcycle 2 item 3
-	setcycle 2 subitem b
-	setcycle 2 name Ole
-	setcycle 2 Main1 "Jeg barberer meg alltid om morgenen."
-	setcycle 2 Emb1 "Ole sier at..."
-	setcycle 2 cond11 Bridge
-	setcycle 2 cond12 Reflexive
-	setcycle 2 adv1 alltid
-	setcycle 2 number2 410
-	setcycle 2 item2 23
-	setcycle 2 subitem2 b
-	setcycle 2 name2 Anne
-	setcycle 2 Main2 "Hvor mange elever er det på denne skolen?"
-	setcycle 2 Emb2 "Anne spurte..."
-	setcycle 2 cond21 EmbSubQ
-	setcycle 2 cond22 NonReflexive
-	setcycle 2 adv2 none
-	setcycle 3 number 108
-	setcycle 3 item 4
-	setcycle 3 subitem b
-	setcycle 3 name Anne
-	setcycle 3 Main1 "Jeg kjører ofte bil til jobb."
-	setcycle 3 Emb1 "Anne sier at..."
-	setcycle 3 cond11 Bridge
-	setcycle 3 cond12 NonReflexive
-	setcycle 3 adv1 ofte
-	setcycle 3 number2 506
-	setcycle 3 item2 27
-	setcycle 3 subitem2 b
-	setcycle 3 name2 Anne
-	setcycle 3 Main2 "Hvor mange fisker fikk Einar?"
-	setcycle 3 Emb2 "Pål spurte..."
-	setcycle 3 cond21 EmbObQ
-	setcycle 3 cond22 NonReflexive
-	setcycle 3 adv2 none
-	setcycle 4 number 110
-	setcycle 4 item 5
-	setcycle 4 subitem b
-	setcycle 4 name Marit
-	setcycle 4 Main1 "Jeg kommer aldri for sent på jobb."
-	setcycle 4 Emb1 "Marit sier at..."
-	setcycle 4 cond11 Bridge
-	setcycle 4 cond12 NonReflexive
-	setcycle 4 adv1 aldri
-	setcycle 4 number2 508
-	setcycle 4 item2 28
-	setcycle 4 subitem2 b
-	setcycle 4 name2 Marit
-	setcycle 4 Main2 "Hvilke filmer så Pål i går?"
-	setcycle 4 Emb2 "Marit spurte..."
-	setcycle 4 cond21 EmbObQ
-	setcycle 4 cond22 NonReflexive
-	setcycle 4 adv2 none
-	setcycle 5 number 112
-	setcycle 5 item 6
-	setcycle 5 subitem b
-	setcycle 5 name Anne
-	setcycle 5 Main1 "Jeg hører alltid på radio i bilen."
-	setcycle 5 Emb1 "Anne sier at..."
-	setcycle 5 cond11 Bridge
-	setcycle 5 cond12 NonReflexive
-	setcycle 5 adv1 alltid
-	setcycle 5 number2 510
-	setcycle 5 item2 29
-	setcycle 5 subitem2 b
-	setcycle 5 name2 Anne
-	setcycle 5 Main2 "Hva slags fugl var det?"
-	setcycle 5 Emb2 "Anne spurte..."
-	setcycle 5 cond21 EmbObQ
-	setcycle 5 cond22 NonReflexive
-	setcycle 5 adv2 none
-	setcycle 6 number 204
-	setcycle 6 item 8
-	setcycle 6 subitem b
-	setcycle 6 name Marit
-	setcycle 6 Main1 "Jeg legger meg ofte innen midnatt."
-	setcycle 6 Emb1 "Marit er stolt av at..."
-	setcycle 6 cond11 "Non-Bridge"
-	setcycle 6 cond12 Reflexive
-	setcycle 6 adv1 ofte
-	setcycle 6 number2 602
-	setcycle 6 item2 31
-	setcycle 6 subitem2 b
-	setcycle 6 name2 Anne
-	setcycle 6 Main2 "Jeg har glemt nøklene mine hjemme."
-	setcycle 6 Emb2 "Anne er sikker på at..."
-	setcycle 6 cond21 FillerDecl
-	setcycle 6 cond22 NonReflexive
-	setcycle 6 adv2 none
-	setcycle 7 number 212
-	setcycle 7 item 12
-	setcycle 7 subitem b
-	setcycle 7 name Marit
-	setcycle 7 Main1 "Jeg kommer aldri for seint på skolen."
-	setcycle 7 Emb1 "Marit er stolt av at..."
-	setcycle 7 cond11 "Non-Bridge"
-	setcycle 7 cond12 NonReflexive
-	setcycle 7 adv1 aldri
-	setcycle 7 number2 608
-	setcycle 7 item2 34
-	setcycle 7 subitem2 b
-	setcycle 7 name2 Marit
-	setcycle 7 Main2 "Tyskland er større enn Frankrike."
-	setcycle 7 Emb2 "Marit tror at..."
-	setcycle 7 cond21 FillerDecl
-	setcycle 7 cond22 NonReflexive
-	setcycle 7 adv2 none
-	setcycle 8 number 302
-	setcycle 8 item 13
-	setcycle 8 subitem b
-	setcycle 8 name Anne
-	setcycle 8 Main1 "Setter Ole seg alltid fremst i klasserommet?"
-	setcycle 8 Emb1 "Anne spurte om..."
-	setcycle 8 cond11 VtoI
-	setcycle 8 cond12 Reflexive
-	setcycle 8 adv1 alltid
-	setcycle 8 number2 610
-	setcycle 8 item2 35
-	setcycle 8 subitem2 b
-	setcycle 8 name2 Anne
-	setcycle 8 Main2 "Månen er laget av ost."
-	setcycle 8 Emb2 "Anne tror at..."
-	setcycle 8 cond21 FillerDecl
-	setcycle 8 cond22 NonReflexive
-	setcycle 8 adv2 none
-	setcycle 9 number 312
-	setcycle 9 item 18
-	setcycle 9 subitem b
-	setcycle 9 name Marit
-	setcycle 9 Main1 "Drar Anne aldri ut på lørdager?"
-	setcycle 9 Emb1 "Marit spurte om..."
-	setcycle 9 cond11 VtoI
-	setcycle 9 cond12 NonReflexive
-	setcycle 9 adv1 aldri
-	setcycle 9 number2 612
-	setcycle 9 item2 36
-	setcycle 9 subitem2 b
-	setcycle 9 name2 Marit
-	setcycle 9 Main2 "Det har vært mange turister i Lofoten i sommer."
-	setcycle 9 Emb2 "Marit tror at..."
-	setcycle 9 cond21 FillerDecl
-	setcycle 9 cond22 NonReflexive
-	setcycle 9 adv2 none
 	run trial_2_2_1
 
 define notepad description
@@ -1154,6 +1038,50 @@ define sketchpad klar1
 	set duration keypress
 	set description "Displays stimuli"
 	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Klar?" x=0 y=0 z_index=0
+
+define logger new_logger
+	set description "Logs experimental data"
+	set auto_log yes
+
+define logger new_logger_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log number2
+	log Emb1
+	log Emb2
+	log Main1
+	log Main2
+
+define logger new_logger_1_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log number2
+	log Emb1
+	log Emb2
+	log Main1
+	log Main2
+
+define logger new_logger_1_1_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log number2
+	log Emb1
+	log Emb2
+	log Main1
+	log Main2
+
+define logger new_logger_1_1_1_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log number2
+	log Emb1
+	log Emb2
+	log Main1
+	log Main2
 
 define sketchpad new_sketchpad
 	set duration keypress
@@ -1651,7 +1579,7 @@ define loop testrunde2_2
 	setcycle 1 item2 test2
 	setcycle 1 subitem2 test2
 	setcycle 1 name2 "Ole:"
-	setcycle 1 Main2 "Ole ville vite hvor mange elever som kom i tide til forelesningen."
+	setcycle 1 Main2 "Ole ville vite hvor mange elever som kom i tide."
 	setcycle 1 Emb2 "..."
 	setcycle 1 cond21 test
 	setcycle 1 cond22 test
@@ -1676,7 +1604,7 @@ define loop testrunde_1
 	setcycle 0 item test
 	setcycle 0 subitem test
 	setcycle 0 name "Eirik:"
-	setcycle 0 Main1 "Jorda er rund."
+	setcycle 0 Main1 "Jorden er rund."
 	setcycle 0 Emb1 "Eirik tror at ..."
 	setcycle 0 cond11 test
 	setcycle 0 cond12 test
@@ -1745,6 +1673,7 @@ define sequence trial_2_2
 	run new_synth_2_3_2 always
 	run produce2_2_2 always
 	run wo_resp2_2_2 always
+	run new_logger_1 always
 
 define sequence trial_2_2_1
 	set flush_keyboard yes
@@ -1763,6 +1692,7 @@ define sequence trial_2_2_1
 	run new_synth_2_3_2_1 always
 	run produce2_2_2_1 always
 	run wo_resp2_2_2_1 always
+	run new_logger_1 always
 
 define sequence trial_2_2_1_1
 	set flush_keyboard yes
@@ -1781,6 +1711,7 @@ define sequence trial_2_2_1_1
 	run new_synth_2_3_2_1_1 always
 	run produce2_2_2_1_1 always
 	run wo_resp2_2_2_1_1 always
+	run new_logger_1 always
 
 define sequence trial_2_2_1_1_1
 	set flush_keyboard yes
@@ -1817,6 +1748,7 @@ define sequence trial_2_2_1_1_2
 	run new_synth_2_3_2_1_1_3 always
 	run produce2_2_2_1_1_2 always
 	run wo_resp2_2_2_1_1_2 always
+	run new_logger_1 always
 
 define sequence trial_2_3
 	set flush_keyboard yes
@@ -1918,7 +1850,7 @@ define keyboard_response wo_resp1_2
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp1_2_2
 	set timeout infinite
@@ -1926,7 +1858,7 @@ define keyboard_response wo_resp1_2_2
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp1_2_2_1
 	set timeout infinite
@@ -1934,7 +1866,7 @@ define keyboard_response wo_resp1_2_2_1
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp1_2_2_1_1
 	set timeout infinite
@@ -1942,7 +1874,7 @@ define keyboard_response wo_resp1_2_2_1_1
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp1_2_2_1_1_1
 	set timeout infinite
@@ -1958,7 +1890,7 @@ define keyboard_response wo_resp1_2_2_1_1_2
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp1_2_3
 	set timeout infinite
@@ -1966,7 +1898,7 @@ define keyboard_response wo_resp1_2_3
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp2_2
 	set timeout infinite
@@ -1974,7 +1906,7 @@ define keyboard_response wo_resp2_2
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp2_2_2
 	set timeout infinite
@@ -1982,7 +1914,7 @@ define keyboard_response wo_resp2_2_2
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp2_2_2_1
 	set timeout infinite
@@ -1990,7 +1922,7 @@ define keyboard_response wo_resp2_2_2_1
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp2_2_2_1_1
 	set timeout infinite
@@ -1998,7 +1930,7 @@ define keyboard_response wo_resp2_2_2_1_1
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp2_2_2_1_1_1
 	set timeout infinite
@@ -2014,7 +1946,7 @@ define keyboard_response wo_resp2_2_2_1_1_2
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 
 define keyboard_response wo_resp2_2_3
 	set timeout infinite
@@ -2022,5 +1954,5 @@ define keyboard_response wo_resp2_2_3
 	set event_type keypress
 	set duration keypress
 	set description "Collects keyboard responses"
-	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN;UP;DOWN"
 

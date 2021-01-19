@@ -1,0 +1,2012 @@
+---
+API: 2.1
+OpenSesame: 3.2.5
+Platform: posix
+---
+set width 1024
+set uniform_coordinates yes
+set title example_experiment
+set synth_backend legacy
+set subject_parity even
+set subject_nr 0
+set start experiment
+set sound_sample_size -16
+set sound_freq 48000
+set sound_channels 2
+set sound_buf_size 1024
+set sampler_backend legacy
+set round_decimals 2
+set mouse_backend psycho
+set keyboard_backend psycho
+set height 768
+set fullscreen no
+set form_clicks no
+set foreground white
+set font_underline no
+set font_size 18
+set font_italic no
+set font_family sans
+set font_bold no
+set experiment_path "/Users/mwe036/Dropbox/EmbV2Maud/KongsbakkenExp/KongsbakkenSpoken"
+set disable_garbage_collection yes
+set description "Default description"
+set coordinates relative
+set compensation 0
+set color_backend psycho
+set clock_backend psycho
+set canvas_backend psycho
+set bidi no
+set background black
+
+define loop Part2A
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 10
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 number 801
+	setcycle 0 item 50
+	setcycle 0 subitem a
+	setcycle 0 name "XXX:"
+	setcycle 0 Main1 "Si til Eline at bedriften mer enn doblet omsetninga i fjor."
+	setcycle 0 Emb1 "..."
+	setcycle 0 cond11 V3
+	setcycle 0 cond12 none
+	setcycle 0 adv1 "mer enn"
+	setcycle 0 number2 701
+	setcycle 0 item2 40
+	setcycle 0 subitem2 a
+	setcycle 0 name2 "YYY:"
+	setcycle 0 Main2 "Spør Tor Håvard om kem som laga maten."
+	setcycle 0 Emb2 "..."
+	setcycle 0 cond21 SubQshort
+	setcycle 0 cond22 sub
+	setcycle 0 adv2 none
+	setcycle 1 number 803
+	setcycle 1 item 51
+	setcycle 1 subitem a
+	setcycle 1 name "XXX:"
+	setcycle 1 Main1 "Si til Eline at jeg rett og slett elsker sjokolade."
+	setcycle 1 Emb1 "..."
+	setcycle 1 cond11 V3
+	setcycle 1 cond12 none
+	setcycle 1 adv1 simpelthen
+	setcycle 1 number2 703
+	setcycle 1 item2 41
+	setcycle 1 subitem2 a
+	setcycle 1 name2 "YYY:"
+	setcycle 1 Main2 "Spør Tor Håvard om ka som blei sagt i møtet."
+	setcycle 1 Emb2 "..."
+	setcycle 1 cond21 SubQshort
+	setcycle 1 cond22 sub
+	setcycle 1 adv2 none
+	setcycle 2 number 813
+	setcycle 2 item 52
+	setcycle 2 subitem a
+	setcycle 2 name "XXX:"
+	setcycle 2 Main1 "Si til Eline at jeg vanligvis hater lutefisk. "
+	setcycle 2 Emb1 "..."
+	setcycle 2 cond11 V2
+	setcycle 2 cond12 none
+	setcycle 2 adv1 vanligvis
+	setcycle 2 number2 711
+	setcycle 2 item2 42
+	setcycle 2 subitem2 a
+	setcycle 2 name2 "YYY:"
+	setcycle 2 Main2 "Spør Tor Håvard om kor mange lag som deltok i turneringa."
+	setcycle 2 Emb2 "..."
+	setcycle 2 cond21 SubQlong
+	setcycle 2 cond22 sub
+	setcycle 2 adv2 none
+	setcycle 3 number 716
+	setcycle 3 item 47
+	setcycle 3 subitem b
+	setcycle 3 name "XXX:"
+	setcycle 3 Main1 "Spør Eline om korsn hun gjorde det. "
+	setcycle 3 Emb1 "..."
+	setcycle 3 cond11 ObjQlong
+	setcycle 3 cond12 obj
+	setcycle 3 adv1 none
+	setcycle 3 number2 812
+	setcycle 3 item2 58
+	setcycle 3 subitem2 b
+	setcycle 3 name2 "YYY:"
+	setcycle 3 Main2 "Si til Tor Håvard at artisten så godt som fylte arenaen."
+	setcycle 3 Emb2 "…"
+	setcycle 3 cond21 V3
+	setcycle 3 cond22 none
+	setcycle 3 adv2 "så godt som"
+	setcycle 4 number 807
+	setcycle 4 item 55
+	setcycle 4 subitem a
+	setcycle 4 name "XXX:"
+	setcycle 4 Main1 "Si til Eline at jeg nesten gråt av glede da TIL scoret."
+	setcycle 4 Emb1 "..."
+	setcycle 4 cond11 V3
+	setcycle 4 cond12 none
+	setcycle 4 adv1 nesten
+	setcycle 4 number2 705
+	setcycle 4 item2 45
+	setcycle 4 subitem2 a
+	setcycle 4 name2 "YYY:"
+	setcycle 4 Main2 "Spør Tor Håvard om kem Marius er ilag med."
+	setcycle 4 Emb2 "..."
+	setcycle 4 cond21 ObjQshort
+	setcycle 4 cond22 obj
+	setcycle 4 adv2 none
+	setcycle 5 number 720
+	setcycle 5 item 48
+	setcycle 5 subitem b
+	setcycle 5 name "XXX:"
+	setcycle 5 Main1 "Spør Eline om hvor hun bor nå."
+	setcycle 5 Emb1 "…"
+	setcycle 5 cond11 SubQshort
+	setcycle 5 cond12 sub
+	setcycle 5 adv1 none
+	setcycle 5 number2 652
+	setcycle 5 item2 35
+	setcycle 5 subitem2 b
+	setcycle 5 name2 "YYY:"
+	setcycle 5 Main2 "Si til Tor Håvard at eg hadde glemt klokka mi hjemme."
+	setcycle 5 Emb2 "..."
+	setcycle 5 cond21 FillerDecl
+	setcycle 5 cond22 NonReflexive
+	setcycle 5 adv2 none
+	setcycle 6 number 805
+	setcycle 6 item 53
+	setcycle 6 subitem a
+	setcycle 6 name "XXX:"
+	setcycle 6 Main1 "Si til Eline at Norge heldigvis gruset Danmark i finalen."
+	setcycle 6 Emb1 "..."
+	setcycle 6 cond11 V2
+	setcycle 6 cond12 none
+	setcycle 6 adv1 heldigvis
+	setcycle 6 number2 713
+	setcycle 6 item2 43
+	setcycle 6 subitem2 a
+	setcycle 6 name2 "YYY:"
+	setcycle 6 Main2 "Spør Tor Håvard om korsn bøker som va spennaness."
+	setcycle 6 Emb2 "..."
+	setcycle 6 cond21 SubQlong
+	setcycle 6 cond22 sub
+	setcycle 6 adv2 none
+	setcycle 7 number 815
+	setcycle 7 item 54
+	setcycle 7 subitem a
+	setcycle 7 name "XXX:"
+	setcycle 7 Main1 "Si til Eline at TIL bokstavelig talt knuste Rosenborg i bortekampen."
+	setcycle 7 Emb1 "..."
+	setcycle 7 cond11 V3
+	setcycle 7 cond12 none
+	setcycle 7 adv1 "bokstavelig talt"
+	setcycle 7 number2 709
+	setcycle 7 item2 44
+	setcycle 7 subitem2 a
+	setcycle 7 name2 "YYY:"
+	setcycle 7 Main2 "Spør Tor Håvard om ka han jobbe med."
+	setcycle 7 Emb2 "..."
+	setcycle 7 cond21 ObjQshort
+	setcycle 7 cond22 obj
+	setcycle 7 adv2 none
+	setcycle 8 number 706
+	setcycle 8 item 45
+	setcycle 8 subitem b
+	setcycle 8 name "XXX:"
+	setcycle 8 Main1 "Spør Eline om hvem Synne er sammen med."
+	setcycle 8 Emb1 "..."
+	setcycle 8 cond11 ObjQshort
+	setcycle 8 cond12 obj
+	setcycle 8 adv1 none
+	setcycle 8 number2 818
+	setcycle 8 item2 56
+	setcycle 8 subitem2 b
+	setcycle 8 name2 "YYY:"
+	setcycle 8 Main2 "Si til Tor Håvard at eg nesten fikk alt rett på kjemiprøven."
+	setcycle 8 Emb2 "..."
+	setcycle 8 cond21 V2
+	setcycle 8 cond22 none
+	setcycle 8 adv2 nesten
+	setcycle 9 number 708
+	setcycle 9 item 46
+	setcycle 9 subitem b
+	setcycle 9 name "XXX:"
+	setcycle 9 Main1 "Spør Eline om når Pål flyttet til Tromsø."
+	setcycle 9 Emb1 "..."
+	setcycle 9 cond11 ObjQlong
+	setcycle 9 cond12 obj
+	setcycle 9 adv1 none
+	setcycle 9 number2 808
+	setcycle 9 item2 55
+	setcycle 9 subitem2 b
+	setcycle 9 name2 "YYY:"
+	setcycle 9 Main2 "Si til Tor Håvard at eg nesten hylte av glede etter kampen."
+	setcycle 9 Emb2 "..."
+	setcycle 9 cond21 V3
+	setcycle 9 cond22 none
+	setcycle 9 adv2 nesten
+	run trial_2_2_1_1
+
+define loop Part2B
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 10
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 number 714
+	setcycle 0 item 43
+	setcycle 0 subitem b
+	setcycle 0 name "XXX:"
+	setcycle 0 Main1 "Spør Eline om korsn bøker som var spennende."
+	setcycle 0 Emb1 "..."
+	setcycle 0 cond11 SubQlong
+	setcycle 0 cond12 sub
+	setcycle 0 adv1 none
+	setcycle 0 number2 806
+	setcycle 0 item2 53
+	setcycle 0 subitem2 b
+	setcycle 0 name2 "YYY:"
+	setcycle 0 Main2 "Si til Tor Håvard at Rosenborg dessverre knuste TIL i hjemmekampen."
+	setcycle 0 Emb2 "..."
+	setcycle 0 cond21 V2
+	setcycle 0 cond22 none
+	setcycle 0 adv2 dessverre
+	setcycle 1 number 712
+	setcycle 1 item 42
+	setcycle 1 subitem b
+	setcycle 1 name "XXX:"
+	setcycle 1 Main1 "Spør Eline om hvor mange lag som deltok i turneringa."
+	setcycle 1 Emb1 "..."
+	setcycle 1 cond11 SubQlong
+	setcycle 1 cond12 sub
+	setcycle 1 adv1 none
+	setcycle 1 number2 816
+	setcycle 1 item2 54
+	setcycle 1 subitem2 b
+	setcycle 1 name2 "YYY:"
+	setcycle 1 Main2 "Si til Tor Håvard at Norge bokstavelig talt grusa Danmark i finalen."
+	setcycle 1 Emb2 "..."
+	setcycle 1 cond21 V3
+	setcycle 1 cond22 none
+	setcycle 1 adv2 "bokstavelig talt"
+	setcycle 2 number 710
+	setcycle 2 item 44
+	setcycle 2 subitem b
+	setcycle 2 name "XXX:"
+	setcycle 2 Main1 "Spør Eline om hva hun jobber med."
+	setcycle 2 Emb1 "..."
+	setcycle 2 cond11 ObjQshort
+	setcycle 2 cond12 obj
+	setcycle 2 adv1 none
+	setcycle 2 number2 810
+	setcycle 2 item2 57
+	setcycle 2 subitem2 b
+	setcycle 2 name2 "YYY:"
+	setcycle 2 Main2 "Si til Tor Håvard at eg nesten gråt av glede da TIL scora."
+	setcycle 2 Emb2 "..."
+	setcycle 2 cond21 V3
+	setcycle 2 cond22 none
+	setcycle 2 adv2 nesten
+	setcycle 3 number 817
+	setcycle 3 item 56
+	setcycle 3 subitem a
+	setcycle 3 name "XXX:"
+	setcycle 3 Main1 "Si til Eline at jeg nesten fikk alt rett på matteprøven."
+	setcycle 3 Emb1 "..."
+	setcycle 3 cond11 V2
+	setcycle 3 cond12 none
+	setcycle 3 adv1 nesten
+	setcycle 3 number2 707
+	setcycle 3 item2 46
+	setcycle 3 subitem2 a
+	setcycle 3 name2 "YYY:"
+	setcycle 3 Main2 "Spør Tor Håvard om katti Eirik flytta til Oslo."
+	setcycle 3 Emb2 "..."
+	setcycle 3 cond21 ObjQlong
+	setcycle 3 cond22 obj
+	setcycle 3 adv2 none
+	setcycle 4 number 809
+	setcycle 4 item 57
+	setcycle 4 subitem a
+	setcycle 4 name "XXX:"
+	setcycle 4 Main1 "Si til Eline at jeg nesten hylte av glede etter kampen."
+	setcycle 4 Emb1 "..."
+	setcycle 4 cond11 V3
+	setcycle 4 cond12 none
+	setcycle 4 adv1 nesten
+	setcycle 4 number2 715
+	setcycle 4 item2 47
+	setcycle 4 subitem2 a
+	setcycle 4 name2 "YYY:"
+	setcycle 4 Main2 "Spør Tor Håvard om korsn han gjor det. "
+	setcycle 4 Emb2 "..."
+	setcycle 4 cond21 ObjQlong
+	setcycle 4 cond22 obj
+	setcycle 4 adv2 none
+	setcycle 5 number 704
+	setcycle 5 item 41
+	setcycle 5 subitem b
+	setcycle 5 name "XXX:"
+	setcycle 5 Main1 "Spør Eline om hva som ble sagt i møtet."
+	setcycle 5 Emb1 "..."
+	setcycle 5 cond11 SubQshort
+	setcycle 5 cond12 sub
+	setcycle 5 adv1 none
+	setcycle 5 number2 804
+	setcycle 5 item2 51
+	setcycle 5 subitem2 b
+	setcycle 5 name2 "YYY:"
+	setcycle 5 Main2 "Si til Tor Håvard at eg rett og slett elske marsipan."
+	setcycle 5 Emb2 "..."
+	setcycle 5 cond21 V3
+	setcycle 5 cond22 none
+	setcycle 5 adv2 simpelthen
+	setcycle 6 number 718
+	setcycle 6 item 49
+	setcycle 6 subitem b
+	setcycle 6 name "XXX:"
+	setcycle 6 Main1 "Spør Eline om hvem Anne er i lag med."
+	setcycle 6 Emb1 "..."
+	setcycle 6 cond11 ObjQshort
+	setcycle 6 cond12 obj
+	setcycle 6 adv1 none
+	setcycle 6 number2 802
+	setcycle 6 item2 50
+	setcycle 6 subitem2 b
+	setcycle 6 name2 "YYY:"
+	setcycle 6 Main2 "Si til Tor Håvard at skolen mer enn halverte sykefraværet i fjor."
+	setcycle 6 Emb2 "..."
+	setcycle 6 cond21 V3
+	setcycle 6 cond22 none
+	setcycle 6 adv2 "mer enn"
+	setcycle 7 number 702
+	setcycle 7 item 40
+	setcycle 7 subitem b
+	setcycle 7 name "XXX:"
+	setcycle 7 Main1 "Spør Eline om hvem som laget maten."
+	setcycle 7 Emb1 "..."
+	setcycle 7 cond11 SubQshort
+	setcycle 7 cond12 sub
+	setcycle 7 adv1 none
+	setcycle 7 number2 814
+	setcycle 7 item2 52
+	setcycle 7 subitem2 b
+	setcycle 7 name2 "YYY:"
+	setcycle 7 Main2 "Si til Tor Håvard at eg vanligvis hate kjøttkake."
+	setcycle 7 Emb2 "..."
+	setcycle 7 cond21 V2
+	setcycle 7 cond22 none
+	setcycle 7 adv2 vanligvis
+	setcycle 8 number 811
+	setcycle 8 item 58
+	setcycle 8 subitem a
+	setcycle 8 name "XXX:"
+	setcycle 8 Main1 "Si til Eline at problemet så godt som forsvant i fjor."
+	setcycle 8 Emb1 "..."
+	setcycle 8 cond11 V3
+	setcycle 8 cond12 none
+	setcycle 8 adv1 "så godt som"
+	setcycle 8 number2 717
+	setcycle 8 item2 49
+	setcycle 8 subitem2 a
+	setcycle 8 name2 "YYY:"
+	setcycle 8 Main2 "Spør Tor Håvard om kem Marit er ilag med."
+	setcycle 8 Emb2 "..."
+	setcycle 8 cond21 ObjQshort
+	setcycle 8 cond22 obj
+	setcycle 8 adv2 none
+	setcycle 9 number 651
+	setcycle 9 item 35
+	setcycle 9 subitem a
+	setcycle 9 name "XXX:"
+	setcycle 9 Main1 "Si til Eline at jeg har glemt nøklene mine hjemme."
+	setcycle 9 Emb1 "..."
+	setcycle 9 cond11 FillerDecl
+	setcycle 9 cond12 NonReflexive
+	setcycle 9 adv1 none
+	setcycle 9 number2 719
+	setcycle 9 item2 48
+	setcycle 9 subitem2 a
+	setcycle 9 name2 "YYY:"
+	setcycle 9 Main2 "Spør Tor Håvård om kor han skal på ferie."
+	setcycle 9 Emb2 "..."
+	setcycle 9 cond21 SubQshort
+	setcycle 9 cond22 sub
+	setcycle 9 adv2 none
+	run trial_2_2_1_1_2
+
+define loop PartA
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 10
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 number 102
+	setcycle 0 item 1
+	setcycle 0 subitem b
+	setcycle 0 name TH
+	setcycle 0 Main1 "Jeg setter meg ofte fremst på forelesninga."
+	setcycle 0 Emb1 "Tor Håvard sa at..."
+	setcycle 0 cond11 Bridge
+	setcycle 0 cond12 Reflexive
+	setcycle 0 adv1 ofte
+	setcycle 0 number2 402
+	setcycle 0 item2 21
+	setcycle 0 subitem2 b
+	setcycle 0 name2 EL
+	setcycle 0 Main2 "Kor mange kunda kjøpte en ny skjorte?"
+	setcycle 0 Emb2 "Eline spurte om..."
+	setcycle 0 cond21 EmbSubQ
+	setcycle 0 cond22 NonReflexive
+	setcycle 0 adv2 none
+	setcycle 1 number 104
+	setcycle 1 item 2
+	setcycle 1 subitem b
+	setcycle 1 name TH
+	setcycle 1 Main1 "Jeg kjeder meg bestandig i mattetimen."
+	setcycle 1 Emb1 "Tor Håvard sa at..."
+	setcycle 1 cond11 Bridge
+	setcycle 1 cond12 Reflexive
+	setcycle 1 adv1 alltid
+	setcycle 1 number2 502
+	setcycle 1 item2 23
+	setcycle 1 subitem2 b
+	setcycle 1 name2 EL
+	setcycle 1 Main2 "Katti kjøpte Pål leiligheta si?"
+	setcycle 1 Emb2 "Eline spurte om..."
+	setcycle 1 cond21 EmbObQ
+	setcycle 1 cond22 NonReflexive
+	setcycle 1 adv2 none
+	setcycle 2 number 106
+	setcycle 2 item 4
+	setcycle 2 subitem b
+	setcycle 2 name TH
+	setcycle 2 Main1 "Jeg kjører ikke bil til jobb."
+	setcycle 2 Emb1 "Tor Håvard sa at..."
+	setcycle 2 cond11 Bridge
+	setcycle 2 cond12 NonReflexive
+	setcycle 2 adv1 ikke
+	setcycle 2 number2 404
+	setcycle 2 item2 22
+	setcycle 2 subitem2 b
+	setcycle 2 name2 EL
+	setcycle 2 Main2 "Korsn unga kom på bursdagsfesten?"
+	setcycle 2 Emb2 "Eline spurte om..."
+	setcycle 2 cond21 EmbSubQ
+	setcycle 2 cond22 NonReflexive
+	setcycle 2 adv2 none
+	setcycle 3 number 505
+	setcycle 3 item 25
+	setcycle 3 subitem a
+	setcycle 3 name TH
+	setcycle 3 Main1 "Hvor mye snø kom det i går?"
+	setcycle 3 Emb1 "Tor Håvard spurte om..."
+	setcycle 3 cond11 EmbObQ
+	setcycle 3 cond12 NonReflexive
+	setcycle 3 adv1 none
+	setcycle 3 number2 101
+	setcycle 3 item2 1
+	setcycle 3 subitem2 a
+	setcycle 3 name2 EL
+	setcycle 3 Main2 "Eg sett meg oftest lengst bak i bussen."
+	setcycle 3 Emb2 "Eline sa at..."
+	setcycle 3 cond21 Bridge
+	setcycle 3 cond22 Reflexive
+	setcycle 3 adv2 ofte
+	setcycle 4 number 403
+	setcycle 4 item 22
+	setcycle 4 subitem a
+	setcycle 4 name TH
+	setcycle 4 Main1 "Hva slags band spilte på festivalen i helgen?"
+	setcycle 4 Emb1 "Tor Håvard spurte om..."
+	setcycle 4 cond11 EmbSubQ
+	setcycle 4 cond12 NonReflexive
+	setcycle 4 adv1 none
+	setcycle 4 number2 103
+	setcycle 4 item2 2
+	setcycle 4 subitem2 a
+	setcycle 4 name2 EL
+	setcycle 4 Main2 "Eg sminke meg ikke på hverdaga."
+	setcycle 4 Emb2 "Eline sa at..."
+	setcycle 4 cond21 Bridge
+	setcycle 4 cond22 Reflexive
+	setcycle 4 adv2 ikke
+	setcycle 5 number 501
+	setcycle 5 item 23
+	setcycle 5 subitem a
+	setcycle 5 name TH
+	setcycle 5 Main1 "Ka tid åpna den nye spillbutikken i Tromsø?"
+	setcycle 5 Emb1 "Tor Håvard spurte om..."
+	setcycle 5 cond11 EmbObQ
+	setcycle 5 cond12 NonReflexive
+	setcycle 5 adv1 none
+	setcycle 5 number2 105
+	setcycle 5 item2 4
+	setcycle 5 subitem2 a
+	setcycle 5 name2 EL
+	setcycle 5 Main2 "Eg kjøre ofte bil til jobb."
+	setcycle 5 Emb2 "Eline sa at..."
+	setcycle 5 cond21 Bridge
+	setcycle 5 cond22 NonReflexive
+	setcycle 5 adv2 ofte
+	setcycle 6 number 108
+	setcycle 6 item 5
+	setcycle 6 subitem b
+	setcycle 6 name TH
+	setcycle 6 Main1 "Jeg går aldri på ski til skolen."
+	setcycle 6 Emb1 "Tor Håvard sa at..."
+	setcycle 6 cond11 Bridge
+	setcycle 6 cond12 NonReflexive
+	setcycle 6 adv1 aldri
+	setcycle 6 number2 205
+	setcycle 6 item2 13
+	setcycle 6 subitem2 b
+	setcycle 6 name2 EL
+	setcycle 6 Main2 "Snør det alltid på Svalbard?"
+	setcycle 6 Emb2 "Eline spurte om..."
+	setcycle 6 cond21 VtoI
+	setcycle 6 cond22 NonReflexive
+	setcycle 6 adv2 alltid
+	setcycle 7 number 110
+	setcycle 7 item 6
+	setcycle 7 subitem b
+	setcycle 7 name TH
+	setcycle 7 Main1 "Jeg går bestandig på kino på fredager."
+	setcycle 7 Emb1 "Tor Håvard sa at..."
+	setcycle 7 cond11 Bridge
+	setcycle 7 cond12 NonReflexive
+	setcycle 7 adv1 alltid
+	setcycle 7 number2 504
+	setcycle 7 item2 24
+	setcycle 7 subitem2 b
+	setcycle 7 name2 EL
+	setcycle 7 Main2 "Korsn gjor han det?"
+	setcycle 7 Emb2 "Eline spurte om..."
+	setcycle 7 cond21 EmbObQ
+	setcycle 7 cond22 NonReflexive
+	setcycle 7 adv2 none
+	setcycle 8 number 112
+	setcycle 8 item 3
+	setcycle 8 subitem b
+	setcycle 8 name TH
+	setcycle 8 Main1 "Jeg legger meg ofte innen midnatt."
+	setcycle 8 Emb1 "Tor Håvard sa at..."
+	setcycle 8 cond11 Bridge
+	setcycle 8 cond12 Reflexive
+	setcycle 8 adv1 ofte
+	setcycle 8 number2 506
+	setcycle 8 item2 25
+	setcycle 8 subitem2 b
+	setcycle 8 name2 EL
+	setcycle 8 Main2 "Ka slags fugl var det?"
+	setcycle 8 Emb2 "Eline spurte om..."
+	setcycle 8 cond21 EmbObQ
+	setcycle 8 cond22 NonReflexive
+	setcycle 8 adv2 none
+	setcycle 9 number 206
+	setcycle 9 item 13
+	setcycle 9 subitem a
+	setcycle 9 name TH
+	setcycle 9 Main1 "Regner det ofte på Island?"
+	setcycle 9 Emb1 "Tor Håvard spurte om..."
+	setcycle 9 cond11 VtoI
+	setcycle 9 cond12 NonReflexive
+	setcycle 9 adv1 ofte
+	setcycle 9 number2 606
+	setcycle 9 item2 33
+	setcycle 9 subitem2 b
+	setcycle 9 name2 EL
+	setcycle 9 Main2 "Eg har glemt veska mi på bussen."
+	setcycle 9 Emb2 "Eline sa at..."
+	setcycle 9 cond21 FillerDecl
+	setcycle 9 cond22 NonReflexive
+	setcycle 9 adv2 none
+	run trial_2_2
+
+define loop PartB
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 10
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 number 401
+	setcycle 0 item 21
+	setcycle 0 subitem a
+	setcycle 0 name TH
+	setcycle 0 Main1 "Hvor mange kunder kjøpte en ny kjole?"
+	setcycle 0 Emb1 "Tor Håvard spurte om..."
+	setcycle 0 cond11 EmbSubQ
+	setcycle 0 cond12 NonReflexive
+	setcycle 0 adv1 none
+	setcycle 0 number2 113
+	setcycle 0 item2 7
+	setcycle 0 subitem2 a
+	setcycle 0 name2 EL
+	setcycle 0 Main2 "Eg kommer aldri for seint på jobb."
+	setcycle 0 Emb2 "Eline sa at..."
+	setcycle 0 cond21 Bridge
+	setcycle 0 cond22 NonReflexive
+	setcycle 0 adv2 aldri
+	setcycle 1 number 503
+	setcycle 1 item 24
+	setcycle 1 subitem a
+	setcycle 1 name TH
+	setcycle 1 Main1 "Korsn var treningen i går?"
+	setcycle 1 Emb1 "Tor Håvard spurte om..."
+	setcycle 1 cond11 EmbObQ
+	setcycle 1 cond12 NonReflexive
+	setcycle 1 adv1 none
+	setcycle 1 number2 107
+	setcycle 1 item2 5
+	setcycle 1 subitem2 a
+	setcycle 1 name2 EL
+	setcycle 1 Main2 "Eg drikk bestandig en flaske vann til maten."
+	setcycle 1 Emb2 "Eline sa at..."
+	setcycle 1 cond21 Bridge
+	setcycle 1 cond22 NonReflexive
+	setcycle 1 adv2 alltid
+	setcycle 2 number 601
+	setcycle 2 item 31
+	setcycle 2 subitem a
+	setcycle 2 name TH
+	setcycle 2 Main1 "Jeg fant vottene mine under senga."
+	setcycle 2 Emb1 "Tor Håvard sa at..."
+	setcycle 2 cond11 FillerDecl
+	setcycle 2 cond12 NonReflexive
+	setcycle 2 adv1 none
+	setcycle 2 number2 109
+	setcycle 2 item2 6
+	setcycle 2 subitem2 a
+	setcycle 2 name2 EL
+	setcycle 2 Main2 "Eg høre ofte på radio i bilen."
+	setcycle 2 Emb2 "Eline sa at..."
+	setcycle 2 cond21 Bridge
+	setcycle 2 cond22 NonReflexive
+	setcycle 2 adv2 ofte
+	setcycle 3 number 114
+	setcycle 3 item 7
+	setcycle 3 subitem b
+	setcycle 3 name TH
+	setcycle 3 Main1 "Jeg kommer aldri for sent på skolen."
+	setcycle 3 Emb1 "Tor Håvard sa at..."
+	setcycle 3 cond11 Bridge
+	setcycle 3 cond12 NonReflexive
+	setcycle 3 adv1 aldri
+	setcycle 3 number2 604
+	setcycle 3 item2 32
+	setcycle 3 subitem2 b
+	setcycle 3 name2 EL
+	setcycle 3 Main2 "Eg like fiskekake bedre enn kjøttkake."
+	setcycle 3 Emb2 "Eline sa at..."
+	setcycle 3 cond21 FillerDecl
+	setcycle 3 cond22 NonReflexive
+	setcycle 3 adv2 none
+	setcycle 4 number 202
+	setcycle 4 item 11
+	setcycle 4 subitem b
+	setcycle 4 name TH
+	setcycle 4 Main1 "Snør det alltid i Tromsø?"
+	setcycle 4 Emb1 "Tor Håvard spurte om..."
+	setcycle 4 cond11 VtoI
+	setcycle 4 cond12 NonReflexive
+	setcycle 4 adv1 alltid
+	setcycle 4 number2 602
+	setcycle 4 item2 31
+	setcycle 4 subitem2 a
+	setcycle 4 name2 EL
+	setcycle 4 Main2 "Eg kjøpte en ny klokke i går. "
+	setcycle 4 Emb2 "Eline sa at..."
+	setcycle 4 cond21 FillerDecl
+	setcycle 4 cond22 NonReflexive
+	setcycle 4 adv2 none
+	setcycle 5 number 204
+	setcycle 5 item 12
+	setcycle 5 subitem b
+	setcycle 5 name TH
+	setcycle 5 Main1 "Ventet Anne på ei venninne etter norsktimen?"
+	setcycle 5 Emb1 "Tor Håvard spurte om..."
+	setcycle 5 cond11 VtoI
+	setcycle 5 cond12 NonReflexive
+	setcycle 5 adv1 none
+	setcycle 5 number2 608
+	setcycle 5 item2 34
+	setcycle 5 subitem2 b
+	setcycle 5 name2 EL
+	setcycle 5 Main2 "En svane er større enn en and."
+	setcycle 5 Emb2 "Eline sa at..."
+	setcycle 5 cond21 FillerDecl
+	setcycle 5 cond22 NonReflexive
+	setcycle 5 adv2 none
+	setcycle 6 number 603
+	setcycle 6 item 32
+	setcycle 6 subitem a
+	setcycle 6 name TH
+	setcycle 6 Main1 "Jeg ble bitt i hånden av ei katt."
+	setcycle 6 Emb1 "Tor Håvard sa at..."
+	setcycle 6 cond11 FillerDecl
+	setcycle 6 cond12 NonReflexive
+	setcycle 6 adv1 none
+	setcycle 6 number2 111
+	setcycle 6 item2 3
+	setcycle 6 subitem2 a
+	setcycle 6 name2 EL
+	setcycle 6 Main2 "Eg oppføre meg alltid bra på skolen."
+	setcycle 6 Emb2 "Eline sa at..."
+	setcycle 6 cond21 Bridge
+	setcycle 6 cond22 Reflexive
+	setcycle 6 adv2 alltid
+	setcycle 7 number 605
+	setcycle 7 item 33
+	setcycle 7 subitem a
+	setcycle 7 name TH
+	setcycle 7 Main1 "Jeg skjøt ballen rett i mål."
+	setcycle 7 Emb1 "Tor Håvard sa at..."
+	setcycle 7 cond11 FillerDecl
+	setcycle 7 cond12 NonReflexive
+	setcycle 7 adv1 none
+	setcycle 7 number2 203
+	setcycle 7 item2 12
+	setcycle 7 subitem2 a
+	setcycle 7 name2 EL
+	setcycle 7 Main2 "Sendte Anne en melding til venninna si i går?"
+	setcycle 7 Emb2 "Eline spurte om..."
+	setcycle 7 cond21 VtoI
+	setcycle 7 cond22 NonReflexive
+	setcycle 7 adv2 none
+	setcycle 8 number 607
+	setcycle 8 item 34
+	setcycle 8 subitem a
+	setcycle 8 name TH
+	setcycle 8 Main1 "Ei rotte er større enn ei mus."
+	setcycle 8 Emb1 "Tor Håvard sa at..."
+	setcycle 8 cond11 FillerDecl
+	setcycle 8 cond12 NonReflexive
+	setcycle 8 adv1 none
+	setcycle 8 number2 612
+	setcycle 8 item2 36
+	setcycle 8 subitem2 a
+	setcycle 8 name2 EL
+	setcycle 8 Main2 "Går Marit aldri i kirka på søndaga?"
+	setcycle 8 Emb2 "Eline spurte om..."
+	setcycle 8 cond21 VtoI
+	setcycle 8 cond22 NonReflexive
+	setcycle 8 adv2 aldri
+	setcycle 9 number 609
+	setcycle 9 item 35
+	setcycle 9 subitem a
+	setcycle 9 name EL
+	setcycle 9 Main1 "Æ har glemt nøklan mine hjemme."
+	setcycle 9 Emb1 "Tor Håvard sa at..."
+	setcycle 9 cond11 FillerDecl
+	setcycle 9 cond12 NonReflexive
+	setcycle 9 adv1 none
+	setcycle 9 number2 201
+	setcycle 9 item2 11
+	setcycle 9 subitem2 a
+	setcycle 9 name2 EL
+	setcycle 9 Main2 "Regne det ofte i Bergen?"
+	setcycle 9 Emb2 "Eline spurte om..."
+	setcycle 9 cond21 VtoI
+	setcycle 9 cond22 NonReflexive
+	setcycle 9 adv2 ofte
+	run trial_2_2_1
+
+define synth beep_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth beep_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth beep_1_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth beep_1_3
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth beep_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth beep_2_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth beep_2_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth beep_2_3
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define notepad description
+	__note__
+	This is an example experiment that demonstrates how the
+	mousetrap_response plug-in can be used for implementing
+	mouse-tracking in OpenSesame (without relying on forms
+	for displaying the instructions or the start button).
+	
+	The study is based on experiment 1 from
+	Dale, R., Kehoe, C., & Spivey, M. J. (2007).
+	Graded motor responses in the time course of
+	categorizing atypical exemplars.
+	Memory & Cognition, 35(1), 15-28.
+	
+	Please note that the material is different from the original
+	study and that the task procedure has been simplified.
+	__end__
+	set description "A simple notepad to document your experiment. This plug-in does nothing."
+
+define sketchpad empty
+	set duration 0
+	set description "Displays stimuli"
+
+define sketchpad empty_1
+	set duration 0
+	set description "Displays stimuli"
+
+define sketchpad empty_1_1
+	set duration 0
+	set description "Displays stimuli"
+
+define sketchpad empty_1_1_1
+	set duration 0
+	set description "Displays stimuli"
+
+define sketchpad empty_1_1_1_1
+	set duration 0
+	set description "Displays stimuli"
+
+define sketchpad empty_2
+	set duration 0
+	set description "Displays stimuli"
+
+define sequence experiment
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run description always
+	run testrunde always
+	run testrunde_1 always
+	run klar1 always
+	run PartA always
+	run PartB always
+	run new_sketchpad always
+	run testrunde2_2 always
+	run new_sketchpad_2 always
+	run Part2A always
+	run Part2B always
+	run takk always
+
+define sketchpad invert1_2
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad invert1_2_2
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad invert1_2_2_1
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad invert1_2_2_1_1
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=0 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad invert1_2_2_1_1_1
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=0 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad invert1_2_2_1_1_2
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=0 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad invert1_2_3
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad invert2_2
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad invert2_2_2
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad invert2_2_2_1
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad invert2_2_2_1_1
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad invert2_2_2_1_1_1
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad invert2_2_2_1_1_2
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad invert2_2_3
+	set duration 500
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad klar1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Klar?" x=0 y=0 z_index=0
+
+define logger new_logger
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log number2
+	log time_beep_1
+	log time_beep_2
+	log time_invert1_2_2
+	log time_wo2_2_2
+	log time_new_synth_1_2_2
+	log time_invert2_2_2
+	log time_new_synth_4_2
+	log time_empty_2
+
+define logger new_logger_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log Main1
+	log Emb1
+	log number2
+	log Main2
+	log Emb2
+
+define logger new_logger_1_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log Main1
+	log Emb1
+	log number2
+	log Main2
+	log Emb2
+
+define logger new_logger_1_1_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log Main1
+	log Emb1
+	log number2
+	log Main2
+	log Emb2
+
+define logger new_logger_2
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log number2
+	log time_beep_1_1
+	log time_beep_2_1
+	log time_new_synth_4_2_1
+	log time_invert1_2_2_1
+	log time_wo2_2_2_1
+	log time_new_synth_1_2_2_1
+	log time_invert2_2_2_1
+	log time_empty_1
+
+define logger new_logger_2_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log number2
+	log time_beep_1_2
+	log time_beep_2_2
+	log time_new_synth_4_2_1_1
+	log time_invert1_2_2_1_1
+	log time_wo2_2_2_1_1
+	log time_new_synth_1_2_2_1_1
+	log time_invert2_2_2_1_1
+	log time_empty_1_1_1
+
+define logger new_logger_2_1_1
+	set description "Logs experimental data"
+	set auto_log no
+	log number
+	log number2
+	log time_beep_1_3
+	log time_beep_2_3
+	log time_new_synth_4_2_1_1_2
+	log time_invert1_2_2_1_1_2
+	log time_wo2_2_2_1_1_2
+	log time_new_synth_1_2_2_1_1_2
+	log time_invert2_2_2_1_1_2
+	log time_empty_1_1_1_1
+
+define sketchpad new_sketchpad
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=green font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Neste del!<br />(bytt samtalepartner)" x=0 y=0 z_index=0
+
+define sketchpad new_sketchpad_1
+	set duration keypress
+	set description "Displays stimuli"
+
+define sketchpad new_sketchpad_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Klar?" x=0 y=0 z_index=0
+
+define synth new_synth_1_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2_2_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2_2_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2_2_1_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2_2_1_1_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_1_2_3
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3_2_1_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3_2_1_1_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3_2_1_1_4
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_2_3_4
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4_2_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4_2_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4_2_1_1_1
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4_2_1_1_2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth new_synth_4_3
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 300
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define sketchpad produce1_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad produce1_2_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad produce1_2_2_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad produce1_2_2_1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad produce1_2_2_1_1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad produce1_2_2_1_1_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad produce1_2_3
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb1]" x=-350 y=0 z_index=0
+
+define sketchpad produce2_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad produce2_2_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad produce2_2_2_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad produce2_2_2_1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad produce2_2_2_1_1_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad produce2_2_2_1_1_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad produce2_2_3
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=0 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Emb2]" x=-350 y=0 z_index=0
+
+define sketchpad readloud1_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+
+define sketchpad readloud1_2_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+
+define sketchpad readloud1_2_2_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+
+define sketchpad readloud1_2_2_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+
+define sketchpad readloud1_2_2_1_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+
+define sketchpad readloud1_2_2_1_1_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+
+define sketchpad readloud1_2_3
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+
+define sketchpad readloud2_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+
+define sketchpad readloud2_2_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+
+define sketchpad readloud2_2_2_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+
+define sketchpad readloud2_2_2_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+
+define sketchpad readloud2_2_2_1_1_1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+
+define sketchpad readloud2_2_2_1_1_2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+
+define sketchpad readloud2_2_3
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+
+define sketchpad takk
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=red font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Takk!" x=0 y=-36 z_index=0
+
+define sketchpad testrunde
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text=Testrunde x=0 y=0 z_index=0
+
+define loop testrunde2_2
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 3
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 number test
+	setcycle 0 item test
+	setcycle 0 subitem test
+	setcycle 0 name "XXX:"
+	setcycle 0 Main1 "Si til Eline at Tyskland er større enn Frankrike."
+	setcycle 0 Emb1 "Tyskland er større enn Frankrike."
+	setcycle 0 cond11 test
+	setcycle 0 cond12 test
+	setcycle 0 adv1 test
+	setcycle 0 number2 test3
+	setcycle 0 item2 test2
+	setcycle 0 subitem2 test2
+	setcycle 0 name2 "YYY:"
+	setcycle 0 Main2 "Si til Tor Håvard at eg har bodd i Stockholm i to år."
+	setcycle 0 Emb2 "Eline har bodd i Stockholm i to år."
+	setcycle 0 cond21 test
+	setcycle 0 cond22 test
+	setcycle 0 adv2 test
+	setcycle 1 number test
+	setcycle 1 item test
+	setcycle 1 subitem test
+	setcycle 1 name "XXX:"
+	setcycle 1 Main1 "Spør Eline om hun ofte kommer for sent på skolen."
+	setcycle 1 Emb1 "Kommer du ofte for sent på skolen?"
+	setcycle 1 cond11 test
+	setcycle 1 cond12 test
+	setcycle 1 adv1 test
+	setcycle 1 number2 test3
+	setcycle 1 item2 test2
+	setcycle 1 subitem2 test2
+	setcycle 1 name2 "YYY:"
+	setcycle 1 Main2 "Spør Tor Håvard om kor mange eleva som kom i tide."
+	setcycle 1 Emb2 "Kor mange eleva kom i tide?"
+	setcycle 1 cond21 test
+	setcycle 1 cond22 test
+	setcycle 1 adv2 test
+	setcycle 2 number test
+	setcycle 2 item test
+	setcycle 2 subitem test
+	setcycle 2 name "XXX:"
+	setcycle 2 Main1 "Si til Eline at jeg liker fiskekaker bedre enn kjøttkaker."
+	setcycle 2 Emb1 "Tor Håvard liker fiskekaker bedre enn kjøttkaker."
+	setcycle 2 cond11 test
+	setcycle 2 cond12 test
+	setcycle 2 adv1 test
+	setcycle 2 number2 test3
+	setcycle 2 item2 test2
+	setcycle 2 subitem2 test2
+	setcycle 2 name2 "YYY:"
+	setcycle 2 Main2 "Spør Tor Håvard om han ofte trener i helgen."
+	setcycle 2 Emb2 "Trener du ofte i helgen?"
+	setcycle 2 cond21 test
+	setcycle 2 cond22 test
+	setcycle 2 adv2 test
+	run trial_2_3
+
+define loop testrunde_1
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 2
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 Emb1 "Tor Håvard sier at ..."
+	setcycle 0 Emb2 "Eline sier at ..."
+	setcycle 0 Main1 "Jorda er rund."
+	setcycle 0 Main2 "Eg har bodd i Stockholm i to år."
+	setcycle 0 adv1 test
+	setcycle 0 adv2 test
+	setcycle 0 cond11 test
+	setcycle 0 cond12 test
+	setcycle 0 cond21 test
+	setcycle 0 cond22 test
+	setcycle 0 item test
+	setcycle 0 item2 test2
+	setcycle 0 name TH
+	setcycle 0 name2 EL
+	setcycle 0 number test
+	setcycle 0 number2 test3
+	setcycle 0 subitem test
+	setcycle 0 subitem2 test2
+	setcycle 1 Emb1 "Tor Håvard spurte om ..."
+	setcycle 1 Emb2 "Eline spurte om ..."
+	setcycle 1 Main1 "Bor Simon fortsatt i København?"
+	setcycle 1 Main2 "Kem bruke Eirik å besøke i Stockholm?"
+	setcycle 1 adv1 test
+	setcycle 1 adv2 test
+	setcycle 1 cond11 test
+	setcycle 1 cond12 test
+	setcycle 1 cond21 test
+	setcycle 1 cond22 test
+	setcycle 1 item test
+	setcycle 1 item2 test2
+	setcycle 1 name TH
+	setcycle 1 name2 EL
+	setcycle 1 number test
+	setcycle 1 number2 test3
+	setcycle 1 subitem test
+	setcycle 1 subitem2 test2
+	run trial_2
+
+define sequence trial_2
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2 always
+	run new_synth_4 always
+	run readloud1_2 always
+	run invert1_2 always
+	run new_synth_2_3 always
+	run produce1_2 always
+	run wo_resp1_2 always
+	run wo2_2 always
+	run new_synth_1_2 always
+	run readloud2_2 always
+	run invert2_2 always
+	run new_synth_2_3 always
+	run produce2_2 always
+	run wo_resp2_2 always
+	run empty always
+
+define sequence trial_2_2
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2_2 always
+	run new_synth_4_2 always
+	run readloud1_2_2 always
+	run invert1_2_2 always
+	run beep_1 always
+	run produce1_2_2 always
+	run wo_resp1_2_2 always
+	run wo2_2_2 always
+	run new_synth_1_2_2 always
+	run readloud2_2_2 always
+	run invert2_2_2 always
+	run beep_2 always
+	run produce2_2_2 always
+	run wo_resp2_2_2 always
+	run empty_2 always
+	run new_logger always
+
+define sequence trial_2_2_1
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2_2_1 always
+	run new_synth_4_2_1 always
+	run readloud1_2_2_1 always
+	run invert1_2_2_1 always
+	run beep_1_1 always
+	run produce1_2_2_1 always
+	run wo_resp1_2_2_1 always
+	run wo2_2_2_1 always
+	run new_synth_1_2_2_1 always
+	run readloud2_2_2_1 always
+	run invert2_2_2_1 always
+	run beep_2_1 always
+	run produce2_2_2_1 always
+	run wo_resp2_2_2_1 always
+	run empty_1 always
+	run new_logger_2 always
+
+define sequence trial_2_2_1_1
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2_2_1_1 always
+	run new_synth_4_2_1_1 always
+	run readloud1_2_2_1_1 always
+	run invert1_2_2_1_1 always
+	run beep_1_2 always
+	run produce1_2_2_1_1 always
+	run wo_resp1_2_2_1_1 always
+	run wo2_2_2_1_1 always
+	run new_synth_1_2_2_1_1 always
+	run readloud2_2_2_1_1 always
+	run invert2_2_2_1_1 always
+	run beep_2_2 always
+	run produce2_2_2_1_1 always
+	run wo_resp2_2_2_1_1 always
+	run empty_1_1_1 always
+	run new_logger_2_1 always
+
+define sequence trial_2_2_1_1_1
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2_2_1_1_1 always
+	run new_synth_4_2_1_1_1 always
+	run readloud1_2_2_1_1_1 always
+	run invert1_2_2_1_1_1 always
+	run new_synth_2_3_2_1_1_1 always
+	run produce1_2_2_1_1_1 always
+	run wo_resp1_2_2_1_1_1 always
+	run wo2_2_2_1_1_1 always
+	run new_synth_1_2_2_1_1_1 always
+	run readloud2_2_2_1_1_1 always
+	run invert2_2_2_1_1_1 always
+	run new_synth_2_3_2_1_1_1 always
+	run produce2_2_2_1_1_1 always
+	run wo_resp2_2_2_1_1_1 always
+
+define sequence trial_2_2_1_1_2
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2_2_1_1_2 always
+	run new_synth_4_2_1_1_2 always
+	run readloud1_2_2_1_1_2 always
+	run invert1_2_2_1_1_2 always
+	run beep_1_3 always
+	run produce1_2_2_1_1_2 always
+	run wo_resp1_2_2_1_1_2 always
+	run wo2_2_2_1_1_2 always
+	run new_synth_1_2_2_1_1_2 always
+	run readloud2_2_2_1_1_2 always
+	run invert2_2_2_1_1_2 always
+	run beep_2_3 always
+	run produce2_2_2_1_1_2 always
+	run wo_resp2_2_2_1_1_2 always
+	run empty_1_1_1_1 always
+	run new_logger_2_1_1 always
+
+define sequence trial_2_3
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run wo_2_3 always
+	run new_synth_4_3 always
+	run readloud1_2_3 always
+	run invert1_2_3 always
+	run new_synth_2_3_4 always
+	run produce1_2_3 always
+	run wo_resp1_2_3 always
+	run wo2_2_3 always
+	run new_synth_1_2_3 always
+	run readloud2_2_3 always
+	run invert2_2_3 always
+	run new_synth_2_3_4 always
+	run produce2_2_3 always
+	run wo_resp2_2_3 always
+	run empty_1_1 always
+
+define sketchpad wo2_2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+
+define sketchpad wo2_2_2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+
+define sketchpad wo2_2_2_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name2])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+
+define sketchpad wo2_2_2_1_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+
+define sketchpad wo2_2_2_1_1_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-350 y=-80 z_index=0
+
+define sketchpad wo2_2_2_1_1_2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+
+define sketchpad wo2_2_3
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main2]" x=-450 y=-80 z_index=0
+
+define sketchpad wo_2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+
+define sketchpad wo_2_2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+
+define sketchpad wo_2_2_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=blue font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="([name])" x=-450 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+
+define sketchpad wo_2_2_1_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+
+define sketchpad wo_2_2_1_1_1
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-350 y=-80 z_index=0
+
+define sketchpad wo_2_2_1_1_2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+
+define sketchpad wo_2_3
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[Main1]" x=-450 y=-80 z_index=0
+
+define keyboard_response wo_resp1_2
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2_2
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2_2_1
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2_2_1_1
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2_2_1_1_1
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2_2_1_1_2
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp1_2_3
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2_2
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2_2_1
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2_2_1_1
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2_2_1_1_1
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2_2_1_1_2
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response wo_resp2_2_3
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+

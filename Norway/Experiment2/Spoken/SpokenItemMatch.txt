@@ -1,0 +1,230 @@
+type	UniqueNumb	Word.order	Realization1
+Read	101		Eg sett meg oftest lengst bak i bussen.
+Read	102		Jeg setter meg ofte fremst på forelesninga.
+Read	103		Eg sminke meg ikke på hverdaga.
+Read	104		Jeg kjeder meg bestandig i mattetimen.
+Read	105		Eg kjøre ofte bil til jobb.
+Read	106		Jeg kjører ikke bil til jobb.
+Read	107		Eg drikk bestandig en flaske vann til maten.
+Read	108		Jeg går aldri på ski til skolen.
+Read	109		Eg høre ofte på radio i bilen.
+Read	110		Jeg går bestandig på kino på fredager.
+Read	111		Eg oppføre meg alltid bra på skolen.
+Read	112		Jeg legger meg ofte innen midnatt.
+Read	113		Eg kommer aldri for seint på jobb.
+Read	114		Jeg kommer aldri for sent på skolen.
+Read	201		Regne det ofte i Bergen?
+Read	202		Snør det alltid i Tromsø?
+Read	203		Sendte Anne en melding til venninna si i går?
+Read	204		Ventet Anne på ei venninne etter norsktimen?
+Read	205		Snør det alltid på Svalbard?
+Read	206		Regner det ofte på Island?
+Read	401		Hvor mange kunder kjøpte en ny kjole?
+Read	402		Kor mange kunda kjøpte en ny skjorte?
+Read	403		Hva slags band spilte på festivalen i helgen?
+Read	404		Korsn unga kom på bursdagsfesten?
+Read	501		Ka tid åpna den nye spillbutikken i Tromsø?
+Read	502		Katti kjøpte Pål leiligheta si?
+Read	503		Korsn var treningen i går?
+Read	504		Korsn gjor han det?
+Read	505		Hvor mye snø kom det i går?
+Read	506		Ka slags fugl var det?
+Read	601		Jeg fant vottene mine under senga.
+Read	602		Eg kjøpte en ny klokke i går. 
+Read	603		Jeg ble bitt i hånden av ei katt.
+Read	604		Eg like fiskekake bedre enn kjøttkake.
+Read	605		Jeg skjøt ballen rett i mål.
+Read	606		Eg har glemt veska mi på bussen.
+Read	607		Ei rotte er større enn ei mus.
+Read	608		En svane er større enn en and.
+Read	609		Æ har glemt nøklan mine hjemme.
+Read	612		Går Marit aldri i kirka på søndaga?
+Produce	101	VA	Eline sa at hun setter seg ofte lengst bak i bussen.
+Produce	101	AV	Eline sa at hun ofte setter seg lengst bak i bussen.
+Produce	102	VA	Tor Håvard sa at han setter seg ofte fremst på forelesningen.
+Produce	102	AV	Tor Håvard sa at han ofte setter seg fremst på forelesningen.
+Produce	103	VA	Eline sa at hun sminker seg ikke på hverdager.
+Produce	103	AV	Eline sa at hun ikke sminker seg på hverdager.
+Produce	104	VA	Tor Håvard sa at han kjeder seg alltid i mattetimen.
+Produce	104	AV	Tor Håvard sa at han alltid kjeder seg i mattetimen.
+Produce	105	VA	Eline sa at hun kjører ofte bil til jobb.
+Produce	105	AV	Eline sa at hun ofte kjører bil til jobb.
+Produce	106	VA	Tor Håvard sa at han kjører ikke bil til jobb.
+Produce	106	AV	Tor Håvard sa at han ikke kjører bil til jobb.
+Produce	107	VA	Eline sa at hun drikker alltid en flaske vann til maten.
+Produce	107	AV	Eline sa at hun alltid drikker en flaske vann til maten.
+Produce	108	VA	Tor Håvard sa at han går aldri på ski til skolen.
+Produce	108	AV	Tor Håvard sa at han aldri går på ski til skolen.
+Produce	109	VA	Eline sa at hun hører ofte på radio i bilen.
+Produce	109	AV	Eline sa at hun ofte hører på radio i bilen.
+Produce	110	VA	Tor Håvard sa at han går alltid på kino på fredager.
+Produce	110	AV	Tor Håvard sa at han alltid går på kino på fredager.
+Produce	111	VA	Eline sa at hun oppfører seg alltid bra på skolen.
+Produce	111	AV	Eline sa at hun alltid oppfører seg bra på skolen.
+Produce	112	VA	Tor Håvard sa at han legger seg ofte innen midnatt.
+Produce	112	AV	Tor Håvard sa at han ofte legger seg innen midnatt.
+Produce	113	VA	Eline sa at hun kommer aldri for sent på jobb.
+Produce	113	AV	Eline sa at hun aldri kommer for sent på jobb.
+Produce	114	VA	Tor Håvard sa at han kommer aldri for sent på skolen.
+Produce	114	AV	Tor Håvard sa at han aldri kommer for sent på skolen.
+Produce	201	VA	Eline spurte om det regner ofte i Bergen.
+Produce	201	AV	Eline spurte om det ofte regner i Bergen.
+Produce	202	VA	Tor Håvard spurte om det snør alltid i Tromsø.
+Produce	202	AV	Tor Håvard spurte om det alltid snør i Tromsø.
+Produce	203	VS	Eline spurte om sendte Anne en melding til venninnen sin i går.
+Produce	203	SV	Eline spurte om Anne sendte en melding til venninnen sin i går.
+Produce	204	VS	Tor Håvard spurte om ventet Anne på en venninne etter norsktimen.
+Produce	204	SV	Tor Håvard spurte om Anne ventet på en venninne etter norsktimen.
+Produce	205	VA	Eline spurte om det snør alltid på Svalbard.
+Produce	205	AV	Eline spurte om det alltid snør på Svalbard.
+Produce	206	VA	Tor Håvard spurte om det regner ofte på Island.
+Produce	206	AV	Tor Håvard spurte om det ofte regner på Island.
+Produce	401	non	Tor Håvard spurte om hvor mange kunder kjøpte en ny kjole.
+Produce	401	som	Tor Håvard spurte om hvor mange kunder som kjøpte en ny kjole.
+Produce	402	non	Eline spurte om hvor mange kunder kjøpte en ny skjorte.
+Produce	402	som	Eline spurte om hvor mange kunder som kjøpte en ny skjorte.
+Produce	403	non	Tor Håvard spurte om hva slags band spilte på festivalen i helgen.
+Produce	403	som	Tor Håvard spurte om hva slags band som spilte på festivalen i helgen.
+Produce	404	non	Eline spurte om hvilke barn kom på bursdagsfesten.
+Produce	404	som	Eline spurte om hvilke barn som kom på bursdagsfesten.
+Produce	501	VS	Tor Håvard spurte om når åpnet den nye spillbutikken i Tromsø.
+Produce	501	SV	Tor Håvard spurte om når den nye spillbutikken i Tromsø åpnet.
+Produce	502	VS	Eline spurte om når kjøpte Pål leiligheten sin.
+Produce	502	SV	Eline spurte om når Pål kjøpte leiligheten sin.
+Produce	503	VS	Tor Håvard spurte om hvordan var treningen i går.
+Produce	503	SV	Tor Håvard spurte om hvordan treningen var i går.
+Produce	504	VS	Eline spurte om hvordan gjorde han det.
+Produce	504	SV	Eline spurte om hvordan han gjorde det.
+Produce	505	VS	Tor Håvard spurte om hvor mye snø kom det i går.
+Produce	505	SV	Tor Håvard spurte om hvor mye snø det kom i går.
+Produce	506	VS	Eline spurte om hva slags fugl var det.
+Produce	506	SV	Eline spurte om hva slags fugl det var.
+Produce	601	fill	Tor Håvard sa at han fant vottene sine under sengen.
+Produce	602	fill	Eline sa at hun kjøpte en ny klokke i går. 
+Produce	603	fill	Tor Håvard sa at han ble bitt i hånden av en katt.
+Produce	604	fill	Eline sa at hun liker fiskekaker bedre enn kjøttkaker.
+Produce	605	fill	Tor Håvard sa at han skjøt ballen rett i mål.
+Produce	606	fill	Eline sa at hun har glemt vesken sin på bussen.
+Produce	607	fill	Tor Håvard sa at en rotte er større enn en mus.
+Produce	608	fill	Eline sa at en svane er større enn en and.
+Produce	609	fill	Tor Håvard sa at han har glemt nøklene sine hjemme.
+Produce	612	VA	Eline spurte om Marit går aldri i kirken på søndager.
+Produce	612	AV	Eline spurte om Marit aldri går i kirken på søndager.
+Read	801		Si til Eline at bedriften mer enn doblet omsetninga i fjor.
+Read	803		Si til Eline at jeg rett og slett elsker sjokolade.
+Read	813		Si til Eline at jeg vanligvis hater lutefisk. 
+Read	716		Spør Eline om korsn hun gjorde det. 
+Read	807		Si til Eline at jeg nesten gråt av glede da TIL scoret.
+Read	720		Spør Eline om hvor hun bor nå.
+Read	805		Si til Eline at Norge heldigvis gruset Danmark i finalen.
+Read	815		Si til Eline at TIL bokstavelig talt knuste Rosenborg i bortekampen.
+Read	706		Spør Eline om hvem Synne er sammen med.
+Read	708		Spør Eline om når Pål flyttet til Tromsø.
+Read	701		Spør Tor Håvard om kem som laga maten.
+Read	703		Spør Tor Håvard om ka som blei sagt i møtet.
+Read	711		Spør Tor Håvard om kor mange lag som deltok i turneringa.
+Read	812		Si til Tor Håvard at artisten så godt som fylte arenaen.
+Read	705		Spør Tor Håvard om kem Marius er ilag med.
+Read	652		Si til Tor Håvard at eg hadde glemt klokka mi hjemme.
+Read	713		Spør Tor Håvard om korsn bøker som va spennaness.
+Read	709		Spør Tor Håvard om ka han jobbe med.
+Read	818		Si til Tor Håvard at eg nesten fikk alt rett på kjemiprøven.
+Read	808		Si til Tor Håvard at eg nesten hylte av glede etter kampen.
+Read	714		Spør Eline om korsn bøker som var spennende.
+Read	712		Spør Eline om hvor mange lag som deltok i turneringa.
+Read	710		Spør Eline om hva hun jobber med.
+Read	817		Si til Eline at jeg nesten fikk alt rett på matteprøven.
+Read	809		Si til Eline at jeg nesten hylte av glede etter kampen.
+Read	704		Spør Eline om hva som ble sagt i møtet.
+Read	718		Spør Eline om hvem Anne er i lag med.
+Read	702		Spør Eline om hvem som laget maten.
+Read	811		Si til Eline at problemet så godt som forsvant i fjor.
+Read	651		Si til Eline at jeg har glemt nøklene mine hjemme.
+Read	806		Si til Tor Håvard at Rosenborg dessverre knuste TIL i hjemmekampen.
+Read	816		Si til Tor Håvard at Norge bokstavelig talt grusa Danmark i finalen.
+Read	810		Si til Tor Håvard at eg nesten gråt av glede da TIL scora.
+Read	707		Spør Tor Håvard om katti Eirik flytta til Oslo.
+Read	715		Spør Tor Håvard om korsn han gjor det. 
+Read	804		Si til Tor Håvard at eg rett og slett elske marsipan.
+Read	802		Si til Tor Håvard at skolen mer enn halverte sykefraværet i fjor.
+Read	814		Si til Tor Håvard at eg vanligvis hate kjøttkake.
+Read	717		Spør Tor Håvard om kem Marit er ilag med.
+Read	719		Spør Tor Håvård om kor han skal på ferie.
+Produce	651	fill	Tor Håvard har glemt nøklene sine hjemme.
+Produce	652	fill	Eline har glemt klokken sin hjemme.
+Produce	701	som	Hvem som laget maten?
+Produce	701	non	Hvem laget maten?
+Produce	702	som	Hvem som laget maten?
+Produce	702	non	Hvem laget maten?
+Produce	703	som	Hva som ble sagt i møtet?
+Produce	703	non	Hva ble sagt i møtet?
+Produce	704	som	Hva som ble sagt i møtet?
+Produce	704	non	Hva ble sagt i møtet?
+Produce	705	SV	Hvem Marius er sammen med?
+Produce	705	VS	Hvem er Marius sammen med?
+Produce	706	SV	Hvem Synne er sammen med?
+Produce	706	VS	Hvem er Synne sammen med?
+Produce	707	SV	Når Eirik flyttet til Oslo?
+Produce	707	VS	Når flyttet Eirik til Oslo?
+Produce	708	SV	Når Pål flyttet til Tromsø?
+Produce	708	VS	Når flyttet Pål til Tromsø?
+Produce	709	SV	Hva du jobber med?
+Produce	709	VS	Hva jobber du med?
+Produce	710	SV	Hva du jobber med?
+Produce	710	VS	Hva jobber du med?
+Produce	711	som	Hvor mange lag som deltok i turneringen?
+Produce	711	non	Hvor mange lag deltok i turneringen?
+Produce	712	som	Hvor mange lag som deltok i turneringen?
+Produce	712	non	Hvor mange lag deltok i turneringen?
+Produce	713	som	Hvilke bøker som var spennende?
+Produce	713	non	Hvilke bøker var spennende?
+Produce	714	som	Hvilke bøker som var spennende?
+Produce	714	non	Hvilke bøker var spennende?
+Produce	715	SV	Hvordan du gjorde det?
+Produce	715	VS	Hvordan gjorde du det?
+Produce	716	SV	Hvordan du gjorde det?
+Produce	716	VS	Hvordan gjorde du det?
+Produce	717	SV	Hvem Marit er sammen med?
+Produce	717	VS	Hvem er Marit sammen med?
+Produce	718	SV	Hvem Anne er sammen med?
+Produce	718	VS	Hvem er Anne sammen med?
+Produce	719	SV	Hvor du skal på ferie?
+Produce	719	VS	Hvor skal du på ferie?
+Produce	720	SV	Hvor du bor nå?
+Produce	720	VS	Hvor bor du nå?
+Produce	801	AV	Bedriften mer enn doblet omsetningen i fjor.
+Produce	801	VA	Bedriften doblet mer enn omsetningen i fjor.
+Produce	802	AV	Skolen mer enn halverte sykefraværet i fjor.
+Produce	802	VA	Skolen halverte mer enn sykefraværet i fjor.
+Produce	803	AV	Tor Håvard rett og slett elsker sjokolade.
+Produce	803	VA	Tor Håvard elsker rett og slett sjokolade.
+Produce	804	AV	Eline rett og slett elsker marsipan.
+Produce	804	VA	Eline elsker rett og slett marsipan.
+Produce	805	AV	Norge heldigvis gruset Danmark i finalen.
+Produce	805	VA	Norge gruset heldigvis Danmark i finalen.
+Produce	806	AV	Rosenborg dessverre knuste TIL i hjemmekampen.
+Produce	806	VA	Rosenborg knuste dessverre TIL i hjemmekampen.
+Produce	807	AV	Tor Håvard nesten gråt av glede da TIL scoret.
+Produce	807	VA	Tor Håvard gråt nesten av glede da TIL scoret.
+Produce	808	AV	Eline nesten hylte av glede etter kampen.
+Produce	808	VA	Eline hylte nesten av glede etter kampen.
+Produce	809	AV	Tor Håvard nesten hylte av glede etter kampen.
+Produce	809	VA	Tor Håvard hylte nesten av glede etter kampen.
+Produce	810	AV	Jeg nesten gråt av glede da TIL scoret.
+Produce	810	VA	Jeg gråt nesten av glede da TIL scoret.
+Produce	811	AV	Problemet så godt som forsvant i fjor.
+Produce	811	VA	Problemet forsvant så godt som i fjor.
+Produce	812	AV	Artisten så godt som fylte arenaen.
+Produce	812	VA	Artisten fylte så godt som arenaen.
+Produce	813	AV	Tor Håvard vanligvis hater lutefisk. 
+Produce	813	VA	Tor Håvard hater vanligvis lutefisk. 
+Produce	814	AV	Eline vanligvis hater kjøttkaker.
+Produce	814	VA	Eline hater vanligvis kjøttkaker.
+Produce	815	AV	TIL bokstavelig talt knuste Rosenborg i bortekampen.
+Produce	815	VA	TIL knuste bokstavelig talt Rosenborg i bortekampen.
+Produce	816	AV	Norge bokstavelig talt gruset Danmark i finalen.
+Produce	816	VA	Norge gruset bokstavelig talt Danmark i finalen.
+Produce	817	AV	Tor Håvard nesten fikk alt rett på matteprøven.
+Produce	817	VA	Tor Håvard fikk nesten alt rett på matteprøven.
+Produce	818	AV	Eline nesten fikk alt rett på kjemiprøven.
+Produce	818	VA	Eline fikk nesten alt rett på kjemiprøven.

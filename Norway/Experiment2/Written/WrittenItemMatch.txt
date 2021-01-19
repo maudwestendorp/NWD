@@ -1,0 +1,210 @@
+type	UniqueNumb	Word.order	Realization1
+Read	102		Jeg setter meg ofte fremst på forelesningen.
+Read	104		Jeg kjeder meg bestandig i mattetimen.
+Read	108		Jeg kjører ikke bil til jobb.
+Read	110		Jeg går aldri på ski til skolen.
+Read	112		Jeg går alltid på kino på fredager.
+Read	204		Jeg legger meg ofte innen midnatt.
+Read	212		Jeg kommer aldri for sent på skolen.
+Read	302		Snør det ofte i Tromsø?
+Read	312		Ventet Anne på en venninne etter norsktimen?
+Read	101		Jeg setter meg ofte lengst bak i bussen.
+Read	103		Jeg sminker meg ikke på hverdager.
+Read	107		Jeg kjører ofte bil til jobb.
+Read	109		Jeg kommer aldri for sent på jobb.
+Read	111		Jeg drikker bestandig en flaske vann til maten.
+Read	502		Hva kjøpte Marit i butikken?
+Read	205		Jeg oppfører meg alltid bra på skolen.
+Read	307		Sendte Anne en melding til venninnen sin i går?
+Read	311		Går Marit bestandig i kirken på søndager?
+Read	404		Hvor mange kunder kjøpte en ny skjorte?
+Read	408		Når kjøpte Pål leiligheten sin?
+Read	506		Hvem kom på festen i går?
+Read	508		Hvilken hund likte Pål best?
+Read	510		Hva slags fugl var det?
+Read	602		Jeg har glemt nøklene mine hjemme.
+Read	608		Jeg liker fiskekaker bedre enn kjøttkaker.
+Read	610		Jeg har glemt vesken min på bussen.
+Read	612		Jeg kjøpte en ny klokke i går. 
+Read	403		Hvor mye snø kom det i går?
+Read	407		Hva slags band spilte på festivalen i helgen?
+Read	505		Når åpnet den nye spillbutikken i Tromsø?
+Read	507		Hvor mange kunder kjøpte en ny kjole?
+Read	509		Hvordan var treningen i går?
+Read	601		Jeg fant vottene mine under sengen.
+Read	603		Jeg ble bitt i hånden av en katt.
+Read	605		Jeg skjøt ballen rett i mål.
+Read	607		En rotte er større enn en mus.
+Produce	102	VA	Anne sier at hun setter seg ofte fremst på forelesningen.
+Produce	102	AV	Anne sier at hun ofte setter seg fremst på forelesningen.
+Produce	104	VA	Marit sier at hun kjeder seg bestandig i mattetimen.
+Produce	104	AV	Marit sier at hun bestandig kjeder seg i mattetimen.
+Produce	108	AV	Anne sier at hun ikke kjører bil til jobb.
+Produce	108	VA	Anne sier at hun kjører ikke bil til jobb.
+Produce	110	VA	Marit sier at hun går aldri på ski til skolen.
+Produce	110	AV	Marit sier at hun aldri går på ski til skolen.
+Produce	112	VA	Anne sier at hun går alltid på kino på fredager.
+Produce	112	AV	Anne sier at hun alltid går på kino på fredager.
+Produce	204	VA	Marit er stolt av at hun legger seg ofte innen midnatt.
+Produce	204	AV	Marit er stolt av at hun ofte legger seg innen midnatt.
+Produce	212	VA	Marit er stolt av at hun kommer aldri for sent på skolen.
+Produce	212	AV	Marit er stolt av at hun aldri kommer for sent på skolen.
+Produce	302	VA	Anne spurte om det snør ofte i Tromsø.
+Produce	302	AV	Anne spurte om det ofte snør i Tromsø.
+Produce	312	fill	Marit spurte om Anne ventet på en venninne etter norsktimen.
+Produce	101	VA	Pål sier at han setter seg ofte lengst bak i bussen.
+Produce	101	AV	Pål sier at han ofte setter seg lengst bak i bussen.
+Produce	103	AV	Anne sier at hun ikke sminker seg på hverdager.
+Produce	103	VA	Anne sier at hun sminker seg ikke på hverdager.
+Produce	107	VA	Pål sier at han kjører ofte bil til jobb.
+Produce	107	AV	Pål sier at han ofte kjører bil til jobb.
+Produce	109	VA	Ole sier at han kommer aldri for sent på jobb.
+Produce	109	AV	Ole sier at han aldri kommer for sent på jobb.
+Produce	111	VA	Pål sier at han drikker bestandig en flaske vann til maten.
+Produce	111	AV	Pål sier at han bestandig drikker en flaske vann til maten.
+Produce	502	SV	Anne spurte hva Marit kjøpte i butikken.
+Produce	502	VS	Anne spurte hva kjøpte Marit i butikken.
+Produce	205	VA	Pål er stolt av at han oppfører seg alltid bra på skolen.
+Produce	205	AV	Pål er stolt av at han alltid oppfører seg bra på skolen.
+Produce	307	fill	Ole spurte om Anne sendte en melding til venninnen sin i går.
+Produce	311	VA	Ole spurte om Marit går bestandig i kirken på søndager.
+Produce	311	AV	Ole spurte om Marit bestandig går i kirken på søndager.
+Produce	404	som	Marit ville vite hvor mange kunder som kjøpte en ny skjorte.
+Produce	404	non	Marit ville vite hvor mange kunder kjøpte en ny skjorte.
+Produce	408	SV	Marit spurte når Pål kjøpte leiligheten sin.
+Produce	408	VS	Marit spurte når kjøpte Pål leiligheten sin.
+Produce	506	som	Anne spurte hvem som kom på festen i går.
+Produce	506	non	Anne spurte hvem kom på festen i går.
+Produce	508	SV	Marit ville vite hvilken hund Pål likte best.
+Produce	508	VS	Marit ville vite hvilken hund likte Pål best.
+Produce	510	SV	Anne spurte hva slags fugl det var.
+Produce	510	VS	Anne spurte hva slags fugl var det.
+Produce	602	fill	Anne er sikker på at hun har glemt nøklene sine hjemme.
+Produce	608	fill	Marit sa at hun liker fiskekaker bedre enn kjøttkaker.
+Produce	610	fill	Anne er sikker på at hun har glemt vesken sin på bussen.
+Produce	612	fill	Marit sa at hun kjøpte en ny klokke i går. 
+Produce	403	SV	Ole ville vite hvor mye snø det kom i går.
+Produce	403	VS	Ole ville vite hvor mye snø kom det i går.
+Produce	407	som	Ole spurte hva slags band som spilte på festivalen i helgen.
+Produce	407	non	Ole spurte hva slags band spilte på festivalen i helgen.
+Produce	505	SV	Pål ville vite når den nye spillbutikken åpnet i Tromsø.
+Produce	505	VS	Pål ville vite når åpnet den nye spillbutikken i Tromsø.
+Produce	507	som	Ole spurte hvor mange kunder som kjøpte en ny kjole.
+Produce	507	non	Ole spurte hvor mange kunder kjøpte en ny kjole.
+Produce	507	cleft	Ole spurte hvor mange kunder det er som kjøpte en ny kjole.
+Produce	509	SV	Pål spurte hvordan treningen var i går.
+Produce	509	VS	Pål spurte hvordan var treningen i går.
+Produce	601	fill	Pål sa at han fant vottene sine under sengen.
+Produce	603	fill	Ole sa at han ble bitt i hånden av en katt.
+Produce	605	fill	Pål sa at han skjøt ballen rett i mål.
+Produce	607	fill	Ole er sikker på at en rotte er større enn en mus.
+Read	801		Pål sa at skolen heldigvis halverte sykefraværet i fjor.
+Read	803		Marit sa at hun rett og slett elsker sjokolade.
+Read	813		Marit sa at hun vanligvis hater lutefisk. 
+Read	805		Pål sa at Norge heldigvis gruset Danmark i finalen.
+Read	815		Marit sa at TIL bokstavelig talt knuste Rosenborg i bortekampen.
+Read	807		Marit sa at hun nesten gråt av glede da TIL scoret.
+Read	817		Pål sa at han nesten fikk alt rett på matteprøven.
+Read	651		Pål sa at han hadde glemt nøklene sine hjemme.
+Read	802		Pål sa at skolen mer enn halverte sykefraværet i fjor.
+Read	804		Pål sa at han rett og slett elsker marsipan.
+Read	814		Pål sa at han vanligvis hater kjøttkaker.
+Read	806		Pål sa at Norge bokstavelig talt gruset Danmark i finalen.
+Read	816		Marit sa at Rosenborg dessverre knuste TIL i hjemmekampen.
+Read	808		Pål sa at han nesten hylte av glede etter kampen.
+Read	818		Marit sa at hun nesten fikk alt rett på kjemiprøven.
+Read	652		Pål sa at han hadde glemt klokken sin hjemme.
+Read	701		Jonas spurte om hvem som laget maten.
+Read	703		Anne spurte om hva som ble sagt i møtet.
+Read	711		Jonas spurte om hvor mange lag som deltok i turneringen.
+Read	713		Marit spurte om hvilke bøker som var spennende.
+Read	751		Jonas spurte om hva hun jobbet med.
+Read	753		Marit spurte om hvem Anne er sammen med.
+Read	811		Jonas spurte om når Eirik flyttet til Oslo.
+Read	763		Marit spurte om hvordan han gjorde det. 
+Read	702		Marit spurte om hvem som laget maten.
+Read	704		Pål spurte om hva som ble sagt i møtet.
+Read	712		Eirik spurte om hvor mange lag som deltok i turneringen.
+Read	714		Anne spurte om hvilke bøker som var spennende.
+Read	655		Marit spurte om hvordan han gjorde det. 
+Read	754		Marit spurte om hva han jobbet med.
+Read	762		Anne spurte om hvem Marit er sammen med.
+Read	764		Eirik spurte om når Pål flyttet til Tromsø.
+Produce	801	AV	Skolen heldigvis halverte sykefraværet i fjor.
+Produce	801	VA	Skolen halverte heldigvis sykefraværet i fjor.
+Produce	803	AV	Jeg rett og slett elsker sjokolade.
+Produce	803	VA	Jeg elsker rett og slett sjokolade.
+Produce	813	AV	Jeg vanligvis hater lutefisk. 
+Produce	813	VA	Jeg hater vanligvis lutefisk. 
+Produce	805	AV	Norge heldigvis gruset Danmark i finalen.
+Produce	805	VA	Norge heldigvis gruset Danmark i finalen.
+Produce	815	AV	TIL bokstavelig talt knuste Rosenborg i bortekampen.
+Produce	815	VA	TIL knuste bokstavelig talt Rosenborg i bortekampen.
+Produce	807	AV	Jeg nesten gråt av glede da TIL scoret.
+Produce	807	VA	Jeg gråt nesten av glede da TIL scoret.
+Produce	817	AV	Jeg nesten fikk alt rett på matteprøven.
+Produce	817	VA	Jeg fikk nesten alt rett på matteprøven.
+Produce	651	fill	Jeg har glemt nøklene mine hjemme.
+Produce	802	AV	Skolen mer enn halverte sykefraværet i fjor.
+Produce	802	VA	Skolen halverte mer enn sykefraværet i fjor.
+Produce	804	AV	Jeg rett og slett elsker marsipan.
+Produce	804	VA	Jeg elsker rett og slett marsipan.
+Produce	814	AV	Jeg vanligvis hater kjøttkaker.
+Produce	814	VA	Jeg hater vanligvis kjøttkaker.
+Produce	806	AV	Norge bokstavelig talt gruset Danmark i finalen.
+Produce	806	VA	Norge gruset bokstavelig talt Danmark i finalen.
+Produce	816	AV	Rosenborg dessverre knuste TIL i hjemmekampen.
+Produce	816	VA	Rosenborg knuste dessverre TIL i hjemmekampen.
+Produce	808	AV	Jeg nesten hylte av glede etter kampen.
+Produce	808	VA	Jeg hylte nesten av glede etter kampen.
+Produce	818	AV	Jeg nesten fikk alt rett på kjemiprøven.
+Produce	818	VA	Jeg fikk nesten alt rett på kjemiprøven.
+Produce	652	fill	Jeg har glemt klokken min hjemme.
+Produce	701	som	Hvem som laget maten?
+Produce	701	cleft	Hvem er det som laget maten?
+Produce	701	non	Hvem laget maten?
+Produce	703	som	Hva som ble sagt i møtet?
+Produce	703	cleft	Hva er det som ble sagt i møtet?
+Produce	703	non	Hva ble sagt i møtet?
+Produce	711	cleft	Hvor mange lag er det som deltok i turneringen?
+Produce	711	som	Hvor mange lag som deltok i turneringen?
+Produce	711	non	Hvor mange lag deltok i turneringen?
+Produce	713	cleft	Hvilke bøker er det som var spennende?
+Produce	713	som	Hvilke bøker som var spennende?
+Produce	713	non	Hvilke bøker var spennende?
+Produce	751	cleft	Hva er det hun jobber med?
+Produce	751	SV	Hva hun jobbet med?
+Produce	751	VS	Hva jobbet hun med?
+Produce	753	cleft	Hvem er det Anne er sammen med?
+Produce	753	SV	Hvem Anne er sammen med?
+Produce	753	VS	Hvem er Anne sammen med?
+Produce	811	cleft	Når var det Eirik flyttet til Oslo?
+Produce	811	SV	Når Eirik flyttet til Oslo?
+Produce	811	VS	Når flyttet Eirik til Oslo?
+Produce	763	cleft	Hvordan er det han gjorde det?
+Produce	763	SV	Hvordan han gjorde det?
+Produce	763	VS	Hvordan gjorde han det?
+Produce	702	cleft	Hvem er det som laget maten?
+Produce	702	som	Hvem som laget maten?
+Produce	702	non	Hvem laget maten?
+Produce	704	cleft	Hva er det som ble sagt i møtet?
+Produce	704	som	Hva som ble sagt i møtet?
+Produce	704	non	Hva ble sagt i møtet?
+Produce	712	cleft	Hvor mange lag er det som deltok i turneringen?
+Produce	712	som	Hvor mange lag som deltok i turneringen?
+Produce	712	non	Hvor mange lag deltok i turneringen?
+Produce	714	cleft	Hvilke bøker er det som var spennende?
+Produce	714	som	Hvilke bøker som var spennende?
+Produce	714	non	Hvilke bøker var spennende?
+Produce	655	cleft	Hvordan er det han gjorde det?
+Produce	655	SV	Hvordan han gjorde det?
+Produce	655	VS	Hvordan gjorde han det?
+Produce	754	cleft	Hva er det han jobber med?
+Produce	754	SV	Hva han jobbet med?
+Produce	754	VS	Hva jobbet han med?
+Produce	762	cleft	Hvem er det Marit er sammen med?
+Produce	762	SV	Hvem Marit er sammen med?
+Produce	762	VS	Hvem er Marit sammen med?
+Produce	764	cleft	Når var det Pål flyttet til Tromsø?
+Produce	764	SV	Når Pål flyttet til Tromsø?
+Produce	764	VS	Når flyttet Pål til Tromsø?

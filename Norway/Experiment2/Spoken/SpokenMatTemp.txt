@@ -1,0 +1,81 @@
+UniqueNumb	item	subitem	name	Main1	Emb1	cond11	cond12	adv1	Participant
+102	1	b	TH	Jeg setter meg ofte fremst på forelesninga.	Tor Håvard sa at...	Bridge	Reflexive	ofte	1
+104	2	b	TH	Jeg kjeder meg bestandig i mattetimen.	Tor Håvard sa at...	Bridge	Reflexive	alltid	1
+106	4	b	TH	Jeg kjører ikke bil til jobb.	Tor Håvard sa at...	Bridge	NonReflexive	ikke	1
+505	25	a	TH	Hvor mye snø kom det i går?	Tor Håvard spurte om...	EmbObQ	NonReflexive	none	1
+403	22	a	TH	Hva slags band spilte på festivalen i helgen?	Tor Håvard spurte om...	EmbSubQ	NonReflexive	none	1
+501	23	a	TH	Ka tid åpna den nye spillbutikken i Tromsø?	Tor Håvard spurte om...	EmbObQ	NonReflexive	none	1
+108	5	b	TH	Jeg går aldri på ski til skolen.	Tor Håvard sa at...	Bridge	NonReflexive	aldri	1
+110	6	b	TH	Jeg går bestandig på kino på fredager.	Tor Håvard sa at...	Bridge	NonReflexive	alltid	1
+112	3	b	TH	Jeg legger meg ofte innen midnatt.	Tor Håvard sa at...	Bridge	Reflexive	ofte	1
+206	13	a	TH	Regner det ofte på Island?	Tor Håvard spurte om...	VtoI	NonReflexive	ofte	1
+401	21	a	TH	Hvor mange kunder kjøpte en ny kjole?	Tor Håvard spurte om...	EmbSubQ	NonReflexive	none	1
+503	24	a	TH	Korsn var treningen i går?	Tor Håvard spurte om...	EmbObQ	NonReflexive	none	1
+601	31	a	TH	Jeg fant vottene mine under senga.	Tor Håvard sa at...	FillerDecl	NonReflexive	none	1
+114	7	b	TH	Jeg kommer aldri for sent på skolen.	Tor Håvard sa at...	Bridge	NonReflexive	aldri	1
+202	11	b	TH	Snør det alltid i Tromsø?	Tor Håvard spurte om...	VtoI	NonReflexive	alltid	1
+204	12	b	TH	Ventet Anne på ei venninne etter norsktimen?	Tor Håvard spurte om...	VtoI	NonReflexive	none	1
+603	32	a	TH	Jeg ble bitt i hånden av ei katt.	Tor Håvard sa at...	FillerDecl	NonReflexive	none	1
+605	33	a	TH	Jeg skjøt ballen rett i mål.	Tor Håvard sa at...	FillerDecl	NonReflexive	none	1
+607	34	a	TH	Ei rotte er større enn ei mus.	Tor Håvard sa at...	FillerDecl	NonReflexive	none	1
+609	35	a	TH	Æ har glemt nøklan mine hjemme.	Tor Håvard sa at...	FillerDecl	NonReflexive	none	1
+402	21	b	EL	Kor mange kunda kjøpte en ny skjorte?	Eline spurte om...	EmbSubQ	NonReflexive	none	2
+502	23	b	EL	Katti kjøpte Pål leiligheta si?	Eline spurte om...	EmbObQ	NonReflexive	none	2
+404	22	b	EL	Korsn unga kom på bursdagsfesten?	Eline spurte om...	EmbSubQ	NonReflexive	none	2
+101	1	a	EL	Eg sett meg oftest lengst bak i bussen.	Eline sa at...	Bridge	Reflexive	ofte	2
+103	2	a	EL	Eg sminke meg ikke på hverdaga.	Eline sa at...	Bridge	Reflexive	ikke	2
+105	4	a	EL	Eg kjøre ofte bil til jobb.	Eline sa at...	Bridge	NonReflexive	ofte	2
+205	13	b	EL	Snør det alltid på Svalbard?	Eline spurte om...	VtoI	NonReflexive	alltid	2
+504	24	b	EL	Korsn gjor han det?	Eline spurte om...	EmbObQ	NonReflexive	none	2
+506	25	b	EL	Ka slags fugl var det?	Eline spurte om...	EmbObQ	NonReflexive	none	2
+606	33	b	EL	Eg har glemt veska mi på bussen.	Eline sa at...	FillerDecl	NonReflexive	none	2
+113	7	a	EL	Eg kommer aldri for seint på jobb.	Eline sa at...	Bridge	NonReflexive	aldri	2
+107	5	a	EL	Eg drikk bestandig en flaske vann til maten.	Eline sa at...	Bridge	NonReflexive	alltid	2
+109	6	a	EL	Eg høre ofte på radio i bilen.	Eline sa at...	Bridge	NonReflexive	ofte	2
+604	32	b	EL	Eg like fiskekake bedre enn kjøttkake.	Eline sa at...	FillerDecl	NonReflexive	none	2
+602	31	a	EL	Eg kjøpte en ny klokke i går. 	Eline sa at...	FillerDecl	NonReflexive	none	2
+608	34	b	EL	En svane er større enn en and.	Eline sa at...	FillerDecl	NonReflexive	none	2
+111	3	a	EL	Eg oppføre meg alltid bra på skolen.	Eline sa at...	Bridge	Reflexive	alltid	2
+203	12	a	EL	Sendte Anne en melding til venninna si i går?	Eline spurte om...	VtoI	NonReflexive	none	2
+612	36	a	EL	Går Marit aldri i kirka på søndaga?	Eline spurte om...	VtoI	NonReflexive	aldri	2
+201	11	a	EL	Regne det ofte i Bergen?	Eline spurte om...	VtoI	NonReflexive	ofte	2
+801	50	a	XXX:	Si til Eline at bedriften mer enn doblet omsetninga i fjor.	...	V3	none	mer enn	2
+803	51	a	XXX:	Si til Eline at jeg rett og slett elsker sjokolade.	...	V3	none	simpelthen	2
+813	52	a	XXX:	Si til Eline at jeg vanligvis hater lutefisk. 	...	V2	none	vanligvis	2
+716	47	b	XXX:	Spør Eline om korsn hun gjorde det. 	...	ObjQlong	obj	none	2
+807	55	a	XXX:	Si til Eline at jeg nesten gråt av glede da TIL scoret.	...	V3	none	nesten	2
+720	48	b	XXX:	Spør Eline om hvor hun bor nå.	…	SubQshort	sub	none	2
+805	53	a	XXX:	Si til Eline at Norge heldigvis gruset Danmark i finalen.	...	V2	none	heldigvis	2
+815	54	a	XXX:	Si til Eline at TIL bokstavelig talt knuste Rosenborg i bortekampen.	...	V3	none	bokstavelig talt	2
+706	45	b	XXX:	Spør Eline om hvem Synne er sammen med.	...	ObjQshort	obj	none	2
+708	46	b	XXX:	Spør Eline om når Pål flyttet til Tromsø.	...	ObjQlong	obj	none	2
+714	43	b	XXX:	Spør Eline om korsn bøker som var spennende.	...	SubQlong	sub	none	2
+712	42	b	XXX:	Spør Eline om hvor mange lag som deltok i turneringa.	...	SubQlong	sub	none	2
+710	44	b	XXX:	Spør Eline om hva hun jobber med.	...	ObjQshort	obj	none	2
+817	56	a	XXX:	Si til Eline at jeg nesten fikk alt rett på matteprøven.	...	V2	none	nesten	2
+809	57	a	XXX:	Si til Eline at jeg nesten hylte av glede etter kampen.	...	V3	none	nesten	2
+704	41	b	XXX:	Spør Eline om hva som ble sagt i møtet.	...	SubQshort	sub	none	2
+718	49	b	XXX:	Spør Eline om hvem Anne er i lag med.	...	ObjQshort	obj	none	2
+702	40	b	XXX:	Spør Eline om hvem som laget maten.	...	SubQshort	sub	none	2
+811	58	a	XXX:	Si til Eline at problemet så godt som forsvant i fjor.	...	V3	none	så godt som	2
+651	35	a	XXX:	Si til Eline at jeg har glemt nøklene mine hjemme.	...	FillerDecl	NonReflexive	none	2
+701	40	a	YYY:	Spør Tor Håvard om kem som laga maten.	...	SubQshort	sub	none	1
+703	41	a	YYY:	Spør Tor Håvard om ka som blei sagt i møtet.	...	SubQshort	sub	none	1
+711	42	a	YYY:	Spør Tor Håvard om kor mange lag som deltok i turneringa.	...	SubQlong	sub	none	1
+812	58	b	YYY:	Si til Tor Håvard at artisten så godt som fylte arenaen.	…	V3	none	så godt som	1
+705	45	a	YYY:	Spør Tor Håvard om kem Marius er ilag med.	...	ObjQshort	obj	none	1
+652	35	b	YYY:	Si til Tor Håvard at eg hadde glemt klokka mi hjemme.	...	FillerDecl	NonReflexive	none	1
+713	43	a	YYY:	Spør Tor Håvard om korsn bøker som va spennaness.	...	SubQlong	sub	none	1
+709	44	a	YYY:	Spør Tor Håvard om ka han jobbe med.	...	ObjQshort	obj	none	1
+818	56	b	YYY:	Si til Tor Håvard at eg nesten fikk alt rett på kjemiprøven.	...	V2	none	nesten	1
+808	55	b	YYY:	Si til Tor Håvard at eg nesten hylte av glede etter kampen.	...	V3	none	nesten	1
+806	53	b	YYY:	Si til Tor Håvard at Rosenborg dessverre knuste TIL i hjemmekampen.	...	V2	none	dessverre	1
+816	54	b	YYY:	Si til Tor Håvard at Norge bokstavelig talt grusa Danmark i finalen.	...	V3	none	bokstavelig talt	1
+810	57	b	YYY:	Si til Tor Håvard at eg nesten gråt av glede da TIL scora.	...	V3	none	nesten	1
+707	46	a	YYY:	Spør Tor Håvard om katti Eirik flytta til Oslo.	...	ObjQlong	obj	none	1
+715	47	a	YYY:	Spør Tor Håvard om korsn han gjor det. 	...	ObjQlong	obj	none	1
+804	51	b	YYY:	Si til Tor Håvard at eg rett og slett elske marsipan.	...	V3	none	simpelthen	1
+802	50	b	YYY:	Si til Tor Håvard at skolen mer enn halverte sykefraværet i fjor.	...	V3	none	mer enn	1
+814	52	b	YYY:	Si til Tor Håvard at eg vanligvis hate kjøttkake.	...	V2	none	vanligvis	1
+717	49	a	YYY:	Spør Tor Håvard om kem Marit er ilag med.	...	ObjQshort	obj	none	1
+719	48	a	YYY:	Spør Tor Håvård om kor han skal på ferie.	...	SubQshort	sub	none	1
