@@ -1,17 +1,12 @@
 # Nordic Word order Database (NWD)
 *January 2021, Maud Westendorp*
 
-This repository is an archive for files related to the [Nordic Word Order Database](http://tekstlab.uio.no/nwd). The archive includes test material, experiment scripts, and analysis scripts and guidelines. Part of this archive can also be found [here](https:github.com/BjornLundquist). That version is outdated.
+This repository is an archive for files related to the [Nordic Word Order Database](http://tekstlab.uio.no/nwd). The archive includes test material, experiment scripts, and analysis scripts and guidelines. Part of this archive can also be found [here](https:github.com/BjornLundquist). That version is not kept up to date anymore.
 
 ### Building the Nordic Word order Database
 The Nordic Word order Database (NWD) is a collaboration between researchers from the University of Oslo and UiT The Arctic University of Norway. Two main experiments were run to collect data on syntactic variation in the five North Germanic languages Icelandic, Faroese, Norwegian, Danish and Swedish. The first experiment focusses on argument placement, the second experiment on verb placement. The experimental paradigms were developed by Ida Larsson (exp. 1), Björn Lundquist (exp. 1 and 2) and Maud Westendorp (exp. 2). Several  researchers and research assistants helped with the data collection and analysis. The process of building the Nordic Word order Database (NWD) and the data collection for this project is detailed in [Lundquist et al. 2019](https://journals.uio.no/NALS/article/view/7529).
 
 ## Contents
-### Folders with experimental materials (experiment 1 and 2)
-+ OpenSesame experimental file (OBS! Not all experiments have automatic logging of start and end times of experimental items)
-+ template (txt) for experimental material ("MatTemp")
-+ template (txt) for expected responses ("ItemMatch")
-
 ### Analysis
 + Praat (use if you do not have time stamps from OpenSesame)
   + guide on how to use Praat to help (roughly) segment audio (.pdf)
@@ -22,7 +17,12 @@ The Nordic Word order Database (NWD) is a collaboration between researchers from
   + ELAN templates to guide annotation of audio (.etf)
 + R scripts for gathering result files into single database
 
-## Content organised per location
+### Folders with experimental materials (experiment 1 and 2)
++ OpenSesame experimental file (OBS! Not all experiments have automatic logging of start and end times of experimental items)
++ template (txt) for experimental material ("MatTemp")
++ template (txt) for expected responses ("ItemMatch")
+
+#### Content organised per location
 + [Denmark](https://github.com/maudwestendorp/NWD/tree/mainbranch/Denmark)
 + [Faroe Islands](https://github.com/maudwestendorp/NWD/tree/mainbranch/FaroeIslands)
 + [Iceland](https://github.com/maudwestendorp/NWD/tree/mainbranch/Iceland)
