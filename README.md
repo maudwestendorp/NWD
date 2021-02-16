@@ -1,5 +1,5 @@
 # Nordic Word order Database (NWD)
-*January 2021, Maud Westendorp*
+*February 2021, Maud Westendorp*
 
 This repository is an archive for files related to the [Nordic Word Order Database](http://tekstlab.uio.no/nwd). The archive includes test material, experiment scripts, and analysis scripts and guidelines. Part of this archive can also be found [here](https:github.com/BjornLundquist). That version is not kept up to date anymore.
 
@@ -34,8 +34,8 @@ The Nordic Word order Database (NWD) is a collaboration between researchers from
 + [Sweden](https://github.com/maudwestendorp/NWD/tree/master/Sweden)
 
 ## Publications related to this project:
-+ *in press*. Björn Lundquist. Argument placement in Faroese. *Nordic Atlas of Language Structures (NALS) Journal* 5(1): 1–24.
-+ *in press*. Maud Westendorp. Verb placement in embedded sentences in Faroese. *Nordic Atlas of Language Structures (NALS) Journal* 5(1): 25–39.
-+ *in press*. Maud Westendorp} & Björn Lundquist. Tverrspråklig innflytelse fra L1 i tilegnelsen av argumentplassering i L2 norsk og svensk [Crosslinguistic influence from L1 in the acquisition of argument placement in L2 Norwegian and Swedish]. *Norsk Lingvistisk Tidsskrift*.
-+ Björn Lundquist, Maud Westendorp & Bror-Magnus S. Strand. 2020. [Code-switching alone cannot explain intraspeaker syntactic variability: Evidence from a spoken elicitation experiment](https://doi.org/10.1017/S0332586520000190). *Nordic Journal of Linguistics* 43(3): 249–287.
++ Björn Lundquist. 2020. [Argument placement in Faroese](https://doi.org/10.5617/nals.8526). *Nordic Atlas of Language Structures (NALS) Journal* 5(1): 5–27.
 + Björn Lundquist, Ida Larsson, Maud Westendorp, Eirik Tengesdal & Anders Nøklestad. 2019. [Nordic Word order Database: motivations, methods, material and infrastructure](https://journals.uio.no/NALS/article/view/7529). *Nordic Atlas of Language Structures (NALS) Journal* 4(1): 1–33.
++ Björn Lundquist, Maud Westendorp & Bror-Magnus S. Strand. 2020. [Code-switching alone cannot explain intraspeaker syntactic variability: Evidence from a spoken elicitation experiment](https://doi.org/10.1017/S0332586520000190). *Nordic Journal of Linguistics* 43(3): 249–287.
++ Maud Westendorp. 2020. [Verb placement in embedded sentences in Faroese](https://doi.org/10.5617/nals.8525). *Nordic Atlas of Language Structures (NALS) Journal* 5(1): 28-42.
++ *in press*. Maud Westendorp} & Björn Lundquist. Tverrspråklig innflytelse fra L1 i tilegnelsen av argumentplassering i L2 norsk og svensk [Crosslinguistic influence from L1 in the acquisition of argument placement in L2 Norwegian and Swedish]. *Norsk Lingvistisk Tidsskrift*.
