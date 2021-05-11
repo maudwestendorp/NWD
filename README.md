@@ -4,6 +4,8 @@
 This repository is an archive for files related to the [Nordic Word Order Database](https://tekstlab.uio.no/nwd). The archive includes test material, experiment scripts, and analysis scripts and guidelines. Part of this archive can also be found [here](https:github.com/BjornLundquist). That version is not kept up to date anymore.
 
 ## About the Nordic Word order Database
+More information on the Nordic Word order Database can be found on the [project website](https://www.hf.uio.no/iln/english/about/organization/text-laboratory/projects/nwd/index.html).
+
 ### In a nutshell
 The Nordic Word order Database (NWD) contains over 70,000+ elicited sentences from almost 400 speakers of the five North Germanic languages targetting 10+ syntactic phenomena. The NWD is a collaboration between researchers from the University of Oslo and UiT The Arctic University of Norway. Two main experiments were run to collect data on syntactic variation in the five North Germanic languages Icelandic, Faroese, Norwegian, Danish and Swedish. The first experiment focusses on argument placement, the second experiment on verb placement. The experimental paradigms were developed by Ida Larsson (exp. 1), Björn Lundquist (exp. 1 and 2) and Maud Westendorp (exp. 2). Several  researchers and research assistants helped with the data collection and analysis. The process of building the Nordic Word order Database (NWD) and the data collection for this project is detailed in [Lundquist et al. 2019](https://journals.uio.no/NALS/article/view/7529).
 
