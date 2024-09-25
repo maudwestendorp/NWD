@@ -1,5 +1,6 @@
-![image](https://github.com/user-attachments/assets/1e9b3d07-66c9-4068-8f86-7b429f02b7cb)# Nordic Word order Database (NWD)
+# Nordic Word order Database (NWD)
 *March 2021, Maud Westendorp*
+*updated September 2024*
 
 This repository is an archive for files related to the [Nordic Word Order Database](https://tekstlab.uio.no/nwd). The archive includes test material, experiment scripts, and analysis scripts and guidelines. Part of this archive can also be found [here](https:github.com/BjornLundquist). That version is not kept up to date anymore.
 
