@@ -1,0 +1,873 @@
+---
+API: 2.1
+OpenSesame: 3.3.12
+Platform: nt
+---
+set width 1920
+set uniform_coordinates yes
+set title ArgumentPlacement_Fosen
+set synth_backend legacy
+set subject_parity even
+set subject_nr 0
+set start experiment
+set sound_sample_size -16
+set sound_freq 48000
+set sound_channels 2
+set sound_buf_size 1024
+set sampler_backend legacy
+set round_decimals 2
+set mouse_backend psycho
+set keyboard_backend psycho
+set height 1080
+set fullscreen no
+set form_clicks no
+set foreground white
+set font_underline no
+set font_size 18
+set font_italic no
+set font_family sans
+set font_bold no
+set experiment_path "C:\\Users\\eirikten\\Dropbox (UiO)\\PhD\\Feltarbeid\\Eksperimentfil"
+set disable_garbage_collection yes
+set description "Default description"
+set coordinates relative
+set compensation 0
+set color_backend psycho
+set clock_backend psycho
+set canvas_backend psycho
+set bidi no
+set background black
+
+define sketchpad avslutt
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Takk!" x=0 y=-4 z_index=0
+
+define sketchpad avslutt_testrunde
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Klar?" x=0 y=0 z_index=0
+
+define sketchpad empty
+	set duration 0
+	set description "Displays stimuli"
+
+define sequence experiment
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run velkommmen always
+	run start_del1 always
+	run testrunde_del1 always
+	run avslutt_testrunde always
+	run stimuli_del1 always
+	run start_del2 always
+	run testrunde_del2 always
+	run avslutt_testrunde always
+	run stimuli_del2 always
+	run start_del3 always
+	run testrunde_del3 always
+	run avslutt_testrunde always
+	run stimuli_del3 always
+	run avslutt always
+
+define logger logger
+	set description "Logs experimental data"
+	set auto_log no
+	log read1
+	log invert1
+	log read2
+	log invert2
+	log nr1
+	log nr2
+	log time_sound_read
+	log time_stimuli_produce
+	log time_sound_produce
+	log time_stimuli_read2
+	log time_sound_read2
+	log time_stimuli_produce2
+	log time_sound_produce2
+	log time_empty
+
+define sketchpad produce
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-400 y=0 z_index=0
+
+define sketchpad produce2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-400 y=0 z_index=0
+
+define sketchpad read
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+
+define sketchpad read2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=red font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+
+define keyboard_response response1
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define keyboard_response response2
+	set timeout infinite
+	set flush yes
+	set event_type keypress
+	set duration keypress
+	set description "Collects keyboard responses"
+	set allowed_responses "1;2;3;4;RIGHT;SPACE;PAGEDOWN"
+
+define synth sound_produce
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth sound_produce2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth sound_read
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define synth sound_read2
+	set volume 1
+	set pan 0
+	set osc sine
+	set length 500
+	set freq 440
+	set duration sound
+	set description "A basic sound synthesizer"
+	set decay 5
+	set attack 0
+
+define sketchpad start_del1
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Første del" x=0 y=-100 z_index=0
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="Øvelsesrunde" x=0 y=0 z_index=0
+
+define sketchpad start_del2
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Andre del" x=0 y=-100 z_index=0
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="Ordstilling og tempus" x=0 y=0 z_index=0
+
+define sketchpad start_del3
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Siste del" x=0 y=-100 z_index=0
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="Passiv til aktiv" x=0 y=0 z_index=0
+
+define loop stimuli_del1
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 18
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Læreren skyndte seg hjem fra jobb i går."
+	setcycle 0 invert1 "I går ..."
+	setcycle 0 cond1 refl
+	setcycle 0 nr1 1
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Han venta ikke på kollegaen sin i går."
+	setcycle 0 invert2 "I går ..."
+	setcycle 0 cond2 SS
+	setcycle 0 nr2 12
+	setcycle 0 arg2 PRO
+	setcycle 1 read1 "Han skyndte seg hjem fra jobb i går."
+	setcycle 1 invert1 "I går ..."
+	setcycle 1 cond1 refl
+	setcycle 1 nr1 1
+	setcycle 1 arg1 PRO
+	setcycle 1 read2 "Bakeren kom ikke for sent hver dag i forrige uke."
+	setcycle 1 invert2 "I forrige uke ..."
+	setcycle 1 cond2 SS
+	setcycle 1 nr2 13
+	setcycle 1 arg2 NP
+	setcycle 2 read1 "Skuespilleren snudde seg plutselig mot publikum."
+	setcycle 2 invert1 "Plutselig ..."
+	setcycle 2 cond1 refl
+	setcycle 2 nr1 2
+	setcycle 2 arg1 NP
+	setcycle 2 read2 "Han kom ikke for sent hver dag i forrige uke."
+	setcycle 2 invert2 "I forrige uke ..."
+	setcycle 2 cond2 SS
+	setcycle 2 nr2 13
+	setcycle 2 arg2 PRO
+	setcycle 3 read1 "Ho snudde seg plutselig mot publikum."
+	setcycle 3 invert1 "Plutselig ..."
+	setcycle 3 cond1 refl
+	setcycle 3 nr1 2
+	setcycle 3 arg1 PRO
+	setcycle 3 read2 "Studenten dro ikke hjem til foreldrene i fjor."
+	setcycle 3 invert2 "I fjor ..."
+	setcycle 3 cond2 SS
+	setcycle 3 nr2 14
+	setcycle 3 arg2 NP
+	setcycle 4 read1 "Bakeren vaska seg rett etter jobb i går."
+	setcycle 4 invert1 "I går ..."
+	setcycle 4 cond1 refl
+	setcycle 4 nr1 3
+	setcycle 4 arg1 NP
+	setcycle 4 read2 "Ho dro ikke hjem til foreldrene i fjor."
+	setcycle 4 invert2 "I fjor ..."
+	setcycle 4 cond2 SS
+	setcycle 4 nr2 14
+	setcycle 4 arg2 PRO
+	setcycle 5 read1 "Han vaska seg rett etter jobb i går."
+	setcycle 5 invert1 "I går ..."
+	setcycle 5 cond1 refl
+	setcycle 5 nr1 3
+	setcycle 5 arg1 PRO
+	setcycle 5 read2 "Advokaten fant ikke nøklene til kontoret i går."
+	setcycle 5 invert2 "I går ..."
+	setcycle 5 cond2 SS
+	setcycle 5 nr2 15
+	setcycle 5 arg2 NP
+	setcycle 6 read1 "Politimannen satte seg i den andre bilen etter møtet."
+	setcycle 6 invert1 "Etter møtet ..."
+	setcycle 6 cond1 refl
+	setcycle 6 nr1 4
+	setcycle 6 arg1 NP
+	setcycle 6 read2 "Han fant ikke nøklene til kontoret i går."
+	setcycle 6 invert2 "I går ..."
+	setcycle 6 cond2 SS
+	setcycle 6 nr2 15
+	setcycle 6 arg2 PRO
+	setcycle 7 read1 "Han satte seg i den andre bilen etter møtet."
+	setcycle 7 invert1 "Etter møtet ..."
+	setcycle 7 cond1 refl
+	setcycle 7 nr1 4
+	setcycle 7 arg1 PRO
+	setcycle 7 read2 "Den nye studenten rydda opp på kjøkkenet i går."
+	setcycle 7 invert2 "I går ..."
+	setcycle 7 cond2 Part
+	setcycle 7 nr2 16
+	setcycle 7 arg2 NP
+	setcycle 8 read1 "Advokaten barberte seg før jobb hver dag."
+	setcycle 8 invert1 "Hver dag ..."
+	setcycle 8 cond1 refl
+	setcycle 8 nr1 5
+	setcycle 8 arg1 NP
+	setcycle 8 read2 "Han rydda opp på kjøkkenet i går."
+	setcycle 8 invert2 "I går ..."
+	setcycle 8 cond2 Part
+	setcycle 8 nr2 16
+	setcycle 8 arg2 PRO
+	setcycle 9 read1 "Han barberte seg før jobb hver dag."
+	setcycle 9 invert1 "Hver dag ..."
+	setcycle 9 cond1 refl
+	setcycle 9 nr1 5
+	setcycle 9 arg1 PRO
+	setcycle 9 read2 "Den beste løperen ga opp under siste runde i fjor."
+	setcycle 9 invert2 "I fjor ..."
+	setcycle 9 cond2 Part
+	setcycle 9 nr2 26
+	setcycle 9 arg2 NP
+	setcycle 10 read1 "Læreren ga meg ei ny bok i går."
+	setcycle 10 invert1 "I går ..."
+	setcycle 10 cond1 los
+	setcycle 10 nr1 6
+	setcycle 10 arg1 NP
+	setcycle 10 read2 "Studenten kom alltid for seint til forelesninga i fjor."
+	setcycle 10 invert2 "I fjor ..."
+	setcycle 10 cond2 SA
+	setcycle 10 nr2 26
+	setcycle 10 arg2 NP
+	setcycle 11 read1 "Bakeren ga meg ferskt brød hver dag."
+	setcycle 11 invert1 "Hver dag ..."
+	setcycle 11 cond1 los
+	setcycle 11 nr1 7
+	setcycle 11 arg1 NP
+	setcycle 11 read2 "Advokaten sykla ofte til jobb i fjor."
+	setcycle 11 invert2 "I fjor ..."
+	setcycle 11 cond2 SA
+	setcycle 11 nr2 27
+	setcycle 11 arg2 NP
+	setcycle 12 read1 "Advokaten tilbød meg ei ny stilling i forrige uke."
+	setcycle 12 invert1 "I forrige uke ..."
+	setcycle 12 cond1 los
+	setcycle 12 nr1 8
+	setcycle 12 arg1 NP
+	setcycle 12 read2 "Læreren gikk ofte på kino i fjor."
+	setcycle 12 invert2 "I fjor ..."
+	setcycle 12 cond2 SA
+	setcycle 12 nr2 28
+	setcycle 12 arg2 NP
+	setcycle 13 read1 "Skuespilleren sendte meg lange brev hver dag."
+	setcycle 13 invert1 "Hver dag ..."
+	setcycle 13 cond1 los
+	setcycle 13 nr1 9
+	setcycle 13 arg1 NP
+	setcycle 13 read2 "Bakeren spiste alltid grøt til frokost i fjor."
+	setcycle 13 invert2 "I fjor ..."
+	setcycle 13 cond2 SA
+	setcycle 13 nr2 29
+	setcycle 13 arg2 NP
+	setcycle 14 read1 "Politimannen viste meg et bilde av bilen etter møtet."
+	setcycle 14 invert1 "Etter møtet ..."
+	setcycle 14 cond1 los
+	setcycle 14 nr1 10
+	setcycle 14 arg1 NP
+	setcycle 14 read2 "Han stilte opp for kollegaen sin i går."
+	setcycle 14 invert2 "I går ..."
+	setcycle 14 cond2 Part
+	setcycle 14 nr2 19
+	setcycle 14 arg2 PRO
+	setcycle 15 read1 "Læreren tok ikke bussen til jobb i går."
+	setcycle 15 invert1 "I går ..."
+	setcycle 15 cond1 SS
+	setcycle 15 nr1 11
+	setcycle 15 arg1 NP
+	setcycle 15 read2 "Den nye studenten gikk ut på byen i går."
+	setcycle 15 invert2 "I går ..."
+	setcycle 15 cond2 Part
+	setcycle 15 nr2 20
+	setcycle 15 arg2 NP
+	setcycle 16 read1 "Ho tok ikke bussen til jobb i går."
+	setcycle 16 invert1 "I går ..."
+	setcycle 16 cond1 SS
+	setcycle 16 nr1 11
+	setcycle 16 arg1 PRO
+	setcycle 16 read2 "Tre malerier datt ned i den store salen i går."
+	setcycle 16 invert2 "I går ..."
+	setcycle 16 cond2 Part
+	setcycle 16 nr2 21
+	setcycle 16 arg2 NP
+	setcycle 17 read1 "Politimannen venta ikke på kollegaen sin i går."
+	setcycle 17 invert1 "I går ..."
+	setcycle 17 cond1 SS
+	setcycle 17 nr1 12
+	setcycle 17 arg1 NP
+	setcycle 17 read2 "Han ga opp under siste runde i fjor."
+	setcycle 17 invert2 "I fjor ..."
+	setcycle 17 cond2 Part
+	setcycle 17 nr2 17
+	setcycle 17 arg2 PRO
+	run trial
+
+define loop stimuli_del2
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 11
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Studenten kjem til å gå ut på byen hver kveld."
+	setcycle 0 invert1 "I fjor gikk ..."
+	setcycle 0 cond1 Part
+	setcycle 0 nr1 16
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Ho kjem ikke til å hjelpe meg med leksene."
+	setcycle 0 invert2 "I går hjalp ..."
+	setcycle 0 cond2 OS
+	setcycle 0 nr2 21
+	setcycle 0 arg2 PRO
+	setcycle 1 read1 "Han kjem til å gå ut på byen hver kveld."
+	setcycle 1 invert1 "I fjor gikk ..."
+	setcycle 1 cond1 Part
+	setcycle 1 nr1 16
+	setcycle 1 arg1 PRO
+	setcycle 1 read2 "Han kjem ikke til å tilby meg en ny jobb."
+	setcycle 1 invert2 "I fjor tilbød ..."
+	setcycle 1 cond2 OS
+	setcycle 1 nr2 22
+	setcycle 1 arg2 PRO
+	setcycle 2 read1 "Løperen kjem til å gi opp under siste runde."
+	setcycle 2 invert1 "I fjor ga ..."
+	setcycle 2 cond1 Part
+	setcycle 2 nr1 17
+	setcycle 2 arg1 NP
+	setcycle 2 read2 "Han kjem ikke til å vise meg noen klipp fra filmen."
+	setcycle 2 invert2 "I går viste ..."
+	setcycle 2 cond2 OS
+	setcycle 2 nr2 23
+	setcycle 2 arg2 PRO
+	setcycle 3 read1 "Han kjem til å gi opp under siste runde."
+	setcycle 3 invert1 "I fjor ga ..."
+	setcycle 3 cond1 Part
+	setcycle 3 nr1 17
+	setcycle 3 arg1 PRO
+	setcycle 3 read2 "Studenten kjem ikke til å dra hjem til foreldrene."
+	setcycle 3 invert2 "I fjor dro ..."
+	setcycle 3 cond2 OS
+	setcycle 3 nr2 32
+	setcycle 3 arg2 NP
+	setcycle 4 read1 "Politimannen kjem til å bryte sammen under avhøret."
+	setcycle 4 invert1 "I går brøt ..."
+	setcycle 4 cond1 Part
+	setcycle 4 nr1 18
+	setcycle 4 arg1 NP
+	setcycle 4 read2 "Han kjem ikke til å sende meg en invitasjon."
+	setcycle 4 invert2 "I fjor sendte ..."
+	setcycle 4 cond2 OS
+	setcycle 4 nr2 25
+	setcycle 4 arg2 PRO
+	setcycle 5 read1 "Han kjem til å bryte sammen under avhøret."
+	setcycle 5 invert1 "I går brøt ..."
+	setcycle 5 cond1 Part
+	setcycle 5 nr1 18
+	setcycle 5 arg1 PRO
+	setcycle 5 read2 "Politimannen kjem ikke til å barbere seg med barberhøvel."
+	setcycle 5 invert2 "I går barberte ..."
+	setcycle 5 cond2 SSrefl
+	setcycle 5 nr2 26
+	setcycle 5 arg2 NP
+	setcycle 6 read1 "Skuespilleren kjem til å stille opp for kollegene sine."
+	setcycle 6 invert1 "I går stilte …"
+	setcycle 6 cond1 Part
+	setcycle 6 nr1 19
+	setcycle 6 arg1 NP
+	setcycle 6 read2 "Studenten kjem ikke til å føle seg trøtt etter skolen."
+	setcycle 6 invert2 "I går følte ..."
+	setcycle 6 cond2 SSrefl
+	setcycle 6 nr2 27
+	setcycle 6 arg2 NP
+	setcycle 7 read1 "Han kjem til å stille opp for kollegene sine."
+	setcycle 7 invert1 "I går stilte …"
+	setcycle 7 cond1 Part
+	setcycle 7 nr1 19
+	setcycle 7 arg1 PRO
+	setcycle 7 read2 "Skuespilleren kjem ikke til å snu seg mot publikum."
+	setcycle 7 invert2 "I går snudde ..."
+	setcycle 7 cond2 SSrefl
+	setcycle 7 nr2 28
+	setcycle 7 arg2 NP
+	setcycle 8 read1 "Den nye studenten kjem til å rydde opp på kjøkkenet."
+	setcycle 8 invert1 "I går rydda ..."
+	setcycle 8 cond1 Part
+	setcycle 8 nr1 20
+	setcycle 8 arg1 NP
+	setcycle 8 read2 "Advokaten kjem ikke til å sette seg ved siden av læreren."
+	setcycle 8 invert2 "I går satte ..."
+	setcycle 8 cond2 SSrefl
+	setcycle 8 nr2 29
+	setcycle 8 arg2 NP
+	setcycle 9 read1 "Han kjem til å rydde opp på kjøkkenet."
+	setcycle 9 invert1 "I går rydda ..."
+	setcycle 9 cond1 Part
+	setcycle 9 nr1 20
+	setcycle 9 arg1 PRO
+	setcycle 9 read2 "Løperen kjem ikke til å vaske seg etter løpet."
+	setcycle 9 invert2 "I går vaska ..."
+	setcycle 9 cond2 SSrefl
+	setcycle 9 nr2 30
+	setcycle 9 arg2 NP
+	setcycle 10 read1 "Advokaten kjem ikke til å finne nøklene til kontoret."
+	setcycle 10 invert1 "I går fant ..."
+	setcycle 10 cond1 SN
+	setcycle 10 nr1 31
+	setcycle 10 arg1 NP
+	setcycle 10 read2 "Han kjem ikke til å gi meg ferskt brød."
+	setcycle 10 invert2 "I går ga ..."
+	setcycle 10 cond2 OS
+	setcycle 10 nr2 24
+	setcycle 10 arg2 PRO
+	run trial
+
+define loop stimuli_del3
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 18
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Studenten vart kasta ut av puben av vaktene."
+	setcycle 0 invert1 "Vaktene kasta ..."
+	setcycle 0 cond1 PartPP
+	setcycle 0 nr1 1
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Fotballspilleren vart sjekka opp av den unge fotomodellen i går."
+	setcycle 0 invert2 "Den unge fotomodellen sjekka ..."
+	setcycle 0 cond2 Met
+	setcycle 0 nr2 6
+	setcycle 0 arg2 NP
+	setcycle 1 read1 "Han vart kasta ut av puben av vaktene."
+	setcycle 1 invert1 "Vaktene kasta ..."
+	setcycle 1 cond1 PartPP
+	setcycle 1 nr1 1
+	setcycle 1 arg1 PRO
+	setcycle 1 read2 "Han vart sjekka opp av den unge fotomodellen i går."
+	setcycle 1 invert2 "Den unge fotomodellen sjekka ..."
+	setcycle 1 cond2 Met
+	setcycle 1 nr2 6
+	setcycle 1 arg2 PRO
+	setcycle 2 read1 "Studenten vart kasta ut av vaktene i går."
+	setcycle 2 invert1 "Vaktene kasta ..."
+	setcycle 2 cond1 Part
+	setcycle 2 nr1 1
+	setcycle 2 arg1 NP
+	setcycle 2 read2 "Sykehuset vart kjøpt opp av et privat selskap i fjor."
+	setcycle 2 invert2 "Et privat selskap kjøpte ..."
+	setcycle 2 cond2 Met
+	setcycle 2 nr2 7
+	setcycle 2 arg2 NP
+	setcycle 3 read1 "Han vart kasta ut av vaktene i går."
+	setcycle 3 invert1 "Vaktene kasta ..."
+	setcycle 3 cond1 Part
+	setcycle 3 nr1 1
+	setcycle 3 arg1 PRO
+	setcycle 3 read2 "Ho vart skjelt ut av rektoren i går."
+	setcycle 3 invert2 "Rektoren skjelte ..."
+	setcycle 3 cond2 Met
+	setcycle 3 nr2 5
+	setcycle 3 arg2 PRO
+	setcycle 4 read1 "Vitnet vart sluppet inn i salen av vaktene."
+	setcycle 4 invert1 "Vaktene slapp ..."
+	setcycle 4 cond1 PartPP
+	setcycle 4 nr1 2
+	setcycle 4 arg1 NP
+	setcycle 4 read2 "Huset vart bygd om etter et par år av de nye eierne."
+	setcycle 4 invert2 "De nye eierne bygde ..."
+	setcycle 4 cond2 Prep
+	setcycle 4 nr2 8
+	setcycle 4 arg2 NP
+	setcycle 5 read1 "Han vart sluppet inn i salen av vaktene."
+	setcycle 5 invert1 "Vaktene slapp ..."
+	setcycle 5 cond1 PartPP
+	setcycle 5 nr1 2
+	setcycle 5 arg1 PRO
+	setcycle 5 read2 "Han vart ikke kritisert av journalisten for uttalelsen."
+	setcycle 5 invert2 "Journalisten kritiserte ..."
+	setcycle 5 cond2 Neg
+	setcycle 5 nr2 16
+	setcycle 5 arg2 NP
+	setcycle 6 read1 "Vitnet vart sluppet inn av vaktene i går."
+	setcycle 6 invert1 "Vaktene slapp ..."
+	setcycle 6 cond1 Part
+	setcycle 6 nr1 2
+	setcycle 6 arg1 NP
+	setcycle 6 read2 "Bordet vart rydda av etter middagen av vertene."
+	setcycle 6 invert2 "Vertene rydda …"
+	setcycle 6 cond2 Ground
+	setcycle 6 nr2 9
+	setcycle 6 arg2 NP
+	setcycle 7 read1 "Han vart sluppet inn av vaktene i går."
+	setcycle 7 invert1 "Vaktene slapp …"
+	setcycle 7 cond1 Part
+	setcycle 7 nr1 2
+	setcycle 7 arg1 PRO
+	setcycle 7 read2 "Ranerne vart ikke arrestert av politiet i går."
+	setcycle 7 invert2 "Politiet arresterte ..."
+	setcycle 7 cond2 Neg
+	setcycle 7 nr2 10
+	setcycle 7 arg2 NP
+	setcycle 8 read1 "Maleriet vart tatt ned fra veggen av stuepika."
+	setcycle 8 invert1 "Stuepika tok ..."
+	setcycle 8 cond1 PartPP
+	setcycle 8 nr1 3
+	setcycle 8 arg1 NP
+	setcycle 8 read2 "De vart ikke arrestert av politiet i går."
+	setcycle 8 invert2 "Politiet arresterte ..."
+	setcycle 8 cond2 Neg
+	setcycle 8 nr2 10
+	setcycle 8 arg2 PRO
+	setcycle 9 read1 "Den vart tatt ned fra veggen av stuepika."
+	setcycle 9 invert1 "Stuepika tok ..."
+	setcycle 9 cond1 PartPP
+	setcycle 9 nr1 3
+	setcycle 9 arg1 PRO
+	setcycle 9 read2 "Kalle vart ikke avhørt av den unge politimannen."
+	setcycle 9 invert2 "Den unge politimannen avhørte ..."
+	setcycle 9 cond2 Neg
+	setcycle 9 nr2 11
+	setcycle 9 arg2 NP
+	setcycle 10 read1 "Maleriet vart tatt ned av stuepika i går."
+	setcycle 10 invert1 "Stuepika tok ..."
+	setcycle 10 cond1 Part
+	setcycle 10 nr1 3
+	setcycle 10 arg1 NP
+	setcycle 10 read2 "Han vart ikke avhørt av den unge politimannen."
+	setcycle 10 invert2 "Den unge politimannen avhørte ..."
+	setcycle 10 cond2 Neg
+	setcycle 10 nr2 11
+	setcycle 10 arg2 PRO
+	setcycle 11 read1 "Den vart tatt ned av stuepika i går."
+	setcycle 11 invert1 "Stuepika tok ..."
+	setcycle 11 cond1 Part
+	setcycle 11 nr1 3
+	setcycle 11 arg1 PRO
+	setcycle 11 read2 "Kvinna vart ikke utnevnt til leder av den nye direktøren."
+	setcycle 11 invert2 "Den nye direktøren utnevnte ..."
+	setcycle 11 cond2 Neg
+	setcycle 11 nr2 12
+	setcycle 11 arg2 NP
+	setcycle 12 read1 "Plakaten vart hengt opp på veggen av læreren."
+	setcycle 12 invert1 "Læreren hengte ..."
+	setcycle 12 cond1 PartPP
+	setcycle 12 nr1 4
+	setcycle 12 arg1 NP
+	setcycle 12 read2 "Ho vart ikke utnevnt til leder av den nye direktøren."
+	setcycle 12 invert2 "Den nye direktøren utnevnte ..."
+	setcycle 12 cond2 Neg
+	setcycle 12 nr2 12
+	setcycle 12 arg2 PRO
+	setcycle 13 read1 "Den vart hengt opp på veggen av læreren."
+	setcycle 13 invert1 "Læreren hengte ..."
+	setcycle 13 cond1 PartPP
+	setcycle 13 nr1 4
+	setcycle 13 arg1 PRO
+	setcycle 13 read2 "Han vart ikke forsvart av kollegene under møtet."
+	setcycle 13 invert2 "Kollegene forsvarte ..."
+	setcycle 13 cond2 Neg
+	setcycle 13 nr2 13
+	setcycle 13 arg2 PRO
+	setcycle 14 read1 "Plakaten vart hengt opp av læreren i går."
+	setcycle 14 invert1 "Læreren hengte ..."
+	setcycle 14 cond1 Part
+	setcycle 14 nr1 4
+	setcycle 14 arg1 NP
+	setcycle 14 read2 "Han vart ikke truffet av kula."
+	setcycle 14 invert2 "Kula traff ..."
+	setcycle 14 cond2 Neg
+	setcycle 14 nr2 14
+	setcycle 14 arg2 PRO
+	setcycle 15 read1 "Den vart hengt opp av læreren i går."
+	setcycle 15 invert1 "Læreren hengte ..."
+	setcycle 15 cond1 Part
+	setcycle 15 nr1 4
+	setcycle 15 arg1 PRO
+	setcycle 15 read2 "Kritikeren vart ikke imponert av den nye forestillinga."
+	setcycle 15 invert2 "Den nye forestillinga imponerte ..."
+	setcycle 15 cond2 Neg
+	setcycle 15 nr2 15
+	setcycle 15 arg2 NP
+	setcycle 16 read1 "Eleven vart skjelt ut av rektoren i går."
+	setcycle 16 invert1 "Rektoren skjelte ..."
+	setcycle 16 cond1 Met
+	setcycle 16 nr1 5
+	setcycle 16 arg1 NP
+	setcycle 16 read2 "Han vart ikke imponert av den nye forestillinga."
+	setcycle 16 invert2 "Den nye forestillinga imponerte ..."
+	setcycle 16 cond2 Neg
+	setcycle 16 nr2 15
+	setcycle 16 arg2 PRO
+	setcycle 17 read1 "Ho vart skjelt ut av rektoren i går."
+	setcycle 17 invert1 "Rektoren skjelte ..."
+	setcycle 17 cond1 Met
+	setcycle 17 nr1 5
+	setcycle 17 arg1 PRO
+	setcycle 17 read2 "Han vart ikke kritisert av journalisten for uttalelsen."
+	setcycle 17 invert2 "Journalisten kritiserte ..."
+	setcycle 17 cond2 Neg
+	setcycle 17 nr2 16
+	setcycle 17 arg2 PRO
+	run trial
+
+define sketchpad stimuli_produce
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-400 y=0 z_index=0
+
+define sketchpad stimuli_produce2
+	set duration 300
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-400 y=0 z_index=0
+
+define sketchpad stimuli_produce2_prac
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert2]" x=-400 y=0 z_index=0
+
+define sketchpad stimuli_produce_prac
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[invert1]" x=-400 y=0 z_index=0
+
+define sketchpad stimuli_read
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+
+define sketchpad stimuli_read2
+	set duration 1000
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+
+define sketchpad stimuli_read2_prac
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read2]" x=-400 y=-80 z_index=0
+
+define sketchpad stimuli_read_prac
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=0 color=white font_bold=no font_family=sans font_italic=no font_size=28 html=yes show_if=always text="[read1]" x=-400 y=-80 z_index=0
+
+define loop testrunde_del1
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 1
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Læreren kjøpte en ny bil i går."
+	setcycle 0 invert1 "I går ..."
+	setcycle 0 cond1 test
+	setcycle 0 nr1 test
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Bakeren solgte mye brød i går."
+	setcycle 0 invert2 "I går ..."
+	setcycle 0 cond2 test
+	setcycle 0 nr2 test
+	setcycle 0 arg2 test
+	run trial_testrunde
+
+define loop testrunde_del2
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 1
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Bakeren kjem til å selge mye brød."
+	setcycle 0 invert1 "I går solgte …"
+	setcycle 0 cond1 test
+	setcycle 0 nr1 test
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Ho kjem ikke til å lese mange kriminalromaner i løpet av ferien."
+	setcycle 0 invert2 "I fjor leste …"
+	setcycle 0 cond2 test
+	setcycle 0 nr2 test
+	setcycle 0 arg2 PRO
+	run trial
+
+define loop testrunde_del3
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order sequential
+	set offset no
+	set item trial
+	set description "Repeatedly runs another item"
+	set cycles 1
+	set continuous no
+	set column_order "Condition;CategoryLeft;CategoryRight;CategoryCorrect;Exemplar"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 read1 "Døra til klasserommet vart låst av vaktmesteren."
+	setcycle 0 invert1 "Vaktmesteren låste …"
+	setcycle 0 cond1 test
+	setcycle 0 nr1 test
+	setcycle 0 arg1 NP
+	setcycle 0 read2 "Kalle vart låst inn i klasserommet av læreren."
+	setcycle 0 invert2 "Læreren låste …"
+	setcycle 0 cond2 test
+	setcycle 0 nr2 test
+	setcycle 0 arg2 NP
+	run trial
+
+define sequence trial
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run stimuli_read always
+	run sound_read always
+	run read always
+	run stimuli_produce always
+	run sound_produce always
+	run produce always
+	run response1 always
+	run stimuli_read2 always
+	run sound_read2 always
+	run read2 always
+	run stimuli_produce2 always
+	run sound_produce2 always
+	run produce2 always
+	run response2 always
+	run empty always
+	run logger always
+
+define sequence trial_testrunde
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run stimuli_read_prac always
+	run sound_read always
+	run read always
+	run stimuli_produce_prac always
+	run sound_produce always
+	run produce always
+	run response1 always
+	run stimuli_read2_prac always
+	run sound_read2 always
+	run read2 always
+	run stimuli_produce2_prac always
+	run sound_produce2 always
+	run produce2 always
+	run response2 always
+
+define sketchpad velkommmen
+	set duration keypress
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=sans font_italic=no font_size=40 html=yes show_if=always text="Velkommen!" x=0 y=0 z_index=0
+
