@@ -1,4 +1,4 @@
-# Nordic Word order Database (NWD)
+![image](https://github.com/user-attachments/assets/1e9b3d07-66c9-4068-8f86-7b429f02b7cb)# Nordic Word order Database (NWD)
 *March 2021, Maud Westendorp*
 
 This repository is an archive for files related to the [Nordic Word Order Database](https://tekstlab.uio.no/nwd). The archive includes test material, experiment scripts, and analysis scripts and guidelines. Part of this archive can also be found [here](https:github.com/BjornLundquist). That version is not kept up to date anymore.
@@ -12,12 +12,21 @@ The Nordic Word order Database (NWD) contains over 70,000+ elicited sentences fr
 ### Funding
 The Nordic Word order Database was funded by an infrastructure grant from University of Oslo (project leader: Ida Larsson) and the RCN project Variation and Change in the Scandinavian Verb Phrase(project number: 250755, PI: Ida Larsson). The infrastructure grant covered costs related to the technical work related to the database and annotation of the collected material. The RCN grant covered expenses associated with field work and project development. Additional funding was provided by the LAVA Lab at UiT The Arctic University of Norway for data collection (Tromsø) and data analysis. Westendorp’s contribution was funded by her PhD project at UiT.  
 
-### Publications related to this project:
+## Publications related to this project:
+### Fieldwork reports
++ Ida Larsson. 2022. [Argument placement in Icelandic](https://doi.org/10.5617/nals.10098). *Nordic Atlas of Language Structures (NALS) Journal* 7(1): 1–30.
++ Ida Larsson & Björn Lundquist. 2022. [Argument placement in Swedish](https://doi.org/10.5617/nals.10101). *Nordic Atlas of Language Structures (NALS) Journal* 7(1): 73-107.
++ Ida Larsson & Eirik Tengesdal. 2022. [Argument placement in Danish](https://doi.org/10.5617/nals.10102). *Nordic Atlas of Language Structures (NALS) Journal* 7(1): 109-134.
 + Björn Lundquist. 2020. [Argument placement in Faroese](https://doi.org/10.5617/nals.8526). *Nordic Atlas of Language Structures (NALS) Journal* 5(1): 5–27.
++ Björn Lundquist & Eirik Tengesdal. 2022. [Argument placement in Norwegian](https://doi.org/10.5617/nals.10099). *Nordic Atlas of Language Structures (NALS) Journal* 7(1): 31-72.
++ Maud Westendorp. 2020. [Verb placement in embedded sentences in Faroese](https://doi.org/10.5617/nals.8525). *Nordic Atlas of Language Structures (NALS) Journal* 5(1): 28-42.
++ Maud Westendorp. 2021. [Verb placement variation in Swedish and Danish](https://doi.org/10.5617/nals.9425). *Nordic Atlas of Language Structures (NALS) Journal* 6(1): 49-72.
++ Maud Westendorp. 2021. [Variable verb second in Norwegian main and embedded clauses](https://doi.org/10.5617/nals.9423). *Nordic Atlas of Language Structures (NALS) Journal* 6(1): 1-48.
+  
+### Other publications
 + Björn Lundquist, Ida Larsson, Maud Westendorp, Eirik Tengesdal & Anders Nøklestad. 2019. [Nordic Word order Database: motivations, methods, material and infrastructure](https://journals.uio.no/NALS/article/view/7529). *Nordic Atlas of Language Structures (NALS) Journal* 4(1): 1–33.
 + Björn Lundquist, Maud Westendorp & Bror-Magnus S. Strand. 2020. [Code-switching alone cannot explain intraspeaker syntactic variability: Evidence from a spoken elicitation experiment](https://doi.org/10.1017/S0332586520000190). *Nordic Journal of Linguistics* 43(3): 249–287.
-+ Maud Westendorp. 2020. [Verb placement in embedded sentences in Faroese](https://doi.org/10.5617/nals.8525). *Nordic Atlas of Language Structures (NALS) Journal* 5(1): 28-42.
-+ *in press*. Maud Westendorp} & Björn Lundquist. Tverrspråklig innflytelse fra L1 i tilegnelsen av argumentplassering i L2 norsk og svensk [Crosslinguistic influence from L1 in the acquisition of argument placement in L2 Norwegian and Swedish]. *Norsk Lingvistisk Tidsskrift*.
++ Maud Westendorp & Björn Lundquist. Tverrspråklig innflytelse fra L1 i tilegnelsen av argumentplassering i L2 norsk og svensk [Crosslinguistic influence from L1 in the acquisition of argument placement in L2 Norwegian and Swedish](https://ojs.novus.no/index.php/NLT/article/view/1966). *Norsk Lingvistisk Tidsskrift* 39(1): 13–40.
 
 ## Contents of this repository
 ### Analysis
