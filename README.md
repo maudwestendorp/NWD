@@ -1,6 +1,6 @@
 # Nordic Word order Database (NWD)
-*March 2021, Maud Westendorp*
-*updated September 2024*
+*March 2021, Maud Westendorp*  
+*(last updated September 2024)*
 
 This repository is an archive for files related to the [Nordic Word Order Database](https://tekstlab.uio.no/nwd). The archive includes test material, experiment scripts, and analysis scripts and guidelines. Part of this archive can also be found [here](https:github.com/BjornLundquist). That version is not kept up to date anymore.
 
@@ -27,7 +27,7 @@ The Nordic Word order Database was funded by an infrastructure grant from Univer
 ### Other publications
 + Björn Lundquist, Ida Larsson, Maud Westendorp, Eirik Tengesdal & Anders Nøklestad. 2019. [Nordic Word order Database: motivations, methods, material and infrastructure](https://journals.uio.no/NALS/article/view/7529). *Nordic Atlas of Language Structures (NALS) Journal* 4(1): 1–33.
 + Björn Lundquist, Maud Westendorp & Bror-Magnus S. Strand. 2020. [Code-switching alone cannot explain intraspeaker syntactic variability: Evidence from a spoken elicitation experiment](https://doi.org/10.1017/S0332586520000190). *Nordic Journal of Linguistics* 43(3): 249–287.
-+ Maud Westendorp & Björn Lundquist. Tverrspråklig innflytelse fra L1 i tilegnelsen av argumentplassering i L2 norsk og svensk [Crosslinguistic influence from L1 in the acquisition of argument placement in L2 Norwegian and Swedish](https://ojs.novus.no/index.php/NLT/article/view/1966). *Norsk Lingvistisk Tidsskrift* 39(1): 13–40.
++ Maud Westendorp & Björn Lundquist. [Tverrspråklig innflytelse fra L1 i tilegnelsen av argumentplassering i L2 norsk og svensk] [Crosslinguistic influence from L1 in the acquisition of argument placement in L2 Norwegian and Swedish](https://ojs.novus.no/index.php/NLT/article/view/1966). *Norsk Lingvistisk Tidsskrift* 39(1): 13–40.
 
 ## Contents of this repository
 ### Analysis
