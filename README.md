@@ -49,6 +49,7 @@ The Nordic Word order Database was funded by an infrastructure grant from Univer
     + Elicitation with written (Bokmål) Norwegian
     + Elicitation with spoken dialect
   + Oslo
+  + Fosen: note that in this experiment items 1318 and 1336 are experimental duplicates (i.e. they occur twice in the experiment and some speakers produce different word order and/or prosody here)
 + [Sweden](https://github.com/maudwestendorp/NWD/tree/master/Sweden)
 
 #### Folders with experimental materials (experiment 1 and 2)
